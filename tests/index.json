@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "file": "selective-maths-test-01.json",
+      "title": "Mathematical Reasoning – Practice Test 1",
+      "section": "Maths",
+      "questions": 35,
+      "minutes": 40
+    }
+  ]
+}

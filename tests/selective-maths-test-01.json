@@ -1,0 +1,798 @@
+{
+ "id": "shs-mr-01",
+ "title": "Selective Mathematical Reasoning – Practice Test 1",
+ "section": "Mathematical Reasoning",
+ "timeLimitMinutes": 40,
+ "calculator": false,
+ "level": "NSW Year 6 (May 2027 test, Year 7 entry 2028)",
+ "topics": {
+  "NUM": "Number, place value and decimals",
+  "MDV": "Multiples, factors, remainders",
+  "OPS": "Operations, inverse and working backwards",
+  "FRA": "Fractions, sharing and proportion",
+  "PAT": "Patterns and sequences",
+  "MEA": "Measurement, scales and unit conversion",
+  "TIM": "Time, 24-hour time and time zones",
+  "MON": "Money and best buys",
+  "AREA": "Perimeter, area and volume",
+  "ANG": "Angles, turns and directions",
+  "SPA": "Spatial: 3D objects, nets, symmetry, position",
+  "DAT": "Data, tables, graphs and averages",
+  "PRB": "Chance and systematic counting",
+  "LOG": "Logic and multi-condition puzzles"
+ },
+ "questions": [
+  {
+   "n": 1,
+   "topic": "TIM",
+   "difficulty": 1,
+   "skill": "24-hour time → 12-hour time, adding duration",
+   "stem": "A movie starts at 1945 and runs for 1 hour 50 minutes. At what time does it finish?",
+   "options": {
+    "A": "7:35 pm",
+    "B": "8:35 pm",
+    "C": "9:35 am",
+    "D": "9:35 pm",
+    "E": "11:35 pm"
+   },
+   "answer": "D",
+   "explanation": "1945 + 1 hour = 2045. Add 50 more minutes: 2045 + 15 min = 2100, then 35 more min = 2135. 2135 is 9:35 pm (subtract 12 from the hour).",
+   "distractors": {
+    "B": "added only the 50 minutes",
+    "C": "right digits but am/pm mixed up",
+    "E": "subtracted 10 instead of 12 when converting",
+    "A": "subtracted 14 instead of 12"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "NUM",
+   "difficulty": 1,
+   "skill": "Place value with regrouping",
+   "stem": "A number is made of 3 thousands, 14 hundreds, 5 tens and 12 ones. What is the number?",
+   "options": {
+    "A": "3 462",
+    "B": "4 462",
+    "C": "4 472",
+    "D": "44 512",
+    "E": "314 512"
+   },
+   "answer": "B",
+   "explanation": "3 thousands = 3000. 14 hundreds = 1400. 5 tens = 50. 12 ones = 12. 3000 + 1400 + 50 + 12 = 4462. The 14 hundreds contains another thousand!",
+   "distractors": {
+    "A": "forgot that 14 hundreds includes 1 thousand",
+    "C": "slip adding the tens",
+    "D": "joined 4400 and 512 as digits",
+    "E": "wrote the parts next to each other instead of adding"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "FRA",
+   "difficulty": 1,
+   "skill": "Fraction of a quantity, part–whole",
+   "stem": "A class has 28 students. 3/7 of them walk to school and 1/4 of them come by bus. The rest come by car. How many come by car?",
+   "options": {
+    "A": "7",
+    "B": "9",
+    "C": "12",
+    "D": "16",
+    "E": "19"
+   },
+   "answer": "B",
+   "explanation": "3/7 of 28: 28 ÷ 7 = 4, × 3 = 12 walk. 1/4 of 28 = 7 by bus. 12 + 7 = 19 walk or bus, so 28 − 19 = 9 come by car.",
+   "distractors": {
+    "A": "number on the bus",
+    "C": "number who walk",
+    "D": "only took away the walkers",
+    "E": "walkers + bus, forgot to subtract from 28"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "OPS",
+   "difficulty": 1,
+   "skill": "Inverse operations, undoing in reverse order",
+   "stem": "Tom thinks of a number. He halves it, then adds 9. His answer is 25. What number did Tom think of?",
+   "options": {
+    "A": "32",
+    "B": "34",
+    "C": "41",
+    "D": "50",
+    "E": "68"
+   },
+   "answer": "A",
+   "explanation": "Undo the steps in reverse order. Last step was +9, so do 25 − 9 = 16. Before that he halved, so double: 16 × 2 = 32. Check: 32 ÷ 2 = 16, 16 + 9 = 25 ✓",
+   "distractors": {
+    "B": "did 25 + 9 instead of undoing it",
+    "C": "undid the steps in the wrong order (25 × 2 − 9)",
+    "D": "only undid the halving (25 × 2)",
+    "E": "used the same operations instead of inverses ((25 + 9) × 2)"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "MDV",
+   "difficulty": 2,
+   "skill": "Remainders, two conditions at once",
+   "stem": "Which number leaves a remainder of 2 when divided by 3, and also leaves a remainder of 2 when divided by 4?",
+   "options": {
+    "A": "10",
+    "B": "17",
+    "C": "26",
+    "D": "30",
+    "E": "35"
+   },
+   "answer": "C",
+   "explanation": "Check each: 10 ÷ 3 rem 1 ✗. 17 ÷ 4 rem 1 ✗. 26 ÷ 3 = 8 rem 2 ✓ and 26 ÷ 4 = 6 rem 2 ✓. 30 ÷ 3 rem 0 ✗. 35 ÷ 4 rem 3 ✗. Shortcut: 2 more than a multiple of 12 (24 + 2).",
+   "distractors": {
+    "A": "works for 4 only",
+    "B": "works for 3 only",
+    "D": "works for 4 only",
+    "E": "works for 3 only"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "SPA",
+   "difficulty": 2,
+   "skill": "Rotational symmetry (half-turn)",
+   "stem": "A shape has rotational symmetry if it looks exactly the same after turning it less than a full turn. Written as capital letters, which of these have rotational symmetry?\n1) S\n2) N\n3) T",
+   "options": {
+    "A": "1 only",
+    "B": "2 only",
+    "C": "1 and 2 only",
+    "D": "1 and 3 only",
+    "E": "None of them"
+   },
+   "answer": "C",
+   "explanation": "Turn each letter upside down (a half-turn). S still looks like S, and N still looks like N. T becomes an upside-down T, so it has no rotational symmetry (it only has a line of symmetry).",
+   "distractors": {
+    "A": "missed that N looks the same after a half-turn",
+    "B": "missed that S looks the same after a half-turn",
+    "D": "mixed up line symmetry (T) with rotational symmetry",
+    "E": "only checked quarter-turns"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "MEA",
+   "difficulty": 2,
+   "skill": "Converting and ordering lengths",
+   "stem": "Which of these lengths is the SECOND longest?",
+   "options": {
+    "A": "2.3 m",
+    "B": "205 cm",
+    "C": "2 m 40 mm",
+    "D": "2080 mm",
+    "E": "0.0021 km"
+   },
+   "answer": "E",
+   "explanation": "Change all to mm: 2.3 m = 2300 mm, 205 cm = 2050 mm, 2 m 40 mm = 2040 mm, 2080 mm, 0.0021 km = 2.1 m = 2100 mm. Order: 2300, 2100, 2080, 2050, 2040. Second longest is 0.0021 km.",
+   "distractors": {
+    "A": "the longest, not second longest",
+    "D": "ignored the km option because the number looks tiny",
+    "B": "treated 205 as bigger than 2.3",
+    "C": "read 2 m 40 mm as 2.4 m"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "PAT",
+   "difficulty": 2,
+   "skill": "Growing pattern, finding a rule",
+   "stem": "Matchsticks make a row of squares. 1 square uses 4 matchsticks, 2 squares use 7, 3 squares use 10. How many matchsticks are needed for a row of 20 squares?",
+   "options": {
+    "A": "58",
+    "B": "60",
+    "C": "61",
+    "D": "64",
+    "E": "80"
+   },
+   "answer": "C",
+   "explanation": "Each new square adds 3 matchsticks (it shares one side). Start with 1 matchstick, then add 3 for every square: 1 + 3 × 20 = 61.",
+   "distractors": {
+    "B": "forgot the first starting matchstick",
+    "E": "counted 4 for every square (no sharing)",
+    "A": "added 3 only 19 times from 4, then miscounted",
+    "D": "4 + 3 × 20"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "AREA",
+   "difficulty": 2,
+   "skill": "Perimeter changes when a shape is cut",
+   "stem": "A rectangle is 12 cm long and 5 cm wide. It is cut in half to make two rectangles, each 6 cm by 5 cm. What is the TOTAL perimeter of the two pieces?",
+   "options": {
+    "A": "17 cm",
+    "B": "22 cm",
+    "C": "34 cm",
+    "D": "39 cm",
+    "E": "44 cm"
+   },
+   "answer": "E",
+   "explanation": "Each piece: 6 + 5 + 6 + 5 = 22 cm. Two pieces: 44 cm. The total is more than the original 34 cm, because the cut makes two new 5 cm edges.",
+   "distractors": {
+    "A": "halved the original perimeter",
+    "B": "only one piece",
+    "C": "assumed perimeter stays the same after cutting",
+    "D": "added only one new edge"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "MEA",
+   "difficulty": 2,
+   "skill": "Reading a scale: marks vs spaces",
+   "stem": "A jug is labelled every 100 mL. Between each pair of labels there are 4 small unlabelled marks. The juice is exactly 3 small marks above the 300 mL label. Nina drinks 140 mL. How much juice is left?",
+   "options": {
+    "A": "190 mL",
+    "B": "220 mL",
+    "C": "235 mL",
+    "D": "260 mL",
+    "E": "500 mL"
+   },
+   "answer": "B",
+   "explanation": "4 marks make 5 equal spaces between labels, so each space = 100 ÷ 5 = 20 mL. 3 marks above 300 = 300 + 60 = 360 mL. 360 − 140 = 220 mL.",
+   "distractors": {
+    "C": "thought 4 marks = 4 spaces (25 mL each)",
+    "A": "thought each mark = 10 mL",
+    "D": "used 360 − 100",
+    "E": "added instead of subtracting"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "FRA",
+   "difficulty": 3,
+   "skill": "Comparing fractions, fraction of an amount",
+   "stem": "Which of these statements are correct?\n1) 3/5 is greater than 5/8\n2) 7/9 is closer to 1 than 6/7 is\n3) 2/3 of 45 is the same as 3/5 of 50",
+   "options": {
+    "A": "1 only",
+    "B": "3 only",
+    "C": "1 and 2 only",
+    "D": "2 and 3 only",
+    "E": "1, 2 and 3"
+   },
+   "answer": "B",
+   "explanation": "1) 3/5 = 24/40 and 5/8 = 25/40, so 3/5 is smaller ✗. 2) 7/9 is 2/9 away from 1; 6/7 is 1/7 away. 1/7 < 2/9, so 6/7 is closer ✗. 3) 2/3 of 45 = 30 and 3/5 of 50 = 30 ✓.",
+   "distractors": {
+    "A": "compared numerators/denominators instead of real size",
+    "C": "thinks bigger numbers in a fraction mean bigger fraction",
+    "D": "judged closeness by the size of the denominator",
+    "E": "didn't check each statement"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "DAT",
+   "difficulty": 3,
+   "skill": "Mean (average) as a total",
+   "stem": "Five friends read these numbers of books last term: Ana 4, Ben 7, Cai 3, Dev 6, Eli 5. Their average (mean) is 5 books. Fay joins the group, and now the average of all six is 6 books. How many books did Fay read?",
+   "options": {
+    "A": "5",
+    "B": "6",
+    "C": "7",
+    "D": "10",
+    "E": "11"
+   },
+   "answer": "E",
+   "explanation": "Average × number of people = total. Five friends: total 25. Six friends at an average of 6: total 36. Fay = 36 − 25 = 11.",
+   "distractors": {
+    "A": "the old average",
+    "B": "the new average",
+    "C": "1 more than the new average",
+    "D": "estimated"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "ANG",
+   "difficulty": 3,
+   "skill": "Turns in degrees and compass directions",
+   "stem": "A robot faces north-east. It turns 135° clockwise, then 270° anticlockwise. Which way is it facing now?",
+   "options": {
+    "A": "West",
+    "B": "North",
+    "C": "East",
+    "D": "South",
+    "E": "North-west"
+   },
+   "answer": "A",
+   "explanation": "North-east → turn 135° clockwise (90° + 45°) → South. From South, 270° anticlockwise is the same as 90° clockwise → West.",
+   "distractors": {
+    "D": "did only the first turn",
+    "C": "turned 270° clockwise instead",
+    "B": "added the turns and took off 360°",
+    "E": "lost track of the 45°"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "MON",
+   "difficulty": 3,
+   "skill": "Best buy, combinations",
+   "stem": "Juice is sold in three sizes: 250 mL for $1.20, 1 L for $4.20, and 2 L for $8.80. Mia needs exactly 3 litres and wants to spend as little as possible. How much does she pay?",
+   "options": {
+    "A": "$12.00",
+    "B": "$12.60",
+    "C": "$13.00",
+    "D": "$13.60",
+    "E": "$14.40"
+   },
+   "answer": "B",
+   "explanation": "Cost per litre: 250 mL bottles $4.80, 1 L $4.20, 2 L $4.40. The 1 L bottle is cheapest per litre, so 3 × $4.20 = $12.60. The biggest bottle is not always the best deal!",
+   "distractors": {
+    "C": "assumed the biggest bottle is best (2 L + 1 L)",
+    "D": "2 L + four 250 mL",
+    "E": "twelve 250 mL bottles",
+    "A": "rounded the price"
+   }
+  },
+  {
+   "n": 15,
+   "topic": "NUM",
+   "difficulty": 3,
+   "skill": "Decimals on a number line",
+   "stem": "A number line goes from 2.4 to 2.6 and is split into 10 equal parts. An arrow points to the 7th mark after 2.4. What number does the arrow show?",
+   "options": {
+    "A": "2.47",
+    "B": "2.52",
+    "C": "2.54",
+    "D": "2.56",
+    "E": "2.7"
+   },
+   "answer": "C",
+   "explanation": "The gap is 2.6 − 2.4 = 0.2. Split into 10 parts, each part is 0.02. 7 parts = 0.14. 2.4 + 0.14 = 2.54.",
+   "distractors": {
+    "A": "thought each part is 0.01",
+    "E": "thought each part is 0.1 (and ignored the end of the line)",
+    "D": "counted 8 parts",
+    "B": "counted 6 parts"
+   }
+  },
+  {
+   "n": 16,
+   "topic": "FRA",
+   "difficulty": 3,
+   "skill": "Sharing in a ratio using parts",
+   "stem": "Sam and Lily share some stickers. For every 2 stickers Sam gets, Lily gets 3. Lily ends up with 18 more stickers than Sam. How many stickers are there altogether?",
+   "options": {
+    "A": "36",
+    "B": "45",
+    "C": "54",
+    "D": "72",
+    "E": "90"
+   },
+   "answer": "E",
+   "explanation": "Think in parts: Sam 2 parts, Lily 3 parts. Lily has 1 part more, and that is 18 stickers. Altogether 5 parts = 5 × 18 = 90 (Sam 36, Lily 54).",
+   "distractors": {
+    "A": "Sam's share",
+    "C": "Lily's share",
+    "D": "used 4 parts",
+    "B": "18 × 2.5"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "PRB",
+   "difficulty": 3,
+   "skill": "Systematic counting",
+   "stem": "Ella has four digit cards: 1, 2, 3 and 4. She uses two different cards to make a 2-digit number. How many different EVEN numbers can she make?",
+   "options": {
+    "A": "4",
+    "B": "6",
+    "C": "8",
+    "D": "12",
+    "E": "16"
+   },
+   "answer": "B",
+   "explanation": "Even numbers end in 2 or 4. Ending in 2: 12, 32, 42 (3 numbers). Ending in 4: 14, 24, 34 (3 numbers). Total 6.",
+   "distractors": {
+    "D": "all 2-digit numbers, even and odd",
+    "E": "allowed using the same card twice (and odd numbers)",
+    "C": "allowed 22 and 44 too",
+    "A": "missed some"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "DAT",
+   "difficulty": 3,
+   "skill": "Interpreting changes in data",
+   "stem": "The temperature was recorded during one day:\n6 am: 13 °C | 9 am: 15 °C | 12 pm: 22 °C | 3 pm: 24 °C | 6 pm: 17 °C\nWhich statements are correct?\n1) The biggest rise was between 9 am and 12 pm.\n2) At 3 pm it was more than double the 6 am temperature.\n3) The drop from 3 pm to 6 pm was the same as the rise from 9 am to 12 pm.",
+   "options": {
+    "A": "1 only",
+    "B": "1 and 2 only",
+    "C": "1 and 3 only",
+    "D": "2 and 3 only",
+    "E": "1, 2 and 3"
+   },
+   "answer": "C",
+   "explanation": "Rises: +2, +7, +2, then −7. 1) Biggest rise is +7 (9 am–12 pm) ✓. 2) Double 13 is 26, and 24 < 26 ✗. 3) Drop 24 → 17 is 7, rise 15 → 22 is 7 ✓.",
+   "distractors": {
+    "B": "24 'looks' like nearly double",
+    "E": "didn't actually check statement 2",
+    "A": "missed that a drop and a rise can be equal",
+    "D": "misread the biggest rise"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "OPS",
+   "difficulty": 3,
+   "skill": "Division with remainder in context, mixed units",
+   "stem": "Mei has a ribbon 5 m long. Each bow uses 35 cm of ribbon. She makes as many complete bows as she can. How many bows does she make, and how much ribbon is left over?",
+   "options": {
+    "A": "14 bows, 10 cm left",
+    "B": "14 bows, 30 cm left",
+    "C": "15 bows, 0 cm left",
+    "D": "142 bows, 30 cm left",
+    "E": "143 bows, 5 cm left"
+   },
+   "answer": "A",
+   "explanation": "5 m = 500 cm. 35 × 14 = 490, and 35 × 15 = 525 is too much. So 14 complete bows, and 500 − 490 = 10 cm left over.",
+   "distractors": {
+    "B": "mixed the remainder from 5000 ÷ 35 with 14 bows",
+    "C": "rounded up – there isn't enough ribbon for a 15th bow",
+    "D": "converted 5 m to 5000 cm",
+    "E": "converted to mm and rounded up"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "AREA",
+   "difficulty": 3,
+   "skill": "Area vs perimeter when a corner is removed",
+   "stem": "A rectangle is 10 cm by 8 cm. A 3 cm by 3 cm square is cut off one corner, leaving an L-shape. Which statements are correct?\n1) The L-shape has a smaller perimeter than the rectangle.\n2) The L-shape has an area of 71 cm².\n3) The L-shape has a perimeter of 36 cm.",
+   "options": {
+    "A": "1 only",
+    "B": "2 only",
+    "C": "1 and 2 only",
+    "D": "2 and 3 only",
+    "E": "1, 2 and 3"
+   },
+   "answer": "D",
+   "explanation": "Area: 80 − 9 = 71 cm² ✓. Perimeter: the two new inside edges (3 cm and 3 cm) replace the two 3 cm pieces that were removed, so the perimeter stays 2 × (10 + 8) = 36 cm ✓. So statement 1 is false.",
+   "distractors": {
+    "C": "thought less area means less perimeter",
+    "A": "same idea, and didn't check the area",
+    "B": "missed that perimeter is unchanged",
+    "E": "didn't notice 1 and 3 contradict each other"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "MEA",
+   "difficulty": 3,
+   "skill": "Volume and capacity (1 L = 1000 cm³)",
+   "stem": "A fish tank is 50 cm long, 40 cm wide and 30 cm high. It is half full of water. How many more litres of water are needed to fill it?",
+   "options": {
+    "A": "30 L",
+    "B": "60 L",
+    "C": "300 L",
+    "D": "3000 L",
+    "E": "30 000 L"
+   },
+   "answer": "A",
+   "explanation": "Full volume: 50 × 40 × 30 = 60 000 cm³. 1000 cm³ = 1 L, so it holds 60 L. Half is already full, so 30 L more are needed.",
+   "distractors": {
+    "B": "the full tank",
+    "C": "divided by 100 instead of 1000",
+    "D": "divided by 10 instead of 1000",
+    "E": "forgot to convert cm³ to litres"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "LOG",
+   "difficulty": 3,
+   "skill": "Comparing two combinations",
+   "stem": "3 apples and 2 pears cost $2.60. 1 apple and 2 pears cost $1.80. How much does ONE pear cost?",
+   "options": {
+    "A": "$0.40",
+    "B": "$0.50",
+    "C": "$0.60",
+    "D": "$0.65",
+    "E": "$0.70"
+   },
+   "answer": "E",
+   "explanation": "Both orders have 2 pears. The first has 2 more apples and costs $0.80 more, so 1 apple = $0.40. Then 1 apple + 2 pears = $1.80 → 2 pears = $1.40 → 1 pear = $0.70.",
+   "distractors": {
+    "A": "price of an apple",
+    "B": "guessed",
+    "C": "subtracted wrongly",
+    "D": "halved $1.30"
+   }
+  },
+  {
+   "n": 23,
+   "topic": "ANG",
+   "difficulty": 3,
+   "skill": "Angles on a straight line, vertically opposite angles",
+   "stem": "Two straight lines cross each other, making four angles. One of the angles is 3 times as big as another one of the angles. What is the size of the LARGEST angle?",
+   "options": {
+    "A": "45°",
+    "B": "60°",
+    "C": "90°",
+    "D": "120°",
+    "E": "135°"
+   },
+   "answer": "E",
+   "explanation": "Opposite angles are equal, so the two different angles must be next to each other on a straight line: they add to 180°. Small + 3 × small = 4 smalls = 180°, so small = 45° and large = 135°.",
+   "distractors": {
+    "A": "the smaller angle",
+    "B": "used 180 ÷ 3",
+    "C": "assumed a right angle",
+    "D": "used 360 ÷ 3"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Folding a cube net (opposite faces)",
+   "stem": "This net is folded to make a cube. Which face is opposite face 2?",
+   "svg": "<svg viewBox='0 0 260 110' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='20' text-anchor='middle'><g fill='none' stroke='currentColor' stroke-width='2'><rect x='5' y='5' width='50' height='50'/><rect x='55' y='5' width='50' height='50'/><rect x='105' y='5' width='50' height='50'/><rect x='105' y='55' width='50' height='50'/><rect x='155' y='55' width='50' height='50'/><rect x='205' y='55' width='50' height='50'/></g><g fill='currentColor'><text x='30' y='37'>1</text><text x='80' y='37'>2</text><text x='130' y='37'>3</text><text x='130' y='87'>4</text><text x='180' y='87'>5</text><text x='230' y='87'>6</text></g></svg>",
+   "options": {
+    "A": "1",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "E": "6"
+   },
+   "answer": "D",
+   "explanation": "In a straight run of three squares, the two end squares are opposite: 1 is opposite 3, and 4 is opposite 6. That leaves 2 and 5 as the last pair, so 5 is opposite 2. (Faces that touch in the net can never be opposite.)",
+   "distractors": {
+    "A": "1 touches 2 in the net, so it can't be opposite",
+    "B": "3 touches 2 in the net",
+    "C": "4 shares a corner with 2 – check where it folds",
+    "E": "6 is opposite 4"
+   }
+  },
+  {
+   "n": 25,
+   "topic": "LOG",
+   "difficulty": 4,
+   "skill": "Three linked amounts (bar model)",
+   "stem": "Ari, Bea and Cy have $60 altogether. Ari has $8 more than Bea. Cy has twice as much as Bea. How much does Cy have?",
+   "options": {
+    "A": "$13",
+    "B": "$20",
+    "C": "$21",
+    "D": "$24",
+    "E": "$26"
+   },
+   "answer": "E",
+   "explanation": "Draw bars: Bea = 1 bar, Ari = 1 bar + $8, Cy = 2 bars. 4 bars + $8 = $60, so 4 bars = $52, 1 bar = $13. Cy = 2 × 13 = $26. Check: 13 + 21 + 26 = 60 ✓",
+   "distractors": {
+    "A": "Bea's amount",
+    "B": "$60 ÷ 3",
+    "C": "Ari's amount",
+    "D": "forgot the extra $8"
+   }
+  },
+  {
+   "n": 26,
+   "topic": "MDV",
+   "difficulty": 4,
+   "skill": "Lowest common multiple plus a remainder",
+   "stem": "A bag has more than 100 sweets. When they are shared equally between 6 children there is 1 left over. The same happens when they are shared between 8 children, and between 9 children. What is the smallest number of sweets the bag could have?",
+   "options": {
+    "A": "73",
+    "B": "144",
+    "C": "145",
+    "D": "217",
+    "E": "433"
+   },
+   "answer": "C",
+   "explanation": "The number is 1 more than a common multiple of 6, 8 and 9. The lowest common multiple is 72. Multiples: 72, 144, 216... Add 1: 73 (too small, not over 100), 145 ✓.",
+   "distractors": {
+    "A": "forgot 'more than 100'",
+    "B": "forgot the 1 left over",
+    "D": "next one up",
+    "E": "used 6 × 8 × 9 + 1 instead of the LCM"
+   }
+  },
+  {
+   "n": 27,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Coordinates, reflection and translation",
+   "stem": "On a grid, point P is at (2, 3). P is reflected in the vertical line x = 5, and then moved 3 units down. Where does P end up?",
+   "options": {
+    "A": "(2, 0)",
+    "B": "(5, 0)",
+    "C": "(7, 0)",
+    "D": "(8, 0)",
+    "E": "(8, 6)"
+   },
+   "answer": "D",
+   "explanation": "P is 3 units left of the line x = 5, so its reflection is 3 units right of it: x = 8, y stays 3 → (8, 3). Moving 3 down: (8, 0).",
+   "distractors": {
+    "A": "only did the move down",
+    "B": "landed on the mirror line",
+    "C": "reflected by adding 5",
+    "E": "moved up instead of down"
+   }
+  },
+  {
+   "n": 28,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Visualising faces of a cuboid (statements)",
+   "stem": "A cuboid 4 cubes long, 3 cubes wide and 2 cubes high is built from small cubes. The outside of the cuboid is painted. Which statements are correct?\n1) Every small cube has at least one painted face.\n2) Exactly 4 small cubes have paint on just one face.\n3) More small cubes have 2 painted faces than have 3 painted faces.",
+   "options": {
+    "A": "1 only",
+    "B": "2 only",
+    "C": "1 and 2 only",
+    "D": "2 and 3 only",
+    "E": "1, 2 and 3"
+   },
+   "answer": "E",
+   "explanation": "It is only 2 cubes high, so every cube is on the top or bottom: no hidden middle (1 ✓). One-face cubes are the middle of the top and bottom faces: 2 + 2 = 4 (2 ✓). The 8 corners have 3 faces; the other 12 cubes on the edges have 2, and 12 > 8 (3 ✓).",
+   "distractors": {
+    "A": "didn't check 2 and 3",
+    "B": "assumed there must be hidden unpainted cubes",
+    "C": "thought corners (3 faces) outnumber edge cubes",
+    "D": "assumed a middle cube is hidden"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "PAT",
+   "difficulty": 4,
+   "skill": "Repeating structure, position in a pattern",
+   "stem": "The numbers 1, 2, 3, ... are written in 5 columns (1 to 5) in a zigzag. Row 1 goes left to right: 1, 2, 3, 4, 5. Row 2 goes right to left: 6 is in column 5, 7 in column 4, ... 10 in column 1. Row 3 goes left to right again, and so on. In which column is the number 79?",
+   "options": {
+    "A": "Column 1",
+    "B": "Column 2",
+    "C": "Column 3",
+    "D": "Column 4",
+    "E": "Column 5"
+   },
+   "answer": "B",
+   "explanation": "Each row has 5 numbers. 75 ends row 15. Row 16 is an even row, so it goes right to left: 76 in column 5, 77 in column 4, 78 in column 3, 79 in column 2.",
+   "distractors": {
+    "D": "forgot that even rows go backwards",
+    "A": "assumed it ends a row",
+    "C": "guessed the middle",
+    "E": "thought the row starts at column 5 and went the wrong way"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "FRA",
+   "difficulty": 4,
+   "skill": "Fraction of a remainder, working backwards",
+   "stem": "Zoe spent 1/3 of her money on a book. Then she spent 1/4 of the money she had LEFT on lunch. She now has $27. How much money did she start with?",
+   "options": {
+    "A": "$36",
+    "B": "$45",
+    "C": "$54",
+    "D": "$64.80",
+    "E": "$81"
+   },
+   "answer": "C",
+   "explanation": "Work backwards. After lunch she kept 3/4 of what was left: 3/4 = $27, so 1/4 = $9 and before lunch she had $36. That $36 was 2/3 of her money: 1/3 = $18, so she started with $54.",
+   "distractors": {
+    "A": "stopped at the money before lunch",
+    "D": "took 1/3 and 1/4 of the ORIGINAL amount",
+    "E": "multiplied 27 by 3",
+    "B": "added 1/3 and 1/4 of 27"
+   }
+  },
+  {
+   "n": 31,
+   "topic": "PRB",
+   "difficulty": 4,
+   "skill": "Probability with linked amounts (trial and improvement)",
+   "stem": "A bag has red, blue and green counters. There are twice as many blue as red, and 3 more green than blue. The chance of picking a green counter is 1/2. How many counters are in the bag?",
+   "options": {
+    "A": "9",
+    "B": "12",
+    "C": "15",
+    "D": "18",
+    "E": "21"
+   },
+   "answer": "D",
+   "explanation": "Try values for red. Red 1: blue 2, green 5, total 8 (5 is not half). Red 2: blue 4, green 7, total 13 ✗. Red 3: blue 6, green 9, total 18 – green is 9 out of 18 = 1/2 ✓.",
+   "distractors": {
+    "A": "number of green counters",
+    "C": "trial slip",
+    "B": "red + blue + 3",
+    "E": "trial slip"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "AREA",
+   "difficulty": 4,
+   "skill": "Perimeter of parts from perimeter of whole",
+   "stem": "A square has a perimeter of 48 cm. It is cut into 3 identical rectangles, side by side. What is the perimeter of ONE rectangle?",
+   "options": {
+    "A": "16 cm",
+    "B": "24 cm",
+    "C": "28 cm",
+    "D": "32 cm",
+    "E": "36 cm"
+   },
+   "answer": "D",
+   "explanation": "Square side = 48 ÷ 4 = 12 cm. Each rectangle is 12 cm long and 12 ÷ 3 = 4 cm wide. Perimeter = 12 + 4 + 12 + 4 = 32 cm.",
+   "distractors": {
+    "A": "48 ÷ 3 (perimeter doesn't split like area)",
+    "B": "12 + 12 only",
+    "C": "12 + 4 + 12",
+    "E": "12 × 3"
+   }
+  },
+  {
+   "n": 33,
+   "topic": "NUM",
+   "difficulty": 5,
+   "skill": "Rounding: the range a rounded number came from",
+   "stem": "A whole number rounds to 3500 when rounded to the nearest hundred. The same number rounds to 3000 when rounded to the nearest thousand. How many different whole numbers could it be?",
+   "options": {
+    "A": "49",
+    "B": "50",
+    "C": "51",
+    "D": "99",
+    "E": "100"
+   },
+   "answer": "B",
+   "explanation": "Nearest hundred is 3500 → the number is from 3450 to 3549. Nearest thousand is 3000 → the number is 3499 or less (3500 rounds up to 4000). So it is from 3450 to 3499: that is 3499 − 3450 + 1 = 50 numbers.",
+   "distractors": {
+    "A": "forgot to count both ends",
+    "C": "included 3500",
+    "D": "counted 3450 to 3549 and forgot an end",
+    "E": "counted all of 3450 to 3549"
+   }
+  },
+  {
+   "n": 34,
+   "topic": "PRB",
+   "difficulty": 5,
+   "skill": "Counting rectangles systematically",
+   "stem": "A rectangle is divided into a grid of 2 rows and 3 columns of equal squares. How many rectangles of any size (including squares) can be found in the grid?",
+   "svg": "<svg viewBox='0 0 160 110' xmlns='http://www.w3.org/2000/svg'><g fill='none' stroke='currentColor' stroke-width='2'><rect x='5' y='5' width='150' height='100'/><line x1='55' y1='5' x2='55' y2='105'/><line x1='105' y1='5' x2='105' y2='105'/><line x1='5' y1='55' x2='155' y2='55'/></g></svg>",
+   "options": {
+    "A": "6",
+    "B": "8",
+    "C": "12",
+    "D": "17",
+    "E": "18"
+   },
+   "answer": "E",
+   "explanation": "Count by size. 1×1: 6. 1×2 (wide): 4. 1×3: 2. 2×1 (tall): 3. 2×2: 2. 2×3: 1. Total 6 + 4 + 2 + 3 + 2 + 1 = 18.",
+   "distractors": {
+    "A": "only the small squares",
+    "B": "small squares + whole + 1 more",
+    "C": "missed the tall shapes",
+    "D": "forgot the whole rectangle"
+   }
+  },
+  {
+   "n": 35,
+   "topic": "TIM",
+   "difficulty": 5,
+   "skill": "Rates: a clock that runs fast",
+   "stem": "A clock gains 4 minutes every hour (it shows 64 minutes for every real hour). It is set to the correct time at 7:00 am. What is the REAL time when the clock first shows 7:00 pm?",
+   "options": {
+    "A": "6:00 pm",
+    "B": "6:12 pm",
+    "C": "6:15 pm",
+    "D": "7:48 pm",
+    "E": "7:12 pm"
+   },
+   "answer": "C",
+   "explanation": "In 11 real hours, the clock moves 11 × 64 = 704 minutes = 11 h 44 min, so it shows 6:44 pm at real 6:00 pm. It needs 16 more clock-minutes. 64 clock-min = 60 real min, so 16 clock-min = 15 real min. Real time: 6:15 pm.",
+   "distractors": {
+    "B": "took 12 × 4 = 48 minutes off 7:00 pm",
+    "D": "added the 48 minutes instead",
+    "A": "ignored the minutes",
+    "E": "took 48 off and added an hour"
+   }
+  }
+ ]
+}
