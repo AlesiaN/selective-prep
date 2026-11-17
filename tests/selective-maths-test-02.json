@@ -1,0 +1,817 @@
+{
+ "id": "shs-mr-02",
+ "title": "Selective Mathematical Reasoning – Practice Test 2",
+ "section": "Mathematical Reasoning",
+ "timeLimitMinutes": 40,
+ "calculator": false,
+ "level": "NSW Year 6 (May 2027 test, Year 7 entry 2028)",
+ "topics": {
+  "NUM": "Number, place value and decimals",
+  "MDV": "Multiples, factors, remainders",
+  "OPS": "Operations, inverse and working backwards",
+  "FRA": "Fractions, sharing and proportion",
+  "PAT": "Patterns and sequences",
+  "MEA": "Measurement, scales and unit conversion",
+  "TIM": "Time, 24-hour time and time zones",
+  "MON": "Money and best buys",
+  "AREA": "Perimeter, area and volume",
+  "ANG": "Angles, turns and directions",
+  "SPA": "Spatial: 3D objects, nets, symmetry, position",
+  "DAT": "Data, tables, graphs and averages",
+  "PRB": "Chance and systematic counting",
+  "LOG": "Logic and multi-condition puzzles"
+ },
+ "questions": [
+  {
+   "n": 1,
+   "topic": "TIM",
+   "difficulty": 1,
+   "skill": "Reading an analog clock, adding time, 24-hour time",
+   "stem": "The clock shows a time in the afternoon. What time will it be 2 hours and 35 minutes later? Give the answer in 24-hour time.",
+   "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg' style='max-width:220px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='110.0' r='95.0' fill='none' stroke-width='3'/><line x1='110.0' y1='27.0' x2='110.0' y2='15.0' stroke-width='3' /><line x1='119.3' y1='21.5' x2='119.9' y2='15.5' stroke-width='1' /><line x1='128.5' y1='22.9' x2='129.8' y2='17.1' stroke-width='1' /><line x1='137.5' y1='25.4' x2='139.4' y2='19.6' stroke-width='1' /><line x1='146.2' y1='28.7' x2='148.6' y2='23.2' stroke-width='1' /><line x1='151.5' y1='38.1' x2='157.5' y2='27.7' stroke-width='3' /><line x1='162.3' y1='38.0' x2='165.8' y2='33.1' stroke-width='1' /><line x1='169.6' y1='43.9' x2='173.6' y2='39.4' stroke-width='1' /><line x1='176.1' y1='50.4' x2='180.6' y2='46.4' stroke-width='1' /><line x1='182.0' y1='57.7' x2='186.9' y2='54.2' stroke-width='1' /><line x1='181.9' y1='68.5' x2='192.3' y2='62.5' stroke-width='3' /><line x1='191.3' y1='73.8' x2='196.8' y2='71.4' stroke-width='1' /><line x1='194.6' y1='82.5' x2='200.4' y2='80.6' stroke-width='1' /><line x1='197.1' y1='91.5' x2='202.9' y2='90.2' stroke-width='1' /><line x1='198.5' y1='100.7' x2='204.5' y2='100.1' stroke-width='1' /><line x1='193.0' y1='110.0' x2='205.0' y2='110.0' stroke-width='3' /><line x1='198.5' y1='119.3' x2='204.5' y2='119.9' stroke-width='1' /><line x1='197.1' y1='128.5' x2='202.9' y2='129.8' stroke-width='1' /><line x1='194.6' y1='137.5' x2='200.4' y2='139.4' stroke-width='1' /><line x1='191.3' y1='146.2' x2='196.8' y2='148.6' stroke-width='1' /><line x1='181.9' y1='151.5' x2='192.3' y2='157.5' stroke-width='3' /><line x1='182.0' y1='162.3' x2='186.9' y2='165.8' stroke-width='1' /><line x1='176.1' y1='169.6' x2='180.6' y2='173.6' stroke-width='1' /><line x1='169.6' y1='176.1' x2='173.6' y2='180.6' stroke-width='1' /><line x1='162.3' y1='182.0' x2='165.8' y2='186.9' stroke-width='1' /><line x1='151.5' y1='181.9' x2='157.5' y2='192.3' stroke-width='3' /><line x1='146.2' y1='191.3' x2='148.6' y2='196.8' stroke-width='1' /><line x1='137.5' y1='194.6' x2='139.4' y2='200.4' stroke-width='1' /><line x1='128.5' y1='197.1' x2='129.8' y2='202.9' stroke-width='1' /><line x1='119.3' y1='198.5' x2='119.9' y2='204.5' stroke-width='1' /><line x1='110.0' y1='193.0' x2='110.0' y2='205.0' stroke-width='3' /><line x1='100.7' y1='198.5' x2='100.1' y2='204.5' stroke-width='1' /><line x1='91.5' y1='197.1' x2='90.2' y2='202.9' stroke-width='1' /><line x1='82.5' y1='194.6' x2='80.6' y2='200.4' stroke-width='1' /><line x1='73.8' y1='191.3' x2='71.4' y2='196.8' stroke-width='1' /><line x1='68.5' y1='181.9' x2='62.5' y2='192.3' stroke-width='3' /><line x1='57.7' y1='182.0' x2='54.2' y2='186.9' stroke-width='1' /><line x1='50.4' y1='176.1' x2='46.4' y2='180.6' stroke-width='1' /><line x1='43.9' y1='169.6' x2='39.4' y2='173.6' stroke-width='1' /><line x1='38.0' y1='162.3' x2='33.1' y2='165.8' stroke-width='1' /><line x1='38.1' y1='151.5' x2='27.7' y2='157.5' stroke-width='3' /><line x1='28.7' y1='146.2' x2='23.2' y2='148.6' stroke-width='1' /><line x1='25.4' y1='137.5' x2='19.6' y2='139.4' stroke-width='1' /><line x1='22.9' y1='128.5' x2='17.1' y2='129.8' stroke-width='1' /><line x1='21.5' y1='119.3' x2='15.5' y2='119.9' stroke-width='1' /><line x1='27.0' y1='110.0' x2='15.0' y2='110.0' stroke-width='3' /><line x1='21.5' y1='100.7' x2='15.5' y2='100.1' stroke-width='1' /><line x1='22.9' y1='91.5' x2='17.1' y2='90.2' stroke-width='1' /><line x1='25.4' y1='82.5' x2='19.6' y2='80.6' stroke-width='1' /><line x1='28.7' y1='73.8' x2='23.2' y2='71.4' stroke-width='1' /><line x1='38.1' y1='68.5' x2='27.7' y2='62.5' stroke-width='3' /><line x1='38.0' y1='57.7' x2='33.1' y2='54.2' stroke-width='1' /><line x1='43.9' y1='50.4' x2='39.4' y2='46.4' stroke-width='1' /><line x1='50.4' y1='43.9' x2='46.4' y2='39.4' stroke-width='1' /><line x1='57.7' y1='38.0' x2='54.2' y2='33.1' stroke-width='1' /><line x1='68.5' y1='38.1' x2='62.5' y2='27.7' stroke-width='3' /><line x1='73.8' y1='28.7' x2='71.4' y2='23.2' stroke-width='1' /><line x1='82.5' y1='25.4' x2='80.6' y2='19.6' stroke-width='1' /><line x1='91.5' y1='22.9' x2='90.2' y2='17.1' stroke-width='1' /><line x1='100.7' y1='21.5' x2='100.1' y2='15.5' stroke-width='1' /><text x='144.5' y='56.2' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>1</text><text x='169.8' y='81.5' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>2</text><text x='179.0' y='116.0' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>3</text><text x='169.8' y='150.5' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>4</text><text x='144.5' y='175.8' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>5</text><text x='110.0' y='185.0' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>6</text><text x='75.5' y='175.8' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>7</text><text x='50.2' y='150.5' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8</text><text x='41.0' y='116.0' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>9</text><text x='50.2' y='81.5' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>10</text><text x='75.5' y='56.2' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>11</text><text x='110.0' y='47.0' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>12</text><line x1='110.0' y1='110.0' x2='157.0' y2='127.1' stroke-width='6' stroke-linecap='round'/><line x1='110.0' y1='110.0' x2='54.6' y2='142.0' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='110.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2'/></svg>",
+   "options": {
+    "A": "0615",
+    "B": "1715",
+    "C": "1805",
+    "D": "1815",
+    "E": "1915"
+   },
+   "answer": "D",
+   "explanation": "The clock shows 3:40 pm, which is 1540. Add 2 hours: 1740. Add 35 minutes: 1740 + 20 min = 1800, then 15 more = 1815.",
+   "distractors": {
+    "A": "forgot to change to 24-hour time",
+    "B": "didn't carry the extra hour when minutes passed 60",
+    "C": "slip adding the minutes",
+    "E": "added an extra hour"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "MEA",
+   "difficulty": 1,
+   "skill": "Reading a scale: work out what each small step is worth",
+   "stem": "A bag of flour is placed on a scale. The arrow shows its mass. What is the mass of the flour?",
+   "svg": "<svg viewBox='0 0 500 110' xmlns='http://www.w3.org/2000/svg' style='max-width:480px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='30.0' y1='70.0' x2='470.0' y2='70.0' stroke-width='3' /><line x1='30.0' y1='70.0' x2='30.0' y2='48.0' stroke-width='3' /><line x1='52.0' y1='70.0' x2='52.0' y2='59.0' stroke-width='1.5' /><line x1='74.0' y1='70.0' x2='74.0' y2='59.0' stroke-width='1.5' /><line x1='96.0' y1='70.0' x2='96.0' y2='59.0' stroke-width='1.5' /><line x1='118.0' y1='70.0' x2='118.0' y2='59.0' stroke-width='1.5' /><line x1='140.0' y1='70.0' x2='140.0' y2='48.0' stroke-width='3' /><line x1='162.0' y1='70.0' x2='162.0' y2='59.0' stroke-width='1.5' /><line x1='184.0' y1='70.0' x2='184.0' y2='59.0' stroke-width='1.5' /><line x1='206.0' y1='70.0' x2='206.0' y2='59.0' stroke-width='1.5' /><line x1='228.0' y1='70.0' x2='228.0' y2='59.0' stroke-width='1.5' /><line x1='250.0' y1='70.0' x2='250.0' y2='48.0' stroke-width='3' /><line x1='272.0' y1='70.0' x2='272.0' y2='59.0' stroke-width='1.5' /><line x1='294.0' y1='70.0' x2='294.0' y2='59.0' stroke-width='1.5' /><line x1='316.0' y1='70.0' x2='316.0' y2='59.0' stroke-width='1.5' /><line x1='338.0' y1='70.0' x2='338.0' y2='59.0' stroke-width='1.5' /><line x1='360.0' y1='70.0' x2='360.0' y2='48.0' stroke-width='3' /><line x1='382.0' y1='70.0' x2='382.0' y2='59.0' stroke-width='1.5' /><line x1='404.0' y1='70.0' x2='404.0' y2='59.0' stroke-width='1.5' /><line x1='426.0' y1='70.0' x2='426.0' y2='59.0' stroke-width='1.5' /><line x1='448.0' y1='70.0' x2='448.0' y2='59.0' stroke-width='1.5' /><line x1='470.0' y1='70.0' x2='470.0' y2='48.0' stroke-width='3' /><text x='30.0' y='95.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>0</text><text x='140.0' y='95.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>500 g</text><text x='250.0' y='95.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>1 kg</text><text x='360.0' y='95.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>1500 g</text><text x='470.0' y='95.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>2 kg</text><polygon points='316.0,46.0 307.0,22.0 325.0,22.0' fill='currentColor' fill-opacity='1' stroke-width='2' /></svg>",
+   "options": {
+    "A": "1030 g",
+    "B": "1060 g",
+    "C": "1150 g",
+    "D": "1200 g",
+    "E": "1300 g"
+   },
+   "answer": "E",
+   "explanation": "From 1 kg to 1500 g is 500 g, split into 5 equal spaces, so each small space is 100 g. The arrow is 3 spaces past 1 kg: 1000 + 300 = 1300 g.",
+   "distractors": {
+    "A": "thought each small step is 10 g",
+    "B": "thought each small step is 20 g",
+    "C": "thought each small step is 50 g",
+    "D": "counted one space too few"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "DAT",
+   "difficulty": 1,
+   "skill": "Picture graph with a key (including half symbols)",
+   "stem": "The picture graph shows how many pieces of fruit a shop sold on Monday. How many pieces of fruit did it sell altogether?",
+   "svg": "<svg viewBox='0 0 420 230' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><text x='90.0' y='36.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>Apples</text><circle cx='130.0' cy='30.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='168.0' cy='30.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='206.0' cy='30.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><path d='M 244.0 16.0 A 14 14 0 0 0 244.0 44.0 Z' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><text x='90.0' y='78.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>Bananas</text><circle cx='130.0' cy='72.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='168.0' cy='72.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='206.0' cy='72.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='244.0' cy='72.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='282.0' cy='72.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><text x='90.0' y='120.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>Oranges</text><circle cx='130.0' cy='114.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='168.0' cy='114.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><path d='M 206.0 100.0 A 14 14 0 0 0 206.0 128.0 Z' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><text x='90.0' y='162.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>Pears</text><circle cx='130.0' cy='156.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='168.0' cy='156.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='206.0' cy='156.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='244.0' cy='156.0' r='14.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><circle cx='140.0' cy='204.0' r='12.0' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><text x='160.0' y='209.0' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>= 4 pieces of fruit</text><path d='M 330 192 A 12 12 0 0 0 330 216 Z' fill='currentColor' fill-opacity='0.75' stroke-width='1.5'/><text x='342.0' y='209.0' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>= 2</text></svg>",
+   "options": {
+    "A": "15",
+    "B": "30",
+    "C": "56",
+    "D": "60",
+    "E": "64"
+   },
+   "answer": "D",
+   "explanation": "Count the symbols: 3½ + 5 + 2½ + 4 = 15 symbols. Each whole symbol is 4, so 15 × 4 = 60. (Or count each row: 14 + 20 + 10 + 16 = 60.)",
+   "distractors": {
+    "A": "counted symbols, not pieces of fruit",
+    "B": "used 2 for every symbol",
+    "C": "counted each half symbol as 0",
+    "E": "counted each half symbol as a whole"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "SPA",
+   "difficulty": 2,
+   "skill": "Completing a shape with line symmetry",
+   "stem": "Some squares on the grid are shaded. What is the smallest number of extra squares that must be shaded so the pattern is symmetrical about the dashed line?",
+   "svg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='20.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><rect x='60.0' y='20.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='100.0' y='20.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='140.0' y='20.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='180.0' y='20.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='220.0' y='20.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><rect x='20.0' y='60.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='60.0' y='60.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><rect x='100.0' y='60.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><rect x='140.0' y='60.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='180.0' y='60.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><rect x='220.0' y='60.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='20.0' y='100.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='60.0' y='100.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='100.0' y='100.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><rect x='140.0' y='100.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='180.0' y='100.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='220.0' y='100.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='20.0' y='140.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='60.0' y='140.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><rect x='100.0' y='140.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='140.0' y='140.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='180.0' y='140.0' width='40.0' height='40.0' fill='none' stroke-width='1.5' /><rect x='220.0' y='140.0' width='40.0' height='40.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><line x1='140.0' y1='5.0' x2='140.0' y2='195.0' stroke-width='3' stroke-dasharray='8 6'/></svg>",
+   "options": {
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "7",
+    "E": "8"
+   },
+   "answer": "A",
+   "explanation": "Check each shaded square's mirror image (same distance on the other side of the line). Squares already matched: top-left corner and the square below-right of it. Missing mirrors: two squares next to the line (rows 2 and 3), one in the bottom row on the right, and the bottom-left corner. That's 4 squares.",
+   "distractors": {
+    "B": "counted a square whose mirror image was already shaded",
+    "C": "counted two squares that already match",
+    "D": "shaded a mirror for every square except one",
+    "E": "added a mirror for every shaded square without checking which already match"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "MEA",
+   "difficulty": 2,
+   "skill": "Measuring with a ruler that does not start at 0",
+   "stem": "A pencil is placed above a ruler, as shown. How long is the pencil, in millimetres?",
+   "svg": "<svg viewBox='0 0 500 120' xmlns='http://www.w3.org/2000/svg' style='max-width:500px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='60.0' width='484.0' height='50.0' fill='none' stroke-width='2' /><line x1='20.0' y1='60.0' x2='20.0' y2='80.0' stroke-width='1.5' /><text x='20.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>0</text><line x1='23.8' y1='60.0' x2='23.8' y2='67.0' stroke-width='1' /><line x1='27.6' y1='60.0' x2='27.6' y2='67.0' stroke-width='1' /><line x1='31.4' y1='60.0' x2='31.4' y2='67.0' stroke-width='1' /><line x1='35.2' y1='60.0' x2='35.2' y2='67.0' stroke-width='1' /><line x1='39.0' y1='60.0' x2='39.0' y2='73.0' stroke-width='1' /><line x1='42.8' y1='60.0' x2='42.8' y2='67.0' stroke-width='1' /><line x1='46.6' y1='60.0' x2='46.6' y2='67.0' stroke-width='1' /><line x1='50.4' y1='60.0' x2='50.4' y2='67.0' stroke-width='1' /><line x1='54.2' y1='60.0' x2='54.2' y2='67.0' stroke-width='1' /><line x1='58.0' y1='60.0' x2='58.0' y2='80.0' stroke-width='1.5' /><text x='58.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>1</text><line x1='61.8' y1='60.0' x2='61.8' y2='67.0' stroke-width='1' /><line x1='65.6' y1='60.0' x2='65.6' y2='67.0' stroke-width='1' /><line x1='69.4' y1='60.0' x2='69.4' y2='67.0' stroke-width='1' /><line x1='73.2' y1='60.0' x2='73.2' y2='67.0' stroke-width='1' /><line x1='77.0' y1='60.0' x2='77.0' y2='73.0' stroke-width='1' /><line x1='80.8' y1='60.0' x2='80.8' y2='67.0' stroke-width='1' /><line x1='84.6' y1='60.0' x2='84.6' y2='67.0' stroke-width='1' /><line x1='88.4' y1='60.0' x2='88.4' y2='67.0' stroke-width='1' /><line x1='92.2' y1='60.0' x2='92.2' y2='67.0' stroke-width='1' /><line x1='96.0' y1='60.0' x2='96.0' y2='80.0' stroke-width='1.5' /><text x='96.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>2</text><line x1='99.8' y1='60.0' x2='99.8' y2='67.0' stroke-width='1' /><line x1='103.6' y1='60.0' x2='103.6' y2='67.0' stroke-width='1' /><line x1='107.4' y1='60.0' x2='107.4' y2='67.0' stroke-width='1' /><line x1='111.2' y1='60.0' x2='111.2' y2='67.0' stroke-width='1' /><line x1='115.0' y1='60.0' x2='115.0' y2='73.0' stroke-width='1' /><line x1='118.8' y1='60.0' x2='118.8' y2='67.0' stroke-width='1' /><line x1='122.6' y1='60.0' x2='122.6' y2='67.0' stroke-width='1' /><line x1='126.4' y1='60.0' x2='126.4' y2='67.0' stroke-width='1' /><line x1='130.2' y1='60.0' x2='130.2' y2='67.0' stroke-width='1' /><line x1='134.0' y1='60.0' x2='134.0' y2='80.0' stroke-width='1.5' /><text x='134.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>3</text><line x1='137.8' y1='60.0' x2='137.8' y2='67.0' stroke-width='1' /><line x1='141.6' y1='60.0' x2='141.6' y2='67.0' stroke-width='1' /><line x1='145.4' y1='60.0' x2='145.4' y2='67.0' stroke-width='1' /><line x1='149.2' y1='60.0' x2='149.2' y2='67.0' stroke-width='1' /><line x1='153.0' y1='60.0' x2='153.0' y2='73.0' stroke-width='1' /><line x1='156.8' y1='60.0' x2='156.8' y2='67.0' stroke-width='1' /><line x1='160.6' y1='60.0' x2='160.6' y2='67.0' stroke-width='1' /><line x1='164.4' y1='60.0' x2='164.4' y2='67.0' stroke-width='1' /><line x1='168.2' y1='60.0' x2='168.2' y2='67.0' stroke-width='1' /><line x1='172.0' y1='60.0' x2='172.0' y2='80.0' stroke-width='1.5' /><text x='172.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>4</text><line x1='175.8' y1='60.0' x2='175.8' y2='67.0' stroke-width='1' /><line x1='179.6' y1='60.0' x2='179.6' y2='67.0' stroke-width='1' /><line x1='183.4' y1='60.0' x2='183.4' y2='67.0' stroke-width='1' /><line x1='187.2' y1='60.0' x2='187.2' y2='67.0' stroke-width='1' /><line x1='191.0' y1='60.0' x2='191.0' y2='73.0' stroke-width='1' /><line x1='194.8' y1='60.0' x2='194.8' y2='67.0' stroke-width='1' /><line x1='198.6' y1='60.0' x2='198.6' y2='67.0' stroke-width='1' /><line x1='202.4' y1='60.0' x2='202.4' y2='67.0' stroke-width='1' /><line x1='206.2' y1='60.0' x2='206.2' y2='67.0' stroke-width='1' /><line x1='210.0' y1='60.0' x2='210.0' y2='80.0' stroke-width='1.5' /><text x='210.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>5</text><line x1='213.8' y1='60.0' x2='213.8' y2='67.0' stroke-width='1' /><line x1='217.6' y1='60.0' x2='217.6' y2='67.0' stroke-width='1' /><line x1='221.4' y1='60.0' x2='221.4' y2='67.0' stroke-width='1' /><line x1='225.2' y1='60.0' x2='225.2' y2='67.0' stroke-width='1' /><line x1='229.0' y1='60.0' x2='229.0' y2='73.0' stroke-width='1' /><line x1='232.8' y1='60.0' x2='232.8' y2='67.0' stroke-width='1' /><line x1='236.6' y1='60.0' x2='236.6' y2='67.0' stroke-width='1' /><line x1='240.4' y1='60.0' x2='240.4' y2='67.0' stroke-width='1' /><line x1='244.2' y1='60.0' x2='244.2' y2='67.0' stroke-width='1' /><line x1='248.0' y1='60.0' x2='248.0' y2='80.0' stroke-width='1.5' /><text x='248.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>6</text><line x1='251.8' y1='60.0' x2='251.8' y2='67.0' stroke-width='1' /><line x1='255.6' y1='60.0' x2='255.6' y2='67.0' stroke-width='1' /><line x1='259.4' y1='60.0' x2='259.4' y2='67.0' stroke-width='1' /><line x1='263.2' y1='60.0' x2='263.2' y2='67.0' stroke-width='1' /><line x1='267.0' y1='60.0' x2='267.0' y2='73.0' stroke-width='1' /><line x1='270.8' y1='60.0' x2='270.8' y2='67.0' stroke-width='1' /><line x1='274.6' y1='60.0' x2='274.6' y2='67.0' stroke-width='1' /><line x1='278.4' y1='60.0' x2='278.4' y2='67.0' stroke-width='1' /><line x1='282.2' y1='60.0' x2='282.2' y2='67.0' stroke-width='1' /><line x1='286.0' y1='60.0' x2='286.0' y2='80.0' stroke-width='1.5' /><text x='286.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>7</text><line x1='289.8' y1='60.0' x2='289.8' y2='67.0' stroke-width='1' /><line x1='293.6' y1='60.0' x2='293.6' y2='67.0' stroke-width='1' /><line x1='297.4' y1='60.0' x2='297.4' y2='67.0' stroke-width='1' /><line x1='301.2' y1='60.0' x2='301.2' y2='67.0' stroke-width='1' /><line x1='305.0' y1='60.0' x2='305.0' y2='73.0' stroke-width='1' /><line x1='308.8' y1='60.0' x2='308.8' y2='67.0' stroke-width='1' /><line x1='312.6' y1='60.0' x2='312.6' y2='67.0' stroke-width='1' /><line x1='316.4' y1='60.0' x2='316.4' y2='67.0' stroke-width='1' /><line x1='320.2' y1='60.0' x2='320.2' y2='67.0' stroke-width='1' /><line x1='324.0' y1='60.0' x2='324.0' y2='80.0' stroke-width='1.5' /><text x='324.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8</text><line x1='327.8' y1='60.0' x2='327.8' y2='67.0' stroke-width='1' /><line x1='331.6' y1='60.0' x2='331.6' y2='67.0' stroke-width='1' /><line x1='335.4' y1='60.0' x2='335.4' y2='67.0' stroke-width='1' /><line x1='339.2' y1='60.0' x2='339.2' y2='67.0' stroke-width='1' /><line x1='343.0' y1='60.0' x2='343.0' y2='73.0' stroke-width='1' /><line x1='346.8' y1='60.0' x2='346.8' y2='67.0' stroke-width='1' /><line x1='350.6' y1='60.0' x2='350.6' y2='67.0' stroke-width='1' /><line x1='354.4' y1='60.0' x2='354.4' y2='67.0' stroke-width='1' /><line x1='358.2' y1='60.0' x2='358.2' y2='67.0' stroke-width='1' /><line x1='362.0' y1='60.0' x2='362.0' y2='80.0' stroke-width='1.5' /><text x='362.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>9</text><line x1='365.8' y1='60.0' x2='365.8' y2='67.0' stroke-width='1' /><line x1='369.6' y1='60.0' x2='369.6' y2='67.0' stroke-width='1' /><line x1='373.4' y1='60.0' x2='373.4' y2='67.0' stroke-width='1' /><line x1='377.2' y1='60.0' x2='377.2' y2='67.0' stroke-width='1' /><line x1='381.0' y1='60.0' x2='381.0' y2='73.0' stroke-width='1' /><line x1='384.8' y1='60.0' x2='384.8' y2='67.0' stroke-width='1' /><line x1='388.6' y1='60.0' x2='388.6' y2='67.0' stroke-width='1' /><line x1='392.4' y1='60.0' x2='392.4' y2='67.0' stroke-width='1' /><line x1='396.2' y1='60.0' x2='396.2' y2='67.0' stroke-width='1' /><line x1='400.0' y1='60.0' x2='400.0' y2='80.0' stroke-width='1.5' /><text x='400.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>10</text><line x1='403.8' y1='60.0' x2='403.8' y2='67.0' stroke-width='1' /><line x1='407.6' y1='60.0' x2='407.6' y2='67.0' stroke-width='1' /><line x1='411.4' y1='60.0' x2='411.4' y2='67.0' stroke-width='1' /><line x1='415.2' y1='60.0' x2='415.2' y2='67.0' stroke-width='1' /><line x1='419.0' y1='60.0' x2='419.0' y2='73.0' stroke-width='1' /><line x1='422.8' y1='60.0' x2='422.8' y2='67.0' stroke-width='1' /><line x1='426.6' y1='60.0' x2='426.6' y2='67.0' stroke-width='1' /><line x1='430.4' y1='60.0' x2='430.4' y2='67.0' stroke-width='1' /><line x1='434.2' y1='60.0' x2='434.2' y2='67.0' stroke-width='1' /><line x1='438.0' y1='60.0' x2='438.0' y2='80.0' stroke-width='1.5' /><text x='438.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>11</text><line x1='441.8' y1='60.0' x2='441.8' y2='67.0' stroke-width='1' /><line x1='445.6' y1='60.0' x2='445.6' y2='67.0' stroke-width='1' /><line x1='449.4' y1='60.0' x2='449.4' y2='67.0' stroke-width='1' /><line x1='453.2' y1='60.0' x2='453.2' y2='67.0' stroke-width='1' /><line x1='457.0' y1='60.0' x2='457.0' y2='73.0' stroke-width='1' /><line x1='460.8' y1='60.0' x2='460.8' y2='67.0' stroke-width='1' /><line x1='464.6' y1='60.0' x2='464.6' y2='67.0' stroke-width='1' /><line x1='468.4' y1='60.0' x2='468.4' y2='67.0' stroke-width='1' /><line x1='472.2' y1='60.0' x2='472.2' y2='67.0' stroke-width='1' /><line x1='476.0' y1='60.0' x2='476.0' y2='80.0' stroke-width='1.5' /><text x='470.0' y='100.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>12 cm</text><rect x='115.0' y='22.0' width='255.4' height='26.0' fill='currentColor' fill-opacity='0.25' stroke-width='2' /><polygon points='370.4,22.0 392.4,35.0 370.4,48.0' fill='currentColor' fill-opacity='0.6' stroke-width='2' /><line x1='115.0' y1='22.0' x2='115.0' y2='60.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='392.4' y1='35.0' x2='392.4' y2='60.0' stroke-width='1' stroke-dasharray='3 3'/></svg>",
+   "options": {
+    "A": "70 mm",
+    "B": "73 mm",
+    "C": "75 mm",
+    "D": "98 mm",
+    "E": "123 mm"
+   },
+   "answer": "B",
+   "explanation": "The pencil starts at 2.5 cm and its tip is at 9.8 cm. Length = 9.8 − 2.5 = 7.3 cm = 73 mm.",
+   "distractors": {
+    "D": "read only where the pencil ends",
+    "E": "added the two readings",
+    "A": "counted only whole centimetres",
+    "C": "misread the small marks"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "AREA",
+   "difficulty": 2,
+   "skill": "Perimeter of a shape on a grid (not area)",
+   "stem": "The shape is drawn on a grid of 1 cm squares. What is its perimeter?",
+   "svg": "<svg viewBox='0 0 300 230' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='20.0' y1='20.0' x2='20.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='56.0' y1='20.0' x2='56.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='92.0' y1='20.0' x2='92.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='128.0' y1='20.0' x2='128.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='164.0' y1='20.0' x2='164.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='200.0' y1='20.0' x2='200.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='236.0' y1='20.0' x2='236.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='272.0' y1='20.0' x2='272.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='20.0' y1='20.0' x2='272.0' y2='20.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='20.0' y1='56.0' x2='272.0' y2='56.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='20.0' y1='92.0' x2='272.0' y2='92.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='20.0' y1='128.0' x2='272.0' y2='128.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='20.0' y1='164.0' x2='272.0' y2='164.0' stroke-width='0.7' stroke-opacity='0.4'/><line x1='20.0' y1='200.0' x2='272.0' y2='200.0' stroke-width='0.7' stroke-opacity='0.4'/><polygon points='56.0,56.0 236.0,56.0 236.0,128.0 200.0,128.0 200.0,200.0 128.0,200.0 128.0,128.0 56.0,128.0' fill='currentColor' fill-opacity='0.2' stroke-width='3' /><text x='268.0' y='222.0' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>Each square is 1 cm × 1 cm</text></svg>",
+   "options": {
+    "A": "14 cm",
+    "B": "18 cm",
+    "C": "20 cm",
+    "D": "22 cm",
+    "E": "24 cm"
+   },
+   "answer": "B",
+   "explanation": "Walk around the outside and add the edges: 5 + 2 + 1 + 2 + 2 + 2 + 2 + 2 = 18 cm.",
+   "distractors": {
+    "A": "counted squares inside (that's the area, 14 cm²)",
+    "C": "counted a corner square's edges twice",
+    "D": "counted the edges of the squares inside too",
+    "E": "counted 1 cm for every grid square touching the edge"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "PAT",
+   "difficulty": 2,
+   "skill": "Growing pattern: rows × columns",
+   "stem": "The pattern of dots continues. How many dots will Figure 7 have?",
+   "svg": "<svg viewBox='0 0 340 125' xmlns='http://www.w3.org/2000/svg' style='max-width:340px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='20.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='40.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='30.0' y='110.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Figure 1</text><circle cx='110.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='130.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='150.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='110.0' cy='50.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='130.0' cy='50.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='150.0' cy='50.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='130.0' y='110.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Figure 2</text><circle cx='220.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='240.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='260.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='280.0' cy='30.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='220.0' cy='50.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='240.0' cy='50.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='260.0' cy='50.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='280.0' cy='50.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='220.0' cy='70.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='240.0' cy='70.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='260.0' cy='70.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><circle cx='280.0' cy='70.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='250.0' y='110.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Figure 3</text></svg>",
+   "options": {
+    "A": "35",
+    "B": "42",
+    "C": "48",
+    "D": "49",
+    "E": "56"
+   },
+   "answer": "E",
+   "explanation": "Figure 1 is 1 row of 2, Figure 2 is 2 rows of 3, Figure 3 is 3 rows of 4. So Figure 7 is 7 rows of 8 = 56.",
+   "distractors": {
+    "A": "used 5 × 7",
+    "B": "used 6 × 7 (that is Figure 6)",
+    "C": "used 6 × 8",
+    "D": "used 7 × 7"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "OPS",
+   "difficulty": 2,
+   "skill": "Working backwards through three steps",
+   "stem": "Ava thinks of a number. She subtracts 15, divides by 3, then multiplies by 4. Her answer is 28. What was her number?",
+   "options": {
+    "A": "22",
+    "B": "36",
+    "C": "43",
+    "D": "69",
+    "E": "99"
+   },
+   "answer": "B",
+   "explanation": "Undo each step, last step first: 28 ÷ 4 = 7, then 7 × 3 = 21, then 21 + 15 = 36. Check: 36 − 15 = 21, 21 ÷ 3 = 7, 7 × 4 = 28 ✓",
+   "distractors": {
+    "A": "undid the steps in the wrong order",
+    "C": "28 + 15",
+    "D": "multiplied and divided the wrong way round",
+    "E": "did the same steps instead of the inverses"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "FRA",
+   "difficulty": 2,
+   "skill": "Fraction of a shape, counting halves",
+   "stem": "The large square is divided into 16 equal small squares. What fraction of the large square is shaded?",
+   "svg": "<svg viewBox='0 0 210 210' xmlns='http://www.w3.org/2000/svg' style='max-width:210px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='60.0' y='15.0' width='45.0' height='45.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><rect x='60.0' y='60.0' width='45.0' height='45.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><rect x='15.0' y='15.0' width='45.0' height='45.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><rect x='15.0' y='60.0' width='45.0' height='45.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><polygon points='105.0,15.0 150.0,15.0 105.0,60.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><line x1='150.0' y1='15.0' x2='105.0' y2='60.0' stroke-width='1.5' /><polygon points='105.0,60.0 150.0,60.0 105.0,105.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><line x1='150.0' y1='60.0' x2='105.0' y2='105.0' stroke-width='1.5' /><polygon points='15.0,105.0 60.0,105.0 15.0,150.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><line x1='60.0' y1='105.0' x2='15.0' y2='150.0' stroke-width='1.5' /><polygon points='60.0,105.0 105.0,105.0 60.0,150.0' fill='currentColor' fill-opacity='0.55' stroke-width='0' /><line x1='105.0' y1='105.0' x2='60.0' y2='150.0' stroke-width='1.5' /><line x1='15.0' y1='15.0' x2='15.0' y2='195.0' stroke-width='1.5' /><line x1='15.0' y1='15.0' x2='195.0' y2='15.0' stroke-width='1.5' /><line x1='60.0' y1='15.0' x2='60.0' y2='195.0' stroke-width='1.5' /><line x1='15.0' y1='60.0' x2='195.0' y2='60.0' stroke-width='1.5' /><line x1='105.0' y1='15.0' x2='105.0' y2='195.0' stroke-width='1.5' /><line x1='15.0' y1='105.0' x2='195.0' y2='105.0' stroke-width='1.5' /><line x1='150.0' y1='15.0' x2='150.0' y2='195.0' stroke-width='1.5' /><line x1='15.0' y1='150.0' x2='195.0' y2='150.0' stroke-width='1.5' /><line x1='195.0' y1='15.0' x2='195.0' y2='195.0' stroke-width='1.5' /><line x1='15.0' y1='195.0' x2='195.0' y2='195.0' stroke-width='1.5' /><rect x='15.0' y='15.0' width='180.0' height='180.0' fill='none' stroke-width='3' /></svg>",
+   "options": {
+    "A": "1/4",
+    "B": "5/16",
+    "C": "3/8",
+    "D": "1/2",
+    "E": "3/5"
+   },
+   "answer": "C",
+   "explanation": "4 whole small squares + 4 half squares = 4 + 2 = 6 small squares. 6/16 simplifies to 3/8.",
+   "distractors": {
+    "A": "ignored the half squares (4/16)",
+    "B": "counted the halves as 1 square in total",
+    "D": "counted each half as a whole (8/16)",
+    "E": "compared shaded to unshaded parts the wrong way"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "ANG",
+   "difficulty": 2,
+   "skill": "Angles around a point; right-angle mark; equal angles",
+   "stem": "Four angles meet at a point. The two angles marked a are equal. What is the size of angle a?",
+   "svg": "<svg viewBox='0 0 320 280' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='160.0' y1='140.0' x2='270.0' y2='140.0' stroke-width='2.5' /><line x1='160.0' y1='140.0' x2='122.4' y2='36.6' stroke-width='2.5' /><line x1='160.0' y1='140.0' x2='56.6' y2='177.6' stroke-width='2.5' /><line x1='160.0' y1='140.0' x2='179.1' y2='248.3' stroke-width='2.5' /><circle cx='160.0' cy='140.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><path d='M 190.0 140.0 A 30 30 0 0 0 149.7 111.8' stroke-width='1.5'/><text x='189.8' y='102.4' font-size='15' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>110°</text><polyline points='153.8,123.1 136.9,129.2 143.1,146.2' stroke-width='1.5'/><path d='M 128.1 151.6 A 34 34 0 0 0 165.9 173.5' stroke-width='1.5'/><text x='132.0' y='193.5' font-size='17' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>a</text><path d='M 165.9 173.5 A 34 34 0 0 0 194.0 140.0' stroke-width='1.5'/><text x='202.9' y='181.0' font-size='17' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>a</text></svg>",
+   "options": {
+    "A": "80°",
+    "B": "90°",
+    "C": "100°",
+    "D": "125°",
+    "E": "160°"
+   },
+   "answer": "A",
+   "explanation": "Angles around a point add to 360°. The square mark means 90°. 360 − 110 − 90 = 160°, shared equally between the two angles a: 160 ÷ 2 = 80°.",
+   "distractors": {
+    "B": "assumed the angles look like right angles",
+    "C": "guessed by eye",
+    "D": "forgot the right angle: (360 − 110) ÷ 2",
+    "E": "forgot to share between the two angles a"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "DAT",
+   "difficulty": 3,
+   "skill": "Reading a column graph between gridlines; which statements are true",
+   "stem": "The graph shows how many library books were borrowed each day.\nWhich statements are correct?\n1) More books were borrowed on Thursday than on Monday and Wednesday together.\n2) 190 books were borrowed during the week.\n3) Twice as many books were borrowed on Tuesday as on Wednesday.",
+   "svg": "<svg viewBox='0 0 420 260' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='60.0' y1='230.0' x2='410.0' y2='230.0' stroke-width='1' stroke-opacity='0.35'/><text x='52.0' y='235.0' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>0</text><line x1='60.0' y1='213.3' x2='410.0' y2='213.3' stroke-width='0.5' stroke-opacity='0.35'/><line x1='60.0' y1='196.7' x2='410.0' y2='196.7' stroke-width='1' stroke-opacity='0.35'/><text x='52.0' y='201.7' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>10</text><line x1='60.0' y1='180.0' x2='410.0' y2='180.0' stroke-width='0.5' stroke-opacity='0.35'/><line x1='60.0' y1='163.3' x2='410.0' y2='163.3' stroke-width='1' stroke-opacity='0.35'/><text x='52.0' y='168.3' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>20</text><line x1='60.0' y1='146.7' x2='410.0' y2='146.7' stroke-width='0.5' stroke-opacity='0.35'/><line x1='60.0' y1='130.0' x2='410.0' y2='130.0' stroke-width='1' stroke-opacity='0.35'/><text x='52.0' y='135.0' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>30</text><line x1='60.0' y1='113.3' x2='410.0' y2='113.3' stroke-width='0.5' stroke-opacity='0.35'/><line x1='60.0' y1='96.7' x2='410.0' y2='96.7' stroke-width='1' stroke-opacity='0.35'/><text x='52.0' y='101.7' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>40</text><line x1='60.0' y1='80.0' x2='410.0' y2='80.0' stroke-width='0.5' stroke-opacity='0.35'/><line x1='60.0' y1='63.3' x2='410.0' y2='63.3' stroke-width='1' stroke-opacity='0.35'/><text x='52.0' y='68.3' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>50</text><line x1='60.0' y1='46.7' x2='410.0' y2='46.7' stroke-width='0.5' stroke-opacity='0.35'/><line x1='60.0' y1='30.0' x2='410.0' y2='30.0' stroke-width='1' stroke-opacity='0.35'/><text x='52.0' y='35.0' font-size='13' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>60</text><rect x='75.0' y='130.0' width='50.0' height='100.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><text x='100.0' y='250.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Mon</text><rect x='145.0' y='80.0' width='50.0' height='150.0' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><text x='170.0' y='250.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Tue</text><rect x='215.0' y='163.3' width='50.0' height='66.7' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><text x='240.0' y='250.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Wed</text><rect x='285.0' y='46.7' width='50.0' height='183.3' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><text x='310.0' y='250.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Thu</text><rect x='355.0' y='96.7' width='50.0' height='133.3' fill='currentColor' fill-opacity='0.55' stroke-width='1.5' /><text x='380.0' y='250.0' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Fri</text><line x1='60.0' y1='230.0' x2='410.0' y2='230.0' stroke-width='2' /><line x1='60.0' y1='230.0' x2='60.0' y2='30.0' stroke-width='2' /><text x='18' y='130' font-size='13' text-anchor='middle' fill='currentColor' stroke='none' transform='rotate(-90 18 130)'>Books borrowed</text></svg>",
+   "options": {
+    "A": "1 only",
+    "B": "2 only",
+    "C": "1 and 2 only",
+    "D": "2 and 3 only",
+    "E": "1, 2 and 3"
+   },
+   "answer": "C",
+   "explanation": "Read each bar: Mon 30, Tue 45, Wed 20, Thu 55, Fri 40. 1) 55 > 30 + 20 = 50 ✓. 2) 30 + 45 + 20 + 55 + 40 = 190 ✓. 3) Double Wednesday is 40, but Tuesday is 45 ✗.",
+   "distractors": {
+    "A": "added the week wrongly",
+    "B": "compared Thursday with only one day",
+    "D": "read Tuesday as 40",
+    "E": "didn't check statement 3 carefully"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "NUM",
+   "difficulty": 3,
+   "skill": "Fractions as decimals on a number line",
+   "stem": "The number line from 0 to 1 is split into equal parts. Which number is at P?",
+   "svg": "<svg viewBox='0 0 460 100' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='30.0' y1='60.0' x2='430.0' y2='60.0' stroke-width='2.5' /><line x1='30.0' y1='50.0' x2='30.0' y2='70.0' stroke-width='2' /><line x1='80.0' y1='50.0' x2='80.0' y2='70.0' stroke-width='2' /><line x1='130.0' y1='50.0' x2='130.0' y2='70.0' stroke-width='2' /><line x1='180.0' y1='50.0' x2='180.0' y2='70.0' stroke-width='2' /><line x1='230.0' y1='50.0' x2='230.0' y2='70.0' stroke-width='2' /><line x1='280.0' y1='50.0' x2='280.0' y2='70.0' stroke-width='2' /><line x1='330.0' y1='50.0' x2='330.0' y2='70.0' stroke-width='2' /><line x1='380.0' y1='50.0' x2='380.0' y2='70.0' stroke-width='2' /><line x1='430.0' y1='50.0' x2='430.0' y2='70.0' stroke-width='2' /><text x='30.0' y='94.0' font-size='16' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>0</text><text x='430.0' y='94.0' font-size='16' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>1</text><polygon points='280.0,46.0 271.0,24.0 289.0,24.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='280.0' y='18.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>P</text></svg>",
+   "options": {
+    "A": "0.5",
+    "B": "0.58",
+    "C": "0.6",
+    "D": "0.625",
+    "E": "0.85"
+   },
+   "answer": "D",
+   "explanation": "There are 8 equal parts, so each part is 1/8. P is at 5/8. 1/8 = 0.125, so 5/8 = 0.625.",
+   "distractors": {
+    "B": "wrote 5 out of 8 as \"0.58\"",
+    "A": "thought each part is 0.1",
+    "C": "rounded 5/8 roughly",
+    "E": "mixed up the digits"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "MON",
+   "difficulty": 3,
+   "skill": "Best combination of a deal and single items",
+   "stem": "Max buys 2 pies, 3 juices and 2 apples for his family. What is the cheapest total he can pay?",
+   "svg": "<svg viewBox='0 0 360 230' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='340.0' height='210.0' fill='none' stroke-width='3' rx='12'/><text x='180.0' y='42.0' font-size='18' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>CANTEEN</text><text x='40.0' y='75.0' font-size='15' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Pie</text><text x='320.0' y='75.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>$4.80</text><text x='40.0' y='103.0' font-size='15' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Sausage roll</text><text x='320.0' y='103.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>$3.20</text><text x='40.0' y='131.0' font-size='15' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Juice</text><text x='320.0' y='131.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>$2.50</text><text x='40.0' y='159.0' font-size='15' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Apple</text><text x='320.0' y='159.0' font-size='15' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none'>$0.90</text><line x1='30.0' y1='175.0' x2='330.0' y2='175.0' stroke-width='1' stroke-dasharray='4 4'/><text x='40.0' y='199.0' font-size='15' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none'>MEAL DEAL: pie + juice + apple</text><text x='320.0' y='199.0' font-size='15' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none'>$7.00</text></svg>",
+   "options": {
+    "A": "$14.00",
+    "B": "$16.50",
+    "C": "$17.70",
+    "D": "$18.90",
+    "E": "$21.00"
+   },
+   "answer": "B",
+   "explanation": "Use the meal deal twice: 2 × $7.00 = $14.00 (2 pies, 2 juices, 2 apples). He still needs 1 juice: $2.50. Total $16.50. Without deals it would be $9.60 + $7.50 + $1.80 = $18.90.",
+   "distractors": {
+    "A": "forgot the third juice",
+    "C": "used the meal deal only once",
+    "D": "didn't use the meal deal",
+    "E": "bought 3 meal deals (paying for an extra pie and apple)"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "TIM",
+   "difficulty": 3,
+   "skill": "Reading a timetable; waiting time plus travel time",
+   "stem": "Lily gets to the Library bus stop at 8:10 am and catches the first bus that comes. How long is it from when she gets to the stop until she arrives at the Station?",
+   "svg": "<svg viewBox='0 0 450 190' xmlns='http://www.w3.org/2000/svg' style='max-width:450px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='425.0' height='170.0' fill='none' stroke-width='2' /><text x='52.5' y='32.1' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Stop</text><text x='137.5' y='32.1' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Bus 1</text><text x='222.5' y='32.1' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Bus 2</text><text x='307.5' y='32.1' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Bus 3</text><text x='392.5' y='32.1' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Bus 4</text><line x1='10.0' y1='44.0' x2='435.0' y2='44.0' stroke-width='1' /><text x='18.0' y='66.1' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Westfield</text><text x='137.5' y='66.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>7:52</text><text x='222.5' y='66.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:12</text><text x='307.5' y='66.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:32</text><text x='392.5' y='66.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:52</text><line x1='10.0' y1='78.0' x2='435.0' y2='78.0' stroke-width='1' /><text x='18.0' y='100.1' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Library</text><text x='137.5' y='100.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:05</text><text x='222.5' y='100.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:25</text><text x='307.5' y='100.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:45</text><text x='392.5' y='100.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>9:05</text><line x1='10.0' y1='112.0' x2='435.0' y2='112.0' stroke-width='1' /><text x='18.0' y='134.1' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Park Rd</text><text x='137.5' y='134.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:19</text><text x='222.5' y='134.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:39</text><text x='307.5' y='134.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:59</text><text x='392.5' y='134.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>9:19</text><line x1='10.0' y1='146.0' x2='435.0' y2='146.0' stroke-width='1' /><text x='18.0' y='168.1' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Station</text><text x='137.5' y='168.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:34</text><text x='222.5' y='168.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8:54</text><text x='307.5' y='168.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>9:14</text><text x='392.5' y='168.1' font-size='14' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>9:34</text><line x1='95.0' y1='10.0' x2='95.0' y2='180.0' stroke-width='1' /><line x1='180.0' y1='10.0' x2='180.0' y2='180.0' stroke-width='1' /><line x1='265.0' y1='10.0' x2='265.0' y2='180.0' stroke-width='1' /><line x1='350.0' y1='10.0' x2='350.0' y2='180.0' stroke-width='1' /><line x1='435.0' y1='10.0' x2='435.0' y2='180.0' stroke-width='1' /></svg>",
+   "options": {
+    "A": "15 min",
+    "B": "29 min",
+    "C": "44 min",
+    "D": "50 min",
+    "E": "64 min"
+   },
+   "answer": "C",
+   "explanation": "Bus 1 left the Library at 8:05, so she misses it. Bus 2 leaves the Library at 8:25 and reaches the Station at 8:54. From 8:10 to 8:54 is 44 minutes (15 min waiting + 29 min on the bus).",
+   "distractors": {
+    "A": "only the waiting time",
+    "B": "only the time on the bus",
+    "D": "counted to 9:00",
+    "E": "caught Bus 3 instead"
+   }
+  },
+  {
+   "n": 15,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting cubes in a 3D stack, including hidden ones",
+   "stem": "This solid is built from identical cubes on a flat table. Every cube sits on the table or on another cube (there are no gaps). How many cubes are in the solid?",
+   "svg": "<svg viewBox='0 0 340 260' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='170.0,91.0 199.4,108.0 170.0,125.0 140.6,108.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,91.0 199.4,108.0 170.0,125.0 140.6,108.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='199.4,142.0 170.0,159.0 170.0,125.0 199.4,108.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,142.0 170.0,159.0 170.0,125.0 199.4,108.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='140.6,142.0 170.0,159.0 170.0,125.0 140.6,108.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,142.0 170.0,159.0 170.0,125.0 140.6,108.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='170.0,57.0 199.4,74.0 170.0,91.0 140.6,74.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,57.0 199.4,74.0 170.0,91.0 140.6,74.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='199.4,108.0 170.0,125.0 170.0,91.0 199.4,74.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,108.0 170.0,125.0 170.0,91.0 199.4,74.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='140.6,108.0 170.0,125.0 170.0,91.0 140.6,74.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,108.0 170.0,125.0 170.0,91.0 140.6,74.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='170.0,23.0 199.4,40.0 170.0,57.0 140.6,40.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,23.0 199.4,40.0 170.0,57.0 140.6,40.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='199.4,74.0 170.0,91.0 170.0,57.0 199.4,40.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,74.0 170.0,91.0 170.0,57.0 199.4,40.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='140.6,74.0 170.0,91.0 170.0,57.0 140.6,40.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,74.0 170.0,91.0 170.0,57.0 140.6,40.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='140.6,108.0 170.0,125.0 140.6,142.0 111.1,125.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,108.0 170.0,125.0 140.6,142.0 111.1,125.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='170.0,159.0 140.6,176.0 140.6,142.0 170.0,125.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,159.0 140.6,176.0 140.6,142.0 170.0,125.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='111.1,159.0 140.6,176.0 140.6,142.0 111.1,125.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='111.1,159.0 140.6,176.0 140.6,142.0 111.1,125.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='199.4,108.0 228.9,125.0 199.4,142.0 170.0,125.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,108.0 228.9,125.0 199.4,142.0 170.0,125.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='228.9,159.0 199.4,176.0 199.4,142.0 228.9,125.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='228.9,159.0 199.4,176.0 199.4,142.0 228.9,125.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='170.0,159.0 199.4,176.0 199.4,142.0 170.0,125.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,159.0 199.4,176.0 199.4,142.0 170.0,125.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='140.6,74.0 170.0,91.0 140.6,108.0 111.1,91.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,74.0 170.0,91.0 140.6,108.0 111.1,91.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='170.0,125.0 140.6,142.0 140.6,108.0 170.0,91.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,125.0 140.6,142.0 140.6,108.0 170.0,91.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='111.1,125.0 140.6,142.0 140.6,108.0 111.1,91.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='111.1,125.0 140.6,142.0 140.6,108.0 111.1,91.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='199.4,74.0 228.9,91.0 199.4,108.0 170.0,91.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,74.0 228.9,91.0 199.4,108.0 170.0,91.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='228.9,125.0 199.4,142.0 199.4,108.0 228.9,91.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='228.9,125.0 199.4,142.0 199.4,108.0 228.9,91.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='170.0,125.0 199.4,142.0 199.4,108.0 170.0,91.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,125.0 199.4,142.0 199.4,108.0 170.0,91.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='111.1,125.0 140.6,142.0 111.1,159.0 81.7,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='111.1,125.0 140.6,142.0 111.1,159.0 81.7,142.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='140.6,176.0 111.1,193.0 111.1,159.0 140.6,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,176.0 111.1,193.0 111.1,159.0 140.6,142.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='81.7,176.0 111.1,193.0 111.1,159.0 81.7,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='81.7,176.0 111.1,193.0 111.1,159.0 81.7,142.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='170.0,125.0 199.4,142.0 170.0,159.0 140.6,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,125.0 199.4,142.0 170.0,159.0 140.6,142.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='199.4,176.0 170.0,193.0 170.0,159.0 199.4,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,176.0 170.0,193.0 170.0,159.0 199.4,142.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='140.6,176.0 170.0,193.0 170.0,159.0 140.6,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,176.0 170.0,193.0 170.0,159.0 140.6,142.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='228.9,125.0 258.3,142.0 228.9,159.0 199.4,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='228.9,125.0 258.3,142.0 228.9,159.0 199.4,142.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='258.3,176.0 228.9,193.0 228.9,159.0 258.3,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='258.3,176.0 228.9,193.0 228.9,159.0 258.3,142.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='199.4,176.0 228.9,193.0 228.9,159.0 199.4,142.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,176.0 228.9,193.0 228.9,159.0 199.4,142.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='140.6,142.0 170.0,159.0 140.6,176.0 111.1,159.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='140.6,142.0 170.0,159.0 140.6,176.0 111.1,159.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='170.0,193.0 140.6,210.0 140.6,176.0 170.0,159.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,193.0 140.6,210.0 140.6,176.0 170.0,159.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='111.1,193.0 140.6,210.0 140.6,176.0 111.1,159.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='111.1,193.0 140.6,210.0 140.6,176.0 111.1,159.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /><polygon points='199.4,142.0 228.9,159.0 199.4,176.0 170.0,159.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='199.4,142.0 228.9,159.0 199.4,176.0 170.0,159.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><polygon points='228.9,193.0 199.4,210.0 199.4,176.0 228.9,159.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='228.9,193.0 199.4,210.0 199.4,176.0 228.9,159.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.8' /><polygon points='170.0,193.0 199.4,210.0 199.4,176.0 170.0,159.0' stroke-width='0' fill='var(--card, #fff)' fill-opacity='1'/><polygon points='170.0,193.0 199.4,210.0 199.4,176.0 170.0,159.0' fill='currentColor' fill-opacity='0.3' stroke-width='1.8' /></svg>",
+   "options": {
+    "A": "7",
+    "B": "9",
+    "C": "10",
+    "D": "12",
+    "E": "14"
+   },
+   "answer": "D",
+   "explanation": "Count each column from the back: the back row has stacks of 3, 2 and 1 (6 cubes); the middle row 2, 1 and 1 (4 cubes); the front row 1 and 1 (2 cubes). 6 + 4 + 2 = 12. Some cubes are hidden underneath, but they must be there to hold up the ones on top.",
+   "distractors": {
+    "A": "counted only the cubes whose tops you can see",
+    "B": "missed the hidden cubes at the back",
+    "C": "missed hidden cubes under the tallest stacks",
+    "E": "counted some cubes twice"
+   }
+  },
+  {
+   "n": 16,
+   "topic": "LOG",
+   "difficulty": 3,
+   "skill": "Reading a Venn diagram; which statements are true",
+   "stem": "The Venn diagram shows which sports a class plays.\nWhich statements are correct?\n1) 25 students play soccer.\n2) More students play only soccer than play tennis.\n3) There are 28 students in the class.",
+   "svg": "<svg viewBox='0 0 420 230' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='400.0' height='210.0' fill='none' stroke-width='2' /><circle cx='160.0' cy='122.0' r='82.0' fill='none' stroke-width='2'/><circle cx='260.0' cy='122.0' r='82.0' fill='none' stroke-width='2'/><text x='100.0' y='30.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Soccer</text><text x='320.0' y='30.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Tennis</text><text x='120.0' y='122.0' font-size='20' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>12</text><text x='210.0' y='122.0' font-size='20' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>5</text><text x='300.0' y='122.0' font-size='20' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>8</text><text x='385.0' y='205.0' font-size='20' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>3</text></svg>",
+   "options": {
+    "A": "1 only",
+    "B": "3 only",
+    "C": "1 and 3 only",
+    "D": "2 and 3 only",
+    "E": "None of them"
+   },
+   "answer": "B",
+   "explanation": "1) Soccer = 12 + 5 = 17, not 25 ✗ (25 is everyone who plays a sport). 2) Only soccer is 12, but tennis is 5 + 8 = 13 ✗. 3) 12 + 5 + 8 + 3 = 28 ✓.",
+   "distractors": {
+    "A": "added all the sport players as soccer",
+    "C": "thought 25 play soccer",
+    "D": "forgot the 5 in the overlap also play tennis",
+    "E": "forgot the 3 outside the circles"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "PRB",
+   "difficulty": 3,
+   "skill": "Probability on a spinner with equal sections",
+   "stem": "The spinner has 8 equal sections. Which statements are correct?\n1) Landing on 3 is more likely than landing on an even number.\n2) The chance of landing on a number greater than 3 is 1/4.\n3) The chance of NOT landing on 2 is 3/4.",
+   "svg": "<svg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg' style='max-width:240px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='120.0' cy='120.0' r='100.0' fill='none' stroke-width='3'/><line x1='120.0' y1='120.0' x2='120.0' y2='20.0' stroke-width='2' /><text x='144.5' y='67.9' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>1</text><line x1='120.0' y1='120.0' x2='190.7' y2='49.3' stroke-width='2' /><text x='179.1' y='102.5' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>3</text><line x1='120.0' y1='120.0' x2='220.0' y2='120.0' stroke-width='2' /><text x='179.1' y='151.5' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>2</text><line x1='120.0' y1='120.0' x2='190.7' y2='190.7' stroke-width='2' /><text x='144.5' y='186.1' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>3</text><line x1='120.0' y1='120.0' x2='120.0' y2='220.0' stroke-width='2' /><text x='95.5' y='186.1' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>5</text><line x1='120.0' y1='120.0' x2='49.3' y2='190.7' stroke-width='2' /><text x='60.9' y='151.5' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>2</text><line x1='120.0' y1='120.0' x2='20.0' y2='120.0' stroke-width='2' /><text x='60.9' y='102.5' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>4</text><line x1='120.0' y1='120.0' x2='49.3' y2='49.3' stroke-width='2' /><text x='95.5' y='67.9' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>3</text><line x1='120.0' y1='120.0' x2='164.3' y2='127.8' stroke-width='4' stroke-linecap='round'/><circle cx='120.0' cy='120.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/></svg>",
+   "options": {
+    "A": "1 only",
+    "B": "2 only",
+    "C": "1 and 2 only",
+    "D": "2 and 3 only",
+    "E": "1, 2 and 3"
+   },
+   "answer": "D",
+   "explanation": "Count sections. 3 appears 3 times; even numbers (2, 2, 4) also 3 times, so they are equally likely ✗. Greater than 3: 4 and 5 = 2 out of 8 = 1/4 ✓. The 2 appears twice, so NOT 2 is 6 out of 8 = 3/4 ✓.",
+   "distractors": {
+    "A": "forgot 4 is even",
+    "B": "counted 2 appearing once",
+    "C": "forgot 4 is even and missed statement 3",
+    "E": "didn't count the even sections"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "NUM",
+   "difficulty": 3,
+   "skill": "Multiplying by powers of 10; equivalent calculations",
+   "stem": "Which of these does NOT give the same answer as 4.6 × 25?",
+   "options": {
+    "A": "46 × 2.5",
+    "B": "0.46 × 250",
+    "C": "460 × 0.25",
+    "D": "4.6 × 100 ÷ 4",
+    "E": "46 × 25 ÷ 100"
+   },
+   "answer": "E",
+   "explanation": "4.6 × 25 = 115. If one number is made 10 times bigger and the other 10 times smaller, the answer stays the same, so the first three are equal. 25 = 100 ÷ 4, so 4.6 × 100 ÷ 4 also works. But 46 × 25 ÷ 100 = 1150 ÷ 100 = 11.5: 46 is 10 times bigger, but dividing by 100 makes it 100 times smaller.",
+   "distractors": {
+    "A": "didn't notice ×10 and ÷10 cancel",
+    "B": "didn't notice ÷10 and ×10 cancel",
+    "C": "didn't notice ×100 and ÷100 cancel",
+    "D": "didn't see that 25 = 100 ÷ 4"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "MEA",
+   "difficulty": 3,
+   "skill": "Rates and converting mL to L",
+   "stem": "A leaking tap drips 15 mL of water every minute. How much water is wasted in one full day?",
+   "options": {
+    "A": "0.9 L",
+    "B": "2.16 L",
+    "C": "21.6 L",
+    "D": "216 L",
+    "E": "360 L"
+   },
+   "answer": "C",
+   "explanation": "In one hour: 15 × 60 = 900 mL. In 24 hours: 900 × 24 = 21 600 mL. 1000 mL = 1 L, so that is 21.6 L.",
+   "distractors": {
+    "A": "worked out one hour only",
+    "B": "divided by 10 000 instead of 1000",
+    "D": "divided by 100 instead of 1000",
+    "E": "multiplied 15 × 24"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "ANG",
+   "difficulty": 3,
+   "skill": "Following directions with turns on a map grid",
+   "stem": "The map shows streets one block apart. Sam leaves Home and walks 3 blocks north. He turns right and walks 2 blocks. He turns right again and walks 2 blocks. Where is he now?",
+   "svg": "<svg viewBox='0 0 470 320' xmlns='http://www.w3.org/2000/svg' style='max-width:440px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='30.0' x2='40.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><line x1='95.0' y1='30.0' x2='95.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><line x1='150.0' y1='30.0' x2='150.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><line x1='205.0' y1='30.0' x2='205.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><line x1='260.0' y1='30.0' x2='260.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><line x1='315.0' y1='30.0' x2='315.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><line x1='370.0' y1='30.0' x2='370.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><line x1='40.0' y1='30.0' x2='370.0' y2='30.0' stroke-width='6' stroke-opacity='0.18'/><line x1='40.0' y1='85.0' x2='370.0' y2='85.0' stroke-width='6' stroke-opacity='0.18'/><line x1='40.0' y1='140.0' x2='370.0' y2='140.0' stroke-width='6' stroke-opacity='0.18'/><line x1='40.0' y1='195.0' x2='370.0' y2='195.0' stroke-width='6' stroke-opacity='0.18'/><line x1='40.0' y1='250.0' x2='370.0' y2='250.0' stroke-width='6' stroke-opacity='0.18'/><line x1='40.0' y1='305.0' x2='370.0' y2='305.0' stroke-width='6' stroke-opacity='0.18'/><circle cx='95.0' cy='250.0' r='8.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='107.0' y='240.0' font-size='14' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none'>Home</text><circle cx='205.0' cy='195.0' r='8.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='217.0' y='185.0' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Library</text><circle cx='205.0' cy='85.0' r='8.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='217.0' y='75.0' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Park</text><circle cx='205.0' cy='305.0' r='8.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='217.0' y='295.0' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>School</text><circle cx='315.0' cy='85.0' r='8.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='327.0' y='75.0' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Pool</text><circle cx='95.0' cy='85.0' r='8.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='107.0' y='75.0' font-size='14' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none'>Café</text><line x1='410.0' y1='120.0' x2='410.0' y2='60.0' stroke-width='3' /><polygon points='410.0,50.0 402.0,66.0 418.0,66.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='410.0' y='140.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>N</text></svg>",
+   "options": {
+    "A": "Library",
+    "B": "Café",
+    "C": "Park",
+    "D": "Pool",
+    "E": "School"
+   },
+   "answer": "A",
+   "explanation": "From Home, 3 blocks north takes him to the Café's corner. Turning right from north means facing east: 2 blocks east reaches the Park. Turning right again means facing south: 2 blocks south reaches the Library.",
+   "distractors": {
+    "B": "stopped after the first part",
+    "C": "stopped after the second part",
+    "D": "kept walking east instead of turning",
+    "E": "walked 4 blocks south"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "MDV",
+   "difficulty": 3,
+   "skill": "Lowest common multiple over a time period",
+   "stem": "One lighthouse flashes every 12 seconds and another every 18 seconds. They flash together at exactly 9:00 pm. How many more times will they flash together before 9:05 pm?",
+   "options": {
+    "A": "6",
+    "B": "8",
+    "C": "9",
+    "D": "10",
+    "E": "25"
+   },
+   "answer": "B",
+   "explanation": "They flash together every 36 seconds (the lowest common multiple of 12 and 18). 5 minutes = 300 seconds. 300 ÷ 36 = 8 remainder 12, so they flash together 8 more times (at 36, 72, ... 288 seconds).",
+   "distractors": {
+    "A": "used 12 × 18 ÷ 4 = 54 seconds",
+    "C": "counted the 9:00 flash too",
+    "D": "used 30 seconds",
+    "E": "used every 12 seconds"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "OPS",
+   "difficulty": 3,
+   "skill": "Division with a remainder: round up in context",
+   "stem": "230 students are going on an excursion. Each bus holds 48 students and costs $350. What is the cheapest total cost for the buses?",
+   "options": {
+    "A": "$1400",
+    "B": "$1675",
+    "C": "$1677",
+    "D": "$1750",
+    "E": "$2100"
+   },
+   "answer": "D",
+   "explanation": "230 ÷ 48 = 4 remainder 38. Four buses carry only 192 students, so 38 students need a fifth bus. 5 × $350 = $1750.",
+   "distractors": {
+    "A": "rounded down to 4 buses",
+    "B": "paid for 4.79 buses (part of a bus)",
+    "E": "used 6 buses",
+    "C": "paid for part of a bus and rounded"
+   }
+  },
+  {
+   "n": 23,
+   "topic": "PRB",
+   "difficulty": 3,
+   "skill": "Counting pairs without double-counting",
+   "stem": "Six friends meet. Each friend shakes hands with every other friend exactly once. How many handshakes are there?",
+   "options": {
+    "A": "15",
+    "B": "18",
+    "C": "21",
+    "D": "30",
+    "E": "36"
+   },
+   "answer": "A",
+   "explanation": "The first friend shakes 5 hands, the next shakes 4 new hands, then 3, 2, 1: 5 + 4 + 3 + 2 + 1 = 15. (6 × 5 = 30 counts every handshake twice.)",
+   "distractors": {
+    "B": "three handshakes each",
+    "C": "started at 6 instead of 5 (6 + 5 + 4 + 3 + 2 + 1)",
+    "D": "counted every handshake twice",
+    "E": "6 × 6 (including shaking your own hand)"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "AREA",
+   "difficulty": 3,
+   "skill": "From area to side length to perimeter",
+   "stem": "A square has an area of 64 cm². It is cut into 4 identical smaller squares. What is the total perimeter of the 4 smaller squares?",
+   "options": {
+    "A": "16 cm",
+    "B": "24 cm",
+    "C": "32 cm",
+    "D": "48 cm",
+    "E": "64 cm"
+   },
+   "answer": "E",
+   "explanation": "64 = 8 × 8, so the big square has sides of 8 cm. Each small square has sides of 4 cm and a perimeter of 16 cm. Four of them: 4 × 16 = 64 cm.",
+   "distractors": {
+    "A": "only one small square",
+    "B": "used 2 cm sides (thought 64 ÷ 4 ÷ 8)",
+    "C": "the big square's perimeter",
+    "D": "big perimeter + the two cut lines counted once"
+   }
+  },
+  {
+   "n": 25,
+   "topic": "OPS",
+   "difficulty": 4,
+   "skill": "Balance scales: swapping equal amounts",
+   "stem": "Both scales are balanced. How many triangles would balance 4 circles?",
+   "svg": "<svg viewBox='0 0 520 150' xmlns='http://www.w3.org/2000/svg' style='max-width:480px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='10.0' y1='100.0' x2='250.0' y2='100.0' stroke-width='4' /><polygon points='130.0,102.0 112.0,140.0 148.0,140.0' fill='currentColor' fill-opacity='0.3' stroke-width='2' /><line x1='95.0' y1='141.0' x2='165.0' y2='141.0' stroke-width='3' /><line x1='12.0' y1='96.0' x2='108.0' y2='96.0' stroke-width='5' /><circle cx='28.0' cy='80.0' r='13.0' fill='currentColor' fill-opacity='0.35' stroke-width='2'/><circle cx='60.0' cy='80.0' r='13.0' fill='currentColor' fill-opacity='0.35' stroke-width='2'/><circle cx='92.0' cy='80.0' r='13.0' fill='currentColor' fill-opacity='0.35' stroke-width='2'/><line x1='152.0' y1='96.0' x2='248.0' y2='96.0' stroke-width='5' /><rect x='171.0' y='67.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.6' stroke-width='2' /><rect x='203.0' y='67.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.6' stroke-width='2' /><line x1='270.0' y1='100.0' x2='510.0' y2='100.0' stroke-width='4' /><polygon points='390.0,102.0 372.0,140.0 408.0,140.0' fill='currentColor' fill-opacity='0.3' stroke-width='2' /><line x1='355.0' y1='141.0' x2='425.0' y2='141.0' stroke-width='3' /><line x1='272.0' y1='96.0' x2='368.0' y2='96.0' stroke-width='5' /><rect x='307.0' y='67.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.6' stroke-width='2' /><line x1='412.0' y1='96.0' x2='508.0' y2='96.0' stroke-width='5' /><polygon points='428.0,67.0 415.0,93.0 441.0,93.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><polygon points='460.0,67.0 447.0,93.0 473.0,93.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><polygon points='492.0,67.0 479.0,93.0 505.0,93.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /></svg>",
+   "options": {
+    "A": "4",
+    "B": "6",
+    "C": "8",
+    "D": "9",
+    "E": "12"
+   },
+   "answer": "C",
+   "explanation": "One square balances 3 triangles, so 2 squares balance 6 triangles. 3 circles balance 2 squares, so 3 circles balance 6 triangles. That means 1 circle balances 2 triangles, and 4 circles balance 8 triangles.",
+   "distractors": {
+    "A": "thought one circle equals one triangle",
+    "B": "gave the triangles for 3 circles, not 4",
+    "D": "added 3 + 3 + 3",
+    "E": "4 × 3, as if a circle were a square"
+   }
+  },
+  {
+   "n": 26,
+   "topic": "AREA",
+   "difficulty": 4,
+   "skill": "Areas of rectangles that share sides",
+   "stem": "A large rectangle is divided into four smaller rectangles by one straight line across and one straight line down. Three of the areas are shown. What is the area of the fourth rectangle?",
+   "svg": "<svg viewBox='0 0 320 245' xmlns='http://www.w3.org/2000/svg' style='max-width:320px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='300.0' height='200.0' fill='none' stroke-width='3' /><line x1='130.0' y1='10.0' x2='130.0' y2='210.0' stroke-width='2' /><line x1='10.0' y1='85.0' x2='310.0' y2='85.0' stroke-width='2' /><text x='70.0' y='54.0' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>12 cm²</text><text x='220.0' y='54.0' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>18 cm²</text><text x='70.0' y='154.0' font-size='17' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>30 cm²</text><text x='220.0' y='154.0' font-size='22' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>?</text><text x='160.0' y='232.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Not drawn to scale</text></svg>",
+   "options": {
+    "A": "24 cm²",
+    "B": "36 cm²",
+    "C": "40 cm²",
+    "D": "45 cm²",
+    "E": "60 cm²"
+   },
+   "answer": "D",
+   "explanation": "The two top rectangles have the same height, so the right one is 18 ÷ 12 = 1.5 times as wide as the left one. The bottom rectangles have the same height too, so the bottom-right area is 1.5 × 30 = 45 cm². Another way: try sides. If the top row is 3 cm tall, the widths are 4 cm and 6 cm. Then the bottom row is 30 ÷ 4 = 7.5 cm tall, and 6 × 7.5 = 45.",
+   "distractors": {
+    "A": "doubled 12",
+    "B": "doubled 18",
+    "C": "guessed from the picture (not to scale)",
+    "E": "added the three areas"
+   }
+  },
+  {
+   "n": 27,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Which nets fold into a cube",
+   "stem": "Four of these nets fold to make a cube. Which one does NOT?",
+   "svg": "<svg viewBox='0 0 380 220' xmlns='http://www.w3.org/2000/svg' style='max-width:380px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='32.0' y='10.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='54.0' y='10.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='76.0' y='10.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='10.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='32.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><text x='54.0' y='74.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Net 1</text><rect x='130.0' y='10.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='152.0' y='10.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='152.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='174.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='174.0' y='54.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='196.0' y='54.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><text x='174.0' y='96.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Net 2</text><rect x='282.0' y='10.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='260.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='282.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='304.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='326.0' y='32.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='282.0' y='54.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><text x='304.0' y='96.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Net 3</text><rect x='10.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='32.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='54.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='54.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='76.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='98.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><text x='65.0' y='184.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Net 4</text><rect x='170.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='170.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='192.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='214.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='236.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><rect x='236.0' y='164.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.8' /><text x='214.0' y='206.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Net 5</text></svg>",
+   "options": {
+    "A": "Net 1",
+    "B": "Net 2",
+    "C": "Net 3",
+    "D": "Net 4",
+    "E": "Net 5"
+   },
+   "answer": "A",
+   "explanation": "In Net 1, the two squares under the left end of the row of four would fold onto the same face, and one face of the cube would be missing. Each of the other nets folds correctly (Net 3 is the classic cross, Net 2 is a staircase, Net 4 is two rows of three, Net 5 is a row of four with one square above and one below on opposite ends).",
+   "distractors": {
+    "C": "the cross shape always works",
+    "B": "staircase nets do fold into a cube",
+    "D": "two rows of three, offset by two squares, do fold",
+    "E": "one square above and one below a row of four always works"
+   }
+  },
+  {
+   "n": 28,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Rotating a shape a quarter-turn about a point",
+   "stem": "Triangle PQR is turned a quarter-turn (90°) clockwise around point C. What are the new coordinates of P?",
+   "svg": "<svg viewBox='0 0 320 320' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='272.0' x2='40.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='272.0' x2='292.0' y2='272.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='40.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>0</text><text x='28.0' y='276.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>0</text><line x1='76.0' y1='272.0' x2='76.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='236.0' x2='292.0' y2='236.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='76.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>1</text><text x='28.0' y='240.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>1</text><line x1='112.0' y1='272.0' x2='112.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='200.0' x2='292.0' y2='200.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='112.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>2</text><text x='28.0' y='204.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>2</text><line x1='148.0' y1='272.0' x2='148.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='164.0' x2='292.0' y2='164.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='148.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>3</text><text x='28.0' y='168.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>3</text><line x1='184.0' y1='272.0' x2='184.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='128.0' x2='292.0' y2='128.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='184.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>4</text><text x='28.0' y='132.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>4</text><line x1='220.0' y1='272.0' x2='220.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='92.0' x2='292.0' y2='92.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='220.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>5</text><text x='28.0' y='96.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>5</text><line x1='256.0' y1='272.0' x2='256.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='56.0' x2='292.0' y2='56.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='256.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>6</text><text x='28.0' y='60.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>6</text><line x1='292.0' y1='272.0' x2='292.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><line x1='40.0' y1='20.0' x2='292.0' y2='20.0' stroke-width='0.8' stroke-opacity='0.35'/><text x='292.0' y='292.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>7</text><text x='28.0' y='24.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>7</text><line x1='40.0' y1='272.0' x2='292.0' y2='272.0' stroke-width='2' /><line x1='40.0' y1='272.0' x2='40.0' y2='20.0' stroke-width='2' /><polygon points='148.0,128.0 220.0,128.0 148.0,56.0' fill='currentColor' fill-opacity='0.25' stroke-width='2.5' /><text x='134.0' y='146.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>P</text><text x='232.0' y='146.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Q</text><text x='134.0' y='50.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>R</text><circle cx='112.0' cy='200.0' r='6.0' fill='currentColor' fill-opacity='1' stroke-width='2'/><text x='98.0' y='218.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>C</text></svg>",
+   "options": {
+    "A": "(0, 3)",
+    "B": "(1, 4)",
+    "C": "(4, 1)",
+    "D": "(4, 3)",
+    "E": "(5, 2)"
+   },
+   "answer": "C",
+   "explanation": "From C(2, 2), P is 1 right and 2 up. A quarter-turn clockwise turns 'up' into 'right' and 'right' into 'down': the new point is 2 right and 1 down from C, which is (4, 1). Tip: trace the triangle and turn the paper.",
+   "distractors": {
+    "A": "turned anticlockwise",
+    "B": "reflected instead of turning",
+    "D": "just swapped the coordinates of P",
+    "E": "moved the shape instead of turning it"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "FRA",
+   "difficulty": 4,
+   "skill": "Difference of two fractions of the same whole",
+   "stem": "A jug is 3/4 full of water. After 600 mL is poured out, it is 1/3 full. How much water does the jug hold when it is full?",
+   "options": {
+    "A": "600 mL",
+    "B": "800 mL",
+    "C": "1000 mL",
+    "D": "1200 mL",
+    "E": "1440 mL"
+   },
+   "answer": "E",
+   "explanation": "The 600 mL is the difference between 3/4 and 1/3 of the jug. Use twelfths: 3/4 = 9/12 and 1/3 = 4/12, so 600 mL = 5/12. Then 1/12 = 120 mL, and the full jug is 12 × 120 = 1440 mL.",
+   "distractors": {
+    "A": "gave the amount poured out",
+    "B": "thought 600 mL is 3/4 of the jug",
+    "C": "guessed a round number",
+    "D": "thought 600 mL is half the jug"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "LOG",
+   "difficulty": 4,
+   "skill": "Ordering from several clues",
+   "stem": "Ari, Ben, Cy and Dan ran a race. There were no ties.\n• Ari did not come first.\n• Ben finished straight after Cy.\n• Dan finished after Ben but before Ari.\nWho came second?",
+   "options": {
+    "A": "Ben",
+    "B": "Ari",
+    "C": "Cy",
+    "D": "Dan",
+    "E": "It is impossible to tell"
+   },
+   "answer": "A",
+   "explanation": "Ben comes straight after Cy, and Dan is after Ben but before Ari. So the order must be Cy, Ben, Dan, Ari. This fits 'Ari did not come first' too. Ben is second.",
+   "distractors": {
+    "B": "mixed up before and after",
+    "C": "Cy is first, not second",
+    "D": "missed that Ben is straight after Cy",
+    "E": "didn't combine all three clues"
+   }
+  },
+  {
+   "n": 31,
+   "topic": "DAT",
+   "difficulty": 4,
+   "skill": "Using a mean (average) to find a missing score",
+   "stem": "Zara's first four test scores were 72, 80, 76 and 84. What must she score on her fifth test to have an average of exactly 80 across all five tests?",
+   "options": {
+    "A": "80",
+    "B": "82",
+    "C": "84",
+    "D": "86",
+    "E": "88"
+   },
+   "answer": "E",
+   "explanation": "For an average of 80 over 5 tests, the total must be 5 × 80 = 400. Her first four add to 312. She needs 400 − 312 = 88.",
+   "distractors": {
+    "A": "gave the target average",
+    "B": "guessed a little above 80",
+    "C": "repeated her best score",
+    "D": "arithmetic slip adding the four scores"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "FRA",
+   "difficulty": 4,
+   "skill": "\"For every 3 there are 5\": a change makes them equal",
+   "stem": "In a box there are 3 red counters for every 5 blue counters. When 6 more red counters are added, there are the same number of red and blue counters. How many blue counters are there?",
+   "options": {
+    "A": "6",
+    "B": "9",
+    "C": "10",
+    "D": "12",
+    "E": "15"
+   },
+   "answer": "E",
+   "explanation": "Each 'group' has 3 red and 5 blue, so blue is ahead by 2 per group. 6 extra red closes the gap, so there are 6 ÷ 2 = 3 groups. Blue = 3 × 5 = 15 (red was 9, now 15).",
+   "distractors": {
+    "A": "gave the number of extra red counters",
+    "B": "gave the number of red counters before",
+    "C": "used 5 × 2",
+    "D": "used 6 × 2"
+   }
+  },
+  {
+   "n": 33,
+   "topic": "TIM",
+   "difficulty": 4,
+   "skill": "Counting weeks and days across months",
+   "stem": "A school term starts on Monday 25 January and lasts exactly 10 weeks. It is not a leap year. On what date is the last Friday of the term?",
+   "options": {
+    "A": "Friday 26 March",
+    "B": "Friday 30 March",
+    "C": "Friday 2 April",
+    "D": "Monday 5 April",
+    "E": "Friday 9 April"
+   },
+   "answer": "C",
+   "explanation": "The first Friday is 29 January. The last Friday is 9 weeks (63 days) later. After 29 January there are 2 days left in January and 28 in February, so 63 − 2 − 28 = 33 days into March: that is all 31 days of March plus 2 days, Friday 2 April.",
+   "distractors": {
+    "A": "counted only 8 more weeks",
+    "B": "thought February has 31 days",
+    "D": "added 10 full weeks to the start date (that is the Monday after the term)",
+    "E": "counted 10 more weeks after the first Friday"
+   }
+  },
+  {
+   "n": 34,
+   "topic": "MDV",
+   "difficulty": 5,
+   "skill": "Factors: which numbers have exactly 3 factors",
+   "stem": "The number 9 has exactly three factors: 1, 3 and 9. How many whole numbers from 1 to 50 have exactly three factors?",
+   "options": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "7",
+    "E": "15"
+   },
+   "answer": "B",
+   "explanation": "Factors come in pairs, so a number has an odd number of factors only if it is a square number. Check the squares up to 50: 4 (1, 2, 4) ✓, 9 ✓, 16 (1, 2, 4, 8, 16) ✗, 25 ✓, 36 ✗, 49 (1, 7, 49) ✓. So 4, 9, 25 and 49: 4 numbers (squares of prime numbers).",
+   "distractors": {
+    "A": "missed 49",
+    "C": "included 1",
+    "D": "counted all the square numbers up to 50",
+    "E": "counted the prime numbers"
+   }
+  },
+  {
+   "n": 35,
+   "topic": "LOG",
+   "difficulty": 5,
+   "skill": "Two kinds of coins: count and total",
+   "stem": "Mia has only 20c and 50c coins. She has 14 coins worth $4.60 altogether. How many 50c coins does she have?",
+   "options": {
+    "A": "6",
+    "B": "8",
+    "C": "9",
+    "D": "10",
+    "E": "14"
+   },
+   "answer": "A",
+   "explanation": "If all 14 coins were 20c, she'd have $2.80. She has $1.80 more. Swapping a 20c coin for a 50c coin adds 30c, so she needs 180 ÷ 30 = 6 swaps: 6 fifty-cent coins (and 8 twenty-cent coins). Check: 6 × 50c + 8 × 20c = $3.00 + $1.60 = $4.60 ✓",
+   "distractors": {
+    "B": "gave the number of 20c coins",
+    "C": "divided $4.60 by 50c",
+    "D": "guessed",
+    "E": "thought all the coins were 50c"
+   }
+  }
+ ]
+}

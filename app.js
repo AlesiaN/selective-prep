@@ -3,7 +3,7 @@
 (() => {
   'use strict';
 
-  const LETTERS = ['A', 'B', 'C', 'D', 'E'];
+  const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
   const PROGRESS_KEY = 'selective-prep:in-progress'; // only the test being sat; cleared on submit
   const app = document.getElementById('app');
   const modal = document.getElementById('modal');
@@ -21,6 +21,10 @@
     timeUp: false,
     filter: 'wrong',
     timerId: null,
+    sections: [],
+    sectionIdx: 0,   // Maths / Reading
+    picks: {},       // chosen test per section
+    passageUI: { id: null, open: true, scroll: 0, tab: 'A' },
   };
 
   // ---------- helpers ----------
@@ -73,18 +77,33 @@
     app.innerHTML = `<h1>Selective Prep</h1><p class="muted">Loading tests…</p>`;
     try {
       const idx = await getJSON('tests/index.json');
-      state.tests = idx.tests || [];
+      // index.json: { sections: [{ id, label, rules: [...], tests: [...] }] }  (older files: { tests: [...] })
+      state.sections = idx.sections || [{ id: 'maths', label: 'Maths', tests: idx.tests || [] }];
+      state.tests = state.sections.flatMap((s) => s.tests);
+      try {
+        const si = Number(localStorage.getItem('selective-prep:section'));
+        if (si >= 0 && si < state.sections.length) state.sectionIdx = si;
+        const pk = JSON.parse(localStorage.getItem('selective-prep:picks') || '{}');
+        state.picks = pk && typeof pk === 'object' ? pk : {};
+      } catch (e) { /* ignore */ }
     } catch (e) {
       app.innerHTML = `<h1>Selective Prep</h1><div class="card"><p>Couldn't load the test list. Check your connection and try again.</p><button class="btn primary" id="retry">Try again</button></div>`;
       document.getElementById('retry').onclick = renderHome;
       return;
     }
+    const persist = () => {
+      try {
+        localStorage.setItem('selective-prep:section', String(state.sectionIdx));
+        localStorage.setItem('selective-prep:picks', JSON.stringify(state.picks));
+      } catch (e) { /* ignore */ }
+    };
     const saved = store.load();
     const savedMeta = saved && state.tests.find((t) => t.file === saved.file);
+    const savedSection = savedMeta && state.sections.find((sec) => sec.tests.includes(savedMeta));
     const resume = savedMeta ? `
       <div class="card">
         <h2 style="margin-top:0">Test in progress</h2>
-        <p>${esc(savedMeta.title)}: ${Object.keys(saved.answers || {}).length} answered, ${saved.endAt > Date.now() ? fmtClock(saved.endAt - Date.now()) + ' left' : 'time is up'}.</p>
+        <p>${esc(savedSection ? savedSection.label + ' ' : '')}${esc(savedMeta.label || savedMeta.title)}: ${Object.keys(saved.answers || {}).length} answered, ${saved.endAt > Date.now() ? fmtClock(saved.endAt - Date.now()) + ' left' : 'time is up'}.</p>
         <div class="row wrap">
           <button class="btn primary" id="resume">Continue</button>
           <button class="btn danger" id="discard">Discard</button>
@@ -95,38 +114,58 @@
       <h1>Selective Prep</h1>
       <p class="muted">Practice for the NSW Selective High School Placement Test.</p>
       ${resume}
-      <div class="card">
-        <h2 style="margin-top:0">How it works</h2>
-        <ul class="rules">
-          <li>35 questions in 40 minutes, like the real test.</li>
-          <li>No calculator. Have paper and a pencil ready.</li>
-          <li>There's no penalty for wrong answers, so answer every question.</li>
-          <li>Use <b>Flag</b> to mark questions you want to come back to.</li>
-          <li>At the end you'll see your score, your strong and weak topics, and an explanation for every question.</li>
-        </ul>
+      <div class="seg section-seg" role="radiogroup" aria-label="Choose a section">
+        ${state.sections.map((sec, i) => `<button class="seg-btn" role="radio" data-section="${i}" aria-checked="${i === state.sectionIdx}">${esc(sec.label)}</button>`).join('')}
       </div>
-      <h2>Tests</h2>
-      ${state.tests.map((t, i) => `
-        <div class="card test-item">
-          <h3>${esc(t.title)}</h3>
-          <p class="muted small">${t.questions} questions · ${t.minutes} minutes</p>
-          <button class="btn primary block" data-start="${i}">Start test</button>
-        </div>`).join('')}
+      <div class="card" id="rules"></div>
+      <h2>Choose a test</h2>
+      <div class="card">
+        <div class="seg" role="radiogroup" aria-label="Choose a test" id="test-seg"></div>
+        <div id="pick-info"></div>
+        <button class="btn primary block" id="start">Start</button>
+      </div>
       <p class="offline-note">Works offline once opened. Add it to your home screen to use it like an app.</p>`;
 
-    app.querySelectorAll('[data-start]').forEach((b) => {
-      b.onclick = () => {
-        const t = state.tests[Number(b.dataset.start)];
-        if (store.load()) {
-          openModal(`<h2 style="margin-top:0">Start a new test?</h2><p>This will discard the test in progress.</p>
-            <div class="row"><button class="btn" id="m-cancel">Cancel</button><button class="btn primary" id="m-ok">Start</button></div>`);
-          document.getElementById('m-cancel').onclick = closeModal;
-          document.getElementById('m-ok').onclick = () => { closeModal(); store.clear(); startTest(t.file); };
-        } else {
-          startTest(t.file);
-        }
-      };
+    const current = () => {
+      const sec = state.sections[state.sectionIdx];
+      const i = Math.min(state.picks[sec.id] || 0, sec.tests.length - 1);
+      return { sec, i, t: sec.tests[i] };
+    };
+    const showSection = () => {
+      const { sec, i, t } = current();
+      app.querySelectorAll('[data-section]').forEach((x) => x.setAttribute('aria-checked', String(Number(x.dataset.section) === state.sectionIdx)));
+      const rules = sec.rules || ['35 questions in 40 minutes, like the real test.', 'No calculator. Have paper and a pencil ready.'];
+      document.getElementById('rules').innerHTML = `<h2 style="margin-top:0">How it works</h2><ul class="rules">
+        ${rules.map((r) => `<li>${esc(r)}</li>`).join('')}
+        <li>There's no penalty for wrong answers, so answer every question.</li>
+        <li>Use <b>Flag</b> to mark questions you want to come back to.</li>
+        <li>At the end you'll see your score, your strong and weak areas, and an explanation for every question.</li></ul>`;
+      document.getElementById('test-seg').innerHTML = sec.tests.map((tt, k) =>
+        `<button class="seg-btn" role="radio" data-pick="${k}" aria-checked="${k === i}">${esc(tt.label || 'Test ' + (k + 1))}</button>`).join('');
+      document.getElementById('pick-info').innerHTML = t ? `<h3 style="margin:14px 0 2px">${esc(t.title)}</h3><p class="muted small" style="margin-top:0">${esc(t.questions)} ${t.answers ? 'answers' : 'questions'} · ${esc(t.minutes)} minutes${t.note ? ' · ' + esc(t.note) : ''}</p>` : '<p class="muted">No tests yet.</p>';
+      const start = document.getElementById('start');
+      start.textContent = t ? `Start ${sec.label} ${t.label || 'test'}` : 'Start';
+      start.disabled = !t;
+      app.querySelectorAll('[data-pick]').forEach((b) => {
+        b.onclick = () => { state.picks[sec.id] = Number(b.dataset.pick); persist(); showSection(); };
+      });
+    };
+    app.querySelectorAll('[data-section]').forEach((b) => {
+      b.onclick = () => { state.sectionIdx = Number(b.dataset.section); persist(); showSection(); };
     });
+    showSection();
+    document.getElementById('start').onclick = () => {
+      const { t } = current();
+      if (!t) return;
+      if (store.load()) {
+        openModal(`<h2 style="margin-top:0">Start a new test?</h2><p>This will discard the test in progress.</p>
+          <div class="row"><button class="btn" id="m-cancel">Cancel</button><button class="btn primary" id="m-ok">Start</button></div>`);
+        document.getElementById('m-cancel').onclick = closeModal;
+        document.getElementById('m-ok').onclick = () => { closeModal(); store.clear(); startTest(t.file); };
+      } else {
+        startTest(t.file);
+      }
+    };
     if (savedMeta) {
       document.getElementById('resume').onclick = () => startTest(saved.file, saved);
       document.getElementById('discard').onclick = () => { store.clear(); renderHome(); };
@@ -182,12 +221,83 @@
     if (left <= 0) submit(true);
   }
 
+
+  // ---------- reading passages ----------
+  function passageById(id) { return (state.test.passages || []).find((p) => p.id === id); }
+  function gapQuestions(p) { return state.test.questions.filter((x) => x.passage === p.id && x.gap != null); }
+  function renderPassageBody(p, current, answers, reveal) {
+    const gq = gapQuestions(p);
+    const gapHTML = (num, kind) => {
+      const qq = gq.find((x) => x.gap === num);
+      const a = qq && answers[qq.n];
+      const isCur = current && current.gap === num && current.passage === p.id;
+      let label;
+      if (kind === 'cloze') label = a ? esc(qq.options[a]) : '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+      else label = a ? a : '&nbsp;&nbsp;';
+      const cls = ['gap', isCur ? 'current' : '', reveal && qq ? (a === qq.answer ? 'ok' : 'bad') : ''].join(' ');
+      const fix = reveal && qq && a !== qq.answer ? ` <span class="gap-fix">${kind === 'cloze' ? esc(qq.options[qq.answer]) : qq.answer}</span>` : '';
+      return `<span class="${cls}" data-gapq="${qq ? qq.n : ''}"><span class="gap-num">${num}</span> ${label}</span>${fix}`;
+    };
+    if (p.kind === 'prose') {
+      return p.paragraphs.map((t, i) => `<p>${p.numbered ? `<span class="pnum">${i + 1}</span>` : ''}${esc(t)}</p>`).join('');
+    }
+    if (p.kind === 'poem') {
+      let n = 0;
+      return `<div class="poem">${p.stanzas.map((st) => `<div class="stanza">${st.map((l) => { n++; return `<div class="pline"><span class="lnum">${n % 5 === 0 || n === 1 ? n : ''}</span><span>${esc(l)}</span></div>`; }).join('')}</div>`).join('')}</div>`;
+    }
+    if (p.kind === 'cloze') {
+      return esc(p.text).split('\n\n').map((para) => `<p>${para.replace(/\{(\d+)\}/g, (_, d) => gapHTML(Number(d), 'cloze'))}</p>`).join('');
+    }
+    if (p.kind === 'gapped') {
+      const used = {};
+      gq.forEach((x) => { if (answers[x.n]) (used[answers[x.n]] = used[answers[x.n]] || []).push(x.gap); });
+      const body = p.paragraphs.map((t) => `<p>${esc(t).replace(/\[\[(\d+)\]\]/g, (_, d) => gapHTML(Number(d), 'gapped'))}</p>`).join('');
+      const bankHTML = Object.entries(p.bank).map(([k, v]) => `<li><b>${k}</b> ${esc(v)}${used[k] ? ` <span class="used">in gap ${used[k].join(', ')}</span>` : ''}</li>`).join('');
+      return `${body}<h4 class="bank-title">Sentences</h4><ul class="bank">${bankHTML}</ul>`;
+    }
+    if (p.kind === 'extracts') {
+      const tab = p.extracts[state.passageUI.tab] ? state.passageUI.tab : 'A';
+      const tabs = Object.keys(p.extracts).map((k) => `<button class="tab" data-tab="${k}" aria-pressed="${k === tab}">${k}</button>`).join('');
+      const e = p.extracts[tab];
+      return `<div class="tabs" role="group" aria-label="Extracts">${tabs}</div><h4 class="ext-title">Extract ${tab}: ${esc(e.title)}</h4><p>${esc(e.text)}</p>`;
+    }
+    return '';
+  }
+  function passagePanel(p, q) {
+    if (state.passageUI.id !== p.id) state.passageUI = { id: p.id, open: true, scroll: 0, tab: 'A' };
+    return `<div class="card passage">
+      <button class="passage-head" id="passage-toggle" aria-expanded="${state.passageUI.open}">
+        <span><b>${esc(p.title)}</b></span><span class="muted small">${state.passageUI.open ? 'Hide text' : 'Show text'}</span>
+      </button>
+      ${state.passageUI.open ? `<p class="muted small passage-intro">${esc(p.intro || '')}</p><div class="passage-body" id="passage-body">${renderPassageBody(p, q, state.answers, false)}</div>${p.credit ? `<p class="credit">${esc(p.credit)}</p>` : ''}` : ''}
+    </div>`;
+  }
+  function wirePassage(p) {
+    const body = document.getElementById('passage-body');
+    if (body) {
+      body.scrollTop = state.passageUI.scroll;
+      body.addEventListener('scroll', () => { state.passageUI.scroll = body.scrollTop; }, { passive: true });
+      body.querySelectorAll('[data-tab]').forEach((b) => { b.onclick = () => { state.passageUI.tab = b.dataset.tab; state.passageUI.scroll = 0; renderQuestion(); }; });
+      body.querySelectorAll('[data-gapq]').forEach((g) => {
+        const n = Number(g.dataset.gapq);
+        if (n) g.onclick = () => go(state.test.questions.findIndex((x) => x.n === n), true);
+      });
+      const cur = body.querySelector('.gap.current');
+      if (cur && state.passageUI.autoscroll) { cur.scrollIntoView({ block: 'center' }); state.passageUI.scroll = body.scrollTop; }
+      state.passageUI.autoscroll = false;
+    }
+    document.getElementById('passage-toggle').onclick = () => { state.passageUI.open = !state.passageUI.open; renderQuestion(); };
+  }
+
   function renderQuestion() {
     const qs = state.test.questions;
     const q = qs[state.current];
     const answered = Object.keys(state.answers).length;
     const chosen = state.answers[q.n];
     const isLast = state.current === qs.length - 1;
+    const p = q.passage ? passageById(q.passage) : null;
+    const usedIn = {};
+    if (p && p.kind === 'gapped') gapQuestions(p).forEach((x) => { if (x.n !== q.n && state.answers[x.n]) usedIn[state.answers[x.n]] = x.gap; });
 
     app.innerHTML = `
       <div class="topbar">
@@ -198,13 +308,14 @@
         </div>
         <div class="progress" aria-hidden="true"><span style="width:${(answered / qs.length) * 100}%"></span></div>
       </div>
+      ${p ? passagePanel(p, q) : ''}
       <div class="card">
         <div class="stem">${esc(q.stem)}</div>
         ${q.svg ? `<div class="figure">${q.svg}</div>` : ''}
-        <div class="opts" role="group" aria-label="Answer options">
-          ${LETTERS.filter((L) => q.options[L] !== undefined).map((L) => `
+        <div class="opts ${p && p.kind === 'extracts' ? 'opts-inline' : ''}" role="group" aria-label="Answer options">
+          ${Object.keys(q.options).map((L) => `
             <button class="opt" data-opt="${L}" aria-pressed="${chosen === L}">
-              <span class="letter">${L}</span><span>${esc(q.options[L])}</span>
+              <span class="letter">${L}</span><span>${p && p.kind === 'extracts' ? '' : esc(q.options[L])}${usedIn[L] ? ` <span class="used">used in gap ${usedIn[L]}</span>` : ''}</span>
             </button>`).join('')}
         </div>
       </div>
@@ -227,6 +338,7 @@
     const finish = document.getElementById('finish');
     if (finish) finish.onclick = confirmFinish;
     document.getElementById('open-nav').onclick = openNavigator;
+    if (p) wirePassage(p);
     tick();
   }
 
@@ -242,13 +354,16 @@
     store.save();
     renderQuestion();
   }
-  function go(i) {
+  function go(i, fromPassage) {
     const n = state.test.questions.length;
     if (i < 0 || i >= n) return;
+    const prev = state.test.questions[state.current];
     state.current = i;
+    const q = state.test.questions[i];
+    if (q.gap != null && !fromPassage) state.passageUI.autoscroll = true;
     store.save();
     renderQuestion();
-    window.scrollTo(0, 0);
+    if (!(prev && q.passage && prev.passage === q.passage)) window.scrollTo(0, 0);
   }
 
   function openNavigator() {
@@ -329,6 +444,11 @@
       blank: rows.filter((r) => r.status === 'blank').length,
       topics: Object.values(byTopic).sort((x, y) => x.right / x.total - y.right / y.total || y.total - x.total),
       bands: ['Easier (1–2)', 'Medium (3)', 'Harder (4–5)'].map((k) => byBand[k]).filter(Boolean),
+      skills: (() => {
+        const m = {};
+        rows.forEach((r) => { if (!r.q.skillGroup) return; const k = (m[r.q.skillGroup] = m[r.q.skillGroup] || { name: r.q.skillGroup, right: 0, total: 0 }); k.total++; if (r.status === 'right') k.right++; });
+        return Object.values(m).sort((x, y) => x.right / x.total - y.right / y.total);
+      })(),
     };
   }
 
@@ -358,7 +478,7 @@
         <div class="card"><b>${g.blank}</b><span class="muted small">not answered</span></div>
       </div>
 
-      <h2>By topic <span class="muted small">(weakest first)</span></h2>
+      <h2>${esc(state.test.groupLabel || 'By topic')} <span class="muted small">(weakest first)</span></h2>
       <div class="card">
         ${g.topics.map((t) => {
           const p = t.right / t.total;
@@ -367,6 +487,11 @@
             <span class="pct">${t.right}/${t.total}</span></div>`;
         }).join('')}
       </div>
+
+      ${g.skills.length ? `<h2>By skill <span class="muted small">(weakest first)</span></h2>
+      <div class="card">${g.skills.map((b) => { const p = b.right / b.total; return `<div class="topic-row"><span>${esc(b.name)}</span>
+            <span class="bar" aria-hidden="true"><span style="width:${p * 100}%;background:${barColor(p)}"></span></span>
+            <span class="pct">${b.right}/${b.total}</span></div>`; }).join('')}</div>` : ''}
 
       <h2>By difficulty</h2>
       <div class="card">
@@ -420,21 +545,42 @@
       const label = status === 'right' ? 'Correct' : status === 'wrong' ? 'Wrong' : 'Not answered';
       const mistake = status === 'wrong' && q.distractors && q.distractors[a];
       return `
-        <div class="card review ${status}">
+        <div class="card review ${status}" data-n="${q.n}">
           <div class="row between wrap">
             <b>Question ${q.n}</b>
             <span><span class="tag ${status}">${label}</span>${state.flags[q.n] ? ' <span class="tag blank">Flagged</span>' : ''}</span>
           </div>
           <p class="muted small" style="margin-top:2px">${esc(topicName(q.topic))}${q.skill ? ' · ' + esc(q.skill) : ''}</p>
+          ${q.passage ? reviewPassage(q) : ''}
           <div class="stem">${esc(q.stem)}</div>
           ${q.svg ? `<div class="figure">${q.svg}</div>` : ''}
-          ${status === 'wrong' ? `<p class="ans-line yours">Your answer: <b>${a}</b> ${esc(q.options[a])}</p>` : ''}
-          <p class="ans-line correct">Correct answer: <b>${q.answer}</b> ${esc(q.options[q.answer])}</p>
+          ${status === 'wrong' ? `<p class="ans-line yours">Your answer: <b>${a}</b> ${esc(optText(q, a))}</p>` : ''}
+          <p class="ans-line correct">Correct answer: <b>${q.answer}</b> ${esc(optText(q, q.answer))}</p>
           ${mistake ? `<div class="why mistake"><b>Likely mistake:</b> ${esc(mistake)}</div>` : ''}
           <div class="why"><b>How to solve it:</b> ${esc(q.explanation)}</div>
         </div>`;
     }).join('');
   }
+
+  function optText(q, L) {
+    const p = q.passage && passageById(q.passage);
+    if (p && p.kind === 'extracts') return '(' + p.extracts[L].title + ')';
+    return q.options[L];
+  }
+  function reviewPassage(q) {
+    const p = passageById(q.passage);
+    if (!p) return '';
+    return `<details class="review-passage"><summary>${esc(p.title)}: show the text</summary><div class="passage-body in-review">${renderPassageBody(p, q, state.answers, true)}</div></details>`;
+  }
+  document.addEventListener('click', (e) => {
+    // extract tabs inside review details
+    const b = e.target.closest('.in-review [data-tab]');
+    if (!b) return;
+    state.passageUI.tab = b.dataset.tab;
+    const det = b.closest('details');
+    const q = state.test.questions.find((x) => x.n === Number(det.closest('.review').dataset.n));
+    det.querySelector('.passage-body').innerHTML = renderPassageBody(passageById(q.passage), q, state.answers, true);
+  });
 
   async function shareSummary(g, pct, used) {
     const lines = [
@@ -468,8 +614,9 @@
     }
     if (e.altKey || e.ctrlKey || e.metaKey) return;
     const k = e.key.toUpperCase();
-    const idx = LETTERS.indexOf(k) >= 0 ? LETTERS.indexOf(k) : ['1', '2', '3', '4', '5'].indexOf(k);
-    if (idx >= 0) { choose(LETTERS[idx]); e.preventDefault(); }
+    const idx = LETTERS.indexOf(k) >= 0 ? LETTERS.indexOf(k) : ['1', '2', '3', '4', '5', '6', '7'].indexOf(k);
+    const q = state.test.questions[state.current];
+    if (idx >= 0 && q.options[LETTERS[idx]] !== undefined) { choose(LETTERS[idx]); e.preventDefault(); }
     else if (e.key === 'ArrowRight') go(state.current + 1);
     else if (e.key === 'ArrowLeft') go(state.current - 1);
   });

@@ -23,12 +23,13 @@ All paths are relative, so the app works in any repo name or subfolder.
 
 ## Add a new test
 
-1. Put the new file in `tests/`, e.g. `tests/selective-maths-test-02.json` (same format as test 01).
-2. Add an entry to `tests/index.json`:
+1. Put the new file in `tests/`, e.g. `tests/selective-maths-test-03.json` or `tests/selective-reading-test-02.json`.
+2. Add an entry to the right section's `tests` list in `tests/index.json`:
    ```json
-   { "file": "selective-maths-test-02.json", "title": "Mathematical Reasoning – Practice Test 2", "section": "Maths", "questions": 35, "minutes": 40 }
+   { "id": "test3", "label": "Test 3", "file": "selective-maths-test-03.json", "title": "Mathematical Reasoning – Practice Test 3", "note": "Short description shown under the chooser", "questions": 35, "minutes": 40 }
    ```
-3. Commit and push. Tests are fetched network-first, so the new test appears the next time the app is opened online.
+   (For reading tests, add `"answers": true` so the chooser says "38 answers".)
+3. Commit and push. It appears in the Maths / Reading → Test 1 / Test 2 / … chooser the next time the app is opened online.
 
 ## Update the app itself
 
@@ -58,6 +59,17 @@ If you change `app.js`, `styles.css` or `index.html`, bump `VERSION` in `sw.js` 
   ]
 }
 ```
+
+## Reading test format
+
+Reading tests add a `passages` list, and each question points to its passage with `"passage": "p1"`. Passage kinds:
+- `prose`: `paragraphs` (numbered if `numbered: true`)
+- `poem`: `stanzas` (arrays of lines; every 5th line is numbered)
+- `cloze`: `text` with gaps written `{1}` … `{8}`; each gap's question has `"gap": n`
+- `gapped`: `paragraphs` with gaps written `[[1]]` … `[[6]]`, plus a `bank` of sentences A–G; each gap's question has `"gap": n`
+- `extracts`: `extracts` {A–D: {title, text}}, shown as tabs
+
+Questions may carry `skillGroup`, and the results then add a "By skill" breakdown. `groupLabel` renames the "By topic" heading (e.g. "By part").
 
 ## Behaviour
 

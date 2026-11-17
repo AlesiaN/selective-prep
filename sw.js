@@ -1,6 +1,6 @@
 /* Service worker: keeps the app and tests available offline.
    Bump VERSION whenever you change app files so phones pick up the new version. */
-const VERSION = 'v1';
+const VERSION = 'v3';
 const CACHE = `selective-prep-${VERSION}`;
 const APP_SHELL = [
   './',
@@ -22,7 +22,8 @@ self.addEventListener('install', (event) => {
     try {
       const res = await fetch('./tests/index.json', { cache: 'no-cache' });
       const idx = await res.json();
-      await cache.addAll((idx.tests || []).map((t) => `./tests/${t.file}`));
+      const tests = idx.sections ? idx.sections.flatMap((sec) => sec.tests || []) : (idx.tests || []);
+      await cache.addAll(tests.map((t) => `./tests/${t.file}`));
     } catch (e) { /* offline during install: tests get cached on first use */ }
     self.skipWaiting();
   })());

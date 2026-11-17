@@ -1,11 +1,21 @@
 {
-  "tests": [
+  "sections": [
     {
-      "file": "selective-maths-test-01.json",
-      "title": "Mathematical Reasoning – Practice Test 1",
-      "section": "Maths",
-      "questions": 35,
-      "minutes": 40
+      "id": "maths",
+      "label": "Maths",
+      "rules": ["35 questions in 40 minutes, like the real test.", "No calculator. Have paper and a pencil ready."],
+      "tests": [
+        { "id": "test1", "label": "Test 1", "file": "selective-maths-test-01.json", "title": "Mathematical Reasoning – Practice Test 1", "note": "Mostly word problems", "questions": 35, "minutes": 40 },
+        { "id": "test2", "label": "Test 2", "file": "selective-maths-test-02.json", "title": "Mathematical Reasoning – Practice Test 2", "note": "21 questions with diagrams, graphs and tables", "questions": 35, "minutes": 40 }
+      ]
+    },
+    {
+      "id": "reading",
+      "label": "Reading",
+      "rules": ["38 answers in 45 minutes, in the same five parts as the real test.", "Each question shows its text above it. Tap \"Hide text\" to make room, and tap a gap in the text to jump to it.", "No dictionary."],
+      "tests": [
+        { "id": "reading1", "label": "Test 1", "file": "selective-reading-test-01.json", "title": "Reading – Practice Test 1", "note": "Story, cloze, poem, gapped article, four extracts", "questions": 38, "answers": true, "minutes": 45 }
+      ]
     }
   ]
 }

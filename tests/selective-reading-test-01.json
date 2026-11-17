@@ -1,0 +1,1020 @@
+{
+ "id": "shs-rd-01",
+ "title": "Selective Reading – Practice Test 1",
+ "section": "Reading",
+ "timeLimitMinutes": 45,
+ "groupLabel": "By part",
+ "topics": {
+  "FIC": "Part 1 – Fiction",
+  "CLZ": "Part 2 – Vocabulary cloze",
+  "POE": "Part 3 – Poetry",
+  "GAP": "Part 4 – Gapped text",
+  "MAT": "Part 5 – Multiple matching"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 1,
+   "kind": "prose",
+   "title": "The Crossing",
+   "intro": "Read the story extract below, then answer questions 1–8. Paragraphs are numbered.",
+   "credit": "Original story written for this practice test.",
+   "paragraphs": [
+    "The creek had been a polite thing that morning, a brown ribbon that slid under the planks of the crossing without so much as a murmur. By half past three it had changed its mind. Nell heard it before she saw it: a low, steady roar, like a crowd at the far end of a football ground that never stops cheering.",
+    "'It's only water,' said Sam, which was exactly what he said about spiders, thunderstorms and Mrs Pratt's dog. He was thirteen and had recently decided that nothing in the world deserved more than a shrug.",
+    "The planks of the crossing were still there, but only just. Water slid over them in a smooth, glassy sheet, and every so often a branch came spinning down from upstream and knocked against the posts with a hollow thud. On the far side, the track climbed through the paddock to the house. Nell could see the kitchen chimney, a thin grey thread of smoke. It looked very far away.",
+    "'We could go back to the Hendersons',' she said. 'Mum would ring.'",
+    "'The phone line's down. It's always down when it rains.' Sam hitched his school bag higher. 'We walk across. We hold the rail. Done.'",
+    "He made it sound like a sum on the board. Nell looked at the rail. It was a single length of fencing wire strung between the posts, and it sagged in the middle like a tired smile.",
+    "Sam went first. The water reached his ankles, then the tops of his socks. He kept talking the whole time – about the footy, about the new teacher's moustache, about anything at all – in a voice that was a little too loud. Nell followed with her eyes on the back of his neck. When she was halfway, a log the size of a cow rolled past just below the crossing, turning slowly, its roots clawing at the air.",
+    "She stopped. She could not have moved if the creek had asked her politely.",
+    "'Nell.' Sam had turned round. He held out his hand, and she took it, and that was when she noticed. His hand was shaking. Not a lot – not enough for anyone else to see – but she felt it, a small trembling, like a bird held too tightly.",
+    "Something shifted inside her. She had thought she was the only one who was afraid. Now she understood that Sam's chatter was a kind of rail too, something to hold on to. She squeezed his hand and stepped forward.",
+    "They reached the far bank together and sat down in the wet grass without a word. When they looked up, their father was standing at the top of the paddock with a coil of rope over his shoulder. He must have been running; his chest was heaving. He looked at the two of them for a long moment.",
+    "'Well,' he said at last. 'You'll be wanting your tea.'",
+    "It was the most he said all evening. But later, when Nell went past the verandah, she saw him sitting alone in the dark, still holding the rope in his lap."
+   ],
+   "numbered": true
+  },
+  {
+   "id": "p2",
+   "part": 2,
+   "kind": "cloze",
+   "title": "The Night Market",
+   "intro": "Read the text below. Choose the best word to fill each of the 8 gaps (questions 9–16).",
+   "credit": "Original text written for this practice test.",
+   "text": "On Friday evenings the empty car park behind the station {1} to life. By six o'clock the first stalls are open, and the air is {2} with the smell of grilled corn and spiced noodles. My grandmother has run the same dumpling stall for eleven years, and she {3} great pride in never having missed a single week. By eight o'clock there is rarely a dumpling {4}.\n\nLast winter, a storm {5} out the market's electricity, and the whole car park was {6} into darkness. Nobody panicked. Within minutes, dozens of phone torches had lit up the stalls, and everyone carried {7} cooking by their light. 'People don't come here just for the food,' my grandmother told me afterwards, {8} her hands on her apron. 'They come to feel part of something.'"
+  },
+  {
+   "id": "p3",
+   "part": 3,
+   "kind": "poem",
+   "title": "Trade-In",
+   "intro": "Read the poem below, then answer questions 17–22. Lines are numbered.",
+   "credit": "Original poem written for this practice test, in the conversational style of poets such as Bruce Dawe.",
+   "stanzas": [
+    [
+     "The man from the car yard walks around it twice,",
+     "kicks a tyre as if it owed him money,",
+     "and names a price that wouldn't buy a fridge.",
+     "Dad nods, says 'Fair enough', and doesn't argue,",
+     "which is how we know he's minding."
+    ],
+    [
+     "We stand on the nature strip like mourners",
+     "while the old wagon, dented, faded to the colour",
+     "of weak tea, waits with its door open for a stranger.",
+     "It carried us to the coast eleven summers –",
+     "sand in the seat belts, someone always car-sick,",
+     "the radio stuck forever on the cricket."
+    ],
+    [
+     "Then it's done. The keys go into another man's pocket.",
+     "Dad says the new one has air-conditioning",
+     "and power windows, and a smell like a hospital.",
+     "Driving away, none of us mentions the cricket.",
+     "Mum turns the radio on. Then off again."
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "part": 4,
+   "kind": "gapped",
+   "title": "The Bin Chicken's Big Move",
+   "intro": "Six sentences have been removed from the article. Choose the sentence (A–G) that best fits each gap (questions 23–28). There is one extra sentence you do not need.",
+   "credit": "Original article written for this practice test.",
+   "paragraphs": [
+    "Few birds divide Australians quite like the white ibis. To some, it is a scruffy pest that tips over rubbish bins and steals chips from picnic tables. [[1]] Both views have a point, and the story of how the ibis came to our cities is more interesting than its reputation suggests.",
+    "For most of history, white ibis lived far from people, in the wetlands and floodplains of inland Australia. There they waded through shallow water, using their long, curved bills to probe the mud for worms, insects and freshwater crayfish. [[2]] When the rivers flooded, colonies of thousands of birds would gather to breed.",
+    "Over the past fifty years, however, many of those wetlands have shrunk. Water has been taken for farms and towns, and long droughts have dried out breeding grounds. [[3]] Instead of starving, many ibis did something surprising: they moved to the coast.",
+    "Cities turned out to suit them remarkably well. Parks offer lawns full of grubs, and ponds offer places to roost. [[4]] It is a long way from crayfish, but to an ibis, food is food.",
+    "[[5]] People complain about the noise, the smell and the mess, and some councils have tried to move colonies on. Yet the white ibis is a native species and protected by law, so it cannot simply be removed.",
+    "Scientists point out that the ibis is not really the problem. Its arrival in our cities is a sign of trouble somewhere else. [[6]] Perhaps the next time an ibis raids a bin, we should remember that it is not a villain, but a refugee."
+   ],
+   "bank": {
+    "A": "Rubbish bins and outdoor cafés provide an endless supply of leftovers.",
+    "B": "To others, it is a clever survivor that has learned to live alongside us.",
+    "C": "Without water, there was nothing for the birds to eat and nowhere for them to nest.",
+    "D": "Not everyone is pleased to share their city with them, of course.",
+    "E": "When birds leave the inland wetlands, it tells us those wetlands are in poor health.",
+    "F": "Their bills are so sensitive that they can find food they cannot see.",
+    "G": "In ancient Egypt, a close relative of the white ibis was honoured as a sacred bird."
+   }
+  },
+  {
+   "id": "p5",
+   "part": 5,
+   "kind": "extracts",
+   "title": "First Attempts",
+   "intro": "Read the four extracts about learning something new. For questions 29–38, choose which extract (A, B, C or D) each statement matches. You can use each letter more than once.",
+   "credit": "Original texts written for this practice test. The book in extract C is invented.",
+   "extracts": {
+    "A": {
+     "title": "Never Too Old (a blog post)",
+     "text": "I bought my first skateboard last month, at the age of sixty-seven. The young man in the shop asked whether it was a present for a grandchild. I said yes, because it seemed simpler than the truth. My first ride lasted roughly two seconds and ended with me sitting on the footpath, staring at the sky and wondering what I had been thinking. My neighbour, who had watched the whole thing over her fence, asked if I needed an ambulance. I needed a cup of tea. Since then I have fallen off eleven more times – I keep count in a notebook – but last Tuesday I rode the full length of the driveway without stopping. My granddaughter filmed it. She says I look 'like a nervous flamingo', which I have decided to take as a compliment."
+    },
+    "B": {
+     "title": "Why Mistakes Matter (a magazine article)",
+     "text": "As a sports scientist, I spend a lot of time watching people learn new movements, from tennis serves to gymnastics routines. One pattern appears again and again: the learners who improve fastest are not the ones who make the fewest mistakes. They are the ones who pay attention to their mistakes. When a ball goes into the net, a good learner asks why, and adjusts. A poor learner simply tries again, harder. Researchers call this kind of focused, thoughtful effort 'deliberate practice'. It is tiring and often frustrating, which is why many people avoid it. But an hour of deliberate practice is usually worth far more than a whole afternoon of mindless repetition. My advice to parents is simple: praise the effort and the thinking, not just the result."
+    },
+    "C": {
+     "title": "Reviewed: The Quiet Violin by Hana Rees (a book review)",
+     "text": "Eleven-year-old Leila has never touched a musical instrument when a battered violin arrives in a donated box at the camp where her family waits for news of a new home. There is no teacher, no sheet music and nowhere to practise except a storeroom that smells of rice sacks. What follows could easily have been a sentimental story, but Rees is too skilful a writer for that. Leila's progress is painfully slow, and the novel does not pretend otherwise: for chapter after chapter, the violin squeals like an unhappy cat. What makes the book special is the way music slowly connects Leila to the people around her, especially an elderly neighbour who once played in an orchestra and has not spoken about it for years. Readers aged ten and up will find it moving, though some may wish the ending were less rushed."
+    },
+    "D": {
+     "title": "My First Night (a chef remembers)",
+     "text": "My first night in a professional kitchen, I burnt the rice, dropped a tray of bread rolls and cut my thumb. I was nineteen and convinced I would be sacked before dessert. At the end of the shift, the head chef – a tiny, terrifying woman called Mrs Okafor – called me over. I expected the worst. Instead, she handed me an onion and a knife and told me to chop it. I did, badly. She showed me how to hold the blade, then gave me another onion, and another, until there was a mountain of them on the bench. 'Tomorrow, you will chop fifty,' she said. 'Next week, you will not have to think about it.' She was right. Thirty years later, I run my own restaurant, and every new cook I hire begins with a bag of onions."
+    }
+   }
+  }
+ ],
+ "questions": [
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Figurative language: personification",
+   "difficulty": 2,
+   "stem": "In paragraph 1, the writer says the creek 'had changed its mind'. This suggests that the creek",
+   "options": {
+    "A": "had become dangerous during the day.",
+    "B": "was now flowing in the opposite direction.",
+    "C": "was quieter than it had been in the morning.",
+    "D": "had been flooded for several days."
+   },
+   "answer": "A",
+   "explanation": "The creek is described as if it were a person. In the morning it was 'polite' and quiet; by the afternoon it is roaring. 'Changed its mind' means its behaviour changed: it has become fast and dangerous.",
+   "distractors": {
+    "B": "took 'changed its mind' literally as changing direction",
+    "C": "reversed the change: it was quiet in the morning, loud now",
+    "D": "the text says it changed during that day, not over several days"
+   },
+   "n": 1
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Character from a detail",
+   "difficulty": 2,
+   "stem": "What does paragraph 2 suggest about Sam?",
+   "options": {
+    "A": "He is genuinely unafraid of the creek.",
+    "B": "He is careless about his sister's safety.",
+    "C": "He likes to seem calm and unimpressed by danger.",
+    "D": "He is often in trouble with Mrs Pratt."
+   },
+   "answer": "C",
+   "explanation": "Sam says the same thing about everything scary, and he has 'recently decided' that nothing deserves more than a shrug. That is a pose he has chosen, not how he really feels, as the rest of the story shows.",
+   "distractors": {
+    "A": "too literal: later his shaking hand shows he is afraid",
+    "B": "too harsh: he holds out his hand to help Nell",
+    "D": "Mrs Pratt's dog is only one example of what he shrugs at"
+   },
+   "n": 2
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a simile",
+   "difficulty": 3,
+   "stem": "The wire rail 'sagged in the middle like a tired smile' (paragraph 6). This description mainly suggests that",
+   "options": {
+    "A": "Nell finds the situation funny.",
+    "B": "the rail looks weak and unlikely to help much.",
+    "C": "the rail has been there for many years.",
+    "D": "Sam is pretending to be cheerful."
+   },
+   "answer": "B",
+   "explanation": "A sagging, tired smile looks droopy and weak. Nell has just been told to 'hold the rail', and this image shows she doesn't trust it to keep her safe.",
+   "distractors": {
+    "A": "a smile is mentioned, but the image is about weakness, not humour",
+    "C": "'tired' could suggest age, but the point is how little support it gives",
+    "D": "the simile describes the rail, not Sam"
+   },
+   "n": 3
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Implied feelings behind behaviour",
+   "difficulty": 3,
+   "stem": "Why does Sam keep talking 'in a voice that was a little too loud' (paragraph 7)?",
+   "options": {
+    "A": "He wants their father to hear them.",
+    "B": "The creek is so noisy that Nell cannot hear him.",
+    "C": "He is showing off to impress Nell.",
+    "D": "He is trying to cover up his own fear."
+   },
+   "answer": "D",
+   "explanation": "His talk is about 'anything at all', and it is 'a little too loud': he is filling the silence to stay calm. Paragraphs 9 and 10 confirm it: his hand is shaking, and his chatter is 'a kind of rail' for him.",
+   "distractors": {
+    "A": "nothing suggests he knows their father is nearby",
+    "B": "the creek is loud, but 'a little too loud' points to nerves",
+    "C": "he isn't boasting; he's talking about anything to distract himself"
+   },
+   "n": 4
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Meaning of a sentence; echo of earlier image",
+   "difficulty": 3,
+   "stem": "'She could not have moved if the creek had asked her politely.' (paragraph 8). This sentence",
+   "options": {
+    "A": "shows that Nell is frozen with fear.",
+    "B": "suggests the creek is becoming calmer.",
+    "C": "shows that Nell is being stubborn.",
+    "D": "echoes paragraph 1 to show that nothing has changed."
+   },
+   "answer": "A",
+   "explanation": "After the huge log rolls past, Nell stops and cannot move at all. The sentence echoes the 'polite' creek of paragraph 1, but as a contrast: the creek is anything but polite now, and Nell is paralysed with fear.",
+   "distractors": {
+    "B": "the log has just shown the creek is more dangerous",
+    "C": "she isn't refusing on purpose; she physically can't move",
+    "D": "it does echo paragraph 1, but to show how much has changed"
+   },
+   "n": 5
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Purpose and structure",
+   "skill": "Turning point: what causes a change",
+   "difficulty": 3,
+   "stem": "What makes Nell start moving forward again?",
+   "options": {
+    "A": "Sam orders her to keep walking.",
+    "B": "She sees her father waiting on the far bank.",
+    "C": "The log has passed and the danger is over.",
+    "D": "She realises Sam is scared too, so they can support each other."
+   },
+   "answer": "D",
+   "explanation": "Paragraph 10: 'She had thought she was the only one who was afraid.' Feeling Sam's shaking hand changes how she feels, and then she squeezes his hand and steps forward.",
+   "distractors": {
+    "A": "Sam only says her name and holds out his hand",
+    "B": "their father appears only after they reach the bank",
+    "C": "the creek is still dangerous; nothing says the danger is over"
+   },
+   "n": 6
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Interpreting a metaphor about a character",
+   "difficulty": 4,
+   "stem": "In paragraph 10, Nell understands that 'Sam's chatter was a kind of rail too'. This means that",
+   "options": {
+    "A": "Sam's talking was something that helped him stay steady.",
+    "B": "Sam's talking was as weak and useless as the wire rail.",
+    "C": "Sam talked to show Nell where to put her feet.",
+    "D": "Sam's chatter annoyed Nell as much as the crossing frightened her."
+   },
+   "answer": "A",
+   "explanation": "A rail is something you hold on to so you don't fall. Sam's chatter did the same job for his nerves: it kept him steady while he crossed.",
+   "distractors": {
+    "B": "picked up the weakness of the real rail, but the point is support",
+    "C": "he talked about the footy and the teacher, not the crossing",
+    "D": "nothing shows Nell was annoyed"
+   },
+   "n": 7
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Unstated feelings at the ending",
+   "difficulty": 4,
+   "stem": "What does the final paragraph suggest about the children's father?",
+   "options": {
+    "A": "He is angry that the children crossed the creek alone.",
+    "B": "He is disappointed that he did not need his rope.",
+    "C": "He was more frightened for them than he showed.",
+    "D": "He is too tired from running to talk to anyone."
+   },
+   "answer": "C",
+   "explanation": "At the creek he only says 'You'll be wanting your tea', which sounds calm. But later he sits alone in the dark, still holding the rope he had grabbed to rescue them. He is quietly shaken by how close they came to danger.",
+   "distractors": {
+    "A": "nothing he says or does shows anger",
+    "B": "he is holding the rope because of the fright, not disappointment",
+    "D": "it is late in the evening, long after the running"
+   },
+   "n": 8
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 1: choose the best word.",
+   "options": {
+    "A": "brings",
+    "B": "goes",
+    "C": "comes",
+    "D": "gets"
+   },
+   "answer": "C",
+   "explanation": "'Come to life' is a fixed phrase meaning to become busy and lively.",
+   "distractors": {
+    "A": "'bring to life' needs an object (bring something to life)",
+    "B": "'go to life' isn't an English phrase",
+    "D": "'get to life' isn't an English phrase"
+   },
+   "gap": 1,
+   "n": 9
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 2: choose the best word.",
+   "options": {
+    "A": "thick",
+    "B": "deep",
+    "C": "crowded",
+    "D": "tall"
+   },
+   "answer": "A",
+   "explanation": "We say the air is 'thick with' a smell or smoke when it is full of it.",
+   "distractors": {
+    "B": "water can be deep, air isn't 'deep with' a smell",
+    "C": "a place is crowded with people, not air with a smell",
+    "D": "'tall' describes height, not how full the air is"
+   },
+   "gap": 2,
+   "n": 10
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 3: choose the best word.",
+   "options": {
+    "A": "makes",
+    "B": "takes",
+    "C": "gives",
+    "D": "holds"
+   },
+   "answer": "B",
+   "explanation": "The collocation is 'take pride in' something.",
+   "distractors": {
+    "A": "you make an effort, not 'make pride'",
+    "C": "'give pride' isn't used this way",
+    "D": "'hold pride' isn't a natural phrase"
+   },
+   "gap": 3,
+   "n": 11
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 4: choose the best word.",
+   "options": {
+    "A": "gone",
+    "B": "saved",
+    "C": "kept",
+    "D": "left"
+   },
+   "answer": "D",
+   "explanation": "'There is rarely a dumpling left' means they have nearly all been sold.",
+   "distractors": {
+    "A": "'rarely a dumpling gone' says the opposite of what is meant",
+    "B": "nobody is saving dumplings; they're being sold",
+    "C": "'kept' changes the meaning to someone holding them back"
+   },
+   "gap": 4,
+   "n": 12
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 5: choose the best word.",
+   "options": {
+    "A": "hit",
+    "B": "knocked",
+    "C": "beat",
+    "D": "struck"
+   },
+   "answer": "B",
+   "explanation": "'Knock out' the electricity means to cut it off suddenly.",
+   "distractors": {
+    "A": "'hit out' means to attack with words",
+    "C": "'beat out' means to win against someone",
+    "D": "'struck out' means to fail, or to cross out"
+   },
+   "gap": 5,
+   "n": 13
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 6: choose the best word.",
+   "options": {
+    "A": "dived",
+    "B": "dropped",
+    "C": "plunged",
+    "D": "sunk"
+   },
+   "answer": "C",
+   "explanation": "'Plunged into darkness' is the usual phrase for lights suddenly going out.",
+   "distractors": {
+    "A": "people dive; places aren't 'dived into darkness'",
+    "B": "'dropped into darkness' isn't a natural phrase",
+    "D": "'was sunk into darkness' isn't used; ships sink"
+   },
+   "gap": 6,
+   "n": 14
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 7: choose the best word.",
+   "options": {
+    "A": "on",
+    "B": "out",
+    "C": "over",
+    "D": "through"
+   },
+   "answer": "A",
+   "explanation": "'Carry on' means continue: they kept cooking.",
+   "distractors": {
+    "B": "'carry out' means to do a task, like an experiment",
+    "C": "'carry over' means to move to a later time",
+    "D": "'carry through' means to complete a plan"
+   },
+   "gap": 7,
+   "n": 15
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 8: choose the best word.",
+   "options": {
+    "A": "sweeping",
+    "B": "polishing",
+    "C": "washing",
+    "D": "wiping"
+   },
+   "answer": "D",
+   "explanation": "You wipe your hands on an apron to dry or clean them.",
+   "distractors": {
+    "A": "you sweep a floor, not your hands",
+    "B": "you polish shoes or silver, not hands",
+    "C": "you can't wash your hands on an apron"
+   },
+   "gap": 8,
+   "n": 16
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a simile in a poem",
+   "difficulty": 2,
+   "stem": "In line 2, the man 'kicks a tyre as if it owed him money'. This suggests that he",
+   "options": {
+    "A": "is angry with the family.",
+    "B": "thinks the tyres are in good condition.",
+    "C": "is owed money by Dad.",
+    "D": "treats the car with no respect at all."
+   },
+   "answer": "D",
+   "explanation": "Kicking something as if it owed you money is rough and rude. To him the old car is just a thing to get cheaply. That contrasts with how the family feels about it.",
+   "distractors": {
+    "A": "his rudeness is towards the car, not the people",
+    "B": "kicking a tyre is a check, but the 'owed him money' image shows contempt",
+    "C": "took the image literally"
+   },
+   "n": 17
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Implied feeling behind a calm reply",
+   "difficulty": 3,
+   "stem": "What do lines 4–5 suggest about Dad?",
+   "options": {
+    "A": "He is pleased with the price.",
+    "B": "He is hiding how sad he feels about selling the car.",
+    "C": "He trusts the man from the car yard.",
+    "D": "He wants the sale over quickly so he can buy a new car."
+   },
+   "answer": "B",
+   "explanation": "Dad accepts a terrible price without arguing, and the family knows this means 'he's minding' (he cares, and is upset). Being too quiet gives his feelings away.",
+   "distractors": {
+    "A": "the price 'wouldn't buy a fridge', so he can't be pleased",
+    "C": "not arguing comes from sadness, not trust",
+    "D": "nothing shows he is in a hurry"
+   },
+   "n": 18
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a comparison",
+   "difficulty": 3,
+   "stem": "The family stands on the nature strip 'like mourners' (line 6). This suggests that they",
+   "options": {
+    "A": "feel as though they are saying goodbye to someone they loved.",
+    "B": "are dressed in dark clothes.",
+    "C": "are worried that the car will be damaged.",
+    "D": "are waiting impatiently for the stranger to leave."
+   },
+   "answer": "A",
+   "explanation": "Mourners are people at a funeral. Comparing the family to mourners shows that losing the car feels like losing a member of the family.",
+   "distractors": {
+    "B": "took the comparison literally (what mourners wear)",
+    "C": "the car is being sold, not damaged",
+    "D": "mourners are sad, not impatient"
+   },
+   "n": 19
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Purpose and structure",
+   "skill": "Why the poet includes particular details",
+   "difficulty": 4,
+   "stem": "Why does the poet include details like 'sand in the seat belts' and 'someone always car-sick' (line 10)?",
+   "options": {
+    "A": "to show that the car was badly looked after",
+    "B": "to explain why the family wants a new car",
+    "C": "to suggest that the family did not enjoy their holidays",
+    "D": "to show that even ordinary, imperfect moments are part of happy memories"
+   },
+   "answer": "D",
+   "explanation": "These are small, messy details of eleven summer trips. They are not complaints: they are the memories that make the car precious, which is why selling it hurts.",
+   "distractors": {
+    "A": "sand and car-sickness come from trips, not neglect",
+    "B": "the poem doesn't give reasons for buying a new car",
+    "C": "the memories are fond ones, which is why the family is sad"
+   },
+   "n": 20
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Contrast between old and new",
+   "difficulty": 4,
+   "stem": "The new car has 'a smell like a hospital' (line 14). This suggests that the new car",
+   "options": {
+    "A": "is unsafe to drive.",
+    "B": "is clean but feels cold and unfamiliar.",
+    "C": "is more comfortable than the old wagon.",
+    "D": "belongs to a doctor."
+   },
+   "answer": "B",
+   "explanation": "Hospitals are very clean but not homely. The image contrasts the shiny new car with the old wagon full of family memories.",
+   "distractors": {
+    "A": "the smell suggests cleanliness, not danger",
+    "C": "it may have air-conditioning, but this image is about how it feels to them",
+    "D": "took the comparison literally"
+   },
+   "n": 21
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Meaning of the final line",
+   "difficulty": 5,
+   "stem": "What does the final line, 'Mum turns the radio on. Then off again.', suggest?",
+   "options": {
+    "A": "The radio in the new car is broken.",
+    "B": "Mum does not like the music on the station.",
+    "C": "The radio reminds the family of what they have lost.",
+    "D": "Mum wants the family to talk about the trip."
+   },
+   "answer": "C",
+   "explanation": "The old car's radio was 'stuck forever on the cricket'. Nobody mentions the cricket now, and Mum switches the radio off again because it brings back the old car and the summers they shared in it.",
+   "distractors": {
+    "A": "nothing suggests it is broken; she chooses to turn it off",
+    "B": "the poem never mentions music",
+    "D": "turning the radio off creates silence, not conversation"
+   },
+   "n": 22
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "Rubbish bins and outdoor cafés provide an endless supply of leftovers.",
+    "B": "To others, it is a clever survivor that has learned to live alongside us.",
+    "C": "Without water, there was nothing for the birds to eat and nowhere for them to nest.",
+    "D": "Not everyone is pleased to share their city with them, of course.",
+    "E": "When birds leave the inland wetlands, it tells us those wetlands are in poor health.",
+    "F": "Their bills are so sensitive that they can find food they cannot see.",
+    "G": "In ancient Egypt, a close relative of the white ibis was honoured as a sacred bird."
+   },
+   "answer": "B",
+   "explanation": "The paragraph sets up two opinions: 'To some, it is a scruffy pest…', then 'Both views have a point'. The gap must give the second view, which starts 'To others…'.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 1",
+    "C": "doesn't link to the sentences around gap 1",
+    "D": "doesn't link to the sentences around gap 1",
+    "E": "doesn't link to the sentences around gap 1",
+    "F": "doesn't link to the sentences around gap 1",
+    "G": "the extra sentence: interesting, but it doesn't link to the text around any gap"
+   },
+   "gap": 1,
+   "n": 23
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "Rubbish bins and outdoor cafés provide an endless supply of leftovers.",
+    "B": "To others, it is a clever survivor that has learned to live alongside us.",
+    "C": "Without water, there was nothing for the birds to eat and nowhere for them to nest.",
+    "D": "Not everyone is pleased to share their city with them, of course.",
+    "E": "When birds leave the inland wetlands, it tells us those wetlands are in poor health.",
+    "F": "Their bills are so sensitive that they can find food they cannot see.",
+    "G": "In ancient Egypt, a close relative of the white ibis was honoured as a sacred bird."
+   },
+   "answer": "F",
+   "explanation": "The sentence before describes the birds using their bills to probe the mud. 'Their bills' picks this up and explains how they find food hidden in mud.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 2",
+    "B": "doesn't link to the sentences around gap 2",
+    "C": "doesn't link to the sentences around gap 2",
+    "D": "doesn't link to the sentences around gap 2",
+    "E": "doesn't link to the sentences around gap 2",
+    "G": "the extra sentence: interesting, but it doesn't link to the text around any gap"
+   },
+   "gap": 2,
+   "n": 24
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "Rubbish bins and outdoor cafés provide an endless supply of leftovers.",
+    "B": "To others, it is a clever survivor that has learned to live alongside us.",
+    "C": "Without water, there was nothing for the birds to eat and nowhere for them to nest.",
+    "D": "Not everyone is pleased to share their city with them, of course.",
+    "E": "When birds leave the inland wetlands, it tells us those wetlands are in poor health.",
+    "F": "Their bills are so sensitive that they can find food they cannot see.",
+    "G": "In ancient Egypt, a close relative of the white ibis was honoured as a sacred bird."
+   },
+   "answer": "C",
+   "explanation": "Droughts dried out breeding grounds, and the next sentence begins 'Instead of starving…'. The gap must explain why the birds faced starving: no water, no food, nowhere to nest.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 3",
+    "B": "doesn't link to the sentences around gap 3",
+    "D": "doesn't link to the sentences around gap 3",
+    "E": "doesn't link to the sentences around gap 3",
+    "F": "doesn't link to the sentences around gap 3",
+    "G": "the extra sentence: interesting, but it doesn't link to the text around any gap"
+   },
+   "gap": 3,
+   "n": 25
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "Rubbish bins and outdoor cafés provide an endless supply of leftovers.",
+    "B": "To others, it is a clever survivor that has learned to live alongside us.",
+    "C": "Without water, there was nothing for the birds to eat and nowhere for them to nest.",
+    "D": "Not everyone is pleased to share their city with them, of course.",
+    "E": "When birds leave the inland wetlands, it tells us those wetlands are in poor health.",
+    "F": "Their bills are so sensitive that they can find food they cannot see.",
+    "G": "In ancient Egypt, a close relative of the white ibis was honoured as a sacred bird."
+   },
+   "answer": "A",
+   "explanation": "After 'it is a long way from crayfish, but … food is food', the gap must mention a new kind of city food: leftovers from bins and cafés.",
+   "distractors": {
+    "B": "doesn't link to the sentences around gap 4",
+    "C": "doesn't link to the sentences around gap 4",
+    "D": "doesn't link to the sentences around gap 4",
+    "E": "doesn't link to the sentences around gap 4",
+    "F": "doesn't link to the sentences around gap 4",
+    "G": "the extra sentence: interesting, but it doesn't link to the text around any gap"
+   },
+   "gap": 4,
+   "n": 26
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 4,
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "Rubbish bins and outdoor cafés provide an endless supply of leftovers.",
+    "B": "To others, it is a clever survivor that has learned to live alongside us.",
+    "C": "Without water, there was nothing for the birds to eat and nowhere for them to nest.",
+    "D": "Not everyone is pleased to share their city with them, of course.",
+    "E": "When birds leave the inland wetlands, it tells us those wetlands are in poor health.",
+    "F": "Their bills are so sensitive that they can find food they cannot see.",
+    "G": "In ancient Egypt, a close relative of the white ibis was honoured as a sacred bird."
+   },
+   "answer": "D",
+   "explanation": "The paragraph goes on to complaints about noise and mess. 'Not everyone is pleased…' introduces that, with 'of course' linking back to the birds' success in cities.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 5",
+    "B": "doesn't link to the sentences around gap 5",
+    "C": "doesn't link to the sentences around gap 5",
+    "E": "doesn't link to the sentences around gap 5",
+    "F": "doesn't link to the sentences around gap 5",
+    "G": "the extra sentence: interesting, but it doesn't link to the text around any gap"
+   },
+   "gap": 5,
+   "n": 27
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 4,
+   "stem": "Which sentence best fits gap 6?",
+   "options": {
+    "A": "Rubbish bins and outdoor cafés provide an endless supply of leftovers.",
+    "B": "To others, it is a clever survivor that has learned to live alongside us.",
+    "C": "Without water, there was nothing for the birds to eat and nowhere for them to nest.",
+    "D": "Not everyone is pleased to share their city with them, of course.",
+    "E": "When birds leave the inland wetlands, it tells us those wetlands are in poor health.",
+    "F": "Their bills are so sensitive that they can find food they cannot see.",
+    "G": "In ancient Egypt, a close relative of the white ibis was honoured as a sacred bird."
+   },
+   "answer": "E",
+   "explanation": "'A sign of trouble somewhere else' needs explaining: the ibis leaving the inland shows that the wetlands are unhealthy, which is why it is called a refugee.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 6",
+    "B": "doesn't link to the sentences around gap 6",
+    "C": "doesn't link to the sentences around gap 6",
+    "D": "doesn't link to the sentences around gap 6",
+    "F": "doesn't link to the sentences around gap 6",
+    "G": "the extra sentence: interesting, but it doesn't link to the text around any gap"
+   },
+   "gap": 6,
+   "n": 28
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which extract describes someone who wrongly assumed something about the writer?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "The shop assistant assumed the skateboard was a present for a grandchild; it was for the writer herself.",
+   "distractors": {
+    "B": "no one makes assumptions about this writer",
+    "C": "a review doesn't describe the reviewer",
+    "D": "the writer expected the worst, but no one assumed anything about him"
+   },
+   "n": 29
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer gives advice directly to adults who look after children?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "B",
+   "explanation": "'My advice to parents is simple: praise the effort and the thinking…'",
+   "distractors": {
+    "A": "the grandmother gives no advice",
+    "C": "recommends the book to readers aged ten and up, not advice to adults",
+    "D": "the advice is to new cooks, inside the story"
+   },
+   "n": 30
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer recommends something to a particular age group, while pointing out one flaw?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "The reviewer says 'Readers aged ten and up will find it moving', then adds the flaw: 'some may wish the ending were less rushed'.",
+   "distractors": {
+    "A": "recommends nothing to any age group",
+    "B": "advises parents, but doesn't point out a flaw in what she recommends; tiring is part of how it works",
+    "D": "admires Mrs Okafor's method without any criticism"
+   },
+   "n": 31
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "In which extract does a simple instruction become the start of a long-lasting habit?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "D",
+   "explanation": "Mrs Okafor's onion-chopping lesson is still how the writer starts every new cook, thirty years later.",
+   "distractors": {
+    "A": "no one gives the grandmother instructions",
+    "B": "gives advice, but no story of a habit starting",
+    "C": "Leila has no teacher"
+   },
+   "n": 32
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer keeps a written record of their failures?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "'I have fallen off eleven more times – I keep count in a notebook.'",
+   "distractors": {
+    "B": "studies other people's mistakes, not a record of their own",
+    "C": "the review records nobody's failures",
+    "D": "he lists his first-night mistakes but doesn't keep a record"
+   },
+   "n": 33
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "In which extract is learning shown to bring people closer together?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "'Music slowly connects Leila to the people around her', especially the elderly neighbour.",
+   "distractors": {
+    "A": "the granddaughter films her, but the extract is about her own progress",
+    "B": "is about how individuals learn",
+    "D": "is about the cook's skill; closeness to Mrs Okafor isn't the point"
+   },
+   "n": 34
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which writer argues that the way you practise matters more than how long you practise?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "B",
+   "explanation": "'An hour of deliberate practice is usually worth far more than a whole afternoon of mindless repetition.'",
+   "distractors": {
+    "A": "doesn't discuss ways of practising",
+    "C": "Leila's slow progress isn't an argument about practice",
+    "D": "the onion story praises repetition, the opposite of B's point"
+   },
+   "n": 35
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer turns an unkind comment into something positive?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "Being told she looks 'like a nervous flamingo', she decides 'to take it as a compliment'.",
+   "distractors": {
+    "B": "no unkind comment",
+    "C": "the reviewer makes the critical comment rather than receiving one",
+    "D": "Mrs Okafor is terrifying, but she says nothing unkind"
+   },
+   "n": 36
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer expected to be punished but was not?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "D",
+   "explanation": "He was 'convinced I would be sacked' and 'expected the worst', but Mrs Okafor taught him instead.",
+   "distractors": {
+    "A": "she expected to fall, not to be punished",
+    "B": "no one expects punishment",
+    "C": "the review describes no one expecting punishment"
+   },
+   "n": 37
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "In which extract is an animal comparison used to show how bad something sounds?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "'The violin squeals like an unhappy cat.'",
+   "distractors": {
+    "A": "the flamingo comparison describes how she looks, not a sound",
+    "B": "no animal comparison",
+    "D": "no animal comparison"
+   },
+   "n": 38
+  }
+ ]
+}
