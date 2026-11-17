@@ -45,6 +45,9 @@
         localStorage.setItem(PROGRESS_KEY, JSON.stringify({
           file: state.file, answers: state.answers, flags: state.flags,
           current: state.current, startedAt: state.startedAt, endAt: state.endAt,
+          prompt: state.writing ? state.writing.prompt.id : undefined,
+          text: state.writing ? state.writing.text : undefined,
+          plan: state.writing ? state.writing.plan : undefined,
         }));
       } catch (e) { /* storage may be unavailable (private mode) – the test still works */ }
     },
@@ -98,12 +101,12 @@
       } catch (e) { /* ignore */ }
     };
     const saved = store.load();
-    const savedMeta = saved && state.tests.find((t) => t.file === saved.file);
+    const savedMeta = saved && state.tests.find((t) => t.file === saved.file && (t.prompt || null) === (saved.prompt || null));
     const savedSection = savedMeta && state.sections.find((sec) => sec.tests.includes(savedMeta));
     const resume = savedMeta ? `
       <div class="card">
         <h2 style="margin-top:0">Test in progress</h2>
-        <p>${esc(savedSection ? savedSection.label + ' ' : '')}${esc(savedMeta.label || savedMeta.title)}: ${Object.keys(saved.answers || {}).length} answered, ${saved.endAt > Date.now() ? fmtClock(saved.endAt - Date.now()) + ' left' : 'time is up'}.</p>
+        <p>${esc(savedSection ? savedSection.label + ' ' : '')}${esc(savedMeta.label || savedMeta.title)}: ${saved.prompt ? (saved.text || '').trim().split(/\s+/).filter(Boolean).length + ' words written' : Object.keys(saved.answers || {}).length + ' answered'}, ${saved.endAt > Date.now() ? fmtClock(saved.endAt - Date.now()) + ' left' : 'time is up'}.</p>
         <div class="row wrap">
           <button class="btn primary" id="resume">Continue</button>
           <button class="btn danger" id="discard">Discard</button>
@@ -137,14 +140,14 @@
       const rules = sec.rules || ['35 questions in 40 minutes, like the real test.', 'No calculator. Have paper and a pencil ready.'];
       document.getElementById('rules').innerHTML = `<h2 style="margin-top:0">How it works</h2><ul class="rules">
         ${rules.map((r) => `<li>${esc(r)}</li>`).join('')}
-        <li>There's no penalty for wrong answers, so answer every question.</li>
+        ${sec.id === 'writing' ? '' : `<li>There's no penalty for wrong answers, so answer every question.</li>
         <li>Use <b>Flag</b> to mark questions you want to come back to.</li>
-        <li>At the end you'll see your score, your strong and weak areas, and an explanation for every question.</li></ul>`;
+        <li>At the end you'll see your score, your strong and weak areas, and an explanation for every question.</li>`}</ul>`;
       document.getElementById('test-seg').innerHTML = sec.tests.map((tt, k) =>
         `<button class="seg-btn" role="radio" data-pick="${k}" aria-checked="${k === i}">${esc(tt.label || 'Test ' + (k + 1))}</button>`).join('');
-      document.getElementById('pick-info').innerHTML = t ? `<h3 style="margin:14px 0 2px">${esc(t.title)}</h3><p class="muted small" style="margin-top:0">${esc(t.questions)} ${t.answers ? 'answers' : 'questions'} · ${esc(t.minutes)} minutes${t.note ? ' · ' + esc(t.note) : ''}</p>` : '<p class="muted">No tests yet.</p>';
+      document.getElementById('pick-info').innerHTML = t ? `<h3 style="margin:14px 0 2px">${esc(t.title)}</h3><p class="muted small" style="margin-top:0">${t.prompt ? esc(t.form || 'Writing') + ' · 1 task' : esc(t.questions) + ' ' + (t.answers ? 'answers' : 'questions')} · ${esc(t.minutes)} minutes${t.note ? ' · ' + esc(t.note) : ''}</p>` : '<p class="muted">No tests yet.</p>';
       const start = document.getElementById('start');
-      start.textContent = t ? `Start ${sec.label} ${t.label || 'test'}` : 'Start';
+      start.textContent = t ? (t.prompt ? `Start writing: ${t.label}` : `Start ${sec.label} ${t.label || 'test'}`) : 'Start';
       start.disabled = !t;
       app.querySelectorAll('[data-pick]').forEach((b) => {
         b.onclick = () => { state.picks[sec.id] = Number(b.dataset.pick); persist(); showSection(); };
@@ -161,19 +164,19 @@
         openModal(`<h2 style="margin-top:0">Start a new test?</h2><p>This will discard the test in progress.</p>
           <div class="row"><button class="btn" id="m-cancel">Cancel</button><button class="btn primary" id="m-ok">Start</button></div>`);
         document.getElementById('m-cancel').onclick = closeModal;
-        document.getElementById('m-ok').onclick = () => { closeModal(); store.clear(); startTest(t.file); };
+        document.getElementById('m-ok').onclick = () => { closeModal(); store.clear(); startTest(t.file, null, t.prompt); };
       } else {
-        startTest(t.file);
+        startTest(t.file, null, t.prompt);
       }
     };
     if (savedMeta) {
-      document.getElementById('resume').onclick = () => startTest(saved.file, saved);
+      document.getElementById('resume').onclick = () => startTest(saved.file, saved, saved.prompt);
       document.getElementById('discard').onclick = () => { store.clear(); renderHome(); };
     }
   }
 
   // ---------- test ----------
-  async function startTest(file, saved) {
+  async function startTest(file, saved, promptId) {
     app.innerHTML = `<p class="muted">Loading…</p>`;
     let test;
     try { test = await getJSON('tests/' + file); } catch (e) {
@@ -184,6 +187,19 @@
     state.test = test;
     state.file = file;
     state.submittedAt = 0;
+    state.writing = null;
+    if (test.kind === 'writing') {
+      const prompt = test.prompts.find((p) => p.id === promptId) || test.prompts[0];
+      state.writing = { prompt, text: (saved && saved.text) || '', plan: (saved && saved.plan) || '' };
+      state.answers = {}; state.flags = {}; state.current = 0;
+      state.startedAt = saved ? saved.startedAt : Date.now();
+      state.endAt = saved ? saved.endAt : state.startedAt + (test.timeLimitMinutes || 30) * 60 * 1000;
+      store.save();
+      if (Date.now() >= state.endAt) { finishWriting(true); return; }
+      renderWriting();
+      startTimer();
+      return;
+    }
     state.timeUp = false;
     state.filter = 'wrong';
     if (saved) {
@@ -218,7 +234,7 @@
       el.textContent = fmtClock(left);
       el.classList.toggle('low', left <= 5 * 60 * 1000);
     }
-    if (left <= 0) submit(true);
+    if (left <= 0) { if (state.writing) finishWriting(true); else submit(true); }
   }
 
 
@@ -296,6 +312,7 @@
     const chosen = state.answers[q.n];
     const isLast = state.current === qs.length - 1;
     const p = q.passage ? passageById(q.passage) : null;
+    const inline = !!q.inlineOptions || !!(p && p.kind === 'extracts');
     const usedIn = {};
     if (p && p.kind === 'gapped') gapQuestions(p).forEach((x) => { if (x.n !== q.n && state.answers[x.n]) usedIn[state.answers[x.n]] = x.gap; });
 
@@ -312,10 +329,10 @@
       <div class="card">
         <div class="stem">${esc(q.stem)}</div>
         ${q.svg ? `<div class="figure">${q.svg}</div>` : ''}
-        <div class="opts ${p && p.kind === 'extracts' ? 'opts-inline' : ''}" role="group" aria-label="Answer options">
+        <div class="opts ${inline ? 'opts-inline' : ''}" role="group" aria-label="Answer options">
           ${Object.keys(q.options).map((L) => `
             <button class="opt" data-opt="${L}" aria-pressed="${chosen === L}">
-              <span class="letter">${L}</span><span>${p && p.kind === 'extracts' ? '' : esc(q.options[L])}${usedIn[L] ? ` <span class="used">used in gap ${usedIn[L]}</span>` : ''}</span>
+              <span class="letter">${L}</span><span>${inline ? '' : esc(q.options[L])}${usedIn[L] ? ` <span class="used">used in gap ${usedIn[L]}</span>` : ''}</span>
             </button>`).join('')}
         </div>
       </div>
@@ -416,6 +433,167 @@
       openModal(`<h2 style="margin-top:0">Time's up</h2><p>Your answers have been submitted.</p><button class="btn primary" id="m-ok">See results</button>`);
       document.getElementById('m-ok').onclick = closeModal;
     }
+  }
+
+
+  // ---------- writing ----------
+  const wordCount = (t) => (t || '').trim().split(/\s+/).filter(Boolean).length;
+  function promptHTML(p) {
+    return `<span class="form-badge">${esc(p.form)}</span>
+      <h2 class="prompt-title">${esc(p.title)}</h2>
+      ${p.context ? `<p>${esc(p.context)}</p>` : ''}
+      <p><b>${esc(p.task)}</b></p>
+      ${p.start ? `<p class="start-line">${esc(p.start)}</p>` : ''}
+      ${p.could && p.could.length ? `<p class="muted small" style="margin-bottom:2px">In your writing you could:</p><ul class="could">${p.could.map((c) => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}`;
+  }
+  function renderWriting() {
+    const w = state.writing;
+    window.scrollTo(0, 0);
+    app.innerHTML = `
+      <div class="topbar">
+        <div class="row between">
+          <span class="qnum">Writing</span>
+          <span class="timer" id="timer" aria-label="Time left">${fmtClock(state.endAt - Date.now())}</span>
+          <button class="btn" id="w-quit" style="min-height:40px;padding:0 14px">Quit</button>
+        </div>
+      </div>
+      <details class="card prompt-card" open><summary class="muted small">Task (tap to hide)</summary>${promptHTML(w.prompt)}</details>
+      <details class="card plan-card" ${w.plan ? 'open' : ''}><summary><b>Plan</b> <span class="muted small">(optional, not marked)</span></summary>
+        <textarea id="w-plan" class="plan-box" rows="5" spellcheck="false" placeholder="Quick notes: who is the audience? your title, 3–4 main points or story events, a strong ending">${esc(w.plan)}</textarea>
+      </details>
+      <div class="card editor-card">
+        <textarea id="w-text" class="editor" spellcheck="false" autocorrect="off" autocomplete="off" autocapitalize="sentences"
+          placeholder="Start with a title on the first line, then write your response.">${esc(w.text)}</textarea>
+        <div class="row between small muted" style="margin-top:6px"><span id="w-count">${wordCount(w.text)} words</span><span>Spell-check is off, like the real test</span></div>
+      </div>
+      <div class="bottombar"><div class="inner">
+        <button class="btn primary" id="w-finish">Finish writing</button>
+      </div></div>`;
+    const text = document.getElementById('w-text');
+    const plan = document.getElementById('w-plan');
+    const count = document.getElementById('w-count');
+    text.addEventListener('input', () => { w.text = text.value; count.textContent = `${wordCount(w.text)} words`; store.save(); });
+    plan.addEventListener('input', () => { w.plan = plan.value; store.save(); });
+    document.getElementById('w-finish').onclick = () => finishWriting(false);
+    document.getElementById('w-quit').onclick = () => {
+      openModal(`<h2 style="margin-top:0">Quit writing?</h2><p>Your writing will be deleted.</p>
+        <div class="row"><button class="btn" id="m-cancel">Keep writing</button><button class="btn danger" id="m-ok">Quit</button></div>`);
+      document.getElementById('m-cancel').onclick = closeModal;
+      document.getElementById('m-ok').onclick = () => { closeModal(); store.clear(); renderHome(); };
+    };
+    tick();
+  }
+  function finishWriting(timeUp) {
+    if (state.submittedAt) return;
+    const done = () => {
+      stopTimer();
+      state.submittedAt = Math.min(Date.now(), state.endAt);
+      state.timeUp = timeUp;
+      store.clear();
+      renderWritingResult();
+      if (timeUp) {
+        openModal(`<h2 style="margin-top:0">Time's up</h2><p>Pens down! Your writing has been saved for feedback.</p><button class="btn primary" id="m-ok">OK</button>`);
+        document.getElementById('m-ok').onclick = closeModal;
+      }
+    };
+    if (timeUp) { done(); return; }
+    openModal(`<h2 style="margin-top:0">Finish writing?</h2><p>You have ${fmtClock(state.endAt - Date.now())} left. Use spare time to re-read and fix spelling and punctuation.</p>
+      <div class="row"><button class="btn" id="m-cancel">Keep writing</button><button class="btn primary" id="m-ok">Finish</button></div>`);
+    document.getElementById('m-cancel').onclick = closeModal;
+    document.getElementById('m-ok').onclick = () => { closeModal(); done(); };
+  }
+  function feedbackMessage() {
+    const w = state.writing, p = w.prompt;
+    const used = state.submittedAt - state.startedAt;
+    return [
+      state.test.markingGuide,
+      '',
+      '---',
+      'THE TASK',
+      `Form: ${p.form}`,
+      `Title: ${p.title}`,
+      p.context, p.task, p.start ? `Start with: "${p.start}"` : '',
+      p.could && p.could.length ? 'In your writing you could: ' + p.could.join('; ') + '.' : '',
+      '',
+      '---',
+      `STUDENT'S RESPONSE (${wordCount(w.text)} words, written in ${fmtDuration(used)}${state.timeUp ? ', stopped when the 30 minutes ran out' : ''})`,
+      '',
+      w.text.trim() || '(nothing written)',
+      w.plan.trim() ? `\n---\nHER PLANNING NOTES (not marked, for context only)\n${w.plan.trim()}` : '',
+    ].filter((x) => x !== '').join('\n');
+  }
+  function renderWritingResult() {
+    const w = state.writing, p = w.prompt;
+    const used = state.submittedAt - state.startedAt;
+    const words = wordCount(w.text);
+    const lines = w.text.split(/\n/).map((l) => l.trim()).filter(Boolean);
+    const paras = Math.max(0, lines.length - (lines[0] && lines[0].split(/\s+/).length <= 8 ? 1 : 0));
+    const hasTitle = lines.length > 1 && lines[0].split(/\s+/).length <= 8 && !/[.!?]$/.test(lines[0]);
+    window.scrollTo(0, 0);
+    app.innerHTML = `
+      <h1>Writing done</h1>
+      <p class="muted">${esc(p.form)}: ${esc(p.title)}</p>
+      <div class="stats">
+        <div class="card"><b>${words}</b><span class="muted small">words</span></div>
+        <div class="card"><b>${fmtDuration(used)}</b><span class="muted small">time used${state.timeUp ? ' (time up)' : ''}</span></div>
+        <div class="card"><b>${paras}</b><span class="muted small">paragraphs</span></div>
+      </div>
+      <h2>Quick self-check</h2>
+      <div class="card">
+        <ul class="checks">
+          <li class="${hasTitle ? 'ok' : 'warn'}">${hasTitle ? 'Has a title' : 'No title found: markers reward a title that sums up the piece'}</li>
+          <li class="${paras >= 4 ? 'ok' : 'warn'}">${paras >= 4 ? `${paras} paragraphs` : `Only ${paras} paragraph${paras === 1 ? '' : 's'}: aim for at least 4 (press Enter between paragraphs)`}</li>
+          <li class="${words >= 250 ? 'ok' : 'warn'}">${words >= 250 ? `${words} words: a good length for 30 minutes` : `${words} words: aim for about 300–400 in 30 minutes`}</li>
+          <li class="info">Did it stay on the task and use the form asked for (${esc(p.form.toLowerCase())})? Writing that misses the task is marked lower.</li>
+        </ul>
+      </div>
+      <h2>Get feedback from Claude</h2>
+      <div class="card">
+        <ol class="steps">
+          <li>Tap <b>Copy for feedback</b>. It copies the marking guide, the task and the writing in one message.</li>
+          <li>Open Claude (in your <i>Selective Writing</i> project if you set one up) and paste it into a new chat.</li>
+          <li>Claude replies with an estimated mark out of 25 (as one examiner would give), strengths, the three most important fixes and a rewritten paragraph.</li>
+        </ol>
+        <div class="row wrap">
+          <button class="btn primary" id="w-copy">Copy for feedback</button>
+          <button class="btn" id="w-share">Share…</button>
+          <button class="btn" id="w-download">Save as file</button>
+        </div>
+        <p class="muted small" style="margin-bottom:0"><a href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude in a new tab</a></p>
+      </div>
+      <h2>Her writing</h2>
+      <div class="card"><div class="essay">${esc(w.text) || '<span class="muted">Nothing written.</span>'}</div></div>
+      <div class="row wrap" style="margin-top:20px"><button class="btn" id="home">Back to tests</button></div>
+      <p class="muted small">This writing isn't saved anywhere else. Copy or save it before leaving this screen.</p>`;
+    document.getElementById('w-copy').onclick = async () => {
+      const msg = feedbackMessage();
+      try {
+        await navigator.clipboard.writeText(msg);
+        openModal(`<h2 style="margin-top:0">Copied</h2><p>Now open Claude, paste it into a new chat, and send.</p><div class="row"><a class="btn primary" href="https://claude.ai/new" target="_blank" rel="noopener" id="m-open">Open Claude</a><button class="btn" id="m-ok">Close</button></div>`);
+      } catch (e) {
+        openModal(`<h2 style="margin-top:0">Copy this</h2><p class="small muted">Select all the text below and copy it.</p><textarea style="width:100%;height:240px" readonly>${esc(msg)}</textarea><button class="btn primary" id="m-ok" style="margin-top:10px">Close</button>`);
+      }
+      document.getElementById('m-ok').onclick = closeModal;
+    };
+    document.getElementById('w-share').onclick = async () => {
+      const msg = feedbackMessage();
+      try { if (navigator.share) { await navigator.share({ title: 'Selective writing for feedback', text: msg }); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
+      document.getElementById('w-copy').click();
+    };
+    document.getElementById('w-download').onclick = () => {
+      const blob = new Blob([feedbackMessage()], { type: 'text/plain' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `writing-${p.id}-${new Date().toISOString().slice(0, 10)}.txt`;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    };
+    document.getElementById('home').onclick = () => {
+      openModal(`<h2 style="margin-top:0">Leave this screen?</h2><p>The writing isn't saved. Make sure you've copied or saved it.</p>
+        <div class="row"><button class="btn" id="m-cancel">Stay</button><button class="btn primary" id="m-ok">Leave</button></div>`);
+      document.getElementById('m-cancel').onclick = closeModal;
+      document.getElementById('m-ok').onclick = () => { closeModal(); renderHome(); };
+    };
   }
 
   // ---------- results ----------
@@ -565,6 +743,7 @@
   function optText(q, L) {
     const p = q.passage && passageById(q.passage);
     if (p && p.kind === 'extracts') return '(' + p.extracts[L].title + ')';
+    if (q.inlineOptions) return '(see the picture)';
     return q.options[L];
   }
   function reviewPassage(q) {
@@ -608,7 +787,7 @@
 
   // ---------- keyboard ----------
   document.addEventListener('keydown', (e) => {
-    if (!state.test || state.submittedAt || !modal.hidden) {
+    if (!state.test || state.writing || state.submittedAt || !modal.hidden) {
       if (e.key === 'Escape' && !modal.hidden) closeModal();
       return;
     }

@@ -1,21 +1,155 @@
 {
-  "sections": [
+ "sections": [
+  {
+   "id": "maths",
+   "label": "Maths",
+   "rules": [
+    "35 questions in 40 minutes, like the real test.",
+    "No calculator. Have paper and a pencil ready."
+   ],
+   "tests": [
     {
-      "id": "maths",
-      "label": "Maths",
-      "rules": ["35 questions in 40 minutes, like the real test.", "No calculator. Have paper and a pencil ready."],
-      "tests": [
-        { "id": "test1", "label": "Test 1", "file": "selective-maths-test-01.json", "title": "Mathematical Reasoning – Practice Test 1", "note": "Mostly word problems", "questions": 35, "minutes": 40 },
-        { "id": "test2", "label": "Test 2", "file": "selective-maths-test-02.json", "title": "Mathematical Reasoning – Practice Test 2", "note": "21 questions with diagrams, graphs and tables", "questions": 35, "minutes": 40 }
-      ]
+     "id": "test1",
+     "label": "Test 1",
+     "file": "selective-maths-test-01.json",
+     "title": "Mathematical Reasoning – Practice Test 1",
+     "note": "Mostly word problems",
+     "questions": 35,
+     "minutes": 40
     },
     {
-      "id": "reading",
-      "label": "Reading",
-      "rules": ["38 answers in 45 minutes, in the same five parts as the real test.", "Each question shows its text above it. Tap \"Hide text\" to make room, and tap a gap in the text to jump to it.", "No dictionary."],
-      "tests": [
-        { "id": "reading1", "label": "Test 1", "file": "selective-reading-test-01.json", "title": "Reading – Practice Test 1", "note": "Story, cloze, poem, gapped article, four extracts", "questions": 38, "answers": true, "minutes": 45 }
-      ]
+     "id": "test2",
+     "label": "Test 2",
+     "file": "selective-maths-test-02.json",
+     "title": "Mathematical Reasoning – Practice Test 2",
+     "note": "21 questions with diagrams, graphs and tables",
+     "questions": 35,
+     "minutes": 40
     }
-  ]
+   ]
+  },
+  {
+   "id": "reading",
+   "label": "Reading",
+   "rules": [
+    "38 answers in 45 minutes, in the same five parts as the real test.",
+    "Each question shows its text above it. Tap \"Hide text\" to make room, and tap a gap in the text to jump to it.",
+    "No dictionary."
+   ],
+   "tests": [
+    {
+     "id": "reading1",
+     "label": "Test 1",
+     "file": "selective-reading-test-01.json",
+     "title": "Reading – Practice Test 1",
+     "note": "Story, cloze, poem, gapped article, four extracts",
+     "questions": 38,
+     "answers": true,
+     "minutes": 45
+    }
+   ]
+  },
+  {
+   "id": "thinking",
+   "label": "Thinking",
+   "rules": [
+    "40 questions in 40 minutes, like the real test: about one minute each.",
+    "Questions mix arguments (strengthen, weaken, whose reasoning is correct) with puzzles: order, time, numbers, codes and shapes.",
+    "If a puzzle is taking too long, flag it, guess, and come back at the end."
+   ],
+   "tests": [
+    {
+     "id": "thinking1",
+     "label": "Test 1",
+     "file": "selective-thinking-test-01.json",
+     "title": "Thinking Skills – Practice Test 1",
+     "note": "Arguments, logic puzzles and 9 picture questions",
+     "questions": 40,
+     "minutes": 40
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "label": "Writing",
+   "rules": [
+    "One task in 30 minutes, typed, like the real test. Planning time is part of the 30 minutes.",
+    "Read the task twice: write in the form it asks for (story, report, letter, diary…). Writing that misses the task is marked lower.",
+    "Start with a title, use paragraphs, and leave 3–5 minutes to re-read and fix spelling and punctuation.",
+    "When you finish, copy your writing to Claude for a mark and feedback."
+   ],
+   "tests": [
+    {
+     "id": "w1",
+     "label": "Story",
+     "file": "selective-writing-prompts.json",
+     "prompt": "w1",
+     "title": "The last bus",
+     "form": "Story (narrative)",
+     "note": "Narrate and entertain",
+     "minutes": 30
+    },
+    {
+     "id": "w2",
+     "label": "Letter",
+     "file": "selective-writing-prompts.json",
+     "prompt": "w2",
+     "title": "Save Fig Tree Park",
+     "form": "Persuasive letter",
+     "note": "Persuade",
+     "minutes": 30
+    },
+    {
+     "id": "w3",
+     "label": "News",
+     "file": "selective-writing-prompts.json",
+     "prompt": "w3",
+     "title": "Foam flood on Main Street",
+     "form": "Newspaper report",
+     "note": "Inform and describe",
+     "minutes": 30
+    },
+    {
+     "id": "w4",
+     "label": "Guide",
+     "file": "selective-writing-prompts.json",
+     "prompt": "w4",
+     "title": "A visitor's guide to the beach",
+     "form": "Guide (advice sheet)",
+     "note": "Explain and advise",
+     "minutes": 30
+    },
+    {
+     "id": "w5",
+     "label": "Diary",
+     "file": "selective-writing-prompts.json",
+     "prompt": "w5",
+     "title": "Principal for a day",
+     "form": "Diary entry",
+     "note": "Recount and reflect",
+     "minutes": 30
+    },
+    {
+     "id": "w6",
+     "label": "Review",
+     "file": "selective-writing-prompts.json",
+     "prompt": "w6",
+     "title": "Rate it!",
+     "form": "Review",
+     "note": "Describe and recommend",
+     "minutes": 30
+    },
+    {
+     "id": "w7",
+     "label": "Speech",
+     "file": "selective-writing-prompts.json",
+     "prompt": "w7",
+     "title": "A later start?",
+     "form": "Speech (discussion)",
+     "note": "Discuss and persuade",
+     "minutes": 30
+    }
+   ]
+  }
+ ]
 }

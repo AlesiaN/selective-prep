@@ -71,6 +71,12 @@ Reading tests add a `passages` list, and each question points to its passage wit
 
 Questions may carry `skillGroup`, and the results then add a "By skill" breakdown. `groupLabel` renames the "By topic" heading (e.g. "By part").
 
+## Writing prompts
+
+`tests/selective-writing-prompts.json` holds the marking guide (`markingGuide`) and the prompts (`prompts`: id, label, form, purpose, title, context, task, optional `start` sentence, `could` bullets). Each prompt gets its own entry in the Writing section of `tests/index.json`, with `"prompt": "<id>"`. To add a prompt, add it to both files.
+
+After she finishes, **Copy for feedback** puts the marking guide, the task and her writing on the clipboard, ready to paste into Claude. Writing in progress is saved on the device until she finishes; nothing is kept after that.
+
 ## Behaviour
 
 - 40-minute countdown based on the clock time, so it keeps running if the screen locks. It submits automatically at 0:00.

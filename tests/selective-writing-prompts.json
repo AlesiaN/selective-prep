@@ -1,0 +1,66 @@
+{
+ "id": "shs-wr",
+ "title": "Selective Writing – Practice Prompts",
+ "section": "Writing",
+ "kind": "writing",
+ "timeLimitMinutes": 30,
+ "markingGuide": "MARKING GUIDE – NSW Selective High School Placement Test, Writing (practice)\n\nYou are an experienced marker for the NSW Selective High School Placement Test writing task. You are giving feedback on a practice response written by an 11-year-old in Year 6, typed in 30 minutes. Her parent will read your feedback first.\n\nOfficial criteria (each examiner marks out of 25; two examiners' marks are added):\n• Set A – up to 15 marks – content, form, organisation and style. Awareness of purpose and audience shown by: selecting interesting content and relevant details; using an appropriate form; organising ideas coherently, using paragraphs and a range of cohesive devices; using a deliberately chosen style, range of vocabulary and level of formality.\n• Set B – up to 10 marks – using a range of sentence lengths, types and structures and correct punctuation; spelling correctly.\n• A response that does not address the given topic and form is marked lower, however fluent or creative it is.\n• Markers reward a title that sums up the piece, original and interesting ideas, precise vocabulary and imagery, and a complete structure that reaches a conclusion. Quality matters more than length.\n\nPlease reply in this order, in plain language, under 450 words:\n1. TASK CHECK – Does it answer the topic, use the required form (e.g. newspaper report, diary entry) and suit the audience? Yes / Partly / No, with one sentence.\n2. ESTIMATED MARK – Set A __/15 and Set B __/10 (total __/25), one sentence of reasoning for each. Be honest and calibrated; do not inflate. Say it is an estimate from one marker.\n3. TWO STRENGTHS – quote her own words.\n4. THREE IMPROVEMENTS, most important first – each with a short quote from her text and a better version she could have written.\n5. ONE PARAGRAPH REWRITTEN – her weakest paragraph, improved but still in her voice and at a strong Year 6 level (not adult writing).\n6. SPELLING AND PUNCTUATION – up to 8 errors as wrong → right. Write 'None found' if there are none.\n7. NEXT PRACTICE – one 10-minute exercise targeting her biggest weakness.\nAddress points 3–7 to the student warmly and directly. End with a two-line note for the parent: the one thing to focus on before the next practice.",
+ "prompts": [
+  {
+   "id": "w1", "label": "Story", "form": "Story (narrative)", "purpose": "Narrate and entertain",
+   "title": "The last bus",
+   "context": "",
+   "task": "Write a story that begins with the sentence below.",
+   "start": "The last bus of the night pulled away, and that was when I realised my bag was still on it.",
+   "could": ["who you are and what is in the bag", "what you do to get it back, and who helps or gets in the way", "how you feel at different moments", "how the story ends – does anything change for you?"]
+  },
+  {
+   "id": "w2", "label": "Letter", "form": "Persuasive letter", "purpose": "Persuade",
+   "title": "Save Fig Tree Park",
+   "context": "Your local council plans to turn Fig Tree Park into a car park for the new shopping centre. The park has a playground, a big old fig tree and an open grassy area where people meet on weekends.",
+   "task": "Write a letter to the mayor to persuade the council to change its plan.",
+   "start": "",
+   "could": ["give your strongest reasons, with examples of how people use the park", "show you understand why the council wants more parking", "suggest a better solution", "finish politely but firmly, telling the mayor what you want them to do"]
+  },
+  {
+   "id": "w3", "label": "News", "form": "Newspaper report", "purpose": "Inform and describe",
+   "title": "Foam flood on Main Street",
+   "context": "Early on Saturday morning, someone poured a large bottle of bubble bath into the fountain in your town square. By 9 am, a wall of foam had spread down Main Street, covering footpaths, cars and the front of several shops.",
+   "task": "Write a newspaper report about this event for your local paper.",
+   "start": "",
+   "could": ["explain what happened, when and where", "describe the effect on shops, drivers and people in town", "include comments from people who were there", "say what happens next – the clean-up, and whether anyone is in trouble"]
+  },
+  {
+   "id": "w4", "label": "Guide", "form": "Guide (advice sheet)", "purpose": "Explain and advise",
+   "title": "A visitor's guide to the beach",
+   "context": "A visitor from another planet is coming to stay with your family for the summer. They have never been to a beach and know nothing about how people behave there.",
+   "task": "Write a guide for the visitor about how to spend a safe and enjoyable day at an Australian beach.",
+   "start": "",
+   "could": ["what to bring and why", "beach safety rules and what the flags and signs mean", "how to behave around other people", "the best things to do, and things to avoid"]
+  },
+  {
+   "id": "w5", "label": "Diary", "form": "Diary entry", "purpose": "Recount and reflect",
+   "title": "Principal for a day",
+   "context": "Your school ran a competition, and the prize was to be principal for one day. You won.",
+   "task": "Write a diary entry about your day as principal. Use the sentence below to start your diary.",
+   "start": "Dear Diary, I never thought Mrs Hayes would actually hand me her keys, but at 8:30 this morning…",
+   "could": ["the decisions you made and why", "something that went wrong, and how you handled it", "how teachers and students reacted", "what you learnt about being in charge"]
+  },
+  {
+   "id": "w6", "label": "Review", "form": "Review", "purpose": "Describe and recommend",
+   "title": "Rate it!",
+   "context": "A website for kids your age is asking readers to send in reviews.",
+   "task": "Write a review of a book, film or game you know well, telling other readers whether it is worth their time.",
+   "start": "",
+   "could": ["what it is about, without giving away the ending", "what is best about it, and what could be better", "who would enjoy it most", "a final rating out of five stars, with your reason"]
+  },
+  {
+   "id": "w7", "label": "Speech", "form": "Speech (discussion)", "purpose": "Discuss and persuade",
+   "title": "A later start?",
+   "context": "Your school is thinking about starting the school day one hour later, at 10 am, and finishing one hour later, at 4 pm. The principal has asked students to share their views at assembly.",
+   "task": "Write a speech for the school assembly that discusses both sides of the idea and then gives your own view.",
+   "start": "",
+   "could": ["the benefits of a later start", "the problems it might cause for students and families", "a fair comparison of both sides", "your view, and a strong closing line for your audience"]
+  }
+ ]
+}
