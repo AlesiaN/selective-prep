@@ -1,0 +1,931 @@
+{
+ "id": "oc-rd-01",
+ "title": "OC Reading – Practice Test 1",
+ "section": "Reading",
+ "timeLimitMinutes": 40,
+ "groupLabel": "By part",
+ "topics": {
+  "FIC": "Part 1 – Fiction",
+  "CLZ": "Part 2 – Vocabulary cloze",
+  "POE": "Part 3 – Poetry",
+  "GAP": "Part 4 – Gapped text",
+  "MAT": "Part 5 – Multiple matching"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 1,
+   "kind": "prose",
+   "title": "Duchess",
+   "intro": "Read the story below, then answer questions 1–6. Paragraphs are numbered.",
+   "credit": "Original story written for this practice test.",
+   "paragraphs": [
+    "Nobody in the Tran family could remember who had named the chook Duchess, but everyone agreed the name suited her. She walked around the backyard as if she owned it, and she looked at people the way a queen looks at a puddle.",
+    "Every morning, Minh's job was to collect the eggs. Every morning, Duchess sat on them and refused to move.",
+    "'Just lift her up,' said his sister Lan, who was sixteen and had an answer for everything.",
+    "Minh had tried that. Duchess had pecked him so hard on the thumb that he had yelped loud enough to set off the neighbour's dog.",
+    "On Saturday, Minh tried something new. He sat down on an upturned bucket outside the coop and began to read his library book out loud. It was about a girl who sailed around the world, and it had a lot of storms in it. Minh read the stormy parts in a big, dramatic voice.",
+    "After a while, Duchess put her head on one side. After a longer while, she stood up, stretched one leg, and stepped down from the nest to listen more closely.",
+    "Minh slipped his hand into the nest. Three eggs, still warm.",
+    "He read to Duchess every morning after that. By the end of the month they had sailed around the world twice, and Lan had started finding reasons to hang around the back door, pretending not to listen."
+   ],
+   "numbered": true
+  },
+  {
+   "id": "p2",
+   "part": 2,
+   "kind": "cloze",
+   "title": "The Red Crab March",
+   "intro": "Read the text below. Choose the best word to fill each of the 8 gaps (questions 7–14).",
+   "credit": "Original text written for this practice test.",
+   "text": "Every year, thousands of red crabs on Christmas Island {1} an amazing journey. When the first rains of the wet season arrive, the crabs leave the forest and {2} towards the sea. They cross roads, gardens and even golf courses on the {3}.\n\nTo keep the crabs safe, the people who live on the island close some roads and build special bridges for the crabs to {4} over. Signs warn drivers to {5} down.\n\nAt the beach, each female crab lays her eggs in the water. A few weeks {6}, millions of tiny baby crabs come out of the sea and march back to the forest. It is one of the most {7} sights in the natural world, and visitors come from all {8} the globe to see it."
+  },
+  {
+   "id": "p3",
+   "part": 3,
+   "kind": "poem",
+   "title": "Mulga Bill's Bicycle",
+   "intro": "Read the poem below, then answer questions 15–19. Lines are numbered. (resplendent: dazzling; blows: boasts; abode: home; fray: battle; ere: before; narrer shaves: narrow escapes; give best: admit defeat.)",
+   "credit": "A. B. ('Banjo') Paterson, first published in the Sydney Mail, 1896. Public domain.",
+   "stanzas": [
+    [
+     "'Twas Mulga Bill, from Eaglehawk, that caught the cycling craze;",
+     "He turned away the good old horse that served him many days;",
+     "He dressed himself in cycling clothes, resplendent to be seen;",
+     "He hurried off to town and bought a shining new machine;",
+     "And as he wheeled it through the door, with air of lordly pride,",
+     "The grinning shop assistant said, 'Excuse me, can you ride?'"
+    ],
+    [
+     "'See, here, young man,' said Mulga Bill, 'from Walgett to the sea,",
+     "From Conroy's Gap to Castlereagh, there's none can ride like me.",
+     "I'm good all round at everything, as everybody knows,",
+     "Although I'm not the one to talk – I hate a man that blows.",
+     "But riding is my special gift, my chiefest, sole delight;",
+     "Just ask a wild duck can it swim, a wild cat can it fight.",
+     "There's nothing clothed in hair or hide, or built of flesh or steel,",
+     "There's nothing walks or jumps, or runs, on axle, hoof, or wheel,",
+     "But what I'll sit, while hide will hold and girths and straps are tight:",
+     "I'll ride this here two-wheeled concern right straight away at sight.'"
+    ],
+    [
+     "'Twas Mulga Bill, from Eaglehawk, that sought his own abode,",
+     "That perched above the Dead Man's Creek, beside the mountain road.",
+     "He turned the cycle down the hill and mounted for the fray,",
+     "But ere he'd gone a dozen yards it bolted clean away.",
+     "It left the track, and through the trees, just like a silver streak,",
+     "It whistled down the awful slope, towards the Dead Man's Creek."
+    ],
+    [
+     "It shaved a stump by half an inch, it dodged a big white-box:",
+     "The very wallaroos in fright went scrambling up the rocks,",
+     "The wombats hiding in their caves dug deeper underground,",
+     "As Mulga Bill, as white as chalk, sat tight to every bound.",
+     "It struck a stone and gave a spring that cleared a fallen tree,",
+     "It raced beside a precipice as close as close could be;",
+     "And then as Mulga Bill let out one last despairing shriek",
+     "It made a leap of twenty feet into the Dead Man's Creek."
+    ],
+    [
+     "'Twas Mulga Bill, from Eaglehawk, that slowly swam ashore:",
+     "He said, 'I've had some narrer shaves and lively rides before;",
+     "I've rode a wild bull round a yard to win a five pound bet,",
+     "But this was the most awful ride that I've encountered yet.",
+     "I'll give that two-wheeled outlaw best; it's shaken all my nerve",
+     "To feel it whistle through the air and plunge and buck and swerve.",
+     "It's safe at rest in Dead Man's Creek, we'll leave it lying still;",
+     "A horse's back is good enough henceforth for Mulga Bill.'"
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "part": 4,
+   "kind": "gapped",
+   "title": "Not Really a Nut",
+   "intro": "Six sentences have been removed from the article. Choose the sentence (A–G) that best fits each gap (questions 20–25). There is one extra sentence you do not need.",
+   "credit": "Original article written for this practice test.",
+   "paragraphs": [
+    "If you have ever eaten a peanut butter sandwich, you might think peanuts are nuts. [[1]] They grow underground, in the roots of a plant, which makes them more like peas and beans.",
+    "The peanut plant is small and bushy, with yellow flowers. [[2]] It bends down towards the soil and pushes itself into the ground. There, under the dirt, the peanut pods grow.",
+    "Farmers dig up the whole plant when the peanuts are ready. [[3]] After a few days in the sun, the peanuts are dry enough to be taken off the plants.",
+    "[[4]] In Australia, most of them are grown in Queensland, where the weather is warm. Some are roasted and salted, while others are crushed to make oil.",
+    "Many people make the peanuts into peanut butter. [[5]] Then the crushed peanuts are mixed with a little salt and oil until they are smooth.",
+    "Peanuts are full of goodness, but some people are allergic to them. [[6]] That is why many schools ask families not to send peanuts in lunchboxes."
+   ],
+   "bank": {
+    "A": "They leave the plants lying in the field so the peanuts can dry out.",
+    "B": "In fact, they are not nuts at all.",
+    "C": "The peanuts are roasted first and then crushed in a machine.",
+    "D": "After a flower dies, a little stalk grows from it.",
+    "E": "Even a tiny amount can make them very sick.",
+    "F": "Peanuts are grown in many countries around the world.",
+    "G": "Some birds love to eat sunflower seeds."
+   }
+  },
+  {
+   "id": "p5",
+   "part": 5,
+   "kind": "extracts",
+   "title": "Four Short Texts",
+   "intro": "Read the four short texts. For questions 26–33, choose which text (A, B, C or D) each statement matches. You can use each letter more than once.",
+   "credit": "Original texts written for this practice test.",
+   "extracts": {
+    "A": {
+     "title": "The Library Cat",
+     "text": "Our town library has a cat called Biscuit. She arrived one rainy night eight years ago and never left. Biscuit sleeps in the picture-book box and likes to sit on the newspapers when people are trying to read them. Some visitors come just to see her. The librarians say she is the best worker they have, because she makes everyone smile and never asks for a pay rise."
+    },
+    "B": {
+     "title": "A Letter to the Council",
+     "text": "Dear Councillors, I am writing about the playground in Banksia Park. The slide is cracked and the swings squeak so loudly that the birds fly away. My little brother cut his hand on a broken bolt last week. Please fix the playground before somebody is badly hurt. Many children use it every day, and we would look after it if it were safe. Yours sincerely, Ellie (aged 9)"
+    },
+    "C": {
+     "title": "How to Grow a Bean in a Jar",
+     "text": "You will need a glass jar, some paper towel, water and a dried bean. Fold the paper towel and push it around the inside of the jar. Slide the bean between the paper and the glass, so you can see it. Add a little water to keep the paper damp, but not soaking. Put the jar somewhere bright. In a few days, a root will grow down, and then a shoot will push up towards the light."
+    },
+    "D": {
+     "title": "My Grandad's Tractor",
+     "text": "My grandad's tractor is older than my dad. It is red, or it used to be, and it coughs like an old man when it starts. Grandad won't sell it, even though he has a new one. He says it ploughed every paddock on the farm and carried my dad home from school when the creek flooded. Sometimes I see him sitting on it in the shed, just thinking."
+    }
+   }
+  }
+ ],
+ "questions": [
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Understanding a comparison",
+   "difficulty": 2,
+   "stem": "Duchess looked at people 'the way a queen looks at a puddle' (paragraph 1). This means she",
+   "options": {
+    "A": "was afraid of water.",
+    "B": "liked to look at her reflection.",
+    "C": "thought she was much more important than everyone else.",
+    "D": "was a very beautiful chook."
+   },
+   "answer": "C",
+   "explanation": "A queen would look down on a puddle as something unimportant. Duchess acts as if she is far more important than the people around her.",
+   "distractors": {
+    "A": "the puddle is part of the comparison; it's not about being scared",
+    "B": "nothing mentions reflections",
+    "D": "the comparison is about her attitude, not her looks"
+   },
+   "n": 1
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Character from a detail",
+   "difficulty": 3,
+   "stem": "What does paragraph 3 suggest about Lan?",
+   "options": {
+    "A": "She often gives advice, even when she doesn't really know.",
+    "B": "She is good at looking after chooks.",
+    "C": "She wants to collect the eggs herself.",
+    "D": "She is scared of Duchess."
+   },
+   "answer": "A",
+   "explanation": "Lan 'had an answer for everything', and her answer here (just lift her up) doesn't work, as Minh already knows. The writer is gently teasing her.",
+   "distractors": {
+    "B": "her advice doesn't work, so she isn't shown to be good with chooks",
+    "C": "nothing suggests she wants the job",
+    "D": "she tells Minh to lift Duchess, so she doesn't seem scared"
+   },
+   "n": 2
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Purpose and structure",
+   "skill": "Why a detail is included",
+   "difficulty": 2,
+   "stem": "Why does the writer include the detail about the neighbour's dog (paragraph 4)?",
+   "options": {
+    "A": "to show that the neighbour's dog is dangerous",
+    "B": "to explain why Minh doesn't like dogs",
+    "C": "to show that Duchess is afraid of dogs",
+    "D": "to show how much the peck hurt Minh"
+   },
+   "answer": "D",
+   "explanation": "Minh yelped so loudly that it set off the dog next door. This funny detail shows how hard Duchess pecked.",
+   "distractors": {
+    "A": "the dog only barks; it isn't shown as dangerous",
+    "B": "nothing is said about Minh's feelings about dogs",
+    "C": "Duchess's reaction to the dog isn't mentioned"
+   },
+   "n": 3
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding a character's idea",
+   "difficulty": 3,
+   "stem": "Why does Minh's new idea work?",
+   "options": {
+    "A": "Duchess was hungry and wanted food.",
+    "B": "Duchess became so interested in the story that she left the nest to listen.",
+    "C": "The loud voice frightened Duchess off the nest.",
+    "D": "Lan helped by lifting Duchess."
+   },
+   "answer": "B",
+   "explanation": "Duchess tilts her head, then steps down 'to listen more closely'. She is curious about the story, which gives Minh his chance.",
+   "distractors": {
+    "A": "food is never mentioned",
+    "C": "she moves closer to listen, so she isn't frightened",
+    "D": "Lan isn't there in this part"
+   },
+   "n": 4
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Meaning of a phrase",
+   "difficulty": 3,
+   "stem": "'By the end of the month they had sailed around the world twice' (paragraph 8). What does this mean?",
+   "options": {
+    "A": "Minh and Duchess went on a long holiday.",
+    "B": "Minh had read the whole book to Duchess two times.",
+    "C": "Minh's family moved to another country.",
+    "D": "Minh dreamed about sailing every night."
+   },
+   "answer": "B",
+   "explanation": "The book is about a girl sailing around the world. 'Sailing around the world twice' is a playful way of saying Minh read the book to Duchess twice.",
+   "distractors": {
+    "A": "took the words literally",
+    "C": "nothing about moving",
+    "D": "nothing about dreams"
+   },
+   "n": 5
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Reading between the lines at the end",
+   "difficulty": 4,
+   "stem": "What does the last sentence suggest about Lan?",
+   "options": {
+    "A": "She is annoyed that Minh is wasting time.",
+    "B": "She wants to borrow Minh's library book.",
+    "C": "She is enjoying the story too, but doesn't want to admit it.",
+    "D": "She is checking that Minh does his job."
+   },
+   "answer": "C",
+   "explanation": "Lan 'started finding reasons to hang around' and pretends not to listen. Secretly, she is enjoying the story as much as Duchess is.",
+   "distractors": {
+    "A": "if she were annoyed, she wouldn't stay to listen",
+    "B": "nothing says she wants to borrow it",
+    "D": "she is pretending not to listen, not checking on him"
+   },
+   "n": 6
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 1: choose the best word.",
+   "options": {
+    "A": "make",
+    "B": "do",
+    "C": "go",
+    "D": "have"
+   },
+   "answer": "A",
+   "explanation": "We say someone 'makes a journey'.",
+   "distractors": {
+    "B": "'do a journey' is not used",
+    "C": "you 'go on' a journey, not 'go' a journey",
+    "D": "'have a journey' doesn't fit 'an amazing journey' here"
+   },
+   "gap": 1,
+   "n": 7
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 2: choose the best word.",
+   "options": {
+    "A": "rest",
+    "B": "point",
+    "C": "face",
+    "D": "head"
+   },
+   "answer": "D",
+   "explanation": "'Head towards' means move in that direction.",
+   "distractors": {
+    "A": "'rest towards' doesn't make sense",
+    "B": "you point at something, but that doesn't mean moving",
+    "C": "facing the sea isn't the same as moving towards it"
+   },
+   "gap": 2,
+   "n": 8
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 3: choose the best word.",
+   "options": {
+    "A": "time",
+    "B": "top",
+    "C": "way",
+    "D": "end"
+   },
+   "answer": "C",
+   "explanation": "'On the way' means while they are travelling.",
+   "distractors": {
+    "A": "'on the time' isn't English",
+    "B": "'on the top' would mean on top of something",
+    "D": "'on the end' means at the last part"
+   },
+   "gap": 3,
+   "n": 9
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 1,
+   "stem": "Gap 4: choose the best word.",
+   "options": {
+    "A": "fly",
+    "B": "climb",
+    "C": "swim",
+    "D": "drive"
+   },
+   "answer": "B",
+   "explanation": "Crabs can climb over a bridge.",
+   "distractors": {
+    "A": "crabs can't fly",
+    "C": "a bridge goes over the road, not water",
+    "D": "crabs don't drive"
+   },
+   "gap": 4,
+   "n": 10
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 5: choose the best word.",
+   "options": {
+    "A": "slow",
+    "B": "calm",
+    "C": "sit",
+    "D": "settle"
+   },
+   "answer": "A",
+   "explanation": "'Slow down' means drive more slowly.",
+   "distractors": {
+    "B": "'calm down' is about feelings",
+    "C": "'sit down' doesn't fit drivers",
+    "D": "'settle down' means become quiet"
+   },
+   "gap": 5,
+   "n": 11
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 6: choose the best word.",
+   "options": {
+    "A": "after",
+    "B": "past",
+    "C": "since",
+    "D": "later"
+   },
+   "answer": "D",
+   "explanation": "'A few weeks later' means a few weeks after that.",
+   "distractors": {
+    "A": "'a few weeks after' needs something after it (after that)",
+    "B": "'a few weeks past' isn't used this way",
+    "C": "'since' needs a starting point"
+   },
+   "gap": 6,
+   "n": 12
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 7: choose the best word.",
+   "options": {
+    "A": "amazed",
+    "B": "amazing",
+    "C": "amaze",
+    "D": "amazement"
+   },
+   "answer": "B",
+   "explanation": "'One of the most amazing sights': 'amazing' describes the sight.",
+   "distractors": {
+    "A": "'amazed' describes how a person feels",
+    "C": "'amaze' is a verb",
+    "D": "'amazement' is a noun"
+   },
+   "gap": 7,
+   "n": 13
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 8: choose the best word.",
+   "options": {
+    "A": "over",
+    "B": "under",
+    "C": "into",
+    "D": "beside"
+   },
+   "answer": "A",
+   "explanation": "The phrase is 'from all over the globe', meaning from everywhere.",
+   "distractors": {
+    "B": "'from all under the globe' doesn't make sense",
+    "C": "'from all into' isn't English",
+    "D": "'from all beside' isn't English"
+   },
+   "gap": 8,
+   "n": 14
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Understanding a character",
+   "difficulty": 3,
+   "stem": "Why does the shop assistant grin and ask 'Excuse me, can you ride?' (line 6)?",
+   "options": {
+    "A": "He wants to sell Mulga Bill riding lessons.",
+    "B": "He is pleased because he is Mulga Bill's friend.",
+    "C": "He wants to borrow the bicycle.",
+    "D": "He suspects Mulga Bill has no idea how to ride a bicycle."
+   },
+   "answer": "D",
+   "explanation": "Mulga Bill has just 'caught the cycling craze' and bought a bike while acting very proud. The grinning assistant guesses he can't really ride one.",
+   "distractors": {
+    "A": "lessons aren't mentioned",
+    "B": "nothing suggests they are friends",
+    "C": "he has just sold it to Bill"
+   },
+   "n": 15
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Humour and irony",
+   "difficulty": 4,
+   "stem": "In line 10, Mulga Bill says 'I'm not the one to talk – I hate a man that blows.' Why is this funny?",
+   "options": {
+    "A": "He hates people who play wind instruments.",
+    "B": "He doesn't like windy weather.",
+    "C": "He is boasting at the very moment he says he hates boasting.",
+    "D": "He is too shy to talk to the shop assistant."
+   },
+   "answer": "C",
+   "explanation": "'Blows' means boasts. Bill says he hates show-offs, yet the whole stanza is him boasting that nobody can ride like him.",
+   "distractors": {
+    "A": "took 'blows' literally",
+    "B": "took 'blows' to mean the wind",
+    "D": "he talks a lot, so he isn't shy"
+   },
+   "n": 16
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a comparison",
+   "difficulty": 3,
+   "stem": "The bicycle goes down the hill 'just like a silver streak' (line 21). This suggests that it",
+   "options": {
+    "A": "is very shiny and moving extremely fast.",
+    "B": "is made of real silver.",
+    "C": "is leaving a trail of paint.",
+    "D": "is moving slowly and smoothly."
+   },
+   "answer": "A",
+   "explanation": "A streak is a quick line of light or colour. The shiny new bike flashes past so fast that it looks like a silver streak.",
+   "distractors": {
+    "B": "the comparison is about how it looks, not what it is made of",
+    "C": "took 'streak' too literally",
+    "D": "it 'bolted clean away': it was fast"
+   },
+   "n": 17
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Exaggeration for effect",
+   "difficulty": 3,
+   "stem": "Why does the poet say the wombats 'dug deeper underground' (line 25)?",
+   "options": {
+    "A": "to show that wombats are good at digging",
+    "B": "to explain why there are holes on the hill",
+    "C": "to show that it was a very hot day",
+    "D": "to exaggerate how frightening and wild the ride is"
+   },
+   "answer": "D",
+   "explanation": "Even animals hiding underground are pretending to be scared. This funny exaggeration shows how wild the ride is.",
+   "distractors": {
+    "A": "true, but not why the poet includes it",
+    "B": "the holes aren't the point",
+    "C": "nothing about the weather"
+   },
+   "n": 18
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Understanding the ending",
+   "difficulty": 3,
+   "stem": "What has Mulga Bill decided at the end of the poem?",
+   "options": {
+    "A": "He will buy a better bicycle.",
+    "B": "He will learn to swim properly.",
+    "C": "He will go back to riding horses.",
+    "D": "He will try to ride a wild bull."
+   },
+   "answer": "C",
+   "explanation": "He leaves the bike 'at rest in Dead Man's Creek' and says 'A horse's back is good enough henceforth' (from now on) for him.",
+   "distractors": {
+    "A": "he leaves the bike in the creek and gives up cycling",
+    "B": "he swims ashore, but swimming isn't his decision",
+    "D": "he mentions riding a wild bull in the past"
+   },
+   "n": 19
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "They leave the plants lying in the field so the peanuts can dry out.",
+    "B": "In fact, they are not nuts at all.",
+    "C": "The peanuts are roasted first and then crushed in a machine.",
+    "D": "After a flower dies, a little stalk grows from it.",
+    "E": "Even a tiny amount can make them very sick.",
+    "F": "Peanuts are grown in many countries around the world.",
+    "G": "Some birds love to eat sunflower seeds."
+   },
+   "answer": "B",
+   "explanation": "'You might think peanuts are nuts', then 'They grow underground… more like peas and beans.' B links them: they are not nuts at all.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 1",
+    "C": "doesn't link to the sentences around gap 1",
+    "D": "doesn't link to the sentences around gap 1",
+    "E": "doesn't link to the sentences around gap 1",
+    "F": "doesn't link to the sentences around gap 1",
+    "G": "the extra sentence: it's about sunflower seeds, not peanuts"
+   },
+   "gap": 1,
+   "n": 20
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "They leave the plants lying in the field so the peanuts can dry out.",
+    "B": "In fact, they are not nuts at all.",
+    "C": "The peanuts are roasted first and then crushed in a machine.",
+    "D": "After a flower dies, a little stalk grows from it.",
+    "E": "Even a tiny amount can make them very sick.",
+    "F": "Peanuts are grown in many countries around the world.",
+    "G": "Some birds love to eat sunflower seeds."
+   },
+   "answer": "D",
+   "explanation": "The next sentence says 'It bends down towards the soil'. 'It' is the little stalk from D.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 2",
+    "B": "doesn't link to the sentences around gap 2",
+    "C": "doesn't link to the sentences around gap 2",
+    "E": "doesn't link to the sentences around gap 2",
+    "F": "doesn't link to the sentences around gap 2",
+    "G": "the extra sentence: it's about sunflower seeds, not peanuts"
+   },
+   "gap": 2,
+   "n": 21
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "They leave the plants lying in the field so the peanuts can dry out.",
+    "B": "In fact, they are not nuts at all.",
+    "C": "The peanuts are roasted first and then crushed in a machine.",
+    "D": "After a flower dies, a little stalk grows from it.",
+    "E": "Even a tiny amount can make them very sick.",
+    "F": "Peanuts are grown in many countries around the world.",
+    "G": "Some birds love to eat sunflower seeds."
+   },
+   "answer": "A",
+   "explanation": "After digging up the plant, the peanuts are left to dry, and the next sentence says 'after a few days in the sun'.",
+   "distractors": {
+    "B": "doesn't link to the sentences around gap 3",
+    "C": "doesn't link to the sentences around gap 3",
+    "D": "doesn't link to the sentences around gap 3",
+    "E": "doesn't link to the sentences around gap 3",
+    "F": "doesn't link to the sentences around gap 3",
+    "G": "the extra sentence: it's about sunflower seeds, not peanuts"
+   },
+   "gap": 3,
+   "n": 22
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "They leave the plants lying in the field so the peanuts can dry out.",
+    "B": "In fact, they are not nuts at all.",
+    "C": "The peanuts are roasted first and then crushed in a machine.",
+    "D": "After a flower dies, a little stalk grows from it.",
+    "E": "Even a tiny amount can make them very sick.",
+    "F": "Peanuts are grown in many countries around the world.",
+    "G": "Some birds love to eat sunflower seeds."
+   },
+   "answer": "F",
+   "explanation": "The next sentence says 'In Australia, most of them are grown in Queensland'. F introduces where peanuts are grown.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 4",
+    "B": "doesn't link to the sentences around gap 4",
+    "C": "doesn't link to the sentences around gap 4",
+    "D": "doesn't link to the sentences around gap 4",
+    "E": "doesn't link to the sentences around gap 4",
+    "G": "the extra sentence: it's about sunflower seeds, not peanuts"
+   },
+   "gap": 4,
+   "n": 23
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "They leave the plants lying in the field so the peanuts can dry out.",
+    "B": "In fact, they are not nuts at all.",
+    "C": "The peanuts are roasted first and then crushed in a machine.",
+    "D": "After a flower dies, a little stalk grows from it.",
+    "E": "Even a tiny amount can make them very sick.",
+    "F": "Peanuts are grown in many countries around the world.",
+    "G": "Some birds love to eat sunflower seeds."
+   },
+   "answer": "C",
+   "explanation": "'Then the crushed peanuts are mixed…' needs an earlier step: roasting and crushing (C).",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 5",
+    "B": "doesn't link to the sentences around gap 5",
+    "D": "doesn't link to the sentences around gap 5",
+    "E": "doesn't link to the sentences around gap 5",
+    "F": "doesn't link to the sentences around gap 5",
+    "G": "the extra sentence: it's about sunflower seeds, not peanuts"
+   },
+   "gap": 5,
+   "n": 24
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 6?",
+   "options": {
+    "A": "They leave the plants lying in the field so the peanuts can dry out.",
+    "B": "In fact, they are not nuts at all.",
+    "C": "The peanuts are roasted first and then crushed in a machine.",
+    "D": "After a flower dies, a little stalk grows from it.",
+    "E": "Even a tiny amount can make them very sick.",
+    "F": "Peanuts are grown in many countries around the world.",
+    "G": "Some birds love to eat sunflower seeds."
+   },
+   "answer": "E",
+   "explanation": "After 'some people are allergic', E explains how serious it is, and 'That is why' schools ban peanuts.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 6",
+    "B": "doesn't link to the sentences around gap 6",
+    "C": "doesn't link to the sentences around gap 6",
+    "D": "doesn't link to the sentences around gap 6",
+    "F": "doesn't link to the sentences around gap 6",
+    "G": "the extra sentence: it's about sunflower seeds, not peanuts"
+   },
+   "gap": 6,
+   "n": 25
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which text is trying to get someone to do something?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "B",
+   "explanation": "Ellie asks the council: 'Please fix the playground before somebody is badly hurt.'",
+   "distractors": {
+    "A": "describes a cat; doesn't ask for anything",
+    "C": "gives instructions, but isn't persuading",
+    "D": "describes a tractor"
+   },
+   "n": 26
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 1,
+   "stem": "Which text gives steps to follow in order?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "C",
+   "explanation": "It lists what you need, then the steps: fold, slide, add water, put somewhere bright.",
+   "distractors": {
+    "A": "no steps",
+    "B": "asks for help, but has no steps",
+    "D": "no steps"
+   },
+   "n": 27
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which text describes something that is loved because of the memories it holds?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "D",
+   "explanation": "Grandad won't sell the tractor because of what it did for the family, like carrying Dad home in a flood.",
+   "distractors": {
+    "A": "Biscuit is loved for making people smile now, not for memories",
+    "B": "the playground is broken; it isn't loved for memories",
+    "C": "no memories"
+   },
+   "n": 28
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which text uses humour to describe someone as if they had a job?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "A",
+   "explanation": "The librarians joke that Biscuit is 'the best worker they have' who 'never asks for a pay rise'.",
+   "distractors": {
+    "B": "Ellie is serious",
+    "C": "no humour",
+    "D": "the tractor is described as coughing, but not as having a job"
+   },
+   "n": 29
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer mentions an accident that has already happened?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "B",
+   "explanation": "'My little brother cut his hand on a broken bolt last week.'",
+   "distractors": {
+    "A": "no accident",
+    "C": "no accident",
+    "D": "the flooded creek wasn't an accident"
+   },
+   "n": 30
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "In which text does something arrive and stay?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "A",
+   "explanation": "Biscuit 'arrived one rainy night eight years ago and never left'.",
+   "distractors": {
+    "B": "nothing arrives",
+    "C": "the root grows, but nothing arrives",
+    "D": "the tractor was always there"
+   },
+   "n": 31
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which text compares a machine to a person?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "D",
+   "explanation": "The tractor 'coughs like an old man when it starts'.",
+   "distractors": {
+    "A": "Biscuit is an animal, not a machine",
+    "B": "no machine is compared to a person",
+    "C": "no machine"
+   },
+   "n": 32
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 1,
+   "stem": "Which text describes something growing towards the light?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "C",
+   "explanation": "'A shoot will push up towards the light.'",
+   "distractors": {
+    "A": "no growing",
+    "B": "no growing",
+    "D": "no growing"
+   },
+   "n": 33
+  }
+ ]
+}

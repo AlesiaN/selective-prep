@@ -1,0 +1,254 @@
+{
+ "id": "p-args",
+ "title": "Practice: Arguments (Thinking Skills)",
+ "section": "Thinking Skills",
+ "topics": {
+  "STR": "Strengthen or weaken",
+  "FLW": "Assumptions and mistakes",
+  "DED": "What must be true"
+ },
+ "groupLabel": "By question type",
+ "practice": true,
+ "questions": [
+  {
+   "n": 1,
+   "topic": "STR",
+   "difficulty": 3,
+   "skill": "Strengthen or weaken",
+   "stem": "Ivy says: 'We should walk to school instead of driving. It will help us get fitter.' Which statement most strengthens her argument?",
+   "options": {
+    "A": "Cars are expensive to buy.",
+    "B": "The school has a big car park.",
+    "C": "Ivy's friend lives next to the school.",
+    "D": "Walking to school would add 40 minutes of exercise to each day."
+   },
+   "answer": "D",
+   "explanation": "Extra daily exercise directly supports 'it will help us get fitter'.",
+   "distractors": {
+    "B": "doesn't help the argument about fitness",
+    "C": "irrelevant",
+    "A": "about money, not fitness"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "FLW",
+   "difficulty": 3,
+   "skill": "Assumptions and mistakes",
+   "stem": "A sign says: 'Swimmers must stay between the flags.' Ben says: 'The flags are there, so the beach must be safe everywhere.' What is the mistake?",
+   "options": {
+    "A": "Ben can't read the sign.",
+    "B": "The flags show where it is safe; they don't mean everywhere is safe.",
+    "C": "Some beaches don't have flags.",
+    "D": "Flags blow away in the wind."
+   },
+   "answer": "B",
+   "explanation": "The flags mark the safe area. That doesn't make the rest of the beach safe.",
+   "distractors": {
+    "A": "he's misunderstanding it, not failing to read it",
+    "D": "not the reasoning mistake",
+    "C": "true but not the mistake"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "DED",
+   "difficulty": 3,
+   "skill": "What must be true",
+   "stem": "All the students in the robotics club are in Year 5 or Year 6. Ari is in the robotics club. Which must be true?",
+   "options": {
+    "A": "Ari is in Year 5 or Year 6.",
+    "B": "Ari is good at maths.",
+    "C": "Ari is in Year 6.",
+    "D": "All Year 6 students are in the robotics club."
+   },
+   "answer": "A",
+   "explanation": "Everyone in the club is in Year 5 or 6, so Ari is in one of those years.",
+   "distractors": {
+    "C": "he could be in Year 5",
+    "D": "the rule only goes one way",
+    "B": "not stated"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "STR",
+   "difficulty": 3,
+   "skill": "Strengthen or weaken",
+   "stem": "'Our new café must be popular, because there was a long queue on opening day.' Which statement most weakens this?",
+   "options": {
+    "A": "The café sells good coffee.",
+    "B": "Opening day was a Monday.",
+    "C": "Everything was free on opening day.",
+    "D": "The café has ten tables."
+   },
+   "answer": "C",
+   "explanation": "Free food explains a queue without showing the café will stay popular.",
+   "distractors": {
+    "A": "this supports popularity",
+    "D": "irrelevant",
+    "B": "doesn't explain the queue"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "FLW",
+   "difficulty": 3,
+   "skill": "Assumptions and mistakes",
+   "stem": "Tia says: 'I got 100% on my spelling test, so I'll get 100% on my maths test.' What has Tia assumed?",
+   "options": {
+    "A": "The maths test is easy.",
+    "B": "She studied for the spelling test.",
+    "C": "Doing well in spelling means she will do well in maths.",
+    "D": "Her teacher marks fairly."
+   },
+   "answer": "C",
+   "explanation": "She is linking two different subjects without any reason.",
+   "distractors": {
+    "A": "she doesn't mention how easy it is",
+    "B": "not part of the argument",
+    "D": "not what her conclusion depends on"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "DED",
+   "difficulty": 3,
+   "skill": "What must be true",
+   "stem": "No reptiles have fur. All snakes are reptiles. Which must be true?",
+   "options": {
+    "A": "All reptiles are snakes.",
+    "B": "No snakes have fur.",
+    "C": "All animals without fur are reptiles.",
+    "D": "Some snakes have fur."
+   },
+   "answer": "B",
+   "explanation": "Snakes are reptiles, and no reptile has fur, so no snake has fur.",
+   "distractors": {
+    "C": "frogs and fish have no fur either",
+    "D": "impossible from the clues",
+    "A": "lizards are reptiles too"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "STR",
+   "difficulty": 3,
+   "skill": "Strengthen or weaken",
+   "stem": "'Since the council put in speed bumps, there have been fewer accidents on Elm Street. So the speed bumps are working.' Which statement most strengthens this?",
+   "options": {
+    "A": "Accidents on nearby streets without speed bumps have not gone down.",
+    "B": "Elm Street has a school on it.",
+    "C": "Speed bumps are painted yellow.",
+    "D": "Some drivers don't like speed bumps."
+   },
+   "answer": "A",
+   "explanation": "If other streets didn't improve, it's more likely the speed bumps caused the drop.",
+   "distractors": {
+    "C": "irrelevant",
+    "B": "doesn't show the bumps worked",
+    "D": "about opinions, not accidents"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "FLW",
+   "difficulty": 3,
+   "skill": "Assumptions and mistakes",
+   "stem": "Lena: 'Everyone who came to my party had fun. Max had fun today, so he must have come to my party.' What is the mistake?",
+   "options": {
+    "A": "Max could have had fun somewhere else.",
+    "B": "Lena didn't invite Max.",
+    "C": "Parties are not always fun.",
+    "D": "Max is Lena's brother."
+   },
+   "answer": "A",
+   "explanation": "Having fun doesn't prove he was at the party: people can have fun in many places.",
+   "distractors": {
+    "B": "we're not told that",
+    "C": "not the reasoning error",
+    "D": "not stated and irrelevant"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "DED",
+   "difficulty": 3,
+   "skill": "What must be true",
+   "stem": "Some of the books on the shelf are about space. All the books on the shelf are hardcovers. Which must be true?",
+   "options": {
+    "A": "Some hardcover books are about space.",
+    "B": "All space books are hardcovers.",
+    "C": "All hardcover books are about space.",
+    "D": "None of the books are about animals."
+   },
+   "answer": "A",
+   "explanation": "The space books on the shelf are hardcovers, so some hardcovers are about space.",
+   "distractors": {
+    "B": "only the ones on this shelf",
+    "C": "only some are",
+    "D": "not stated"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "STR",
+   "difficulty": 3,
+   "skill": "Strengthen or weaken",
+   "stem": "'Kids should be allowed phones at school because they need them in emergencies.' Which statement most weakens this?",
+   "options": {
+    "A": "Phones are fun to use.",
+    "B": "Phones are getting cheaper.",
+    "C": "The school office can call parents straight away in an emergency.",
+    "D": "Most kids want phones."
+   },
+   "answer": "C",
+   "explanation": "If the school already handles emergencies, the reason given isn't strong.",
+   "distractors": {
+    "D": "wanting isn't a reason linked to emergencies",
+    "A": "not about emergencies",
+    "B": "about cost"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "FLW",
+   "difficulty": 3,
+   "skill": "Assumptions and mistakes",
+   "stem": "'My plant died, so I must have given it too much water.' What has the speaker assumed?",
+   "options": {
+    "A": "Plants grow in soil.",
+    "B": "Plants need water.",
+    "C": "The plant was expensive.",
+    "D": "Too much water is the only reason the plant could have died."
+   },
+   "answer": "D",
+   "explanation": "Plants can die for many reasons (too little water, pests, sun). The speaker picks one without checking.",
+   "distractors": {
+    "B": "true but not the assumption",
+    "C": "irrelevant",
+    "A": "irrelevant"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "DED",
+   "difficulty": 3,
+   "skill": "What must be true",
+   "stem": "At a fair, every ride costs at least $3. Noor has exactly $8. Which must be true?",
+   "options": {
+    "A": "Noor can go on at most 2 rides.",
+    "B": "Noor can go on 3 rides.",
+    "C": "Noor can go on exactly 2 rides.",
+    "D": "Every ride costs $3."
+   },
+   "answer": "A",
+   "explanation": "With rides costing $3 or more, $8 is enough for at most 2 (3 rides would need at least $9).",
+   "distractors": {
+    "C": "if rides cost $5, she could only go on 1",
+    "B": "3 rides cost at least $9",
+    "D": "'at least $3' means some cost more"
+   }
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "id": "p-poe-dr",
+ "title": "Practice poem: Drifters (Bruce Dawe)",
+ "section": "Poetry",
+ "topics": {
+  "POE": "Poetry"
+ },
+ "groupLabel": "By topic",
+ "practice": true,
+ "questions": [
+  {
+   "n": 1,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "The poem is mostly written in the future tense ('One day soon he'll tell her…'). What is the effect?",
+   "options": {
+    "A": "It shows the poem is set a hundred years from now.",
+    "B": "It suggests the move is certain to happen because it has happened so many times before.",
+    "C": "It shows the family is planning a holiday.",
+    "D": "It suggests the move will never happen."
+   },
+   "answer": "B",
+   "explanation": "Describing what 'will' happen, step by step, shows the speaker knows exactly how it goes: the family has moved many times before.",
+   "distractors": {
+    "C": "they are packing up to move, not holidaying",
+    "A": "'one day soon' means very soon",
+    "D": "the details show it is certain"
+   }
+  },
+  {
+   "n": 2,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "Why are the children 'wildly excited' about the move?",
+   "options": {
+    "A": "They have been told they will go to a better school.",
+    "B": "They are going to live near the beach.",
+    "C": "Their father has bought them a new puppy.",
+    "D": "For the children, moving feels like an adventure."
+   },
+   "answer": "D",
+   "explanation": "The poem says they get excited 'for no reason': to children, packing up seems thrilling, unlike for their mother.",
+   "distractors": {
+    "B": "the poem doesn't say where they are going",
+    "C": "the kelpie pup is already theirs",
+    "A": "no reason is given"
+   }
+  },
+  {
+   "n": 3,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 4,
+   "skill": "Understanding a poem",
+   "stem": "What does the mother picking all the green tomatoes suggest?",
+   "options": {
+    "A": "She is making tomato sauce for a party.",
+    "B": "She prefers green tomatoes to red ones.",
+    "C": "The move is happening before her garden is ready, and she won't leave anything behind.",
+    "D": "The tomatoes are diseased."
+   },
+   "answer": "C",
+   "explanation": "Green tomatoes are not ripe. She has to pick them early because they are leaving before her garden can be enjoyed: a sign of her disappointment.",
+   "distractors": {
+    "B": "it's about timing, not taste",
+    "A": "there's no party",
+    "D": "they are simply unripe"
+   }
+  },
+  {
+   "n": 4,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "The oldest girl is close to tears 'because she was happy here', and the youngest is beaming 'because she wasn't'. What does this contrast show?",
+   "options": {
+    "A": "The sisters dislike each other.",
+    "B": "The youngest girl is always cheerful.",
+    "C": "The family is moving to be closer to friends.",
+    "D": "Each move affects family members differently."
+   },
+   "answer": "D",
+   "explanation": "The same event brings sadness to one daughter and joy to the other: the poem shows how differently people feel about leaving.",
+   "distractors": {
+    "A": "nothing suggests that",
+    "B": "she's happy because she wasn't happy there",
+    "C": "no reason for the move is given"
+   }
+  },
+  {
+   "n": 5,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 4,
+   "skill": "Understanding a poem",
+   "stem": "Many lines begin with 'And'. What is the effect of this?",
+   "options": {
+    "A": "It makes the events pile up one after another, like a familiar routine.",
+    "B": "It makes the poem sound like a song for children.",
+    "C": "It makes the poem rhyme.",
+    "D": "It shows the speaker is confused."
+   },
+   "answer": "A",
+   "explanation": "Repeating 'And' links each event to the next, building a list that feels like a well-known, repeated pattern.",
+   "distractors": {
+    "C": "starting lines with 'And' doesn't create rhyme",
+    "D": "the speaker is clear and calm",
+    "B": "the tone is sad and grown-up"
+   }
+  },
+  {
+   "n": 6,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 2,
+   "skill": "Understanding a poem",
+   "stem": "What does the title 'Drifters' suggest about the family?",
+   "options": {
+    "A": "They move from place to place without settling anywhere for long.",
+    "B": "They are lost in the bush.",
+    "C": "They like to sleep in late.",
+    "D": "They live on a boat."
+   },
+   "answer": "A",
+   "explanation": "A drifter moves around without a fixed home, like something drifting on water. Dawe said the poem drew on his mother's longing for a settled home.",
+   "distractors": {
+    "D": "took 'drift' literally",
+    "C": "not about sleep",
+    "B": "they choose to move; they aren't lost"
+   }
+  }
+ ],
+ "passages": [
+  {
+   "id": "p1",
+   "part": 3,
+   "kind": "prose",
+   "title": "Drifters – Bruce Dawe",
+   "intro": "Find and read this poem before you start.",
+   "credit": "The poem is still in copyright, so it is not printed here.",
+   "paragraphs": [
+    "Read 'Drifters' by Bruce Dawe. It is in Bruce Dawe's collection 'Sometimes Gladness' and in many school anthologies; you can also find it by searching the title and poet online.",
+    "The poem imagines a family about to move house yet again.",
+    "Keep the poem open next to this app while you answer. Read it twice: once for the story, once for how it is written."
+   ]
+  }
+ ]
+}

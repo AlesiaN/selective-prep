@@ -1,0 +1,173 @@
+{
+ "id": "p-gap-oc2",
+ "title": "Gapped text: The Hungry Caterpillar Problem",
+ "section": "Reading",
+ "practice": true,
+ "timeLimitMinutes": 0,
+ "groupLabel": "By part",
+ "topics": {
+  "GAP": "Gapped text"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 4,
+   "kind": "gapped",
+   "title": "The Hungry Caterpillar Problem",
+   "intro": "5 sentences have been removed. Choose the sentence that best fits each gap. There is one extra sentence you do not need.",
+   "credit": "Original text written for this practice.",
+   "paragraphs": [
+    "When Ms Patel's class set up a vegetable garden, they planted lettuce, beans and cabbages. Everything grew well for a few weeks. [[1]]",
+    "The students looked closely and found small green caterpillars hiding under the leaves. [[2]] Soon the cabbages looked like lace.",
+    "Some students wanted to spray the plants with poison. Ms Patel said no. [[3]] Instead, the class decided to find a natural way to protect the garden.",
+    "They read that some birds love to eat caterpillars. [[4]] Within a week, wrens and willie wagtails were visiting the garden every morning.",
+    "The caterpillars did not disappear completely, but there were far fewer of them. [[5]] The class has decided to keep the bird bath full all year round."
+   ],
+   "bank": {
+    "A": "Poison could harm the bees, worms and birds that help the garden.",
+    "B": "So they built a bird bath and planted small bushes where birds could shelter.",
+    "C": "Then, one morning, the cabbage leaves were full of holes.",
+    "D": "They were munching holes in the cabbage leaves.",
+    "E": "Carrots grow under the ground.",
+    "F": "The cabbages grew back, and the class picked them at the end of term."
+   }
+  }
+ ],
+ "questions": [
+  {
+   "n": 1,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 1,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "Poison could harm the bees, worms and birds that help the garden.",
+    "B": "So they built a bird bath and planted small bushes where birds could shelter.",
+    "C": "Then, one morning, the cabbage leaves were full of holes.",
+    "D": "They were munching holes in the cabbage leaves.",
+    "E": "Carrots grow under the ground.",
+    "F": "The cabbages grew back, and the class picked them at the end of term."
+   },
+   "answer": "C",
+   "explanation": "'Everything grew well for a few weeks', then something changed: C ('Then, one morning…') introduces the problem the next paragraph investigates.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 1",
+    "B": "doesn't connect with the sentences before and after gap 1",
+    "D": "doesn't connect with the sentences before and after gap 1",
+    "E": "this is the extra sentence: carrots aren't part of the story",
+    "F": "doesn't connect with the sentences before and after gap 1"
+   }
+  },
+  {
+   "n": 2,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 2,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "Poison could harm the bees, worms and birds that help the garden.",
+    "B": "So they built a bird bath and planted small bushes where birds could shelter.",
+    "C": "Then, one morning, the cabbage leaves were full of holes.",
+    "D": "They were munching holes in the cabbage leaves.",
+    "E": "Carrots grow under the ground.",
+    "F": "The cabbages grew back, and the class picked them at the end of term."
+   },
+   "answer": "D",
+   "explanation": "After finding caterpillars, D says what they were doing; 'soon the cabbages looked like lace' follows from the holes.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 2",
+    "B": "doesn't connect with the sentences before and after gap 2",
+    "C": "doesn't connect with the sentences before and after gap 2",
+    "E": "this is the extra sentence: carrots aren't part of the story",
+    "F": "doesn't connect with the sentences before and after gap 2"
+   }
+  },
+  {
+   "n": 3,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 3,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "Poison could harm the bees, worms and birds that help the garden.",
+    "B": "So they built a bird bath and planted small bushes where birds could shelter.",
+    "C": "Then, one morning, the cabbage leaves were full of holes.",
+    "D": "They were munching holes in the cabbage leaves.",
+    "E": "Carrots grow under the ground.",
+    "F": "The cabbages grew back, and the class picked them at the end of term."
+   },
+   "answer": "A",
+   "explanation": "Ms Patel said no to poison. A gives her reason.",
+   "distractors": {
+    "B": "doesn't connect with the sentences before and after gap 3",
+    "C": "doesn't connect with the sentences before and after gap 3",
+    "D": "doesn't connect with the sentences before and after gap 3",
+    "E": "this is the extra sentence: carrots aren't part of the story",
+    "F": "doesn't connect with the sentences before and after gap 3"
+   }
+  },
+  {
+   "n": 4,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 4,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "Poison could harm the bees, worms and birds that help the garden.",
+    "B": "So they built a bird bath and planted small bushes where birds could shelter.",
+    "C": "Then, one morning, the cabbage leaves were full of holes.",
+    "D": "They were munching holes in the cabbage leaves.",
+    "E": "Carrots grow under the ground.",
+    "F": "The cabbages grew back, and the class picked them at the end of term."
+   },
+   "answer": "B",
+   "explanation": "After learning that birds eat caterpillars, B says what the class did; the next sentence describes the birds arriving.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 4",
+    "C": "doesn't connect with the sentences before and after gap 4",
+    "D": "doesn't connect with the sentences before and after gap 4",
+    "E": "this is the extra sentence: carrots aren't part of the story",
+    "F": "doesn't connect with the sentences before and after gap 4"
+   }
+  },
+  {
+   "n": 5,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 5,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "Poison could harm the bees, worms and birds that help the garden.",
+    "B": "So they built a bird bath and planted small bushes where birds could shelter.",
+    "C": "Then, one morning, the cabbage leaves were full of holes.",
+    "D": "They were munching holes in the cabbage leaves.",
+    "E": "Carrots grow under the ground.",
+    "F": "The cabbages grew back, and the class picked them at the end of term."
+   },
+   "answer": "F",
+   "explanation": "After 'far fewer' caterpillars, F gives the happy result, and the class decides to keep the bird bath.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 5",
+    "B": "doesn't connect with the sentences before and after gap 5",
+    "C": "doesn't connect with the sentences before and after gap 5",
+    "D": "doesn't connect with the sentences before and after gap 5",
+    "E": "this is the extra sentence: carrots aren't part of the story"
+   }
+  }
+ ]
+}

@@ -1,153 +1,627 @@
 {
- "sections": [
+ "exams": [
   {
-   "id": "maths",
-   "label": "Maths",
-   "rules": [
-    "35 questions in 40 minutes, like the real test.",
-    "No calculator. Have paper and a pencil ready."
-   ],
-   "tests": [
+   "id": "selective",
+   "label": "Selective",
+   "subtitle": "Practice for the NSW Selective High School Placement Test (Year 6).",
+   "sections": [
     {
-     "id": "test1",
-     "label": "Test 1",
-     "file": "selective-maths-test-01.json",
-     "title": "Mathematical Reasoning – Practice Test 1",
-     "note": "Mostly word problems",
-     "questions": 35,
-     "minutes": 40
+     "id": "maths",
+     "label": "Maths",
+     "rules": [
+      "35 questions in 40 minutes, like the real test.",
+      "No calculator. Have paper and a pencil ready."
+     ],
+     "tests": [
+      {
+       "id": "test1",
+       "label": "Test 1",
+       "file": "selective-maths-test-01.json",
+       "title": "Mathematical Reasoning – Practice Test 1",
+       "note": "Mostly word problems",
+       "questions": 35,
+       "minutes": 40
+      },
+      {
+       "id": "test2",
+       "label": "Test 2",
+       "file": "selective-maths-test-02.json",
+       "title": "Mathematical Reasoning – Practice Test 2",
+       "note": "21 questions with diagrams, graphs and tables",
+       "questions": 35,
+       "minutes": 40
+      }
+     ]
     },
     {
-     "id": "test2",
-     "label": "Test 2",
-     "file": "selective-maths-test-02.json",
-     "title": "Mathematical Reasoning – Practice Test 2",
-     "note": "21 questions with diagrams, graphs and tables",
-     "questions": 35,
-     "minutes": 40
+     "id": "reading",
+     "label": "Reading",
+     "rules": [
+      "38 answers in 45 minutes, in the same five parts as the real test.",
+      "Each question shows its text above it. Tap \"Hide text\" to make room, and tap a gap in the text to jump to it.",
+      "No dictionary."
+     ],
+     "tests": [
+      {
+       "id": "reading1",
+       "label": "Test 1",
+       "file": "selective-reading-test-01.json",
+       "title": "Reading – Practice Test 1",
+       "note": "Story, cloze, poem, gapped article, four extracts",
+       "questions": 38,
+       "answers": true,
+       "minutes": 45
+      },
+      {
+       "id": "reading2",
+       "label": "Test 2",
+       "file": "selective-reading-test-02.json",
+       "title": "Selective Reading – Practice Test 2",
+       "note": "Poem: Clancy of the Overflow (Banjo Paterson)",
+       "questions": 38,
+       "answers": true,
+       "minutes": 45
+      }
+     ]
+    },
+    {
+     "id": "thinking",
+     "label": "Thinking",
+     "rules": [
+      "40 questions in 40 minutes, like the real test: about one minute each.",
+      "Questions mix arguments (strengthen, weaken, whose reasoning is correct) with puzzles: order, time, numbers, codes and shapes.",
+      "If a puzzle is taking too long, flag it, guess, and come back at the end."
+     ],
+     "tests": [
+      {
+       "id": "thinking1",
+       "label": "Test 1",
+       "file": "selective-thinking-test-01.json",
+       "title": "Thinking Skills – Practice Test 1",
+       "note": "Arguments, logic puzzles and 9 picture questions",
+       "questions": 40,
+       "minutes": 40
+      },
+      {
+       "id": "thinking2",
+       "label": "Test 2",
+       "file": "selective-thinking-test-02.json",
+       "title": "Selective Thinking Skills – Practice Test 2",
+       "note": "16 picture questions: nets, mirrors, gears, views, routes",
+       "questions": 40,
+       "minutes": 40
+      }
+     ]
+    },
+    {
+     "id": "writing",
+     "label": "Writing",
+     "rules": [
+      "One task in 30 minutes, typed, like the real test. Planning time is part of the 30 minutes.",
+      "Read the task twice: write in the form it asks for (story, report, letter, diary…). Writing that misses the task is marked lower.",
+      "Start with a title, use paragraphs, and leave 3–5 minutes to re-read and fix spelling and punctuation.",
+      "When you finish, copy your writing to Claude for a mark and feedback."
+     ],
+     "tests": [
+      {
+       "id": "w1",
+       "label": "Story",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w1",
+       "title": "The last bus",
+       "form": "Story (narrative)",
+       "note": "Narrate and entertain",
+       "minutes": 30
+      },
+      {
+       "id": "w2",
+       "label": "Letter",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w2",
+       "title": "Save Fig Tree Park",
+       "form": "Persuasive letter",
+       "note": "Persuade",
+       "minutes": 30
+      },
+      {
+       "id": "w3",
+       "label": "News",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w3",
+       "title": "Foam flood on Main Street",
+       "form": "Newspaper report",
+       "note": "Inform and describe",
+       "minutes": 30
+      },
+      {
+       "id": "w4",
+       "label": "Guide",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w4",
+       "title": "A visitor's guide to the beach",
+       "form": "Guide (advice sheet)",
+       "note": "Explain and advise",
+       "minutes": 30
+      },
+      {
+       "id": "w5",
+       "label": "Diary",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w5",
+       "title": "Principal for a day",
+       "form": "Diary entry",
+       "note": "Recount and reflect",
+       "minutes": 30
+      },
+      {
+       "id": "w6",
+       "label": "Review",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w6",
+       "title": "Rate it!",
+       "form": "Review",
+       "note": "Describe and recommend",
+       "minutes": 30
+      },
+      {
+       "id": "w7",
+       "label": "Speech",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w7",
+       "title": "A later start?",
+       "form": "Speech (discussion)",
+       "note": "Discuss and persuade",
+       "minutes": 30
+      }
+     ]
     }
    ]
   },
   {
-   "id": "reading",
-   "label": "Reading",
-   "rules": [
-    "38 answers in 45 minutes, in the same five parts as the real test.",
-    "Each question shows its text above it. Tap \"Hide text\" to make room, and tap a gap in the text to jump to it.",
-    "No dictionary."
-   ],
-   "tests": [
+   "id": "oc",
+   "label": "OC",
+   "subtitle": "Practice for the NSW Opportunity Class Placement Test (Year 4). No writing section.",
+   "sections": [
     {
-     "id": "reading1",
-     "label": "Test 1",
-     "file": "selective-reading-test-01.json",
-     "title": "Reading – Practice Test 1",
-     "note": "Story, cloze, poem, gapped article, four extracts",
-     "questions": 38,
-     "answers": true,
-     "minutes": 45
+     "id": "oc-maths",
+     "label": "Maths",
+     "rules": [
+      "35 questions in 40 minutes, like the real OC test (Mathematical Reasoning).",
+      "No calculator. Have paper and a pencil ready."
+     ],
+     "tests": [
+      {
+       "id": "oc-maths1",
+       "label": "Test 1",
+       "file": "oc-maths-test-01.json",
+       "title": "OC Mathematical Reasoning – Practice Test 1",
+       "note": "Year 4 level, 15 picture questions",
+       "questions": 35,
+       "minutes": 40
+      },
+      {
+       "id": "oc-maths2",
+       "label": "Test 2",
+       "file": "oc-maths-test-02.json",
+       "title": "OC Mathematical Reasoning – Practice Test 2",
+       "note": "Year 4 level, 12 picture questions",
+       "questions": 35,
+       "minutes": 40
+      }
+     ]
+    },
+    {
+     "id": "oc-reading",
+     "label": "Reading",
+     "rules": [
+      "33 answers in 40 minutes, in the same five parts as the real OC test: story, vocabulary cloze, poem, gapped text and matching.",
+      "Each question shows its text above it. Tap a gap in the text to jump to it."
+     ],
+     "tests": [
+      {
+       "id": "oc-reading1",
+       "label": "Test 1",
+       "file": "oc-reading-test-01.json",
+       "title": "OC Reading – Practice Test 1",
+       "note": "Poem: Mulga Bill's Bicycle (Banjo Paterson)",
+       "questions": 33,
+       "answers": true,
+       "minutes": 40
+      },
+      {
+       "id": "oc-reading2",
+       "label": "Test 2",
+       "file": "oc-reading-test-02.json",
+       "title": "OC Reading – Practice Test 2",
+       "note": "Poem: The Owl and the Pussy-cat (Edward Lear)",
+       "questions": 33,
+       "answers": true,
+       "minutes": 40
+      }
+     ]
+    },
+    {
+     "id": "oc-thinking",
+     "label": "Thinking",
+     "rules": [
+      "30 questions in 30 minutes, like the real OC test: about one minute each.",
+      "A mix of arguments and puzzles, with lots of pictures."
+     ],
+     "tests": [
+      {
+       "id": "oc-thinking1",
+       "label": "Test 1",
+       "file": "oc-thinking-test-01.json",
+       "title": "OC Thinking Skills – Practice Test 1",
+       "note": "12 picture questions",
+       "questions": 30,
+       "minutes": 30
+      },
+      {
+       "id": "oc-thinking2",
+       "label": "Test 2",
+       "file": "oc-thinking-test-02.json",
+       "title": "OC Thinking Skills – Practice Test 2",
+       "note": "12 picture questions",
+       "questions": 30,
+       "minutes": 30
+      }
+     ]
     }
    ]
   },
   {
-   "id": "thinking",
-   "label": "Thinking",
-   "rules": [
-    "40 questions in 40 minutes, like the real test: about one minute each.",
-    "Questions mix arguments (strengthen, weaken, whose reasoning is correct) with puzzles: order, time, numbers, codes and shapes.",
-    "If a puzzle is taking too long, flag it, guess, and come back at the end."
-   ],
-   "tests": [
+   "id": "practice",
+   "label": "Practice",
+   "subtitle": "Short drills by topic, with the answer shown straight away.",
+   "sections": [
     {
-     "id": "thinking1",
-     "label": "Test 1",
-     "file": "selective-thinking-test-01.json",
-     "title": "Thinking Skills – Practice Test 1",
-     "note": "Arguments, logic puzzles and 9 picture questions",
-     "questions": 40,
-     "minutes": 40
-    }
-   ]
-  },
-  {
-   "id": "writing",
-   "label": "Writing",
-   "rules": [
-    "One task in 30 minutes, typed, like the real test. Planning time is part of the 30 minutes.",
-    "Read the task twice: write in the form it asks for (story, report, letter, diary…). Writing that misses the task is marked lower.",
-    "Start with a title, use paragraphs, and leave 3–5 minutes to re-read and fix spelling and punctuation.",
-    "When you finish, copy your writing to Claude for a mark and feedback."
-   ],
-   "tests": [
-    {
-     "id": "w1",
-     "label": "Story",
-     "file": "selective-writing-prompts.json",
-     "prompt": "w1",
-     "title": "The last bus",
-     "form": "Story (narrative)",
-     "note": "Narrate and entertain",
-     "minutes": 30
+     "id": "p-maths",
+     "label": "Maths topics",
+     "practice": true,
+     "rules": [
+      "10 questions on one topic, made fresh every time, so you can practise as often as you like.",
+      "You see the answer and the working straight after each question.",
+      "No timer pressure: the clock just shows how long you've taken."
+     ],
+     "tests": [
+      {
+       "id": "pm-mixed",
+       "label": "Mixed",
+       "gen": "mixed",
+       "practice": true,
+       "title": "Maths practice: Mixed maths topics",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-FRAC",
+       "label": "Fractions",
+       "gen": "FRAC",
+       "practice": true,
+       "title": "Maths practice: Fractions",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-PCT",
+       "label": "Percent",
+       "gen": "PCT",
+       "practice": true,
+       "title": "Maths practice: Percentages",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-RAT",
+       "label": "Ratio",
+       "gen": "RAT",
+       "practice": true,
+       "title": "Maths practice: Ratio and sharing",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-TIME",
+       "label": "Time",
+       "gen": "TIME",
+       "practice": true,
+       "title": "Maths practice: Time",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-UNIT",
+       "label": "Units",
+       "gen": "UNIT",
+       "practice": true,
+       "title": "Maths practice: Measurement units",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-AREA",
+       "label": "Area",
+       "gen": "AREA",
+       "practice": true,
+       "title": "Maths practice: Area and perimeter",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-ANG",
+       "label": "Angles",
+       "gen": "ANG",
+       "practice": true,
+       "title": "Maths practice: Angles",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-SEQ",
+       "label": "Patterns",
+       "gen": "SEQ",
+       "practice": true,
+       "title": "Maths practice: Number patterns",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-SPD",
+       "label": "Speed",
+       "gen": "SPD",
+       "practice": true,
+       "title": "Maths practice: Speed, distance and time",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-AVG",
+       "label": "Averages",
+       "gen": "AVG",
+       "practice": true,
+       "title": "Maths practice: Averages",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-NUM",
+       "label": "Number",
+       "gen": "NUM",
+       "practice": true,
+       "title": "Maths practice: Number and place value",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-FACT",
+       "label": "Factors",
+       "gen": "FACT",
+       "practice": true,
+       "title": "Maths practice: Factors, multiples and primes",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-MONEY",
+       "label": "Money",
+       "gen": "MONEY",
+       "practice": true,
+       "title": "Maths practice: Money",
+       "questions": 10,
+       "minutes": 0
+      },
+      {
+       "id": "pm-PROB",
+       "label": "Chance",
+       "gen": "PROB",
+       "practice": true,
+       "title": "Maths practice: Chance",
+       "questions": 10,
+       "minutes": 0
+      }
+     ]
     },
     {
-     "id": "w2",
-     "label": "Letter",
-     "file": "selective-writing-prompts.json",
-     "prompt": "w2",
-     "title": "Save Fig Tree Park",
-     "form": "Persuasive letter",
-     "note": "Persuade",
-     "minutes": 30
+     "id": "p-vocab",
+     "label": "Vocabulary",
+     "practice": true,
+     "rules": [
+      "10 sentences, picked at random from a bank, to practise the words-that-go-together skills tested in the vocabulary cloze.",
+      "You see the answer and an explanation straight after each question."
+     ],
+     "tests": [
+      {
+       "id": "pv-oc",
+       "label": "OC level",
+       "file": "practice-vocab-oc.json",
+       "draw": 10,
+       "practice": true,
+       "title": "Vocabulary practice (OC level)",
+       "questions": 24,
+       "minutes": 0
+      },
+      {
+       "id": "pv-sel",
+       "label": "Selective level",
+       "file": "practice-vocab-sel.json",
+       "draw": 10,
+       "practice": true,
+       "title": "Vocabulary practice (Selective level)",
+       "questions": 24,
+       "minutes": 0
+      }
+     ]
     },
     {
-     "id": "w3",
-     "label": "News",
-     "file": "selective-writing-prompts.json",
-     "prompt": "w3",
-     "title": "Foam flood on Main Street",
-     "form": "Newspaper report",
-     "note": "Inform and describe",
-     "minutes": 30
+     "id": "p-poems",
+     "label": "Poems",
+     "practice": true,
+     "rules": [
+      "Practise reading poems and answering the kinds of questions the tests ask.",
+      "For Drifters and Legend, find the poem first (library or online): they are still in copyright, so only the questions are here."
+     ],
+     "tests": [
+      {
+       "id": "pp-tech",
+       "label": "Techniques",
+       "file": "practice-poetry-techniques.json",
+       "draw": 10,
+       "practice": true,
+       "title": "Poetry techniques: simile, metaphor, personification and more",
+       "questions": 14,
+       "minutes": 0
+      },
+      {
+       "id": "pp-mc",
+       "label": "My Country",
+       "file": "practice-poem-my-country.json",
+       "practice": true,
+       "title": "My Country – Dorothea Mackellar",
+       "note": "poem included",
+       "questions": 8,
+       "minutes": 0
+      },
+      {
+       "id": "pp-dr",
+       "label": "Drifters",
+       "file": "practice-poem-drifters.json",
+       "practice": true,
+       "title": "Drifters – Bruce Dawe",
+       "note": "read the poem first",
+       "questions": 6,
+       "minutes": 0
+      },
+      {
+       "id": "pp-lg",
+       "label": "Legend",
+       "file": "practice-poem-legend.json",
+       "practice": true,
+       "title": "Legend – Judith Wright",
+       "note": "read the poem first",
+       "questions": 6,
+       "minutes": 0
+      }
+     ]
     },
     {
-     "id": "w4",
-     "label": "Guide",
-     "file": "selective-writing-prompts.json",
-     "prompt": "w4",
-     "title": "A visitor's guide to the beach",
-     "form": "Guide (advice sheet)",
-     "note": "Explain and advise",
-     "minutes": 30
+     "id": "p-gapped",
+     "label": "Gapped text",
+     "practice": true,
+     "rules": [
+      "A short article with 5 sentences taken out, and one extra sentence that doesn't fit.",
+      "Look for clue words like 'this', 'they', 'however' and 'then' that link to the sentence before or after the gap.",
+      "You see the answer and an explanation straight after each gap."
+     ],
+     "tests": [
+      {
+       "id": "pg-oc1",
+       "label": "OC: Guide dogs",
+       "file": "practice-gapped-oc1.json",
+       "practice": true,
+       "title": "Gapped text: Seeing-eye Dogs",
+       "note": "OC level",
+       "questions": 5,
+       "answers": true,
+       "minutes": 0
+      },
+      {
+       "id": "pg-oc2",
+       "label": "OC: Caterpillars",
+       "file": "practice-gapped-oc2.json",
+       "practice": true,
+       "title": "Gapped text: The Hungry Caterpillar Problem",
+       "note": "OC level",
+       "questions": 5,
+       "answers": true,
+       "minutes": 0
+      },
+      {
+       "id": "pg-sel1",
+       "label": "Selective: Emu War",
+       "file": "practice-gapped-sel1.json",
+       "practice": true,
+       "title": "Gapped text: The Great Emu War",
+       "note": "Selective level",
+       "questions": 5,
+       "answers": true,
+       "minutes": 0
+      },
+      {
+       "id": "pg-sel2",
+       "label": "Selective: Yawning",
+       "file": "practice-gapped-sel2.json",
+       "practice": true,
+       "title": "Gapped text: Why Do We Yawn?",
+       "note": "Selective level",
+       "questions": 5,
+       "answers": true,
+       "minutes": 0
+      }
+     ]
     },
     {
-     "id": "w5",
-     "label": "Diary",
-     "file": "selective-writing-prompts.json",
-     "prompt": "w5",
-     "title": "Principal for a day",
-     "form": "Diary entry",
-     "note": "Recount and reflect",
-     "minutes": 30
+     "id": "p-spatial",
+     "label": "Spatial",
+     "practice": true,
+     "rules": [
+      "8 picture puzzles, picked at random from a bank of 32, so most runs are different.",
+      "These are the picture questions that appear in Thinking Skills, for both OC and Selective.",
+      "You see the answer and the working straight after each question."
+     ],
+     "tests": [
+      {
+       "id": "ps-cubes",
+       "label": "Nets & cubes",
+       "file": "practice-spatial-cubes.json",
+       "draw": 8,
+       "practice": true,
+       "title": "Nets, cubes and views from above",
+       "questions": 32,
+       "minutes": 0
+      },
+      {
+       "id": "ps-pat",
+       "label": "Patterns",
+       "file": "practice-spatial-patterns.json",
+       "draw": 8,
+       "practice": true,
+       "title": "3 × 3 patterns, symmetry, matchsticks and counting shapes",
+       "questions": 32,
+       "minutes": 0
+      },
+      {
+       "id": "ps-moves",
+       "label": "Mirrors & moves",
+       "file": "practice-spatial-moves.json",
+       "draw": 8,
+       "practice": true,
+       "title": "Mirror clocks, gears, robots and routes",
+       "questions": 32,
+       "minutes": 0
+      }
+     ]
     },
     {
-     "id": "w6",
-     "label": "Review",
-     "file": "selective-writing-prompts.json",
-     "prompt": "w6",
-     "title": "Rate it!",
-     "form": "Review",
-     "note": "Describe and recommend",
-     "minutes": 30
-    },
-    {
-     "id": "w7",
-     "label": "Speech",
-     "file": "selective-writing-prompts.json",
-     "prompt": "w7",
-     "title": "A later start?",
-     "form": "Speech (discussion)",
-     "note": "Discuss and persuade",
-     "minutes": 30
+     "id": "p-args",
+     "label": "Arguments",
+     "practice": true,
+     "rules": [
+      "10 short Thinking Skills questions: strengthen, weaken, find the assumption, and what must be true.",
+      "You see the answer and an explanation straight after each question."
+     ],
+     "tests": [
+      {
+       "id": "pa-1",
+       "label": "Mixed",
+       "file": "practice-arguments.json",
+       "draw": 10,
+       "practice": true,
+       "title": "Arguments practice",
+       "questions": 12,
+       "minutes": 0
+      }
+     ]
     }
    ]
   }

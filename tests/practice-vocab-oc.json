@@ -1,0 +1,492 @@
+{
+ "id": "p-voc-oc",
+ "title": "Practice: Vocabulary (OC level)",
+ "section": "Vocabulary",
+ "topics": {
+  "VOC": "Vocabulary in context"
+ },
+ "groupLabel": "By topic",
+ "practice": true,
+ "questions": [
+  {
+   "n": 1,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "The firefighters worked through the night to put ___ the fire.",
+   "options": {
+    "A": "out",
+    "B": "away",
+    "C": "off",
+    "D": "down"
+   },
+   "answer": "A",
+   "explanation": "'Put out' a fire means to stop it burning.",
+   "distractors": {
+    "C": "'put off' means delay",
+    "B": "'put away' means tidy up",
+    "D": "'put down' means place on a surface"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "Please ___ attention while I explain the rules.",
+   "options": {
+    "A": "make",
+    "B": "pay",
+    "C": "take",
+    "D": "give"
+   },
+   "answer": "B",
+   "explanation": "The phrase is 'pay attention'.",
+   "distractors": {
+    "D": "you give a speech, not attention (in this phrase)",
+    "A": "'make attention' isn't English",
+    "C": "you take notes, not attention"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "Mia was so tired that she fell ___ asleep on the couch.",
+   "options": {
+    "A": "fast",
+    "B": "hard",
+    "C": "quick",
+    "D": "deep"
+   },
+   "answer": "A",
+   "explanation": "'Fast asleep' means sleeping deeply.",
+   "distractors": {
+    "C": "'quick asleep' isn't a phrase",
+    "D": "you can be in a deep sleep, but not 'deep asleep'",
+    "B": "'hard asleep' isn't a phrase"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "Can you ___ me a favour and hold the door?",
+   "options": {
+    "A": "make",
+    "B": "do",
+    "C": "give",
+    "D": "have"
+   },
+   "answer": "B",
+   "explanation": "The phrase is 'do someone a favour'.",
+   "distractors": {
+    "A": "you make a mistake, not a favour",
+    "C": "'give a favour' isn't the usual phrase",
+    "D": "'have a favour' isn't English"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "The old bridge was too ___ for the heavy truck to cross.",
+   "options": {
+    "A": "thin",
+    "B": "light",
+    "C": "soft",
+    "D": "weak"
+   },
+   "answer": "D",
+   "explanation": "A bridge that can't hold a heavy load is weak.",
+   "distractors": {
+    "A": "describes width, not strength",
+    "C": "describes how something feels to touch",
+    "B": "light means not heavy"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "We waited in a long ___ to buy tickets for the show.",
+   "options": {
+    "A": "crowd",
+    "B": "queue",
+    "C": "group",
+    "D": "team"
+   },
+   "answer": "B",
+   "explanation": "People waiting one behind another stand in a queue.",
+   "distractors": {
+    "C": "a group isn't waiting in order",
+    "A": "a crowd is a mass of people, not a line",
+    "D": "a team works or plays together"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "It started to rain, so we ran for ___ under a tree.",
+   "options": {
+    "A": "cover up",
+    "B": "safety net",
+    "C": "shelter",
+    "D": "hiding"
+   },
+   "answer": "C",
+   "explanation": "You 'run for shelter' to get out of the rain.",
+   "distractors": {
+    "A": "'cover up' means hide something",
+    "D": "'run for hiding' isn't a phrase",
+    "B": "a net that catches you if you fall"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "The puppy was so ___ that it chewed every shoe in the house.",
+   "options": {
+    "A": "polite",
+    "B": "patient",
+    "C": "naughty",
+    "D": "careful"
+   },
+   "answer": "C",
+   "explanation": "Chewing every shoe is naughty behaviour.",
+   "distractors": {
+    "D": "the opposite of what the puppy did",
+    "A": "means well-mannered",
+    "B": "means calm while waiting"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "Dad asked me to ___ the table before dinner.",
+   "options": {
+    "A": "put",
+    "B": "fix",
+    "C": "set",
+    "D": "make"
+   },
+   "answer": "C",
+   "explanation": "'Set the table' means put out plates and cutlery.",
+   "distractors": {
+    "A": "you put things on the table, but not 'put the table'",
+    "B": "'fix the table' means repair it",
+    "D": "you make a bed, not a table (for dinner)"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "The athlete broke the world ___ for the 100-metre race.",
+   "options": {
+    "A": "score",
+    "B": "medal",
+    "C": "prize",
+    "D": "record"
+   },
+   "answer": "D",
+   "explanation": "You 'break a record' by doing better than anyone before.",
+   "distractors": {
+    "A": "you can't break a score",
+    "C": "you win a prize",
+    "B": "you win a medal"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "Ella took a deep ___ before she jumped into the cold water.",
+   "options": {
+    "A": "breathed",
+    "B": "breathing",
+    "C": "breathe",
+    "D": "breath"
+   },
+   "answer": "D",
+   "explanation": "'Breath' is the noun: take a deep breath.",
+   "distractors": {
+    "C": "a verb (to breathe)",
+    "B": "'take a deep breathing' isn't English",
+    "A": "past tense verb"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "VOC",
+   "difficulty": 2,
+   "skill": "Words that go together",
+   "stem": "The magician made the rabbit ___ into thin air.",
+   "options": {
+    "A": "disobey",
+    "B": "disagree",
+    "C": "dislike",
+    "D": "disappear"
+   },
+   "answer": "D",
+   "explanation": "'Disappear into thin air' means vanish completely.",
+   "distractors": {
+    "B": "means not agree",
+    "C": "means not like",
+    "A": "means not do as you are told"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "Our team was ___ when we lost the final by one point.",
+   "options": {
+    "A": "disappointed",
+    "B": "amazed",
+    "C": "relieved",
+    "D": "delighted"
+   },
+   "answer": "A",
+   "explanation": "Losing by one point would make you disappointed.",
+   "distractors": {
+    "D": "means very happy",
+    "C": "means glad something bad is over",
+    "B": "means very surprised, not sad"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The teacher asked us to work ___ pairs.",
+   "options": {
+    "A": "by",
+    "B": "in",
+    "C": "at",
+    "D": "on"
+   },
+   "answer": "B",
+   "explanation": "We say 'work in pairs'.",
+   "distractors": {
+    "D": "'on pairs' isn't English",
+    "C": "'at pairs' isn't English",
+    "A": "'by pairs' isn't the usual phrase"
+   }
+  },
+  {
+   "n": 15,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The glass slipped out of my hand and ___ into pieces.",
+   "options": {
+    "A": "bent",
+    "B": "smashed",
+    "C": "melted",
+    "D": "folded"
+   },
+   "answer": "B",
+   "explanation": "Glass smashes into pieces.",
+   "distractors": {
+    "D": "paper folds",
+    "C": "ice melts",
+    "A": "metal bends"
+   }
+  },
+  {
+   "n": 16,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "A spider spun a ___ in the corner of the window.",
+   "options": {
+    "A": "web",
+    "B": "net",
+    "C": "nest",
+    "D": "hive"
+   },
+   "answer": "A",
+   "explanation": "Spiders spin webs.",
+   "distractors": {
+    "B": "people make nets",
+    "C": "birds build nests",
+    "D": "bees live in hives"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "You need to ___ your teeth twice a day.",
+   "options": {
+    "A": "brush",
+    "B": "scrub",
+    "C": "sweep",
+    "D": "wipe"
+   },
+   "answer": "A",
+   "explanation": "We brush our teeth.",
+   "distractors": {
+    "C": "you sweep a floor",
+    "B": "you scrub a pot",
+    "D": "you wipe a table"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The sun ___ in the east every morning.",
+   "options": {
+    "A": "raises",
+    "B": "climbs up",
+    "C": "lifts",
+    "D": "rises"
+   },
+   "answer": "D",
+   "explanation": "The sun 'rises' (it goes up by itself).",
+   "distractors": {
+    "A": "'raise' needs an object: you raise your hand",
+    "C": "you lift something heavy",
+    "B": "people climb; we don't say the sun climbs up"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "She is very ___ at drawing animals.",
+   "options": {
+    "A": "good",
+    "B": "best",
+    "C": "nice",
+    "D": "well"
+   },
+   "answer": "A",
+   "explanation": "We say 'good at' something.",
+   "distractors": {
+    "D": "'well' is an adverb: she draws well",
+    "C": "'nice at' isn't English",
+    "B": "needs 'the' and changes the meaning"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The car ran ___ of petrol on the way home.",
+   "options": {
+    "A": "out",
+    "B": "over",
+    "C": "off",
+    "D": "away"
+   },
+   "answer": "A",
+   "explanation": "'Run out of' means have none left.",
+   "distractors": {
+    "C": "'run off' means escape",
+    "D": "'run away' means leave",
+    "B": "'run over' means hit with a car"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The baby ___ loudly when she dropped her toy.",
+   "options": {
+    "A": "whispered",
+    "B": "laughed",
+    "C": "cried",
+    "D": "giggled"
+   },
+   "answer": "C",
+   "explanation": "A baby who drops a toy is likely to cry loudly.",
+   "distractors": {
+    "B": "doesn't fit dropping a toy",
+    "D": "giggling is quiet and happy",
+    "A": "whispering is quiet"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "We could hear the ___ of the waves on the rocks.",
+   "options": {
+    "A": "crash",
+    "B": "chirp",
+    "C": "hum",
+    "D": "tick"
+   },
+   "answer": "A",
+   "explanation": "Waves crash on rocks.",
+   "distractors": {
+    "D": "a clock ticks",
+    "B": "birds chirp",
+    "C": "a fridge hums"
+   }
+  },
+  {
+   "n": 23,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "Tom made a ___ when he spelled 'friend' as 'freind'.",
+   "options": {
+    "A": "fault",
+    "B": "mistake",
+    "C": "wrong",
+    "D": "problem"
+   },
+   "answer": "B",
+   "explanation": "We 'make a mistake'.",
+   "distractors": {
+    "A": "'make a fault' isn't English",
+    "D": "'make a problem' isn't the usual phrase",
+    "C": "'wrong' isn't a noun here"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The movie was so ___ that I watched it three times.",
+   "options": {
+    "A": "tired",
+    "B": "frightened",
+    "C": "boring",
+    "D": "enjoyable"
+   },
+   "answer": "D",
+   "explanation": "If you watch it three times, it was enjoyable.",
+   "distractors": {
+    "C": "the opposite",
+    "B": "describes how a person feels",
+    "A": "describes a person, not a movie"
+   }
+  }
+ ]
+}

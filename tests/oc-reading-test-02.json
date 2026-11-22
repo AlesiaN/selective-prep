@@ -1,0 +1,922 @@
+{
+ "id": "oc-rd-02",
+ "title": "OC Reading – Practice Test 2",
+ "section": "Reading",
+ "timeLimitMinutes": 40,
+ "groupLabel": "By part",
+ "topics": {
+  "FIC": "Part 1 – Fiction",
+  "CLZ": "Part 2 – Vocabulary cloze",
+  "POE": "Part 3 – Poetry",
+  "GAP": "Part 4 – Gapped text",
+  "MAT": "Part 5 – Multiple matching"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 1,
+   "kind": "prose",
+   "title": "Through the Gate",
+   "intro": "Read the story below, then answer questions 1–6. Paragraphs are numbered.",
+   "credit": "Original story written for this practice test.",
+   "paragraphs": [
+    "The sign on the gate of the community garden said OPEN TO EVERYONE, but Oscar had never been inside. He walked past it every day on the way to school and peered through the wire at the rows of beans and the old bathtub full of strawberries.",
+    "Then, one Saturday, a tomato rolled out under the gate and stopped against his shoe.",
+    "'Good catch!' called a voice. An old man in a floppy hat was leaning on a rake. 'That one's been trying to escape all week.'",
+    "Oscar picked up the tomato. It was warm from the sun and smelled like summer. He held it through the gate, but the man shook his head.",
+    "'Keep it,' he said. 'But if you want another one, you'll have to help me pick them. My knees aren't what they used to be.'",
+    "Oscar spent the whole morning in the garden. Mr Abebe showed him how to twist the tomatoes off the vine without squashing them, which snails to move and which worms to leave alone, and how to tell when a pumpkin was ready by knocking on it like a door.",
+    "When Oscar finally went home, his pockets were full of beans and his hands were green to the wrists. 'Where have you been?' asked his mum.",
+    "Oscar thought about it. 'Making a friend,' he said, 'and about a hundred tomatoes.'"
+   ],
+   "numbered": true
+  },
+  {
+   "id": "p2",
+   "part": 2,
+   "kind": "cloze",
+   "title": "The Waggle Dance",
+   "intro": "Read the text below. Choose the best word to fill each of the 8 gaps (questions 7–14).",
+   "credit": "Original text written for this practice test.",
+   "text": "Have you ever wondered how a bee finds its way home? Honey bees can {1} several kilometres from their hive to find flowers. When a bee discovers a good {2} of food, it flies back and does a special dance for the other bees.\n\nThe dance tells the other bees which {3} to fly and how far away the flowers are. If the flowers are close, the bee does a round dance. If they are far away, it does a waggle dance, wiggling its body from side to {4}.\n\nScientists who {5} bees closely were amazed when they first worked this out. It means that bees can {6} information without using any words at all. Next time you see a bee buzzing around a garden, remember that it might be on an important {7}, and try not to {8} it."
+  },
+  {
+   "id": "p3",
+   "part": 3,
+   "kind": "poem",
+   "title": "The Owl and the Pussy-cat",
+   "intro": "Read the poem below, then answer questions 15–19. Lines are numbered. (fowl: bird; tarried: waited; shilling: an old coin; quince: a fruit; runcible: a made-up word.)",
+   "credit": "Edward Lear, Nonsense Songs, Stories, Botany and Alphabets, 1871. Public domain.",
+   "stanzas": [
+    [
+     "The Owl and the Pussy-cat went to sea",
+     "In a beautiful pea-green boat,",
+     "They took some honey, and plenty of money,",
+     "Wrapped up in a five-pound note.",
+     "The Owl looked up to the stars above,",
+     "And sang to a small guitar,",
+     "“O lovely Pussy! O Pussy, my love,",
+     "What a beautiful Pussy you are,",
+     "You are,",
+     "You are!",
+     "What a beautiful Pussy you are!”"
+    ],
+    [
+     "Pussy said to the Owl, “You elegant fowl!",
+     "How charmingly sweet you sing!",
+     "O let us be married! too long we have tarried:",
+     "But what shall we do for a ring?”",
+     "They sailed away, for a year and a day,",
+     "To the land where the Bong-Tree grows",
+     "And there in a wood a Piggy-wig stood",
+     "With a ring at the end of his nose,",
+     "His nose,",
+     "His nose,",
+     "With a ring at the end of his nose."
+    ],
+    [
+     "“Dear Pig, are you willing to sell for one shilling",
+     "Your ring?” Said the Piggy, “I will.”",
+     "So they took it away, and were married next day",
+     "By the Turkey who lives on the hill.",
+     "They dined on mince, and slices of quince,",
+     "Which they ate with a runcible spoon;",
+     "And hand in hand, on the edge of the sand,",
+     "They danced by the light of the moon,",
+     "The moon,",
+     "The moon,",
+     "They danced by the light of the moon."
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "part": 4,
+   "kind": "gapped",
+   "title": "The Coathanger",
+   "intro": "Six sentences have been removed from the article. Choose the sentence (A–G) that best fits each gap (questions 20–25). There is one extra sentence you do not need.",
+   "credit": "Original article written for this practice test.",
+   "paragraphs": [
+    "The Sydney Harbour Bridge is one of the most famous bridges in the world. [[1]] Because of its shape, Sydneysiders gave it a nickname: 'the Coathanger'.",
+    "Building the bridge took eight years. [[2]] When the two halves finally met in the middle in 1930, crowds gathered to watch.",
+    "The bridge opened in March 1932. [[3]] Just as the ribbon was about to be cut, a man on horseback rode forward and slashed it with his sword. He was quickly taken away, and the ribbon was tied together so it could be cut again properly.",
+    "Today, about 160,000 vehicles cross the bridge every day. [[4]] Some visitors even climb to the very top of the arch, wearing special suits and clipped onto safety lines.",
+    "The bridge needs a lot of care. [[5]] It takes so long to paint that, in the past, people said that as soon as the painters finished one end, they had to start again at the other.",
+    "Every New Year's Eve, the bridge becomes the centre of a huge fireworks show. [[6]]"
+   ],
+   "bank": {
+    "A": "Its huge steel arch stretches across the harbour from the city to the north shore.",
+    "B": "Workers built the arch out from each side of the harbour at the same time.",
+    "C": "A big crowd came to watch the opening ceremony.",
+    "D": "Trains, buses, cyclists and people on foot also use it.",
+    "E": "Its steel must be painted regularly to stop it from rusting.",
+    "F": "Millions of people around the world watch on television.",
+    "G": "Koalas sleep for up to twenty hours a day."
+   }
+  },
+  {
+   "id": "p5",
+   "part": 5,
+   "kind": "extracts",
+   "title": "Four Short Texts",
+   "intro": "Read the four short texts. For questions 26–33, choose which text (A, B, C or D) each statement matches. You can use each letter more than once.",
+   "credit": "Original texts written for this practice test. The movie in text D is invented.",
+   "extracts": {
+    "A": {
+     "title": "Camp Diary",
+     "text": "Day 2. It rained all night and our tent leaked right onto my sleeping bag. I was grumpy at breakfast until Ms Chen announced that we were going canoeing. I fell in twice, but I didn't care, because I was already wet! Tonight we toasted marshmallows. Mine caught fire, but it still tasted good."
+    },
+    "B": {
+     "title": "Lost: Grey Cat",
+     "text": "Our cat, Pepper, went missing on Tuesday from Wattle Street. She is small and grey with one white paw and a pink collar with a bell. She is very friendly but may be scared. Please check your sheds and garages. If you see her, call Amira on the number below. Reward offered!"
+    },
+    "C": {
+     "title": "The Wombat's Burrow",
+     "text": "Wombats are expert diggers. Using their strong claws, they dig burrows that can be up to 30 metres long, with many tunnels and rooms. A wombat's pouch faces backwards, so dirt doesn't get in while it digs. Wombats sleep in their burrows during the day and come out at night to eat grass and roots."
+    },
+    "D": {
+     "title": "Review: Space Pirates",
+     "text": "Space Pirates is the funniest movie I have seen this year. The robot parrot steals every scene, and the songs are so catchy that my little brother sang them for a week. The ending was a bit rushed, and some jokes went over my head, but I'd still give it four stars out of five."
+    }
+   }
+  }
+ ],
+ "questions": [
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding a character",
+   "difficulty": 2,
+   "stem": "What does paragraph 1 suggest about Oscar?",
+   "options": {
+    "A": "He did not like gardens.",
+    "B": "He was not allowed in the garden.",
+    "C": "He worked in the garden every day.",
+    "D": "He was curious about the garden but hadn't gone in."
+   },
+   "answer": "D",
+   "explanation": "He walks past every day and peers through the wire at the plants, so he is interested, but he 'had never been inside'.",
+   "distractors": {
+    "A": "he looks at it every day, so he seems interested",
+    "B": "the sign says it is open to everyone",
+    "C": "he had never been inside"
+   },
+   "n": 1
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Humour in a character's words",
+   "difficulty": 2,
+   "stem": "Mr Abebe says the tomato has 'been trying to escape all week' (paragraph 3). Why does he say this?",
+   "options": {
+    "A": "He thinks someone has been stealing tomatoes.",
+    "B": "He is angry with the tomato.",
+    "C": "He is joking, as if the tomato were alive.",
+    "D": "The tomato plant is growing over the fence."
+   },
+   "answer": "C",
+   "explanation": "Tomatoes can't really try to escape. Mr Abebe is being playful, talking about the tomato as if it had a mind of its own.",
+   "distractors": {
+    "A": "nothing suggests stealing",
+    "B": "his tone is friendly ('Good catch!')",
+    "D": "the tomato rolled under the gate"
+   },
+   "n": 2
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of describing the senses",
+   "difficulty": 3,
+   "stem": "'It was warm from the sun and smelled like summer' (paragraph 4). This description helps the reader",
+   "options": {
+    "A": "understand that the tomato is rotten.",
+    "B": "imagine how fresh and appealing the tomato is.",
+    "C": "know what time of day it is.",
+    "D": "see that Oscar is hungry."
+   },
+   "answer": "B",
+   "explanation": "Touch (warm) and smell (like summer) make the tomato seem fresh and delicious, which helps explain why Oscar wants to stay.",
+   "distractors": {
+    "A": "warm and smelling like summer suggests fresh, not rotten",
+    "C": "it doesn't tell us the time",
+    "D": "hunger isn't mentioned"
+   },
+   "n": 3
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding a character's reason",
+   "difficulty": 3,
+   "stem": "Why does Mr Abebe ask Oscar to help him pick the tomatoes?",
+   "options": {
+    "A": "He finds bending down hard and would like company.",
+    "B": "He wants Oscar to pay for the tomato.",
+    "C": "He needs Oscar to carry the tomatoes to the shop.",
+    "D": "He wants Oscar to leave."
+   },
+   "answer": "A",
+   "explanation": "He says 'My knees aren't what they used to be', so picking is hard for him, and his friendly manner suggests he'd enjoy the company.",
+   "distractors": {
+    "B": "he tells Oscar to keep the tomato for free",
+    "C": "no shop is mentioned",
+    "D": "he invites Oscar in"
+   },
+   "n": 4
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Meaning of a comparison",
+   "difficulty": 3,
+   "stem": "Mr Abebe taught Oscar to knock on a pumpkin 'like a door' (paragraph 6). What does this comparison show?",
+   "options": {
+    "A": "Pumpkins have small doors in them.",
+    "B": "You tap the pumpkin with your knuckles to hear if it is ready.",
+    "C": "Someone lives inside the pumpkin.",
+    "D": "Oscar had to knock before entering the garden."
+   },
+   "answer": "B",
+   "explanation": "Knocking 'like a door' means tapping with your knuckles. The sound tells you if the pumpkin is ripe.",
+   "distractors": {
+    "A": "took the comparison literally",
+    "C": "took it literally",
+    "D": "the gate was open; the comparison is about the pumpkin"
+   },
+   "n": 5
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding the ending",
+   "difficulty": 4,
+   "stem": "What does Oscar's answer to his mum show?",
+   "options": {
+    "A": "The friendship mattered to him as much as the tomatoes, and he is in a happy, joking mood.",
+    "B": "He is upset that he was out so long.",
+    "C": "He forgot what he did all morning.",
+    "D": "He doesn't want his mum to know where he was."
+   },
+   "answer": "A",
+   "explanation": "He mentions the friend first, then jokes about 'about a hundred tomatoes'. He is happy, and the new friendship is what he remembers most.",
+   "distractors": {
+    "B": "his answer is cheerful",
+    "C": "he knows exactly what he did",
+    "D": "he tells her directly"
+   },
+   "n": 6
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 1: choose the best word.",
+   "options": {
+    "A": "trip",
+    "B": "journey",
+    "C": "visit",
+    "D": "travel"
+   },
+   "answer": "D",
+   "explanation": "'Travel several kilometres' uses the verb travel.",
+   "distractors": {
+    "A": "'trip' as a verb means stumble",
+    "B": "'journey' is mostly a noun",
+    "C": "you visit a place, not 'visit several kilometres'"
+   },
+   "gap": 1,
+   "n": 7
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 2: choose the best word.",
+   "options": {
+    "A": "start",
+    "B": "beginning",
+    "C": "source",
+    "D": "spring"
+   },
+   "answer": "C",
+   "explanation": "A 'source of food' is a place where food comes from.",
+   "distractors": {
+    "A": "'a start of food' isn't English",
+    "B": "'a beginning of food' isn't English",
+    "D": "a spring is a source of water, not food"
+   },
+   "gap": 2,
+   "n": 8
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 3: choose the best word.",
+   "options": {
+    "A": "address",
+    "B": "corner",
+    "C": "direction",
+    "D": "side"
+   },
+   "answer": "C",
+   "explanation": "The dance shows which direction to fly.",
+   "distractors": {
+    "A": "flowers don't have addresses",
+    "B": "'which corner to fly' doesn't make sense",
+    "D": "'which side to fly' isn't how we say it"
+   },
+   "gap": 3,
+   "n": 9
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 1,
+   "stem": "Gap 4: choose the best word.",
+   "options": {
+    "A": "edge",
+    "B": "end",
+    "C": "back",
+    "D": "side"
+   },
+   "answer": "D",
+   "explanation": "The phrase is 'from side to side'.",
+   "distractors": {
+    "A": "'from side to edge' isn't a phrase",
+    "B": "'from side to end' isn't a phrase",
+    "C": "'from side to back' isn't a phrase"
+   },
+   "gap": 4,
+   "n": 10
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 5: choose the best word.",
+   "options": {
+    "A": "learned",
+    "B": "studied",
+    "C": "taught",
+    "D": "copied"
+   },
+   "answer": "B",
+   "explanation": "Scientists 'study' bees closely (watch and examine them).",
+   "distractors": {
+    "A": "you learn about bees, not 'learned bees'",
+    "C": "nobody teaches bees",
+    "D": "scientists don't copy bees"
+   },
+   "gap": 5,
+   "n": 11
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 6: choose the best word.",
+   "options": {
+    "A": "share",
+    "B": "speak",
+    "C": "tell",
+    "D": "say"
+   },
+   "answer": "A",
+   "explanation": "Bees 'share information' with each other.",
+   "distractors": {
+    "B": "you speak words, not 'speak information'",
+    "C": "'tell information' isn't natural; you tell someone something",
+    "D": "'say information' isn't natural"
+   },
+   "gap": 6,
+   "n": 12
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 7: choose the best word.",
+   "options": {
+    "A": "holiday",
+    "B": "mission",
+    "C": "party",
+    "D": "lesson"
+   },
+   "answer": "B",
+   "explanation": "A bee collecting food for the hive is on an important 'mission' (job).",
+   "distractors": {
+    "A": "a holiday isn't important work",
+    "C": "a party isn't a job",
+    "D": "a lesson is for learning"
+   },
+   "gap": 7,
+   "n": 13
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 8: choose the best word.",
+   "options": {
+    "A": "discover",
+    "B": "dislike",
+    "C": "disturb",
+    "D": "disappear"
+   },
+   "answer": "C",
+   "explanation": "'Try not to disturb it' means leave it alone and don't bother it.",
+   "distractors": {
+    "A": "discover means find",
+    "B": "dislike means not like",
+    "D": "disappear means vanish; you can't make it disappear"
+   },
+   "gap": 8,
+   "n": 14
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Why a poet uses nonsense",
+   "difficulty": 2,
+   "stem": "Which of these details shows most clearly that this is a nonsense poem?",
+   "options": {
+    "A": "An owl and a cat sail away together and get married.",
+    "B": "The Owl looks up at the stars.",
+    "C": "They take some honey with them.",
+    "D": "It is night-time when they dance."
+   },
+   "answer": "A",
+   "explanation": "Animals sailing a boat, singing to a guitar and marrying each other could never really happen: this is what makes it nonsense.",
+   "distractors": {
+    "B": "owls really do look at the sky",
+    "C": "taking honey isn't impossible",
+    "D": "dancing at night isn't impossible"
+   },
+   "n": 15
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of repetition",
+   "difficulty": 3,
+   "stem": "Why are some words repeated at the end of each stanza, such as 'You are, / You are!'?",
+   "options": {
+    "A": "because the poet forgot what came next",
+    "B": "to show that the Owl is confused",
+    "C": "to make the poem longer for no reason",
+    "D": "to make the poem sound like a song and fun to read aloud"
+   },
+   "answer": "D",
+   "explanation": "The Owl is singing to a guitar. Repeating short phrases like a chorus gives the poem a musical, sing-song feel.",
+   "distractors": {
+    "A": "the repetition is deliberate in every stanza",
+    "B": "the Owl sounds happy, not confused",
+    "C": "the repetition gives the poem its song-like rhythm"
+   },
+   "n": 16
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Understanding the story",
+   "difficulty": 2,
+   "stem": "Why do the Owl and the Pussy-cat need to find the Piggy-wig?",
+   "options": {
+    "A": "The Pig can steer their boat.",
+    "B": "They need the Pig to marry them.",
+    "C": "The Pig has a ring they can use for their wedding.",
+    "D": "The Pig is lost in the wood."
+   },
+   "answer": "C",
+   "explanation": "Pussy asks 'what shall we do for a ring?' They find a Pig with a ring on his nose and buy it for one shilling.",
+   "distractors": {
+    "A": "the Pig doesn't steer",
+    "B": "the Turkey marries them",
+    "D": "the Pig is just standing in the wood"
+   },
+   "n": 17
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Sound patterns",
+   "difficulty": 2,
+   "stem": "In the line 'They dined on mince, and slices of quince', which words rhyme inside the line?",
+   "options": {
+    "A": "dined and slices",
+    "B": "They and of",
+    "C": "slices and quince",
+    "D": "mince and quince"
+   },
+   "answer": "D",
+   "explanation": "'Mince' and 'quince' rhyme in the middle and end of the same line (an internal rhyme), which makes the line bouncy.",
+   "distractors": {
+    "A": "they don't rhyme",
+    "B": "they don't rhyme",
+    "C": "they don't rhyme"
+   },
+   "n": 18
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Mood of the ending",
+   "difficulty": 2,
+   "stem": "What is the mood at the end of the poem?",
+   "options": {
+    "A": "happy and peaceful",
+    "B": "scary and dark",
+    "C": "sad and lonely",
+    "D": "angry and noisy"
+   },
+   "answer": "A",
+   "explanation": "After their wedding, the two dance 'hand in hand' on the sand 'by the light of the moon': a calm, joyful ending.",
+   "distractors": {
+    "B": "the moonlight is gentle, not scary",
+    "C": "they are together and celebrating",
+    "D": "nothing is angry"
+   },
+   "n": 19
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "Its huge steel arch stretches across the harbour from the city to the north shore.",
+    "B": "Workers built the arch out from each side of the harbour at the same time.",
+    "C": "A big crowd came to watch the opening ceremony.",
+    "D": "Trains, buses, cyclists and people on foot also use it.",
+    "E": "Its steel must be painted regularly to stop it from rusting.",
+    "F": "Millions of people around the world watch on television.",
+    "G": "Koalas sleep for up to twenty hours a day."
+   },
+   "answer": "A",
+   "explanation": "The next sentence mentions the bridge's 'shape'. A describes the huge arch, which looks like a coathanger.",
+   "distractors": {
+    "B": "doesn't link to the sentences around gap 1",
+    "C": "doesn't link to the sentences around gap 1",
+    "D": "doesn't link to the sentences around gap 1",
+    "E": "doesn't link to the sentences around gap 1",
+    "F": "doesn't link to the sentences around gap 1",
+    "G": "the extra sentence: it's about koalas, not the bridge"
+   },
+   "gap": 1,
+   "n": 20
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "Its huge steel arch stretches across the harbour from the city to the north shore.",
+    "B": "Workers built the arch out from each side of the harbour at the same time.",
+    "C": "A big crowd came to watch the opening ceremony.",
+    "D": "Trains, buses, cyclists and people on foot also use it.",
+    "E": "Its steel must be painted regularly to stop it from rusting.",
+    "F": "Millions of people around the world watch on television.",
+    "G": "Koalas sleep for up to twenty hours a day."
+   },
+   "answer": "B",
+   "explanation": "'When the two halves finally met in the middle' needs an earlier mention of two halves: B says the arch was built from each side.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 2",
+    "C": "doesn't link to the sentences around gap 2",
+    "D": "doesn't link to the sentences around gap 2",
+    "E": "doesn't link to the sentences around gap 2",
+    "F": "doesn't link to the sentences around gap 2",
+    "G": "the extra sentence: it's about koalas, not the bridge"
+   },
+   "gap": 2,
+   "n": 21
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "Its huge steel arch stretches across the harbour from the city to the north shore.",
+    "B": "Workers built the arch out from each side of the harbour at the same time.",
+    "C": "A big crowd came to watch the opening ceremony.",
+    "D": "Trains, buses, cyclists and people on foot also use it.",
+    "E": "Its steel must be painted regularly to stop it from rusting.",
+    "F": "Millions of people around the world watch on television.",
+    "G": "Koalas sleep for up to twenty hours a day."
+   },
+   "answer": "C",
+   "explanation": "After 'The bridge opened', C introduces the ceremony and crowd, before the story of the man with the sword.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 3",
+    "B": "doesn't link to the sentences around gap 3",
+    "D": "doesn't link to the sentences around gap 3",
+    "E": "doesn't link to the sentences around gap 3",
+    "F": "doesn't link to the sentences around gap 3",
+    "G": "the extra sentence: it's about koalas, not the bridge"
+   },
+   "gap": 3,
+   "n": 22
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "Its huge steel arch stretches across the harbour from the city to the north shore.",
+    "B": "Workers built the arch out from each side of the harbour at the same time.",
+    "C": "A big crowd came to watch the opening ceremony.",
+    "D": "Trains, buses, cyclists and people on foot also use it.",
+    "E": "Its steel must be painted regularly to stop it from rusting.",
+    "F": "Millions of people around the world watch on television.",
+    "G": "Koalas sleep for up to twenty hours a day."
+   },
+   "answer": "D",
+   "explanation": "After the number of vehicles, D adds the other users. 'Some visitors even climb…' continues the list of ways people use the bridge.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 4",
+    "B": "doesn't link to the sentences around gap 4",
+    "C": "doesn't link to the sentences around gap 4",
+    "E": "doesn't link to the sentences around gap 4",
+    "F": "doesn't link to the sentences around gap 4",
+    "G": "the extra sentence: it's about koalas, not the bridge"
+   },
+   "gap": 4,
+   "n": 23
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "Its huge steel arch stretches across the harbour from the city to the north shore.",
+    "B": "Workers built the arch out from each side of the harbour at the same time.",
+    "C": "A big crowd came to watch the opening ceremony.",
+    "D": "Trains, buses, cyclists and people on foot also use it.",
+    "E": "Its steel must be painted regularly to stop it from rusting.",
+    "F": "Millions of people around the world watch on television.",
+    "G": "Koalas sleep for up to twenty hours a day."
+   },
+   "answer": "E",
+   "explanation": "'The bridge needs a lot of care', then E explains why (painting to stop rust), and the next sentence is about painting.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 5",
+    "B": "doesn't link to the sentences around gap 5",
+    "C": "doesn't link to the sentences around gap 5",
+    "D": "doesn't link to the sentences around gap 5",
+    "F": "doesn't link to the sentences around gap 5",
+    "G": "the extra sentence: it's about koalas, not the bridge"
+   },
+   "gap": 5,
+   "n": 24
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 6?",
+   "options": {
+    "A": "Its huge steel arch stretches across the harbour from the city to the north shore.",
+    "B": "Workers built the arch out from each side of the harbour at the same time.",
+    "C": "A big crowd came to watch the opening ceremony.",
+    "D": "Trains, buses, cyclists and people on foot also use it.",
+    "E": "Its steel must be painted regularly to stop it from rusting.",
+    "F": "Millions of people around the world watch on television.",
+    "G": "Koalas sleep for up to twenty hours a day."
+   },
+   "answer": "F",
+   "explanation": "After the fireworks show, F says how many people watch it.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 6",
+    "B": "doesn't link to the sentences around gap 6",
+    "C": "doesn't link to the sentences around gap 6",
+    "D": "doesn't link to the sentences around gap 6",
+    "E": "doesn't link to the sentences around gap 6",
+    "G": "the extra sentence: it's about koalas, not the bridge"
+   },
+   "gap": 6,
+   "n": 25
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 1,
+   "stem": "Which text is asking readers for help?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "B",
+   "explanation": "Amira asks people to check their sheds and call if they see Pepper.",
+   "distractors": {
+    "A": "a diary entry; it doesn't ask for help",
+    "C": "gives facts",
+    "D": "gives an opinion"
+   },
+   "n": 26
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which text gives facts about an animal?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "C",
+   "explanation": "It explains how wombats dig, their backwards pouch, and when they eat.",
+   "distractors": {
+    "A": "no animal facts",
+    "B": "describes a pet cat, but to help find her",
+    "D": "the robot parrot isn't a real animal"
+   },
+   "n": 27
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer's feelings change from bad to good?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "A",
+   "explanation": "The writer is 'grumpy at breakfast' after the leaky tent but cheers up with canoeing and marshmallows.",
+   "distractors": {
+    "B": "worried throughout",
+    "C": "no feelings described",
+    "D": "the opinion stays positive"
+   },
+   "n": 28
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer mentions something that is not perfect but still gives praise overall?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "D",
+   "explanation": "The ending was rushed and some jokes went over the writer's head, but it still gets four stars.",
+   "distractors": {
+    "A": "the marshmallow burned, but this isn't a review",
+    "B": "no praise",
+    "C": "no opinion"
+   },
+   "n": 29
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which text describes how something is built?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "C",
+   "explanation": "Wombats dig burrows up to 30 metres long, with tunnels and rooms.",
+   "distractors": {
+    "A": "the tent is mentioned but not how it is built",
+    "B": "no building",
+    "D": "no building"
+   },
+   "n": 30
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which writer explains why something didn't matter to them?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "A",
+   "explanation": "Falling in twice didn't matter 'because I was already wet!'",
+   "distractors": {
+    "B": "everything in the poster matters",
+    "C": "no personal feelings",
+    "D": "the writer explains what wasn't perfect, not what didn't matter"
+   },
+   "n": 31
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which text gives a description to help someone recognise something?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "B",
+   "explanation": "Pepper is small and grey, with one white paw and a pink collar with a bell.",
+   "distractors": {
+    "A": "no description for recognising",
+    "C": "describes wombats in general",
+    "D": "describes a movie, not to recognise it"
+   },
+   "n": 32
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which text mentions someone else's reaction to help show the writer's opinion?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "D",
+   "explanation": "The writer's little brother sang the songs for a week, which shows how catchy they were.",
+   "distractors": {
+    "A": "Ms Chen announces canoeing, but that isn't a reaction showing an opinion",
+    "B": "no one else's reaction",
+    "C": "no people"
+   },
+   "n": 33
+  }
+ ]
+}

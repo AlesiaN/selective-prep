@@ -83,3 +83,20 @@ After she finishes, **Copy for feedback** puts the marking guide, the task and h
 - Progress on the current test is saved on the device until it's submitted, so an accidental reload loses nothing. Results are **not** stored: leaving the results screen clears them.
 - The results screen shows the score, time used, topics weakest first, a difficulty breakdown, and a review of each question with the likely mistake behind a wrong answer. **Share summary** copies or shares a text summary for a parent.
 - Keyboard shortcuts on desktop: A–E or 1–5 to answer, ← → to move between questions.
+
+## Selective, OC and Practice (v6)
+
+`tests/index.json` now has three groups under `exams`: Selective, OC and Practice. Each group has its own `sections`, and each section lists its tests.
+
+- **OC** tests follow the OC format. Maths is 35 questions in 40 minutes. Reading is 33 answers in 40 minutes, in 5 parts that include the vocabulary cloze. Thinking is 30 questions in 30 minutes. There is no writing section.
+- **Practice** entries set `"practice": true`. In practice mode the answer and the working show as soon as a question is answered, and the clock counts up instead of down.
+  - `"gen": "FRAC"` makes a fresh set of maths questions every time, using `practice.js`. The topic codes are listed in `PracticeGen.topics`, plus `mixed`.
+  - `"draw": 10` takes 10 random questions from a bank file. Each attempt saves a random seed, so a resumed practice set is the same one that was started.
+- Poems that are still in copyright (Dawe, Wright) are not printed. Their practice sets show only the poem's title and say where to find it.
+
+## v7 additions
+
+- **OC Test 2** for Maths, Reading and Thinking. The Reading poem is The Owl and the Pussy-cat by Edward Lear, which is public domain.
+- **Practice > Gapped text:** four short articles, two at OC level and two at Selective level. Each has 5 gaps and one extra sentence that doesn't fit.
+- **Practice > Spatial:** three banks of 32 picture puzzles each (nets and cubes, patterns, mirrors and moves). Each run draws 8 at random.
+- Top-view puzzles now draw a dashed floor grid, and their stacks never hide a column. This applies to all tests that use them.

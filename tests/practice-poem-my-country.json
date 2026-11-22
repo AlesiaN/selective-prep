@@ -1,0 +1,260 @@
+{
+ "id": "p-poe-mc",
+ "title": "Practice poem: My Country (Dorothea Mackellar)",
+ "section": "Poetry",
+ "topics": {
+  "POE": "Poetry"
+ },
+ "groupLabel": "By topic",
+ "practice": true,
+ "questions": [
+  {
+   "n": 1,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "Who is 'you' in the first stanza?",
+   "options": {
+    "A": "a farmer in outback Australia",
+    "B": "someone who loves the green, gentle English countryside",
+    "C": "the poet's horse",
+    "D": "a sailor on the 'jewel-sea'"
+   },
+   "answer": "B",
+   "explanation": "Fields, shaded lanes, ordered woods, soft dim skies: the first stanza describes the English landscape, loved by 'you'. The speaker says 'My love is otherwise' (different).",
+   "distractors": {
+    "A": "the first stanza is the green countryside the speaker does NOT choose",
+    "C": "no horse is mentioned",
+    "D": "the jewel-sea is in stanza 2, about Australia"
+   }
+  },
+  {
+   "n": 2,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 2,
+   "skill": "Understanding a poem",
+   "stem": "What does 'My love is otherwise' (line 8) mean?",
+   "options": {
+    "A": "I love a different kind of land.",
+    "B": "I used to love England.",
+    "C": "I love the same things as you.",
+    "D": "I don't love anything."
+   },
+   "answer": "A",
+   "explanation": "'Otherwise' means different. The speaker loves a different kind of country, which stanza 2 reveals: Australia.",
+   "distractors": {
+    "D": "the next stanza is full of love",
+    "C": "the opposite",
+    "B": "she says she 'cannot share it'"
+   }
+  },
+  {
+   "n": 3,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "In line 15, the speaker loves the country's 'beauty and her terror'. What does this show?",
+   "options": {
+    "A": "She thinks Australia is ugly.",
+    "B": "She only likes the land when the weather is calm.",
+    "C": "She loves the land even though it can be harsh and frightening.",
+    "D": "She is too scared to live in Australia."
+   },
+   "answer": "C",
+   "explanation": "Droughts and flooding rains are the 'terror'. The speaker loves the whole land, its dangers as well as its beauty.",
+   "distractors": {
+    "D": "she says 'The wide brown land for me!'",
+    "A": "she praises its beauty",
+    "B": "she loves the terror too"
+   }
+  },
+  {
+   "n": 4,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "'The hot gold hush of noon' (line 20) creates a picture of",
+   "options": {
+    "A": "a cold, misty morning.",
+    "B": "a bright, still, quiet middle of the day.",
+    "C": "a noisy, windy afternoon.",
+    "D": "gold being found in the mountains."
+   },
+   "answer": "B",
+   "explanation": "'Hot gold' suggests strong sunshine; 'hush' means silence. Midday in the bush is bright, hot and still.",
+   "distractors": {
+    "C": "'hush' means quiet",
+    "D": "'gold' describes the light, not real gold",
+    "A": "it's 'hot' and at 'noon'"
+   }
+  },
+  {
+   "n": 5,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 4,
+   "skill": "Understanding a poem",
+   "stem": "In stanza 4, the rain is described as 'the drumming of an army'. What does this suggest?",
+   "options": {
+    "A": "Soldiers are marching through the farm.",
+    "B": "The farmers are playing music.",
+    "C": "The heavy rain is loud, strong and welcome, like a rescue arriving.",
+    "D": "The rain is frightening and destructive."
+   },
+   "answer": "C",
+   "explanation": "After the drought, when 'we see the cattle die', the steady rain drums loudly, and people 'bless' it. It arrives like a powerful helping force.",
+   "distractors": {
+    "A": "took the comparison literally",
+    "D": "people 'bless' it: it's welcome",
+    "B": "the drumming is the sound of rain"
+   }
+  },
+  {
+   "n": 6,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 4,
+   "skill": "Understanding a poem",
+   "stem": "What does 'She pays us back threefold' (line 36) mean?",
+   "options": {
+    "A": "Floods happen three times a year.",
+    "B": "After hard times, the land gives back three times as much.",
+    "C": "The farmers have to pay the land three times.",
+    "D": "The land costs three times more than England."
+   },
+   "answer": "B",
+   "explanation": "After flood, fire and famine, the land rewards people generously: grass grows back, and 'the filmy veil of greenness … thickens'.",
+   "distractors": {
+    "C": "the land pays back, not the farmers",
+    "D": "not about money",
+    "A": "'threefold' means three times as much"
+   }
+  },
+  {
+   "n": 7,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 4,
+   "skill": "Understanding a poem",
+   "stem": "Why does the poet call Australia 'An opal-hearted country' (line 41)?",
+   "options": {
+    "A": "Opals are only found in Australia's centre.",
+    "B": "Like an opal, the land has hidden, changing beauty that is precious.",
+    "C": "The country is shaped like a heart.",
+    "D": "The land is hard and cold like a stone."
+   },
+   "answer": "B",
+   "explanation": "An opal is a precious stone with flashes of many colours. The metaphor suggests the land's beauty is rich, surprising and valuable.",
+   "distractors": {
+    "C": "took 'hearted' literally",
+    "A": "it's a metaphor about beauty, not a fact about mining",
+    "D": "the poem is warm and loving"
+   }
+  },
+  {
+   "n": 8,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "What is the main message of the poem?",
+   "options": {
+    "A": "Droughts are the worst thing about Australia.",
+    "B": "England is a better place to live than Australia.",
+    "C": "People should leave the country and move to the city.",
+    "D": "The speaker deeply loves the harsh but beautiful Australian land and will always feel it is home."
+   },
+   "answer": "D",
+   "explanation": "The whole poem celebrates Australia, with its dangers and its beauty, ending with 'my homing thoughts will fly' back to this 'brown country'.",
+   "distractors": {
+    "B": "the speaker chooses Australia",
+    "A": "droughts are mentioned, but they aren't the main message",
+    "C": "cities aren't mentioned"
+   }
+  }
+ ],
+ "passages": [
+  {
+   "id": "p1",
+   "part": 3,
+   "kind": "poem",
+   "title": "My Country",
+   "intro": "Read the poem, then answer the questions. Lines are numbered. (coppice: a small wood; lianas: climbing vines; lithe: bending easily; lavish: generous.)",
+   "credit": "Dorothea Mackellar, first published in 1908. Public domain.",
+   "stanzas": [
+    [
+     "The love of field and coppice,",
+     "Of green and shaded lanes,",
+     "Of ordered woods and gardens",
+     "Is running in your veins.",
+     "Strong love of grey-blue distance,",
+     "Brown streams and soft, dim skies –",
+     "I know but cannot share it,",
+     "My love is otherwise."
+    ],
+    [
+     "I love a sunburnt country,",
+     "A land of sweeping plains,",
+     "Of ragged mountain ranges,",
+     "Of droughts and flooding rains.",
+     "I love her far horizons,",
+     "I love her jewel-sea,",
+     "Her beauty and her terror –",
+     "The wide brown land for me!"
+    ],
+    [
+     "The stark white ring-barked forests,",
+     "All tragic to the moon,",
+     "The sapphire-misted mountains,",
+     "The hot gold hush of noon.",
+     "Green tangle of the brushes,",
+     "Where lithe lianas coil,",
+     "And orchids deck the tree-tops",
+     "And ferns the warm dark soil."
+    ],
+    [
+     "Core of my heart, my country!",
+     "Her pitiless blue sky,",
+     "When sick at heart, around us,",
+     "We see the cattle die –",
+     "But then the grey clouds gather,",
+     "And we can bless again",
+     "The drumming of an army,",
+     "The steady, soaking rain."
+    ],
+    [
+     "Core of my heart, my country!",
+     "Land of the Rainbow Gold,",
+     "For flood and fire and famine,",
+     "She pays us back threefold –",
+     "Over the thirsty paddocks,",
+     "Watch, after many days,",
+     "The filmy veil of greenness",
+     "That thickens as we gaze."
+    ],
+    [
+     "An opal-hearted country,",
+     "A wilful, lavish land –",
+     "All you who have not loved her,",
+     "You will not understand –",
+     "Though earth holds many splendours,",
+     "Wherever I may die,",
+     "I know to what brown country",
+     "My homing thoughts will fly."
+    ]
+   ]
+  }
+ ]
+}

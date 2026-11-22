@@ -1,0 +1,638 @@
+{
+ "id": "oc-ts-02",
+ "title": "OC Thinking Skills – Practice Test 2",
+ "section": "Thinking Skills",
+ "timeLimitMinutes": 30,
+ "groupLabel": "By question type",
+ "topics": {
+  "STR": "Strengthen or weaken an argument",
+  "FLW": "Spot the mistake or assumption",
+  "WHO": "Whose reasoning is correct",
+  "DED": "What must be true",
+  "ORD": "Order and position puzzles",
+  "GRID": "Who-does-what puzzles",
+  "TIME": "Time puzzles",
+  "NUM": "Number puzzles",
+  "PAT": "Picture patterns",
+  "DATA": "Graphs and diagrams",
+  "SPA": "Spatial: nets, cubes, views and routes"
+ },
+ "questions": [
+  {
+   "n": 1,
+   "topic": "DATA",
+   "difficulty": 2,
+   "skill": "Reading a Venn diagram",
+   "stem": "The diagram shows information about the students in a class. How many students are in only one of the two circles (likes apples or likes grapes, but not both)?",
+   "svg": "<svg viewBox='0 0 440 220' xmlns='http://www.w3.org/2000/svg' style='max-width:440px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='420.0' height='200.0' fill='none' stroke-width='1.8' /><circle cx='165.0' cy='115.0' r='85.0' fill='currentColor' fill-opacity='0.06' stroke-width='2' /><circle cx='275.0' cy='115.0' r='85.0' fill='currentColor' fill-opacity='0.06' stroke-width='2' /><text x='70.0' y='34.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Likes apples</text><text x='370.0' y='34.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Likes grapes</text><text x='125.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='220.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >7</text><text x='315.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >11</text><text x='400.0' y='196.0' font-size='18' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text></svg>",
+   "options": {
+    "A": "23",
+    "B": "19",
+    "C": "7",
+    "D": "16"
+   },
+   "answer": "D",
+   "explanation": "\"Only one\" means the parts of the circles that do not overlap: 5 + 11 = 16.",
+   "distractors": {
+    "A": "included those who play both",
+    "B": "included those who play neither",
+    "C": "that is the number who play both"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "SPA",
+   "difficulty": 2,
+   "skill": "Completing a symmetrical pattern",
+   "stem": "The pattern is symmetrical about the dashed line. Which piece fills the gap?",
+   "svg": "<svg viewBox='0 0 420 186' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='88.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='46.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='46.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='62.0' width='52.0' height='52.0' fill='none' stroke-width='2' stroke-dasharray='4 3'/><text x='150.0' y='96.0' font-size='22' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >?</text><line x1='98.0' y1='4.0' x2='98.0' y2='172.0' stroke-width='1.5' stroke-dasharray='6 4'/><rect x='230.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='20.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='230.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='256.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><rect x='320.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='320.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='46.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><text x='346.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><rect x='230.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='230.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='136.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='256.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><rect x='320.0' y='110.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='110.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='320.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='346.0' y='136.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='346.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text></svg>",
+   "inlineOptions": true,
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+   },
+   "answer": "B",
+   "explanation": "Each square must match the square at the same distance on the other side of the dashed line. Read the matching squares on the left half and copy them across in mirror order: B is the piece that fits.",
+   "distractors": {
+    "A": "upside down",
+    "C": "shaded and white squares swapped",
+    "D": "left and right are the wrong way round"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "DED",
+   "difficulty": 2,
+   "skill": "What must be true",
+   "stem": "All the dogs at the park were on a lead. Biscuit is a dog at the park.\nWhich statement must be true?",
+   "options": {
+    "A": "Biscuit is a big dog.",
+    "B": "Everything on a lead is a dog.",
+    "C": "There were ten dogs at the park.",
+    "D": "Biscuit is on a lead."
+   },
+   "answer": "D",
+   "explanation": "Every dog at the park was on a lead, and Biscuit is one of them.",
+   "distractors": {
+    "A": "not stated",
+    "B": "the rule doesn't go that way",
+    "C": "the number isn't given"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "DATA",
+   "difficulty": 2,
+   "skill": "Reading a bar chart",
+   "stem": "The graph shows how many books five students read in a term. Which statement is true?",
+   "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='225.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >0</text><line x1='50.0' y1='191.4' x2='470.0' y2='191.4' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='196.4' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >2</text><line x1='50.0' y1='162.9' x2='470.0' y2='162.9' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='167.9' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >4</text><line x1='50.0' y1='134.3' x2='470.0' y2='134.3' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='139.3' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >6</text><line x1='50.0' y1='105.7' x2='470.0' y2='105.7' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='110.7' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >8</text><line x1='50.0' y1='77.1' x2='470.0' y2='77.1' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='82.1' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >10</text><line x1='50.0' y1='48.6' x2='470.0' y2='48.6' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='53.6' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >12</text><line x1='50.0' y1='20.0' x2='470.0' y2='20.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='25.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >14</text><line x1='50.0' y1='20.0' x2='50.0' y2='220.0' stroke-width='1.6' /><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='1.6' /><rect x='75.0' y='191.4' width='46.0' height='28.6' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='98.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Chen</text><rect x='155.0' y='162.9' width='46.0' height='57.1' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='178.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Ella</text><rect x='235.0' y='48.6' width='46.0' height='171.4' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='258.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Ben</text><rect x='315.0' y='120.0' width='46.0' height='100.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='338.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Finn</text><rect x='395.0' y='134.3' width='46.0' height='85.7' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='418.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Dev</text><text x='14.0' y='120.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' transform='rotate(-90 14 120.0)'>Books</text></svg>",
+   "options": {
+    "A": "Ben read more books than Ella and Chen put together.",
+    "B": "The five students read 33 books altogether.",
+    "C": "Dev read the second-fewest books.",
+    "D": "Finn read twice as many books as Chen."
+   },
+   "answer": "A",
+   "explanation": "Read each bar: Ben 12, Finn 7, Dev 6, Ella 4, Chen 2. Ben read 12; Ella and Chen read 4 + 2 = 6 together.",
+   "distractors": {
+    "B": "they read 31 altogether",
+    "C": "Dev is in the middle; the second-fewest is Ella",
+    "D": "Finn read 7 and Chen read 2"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "FLW",
+   "difficulty": 2,
+   "skill": "Find the assumption",
+   "stem": "Nina says: 'The shop has run out of chocolate ice cream, so I won't have any dessert today.'\nWhat has Nina assumed?",
+   "options": {
+    "A": "The shop will get more ice cream tomorrow.",
+    "B": "Chocolate ice cream is the only dessert she will have.",
+    "C": "Chocolate is her favourite flavour.",
+    "D": "Ice cream melts quickly."
+   },
+   "answer": "B",
+   "explanation": "She could have a different dessert. Her conclusion only works if chocolate ice cream is the only choice.",
+   "distractors": {
+    "A": "not about today",
+    "C": "maybe, but her conclusion depends on it being the only dessert",
+    "D": "not connected"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "STR",
+   "difficulty": 2,
+   "skill": "Strengthen an argument",
+   "stem": "Grace says: 'Our school should plant more trees in the playground. It would give us more shade on hot days.'\nWhich statement best supports Grace's argument?",
+   "options": {
+    "A": "On hot days, most of the playground is in full sun and there is nowhere cool to sit.",
+    "B": "Trees can grow very tall.",
+    "C": "Grace's favourite tree is the jacaranda.",
+    "D": "The school has a big library."
+   },
+   "answer": "A",
+   "explanation": "Grace's reason is shade. Showing that the playground has almost no shade now makes her point stronger.",
+   "distractors": {
+    "B": "doesn't show shade is needed",
+    "C": "about her opinion, not the reason",
+    "D": "not connected"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "GRID",
+   "difficulty": 2,
+   "skill": "Who-does-what puzzle",
+   "stem": "Ava, Ben and Cleo each brought a different fruit: an apple, a banana or a pear.\n• Cleo brought the apple.\n• Ben did not bring the banana.\nWhat did Ava bring?",
+   "options": {
+    "A": "apple",
+    "B": "banana",
+    "C": "pear",
+    "D": "It is impossible to tell"
+   },
+   "answer": "B",
+   "explanation": "Cleo has the apple. Ben didn't bring the banana, so Ben has the pear. That leaves the banana for Ava.",
+   "distractors": {
+    "A": "check the clues again",
+    "C": "check the clues again",
+    "D": "check the clues again"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "ORD",
+   "difficulty": 3,
+   "skill": "Ordering from clues",
+   "stem": "A cat is lighter than a dog. A rabbit is lighter than a cat. A horse is heavier than a dog.\nWhich animal is the lightest?",
+   "options": {
+    "A": "cat",
+    "B": "rabbit",
+    "C": "dog",
+    "D": "horse"
+   },
+   "answer": "B",
+   "explanation": "Order from heaviest: horse, dog, cat, rabbit. The rabbit is the lightest.",
+   "distractors": {
+    "A": "the rabbit is lighter than the cat",
+    "C": "the dog is heavier than the cat",
+    "D": "the heaviest"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "DED",
+   "difficulty": 3,
+   "skill": "What cannot be true",
+   "stem": "Pip is taller than Kim. Kim is taller than Sol.\nWhich statement CANNOT be true?",
+   "options": {
+    "A": "Pip is the tallest of the three.",
+    "B": "Sol is the shortest of the three.",
+    "C": "Sol is taller than Pip.",
+    "D": "Kim is shorter than Pip."
+   },
+   "answer": "C",
+   "explanation": "The order is Pip, then Kim, then Sol. Sol is the shortest, so Sol can't be taller than Pip.",
+   "distractors": {
+    "A": "this must be true",
+    "B": "this must be true",
+    "D": "this must be true"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "STR",
+   "difficulty": 3,
+   "skill": "Strengthen an argument",
+   "stem": "Coach Ali says: 'If we practise passing every training session, we will score more goals.'\nWhich statement, if true, best supports the coach?",
+   "options": {
+    "A": "Our team has new shirts this season.",
+    "B": "The other teams also train twice a week.",
+    "C": "Last season, most of our goals came straight after a good pass.",
+    "D": "Passing drills are easy to set up."
+   },
+   "answer": "C",
+   "explanation": "If good passes usually lead to goals, getting better at passing should lead to more goals.",
+   "distractors": {
+    "A": "not connected",
+    "B": "about other teams",
+    "D": "about how easy, not whether it works"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "TIME",
+   "difficulty": 3,
+   "skill": "Working with time",
+   "stem": "A movie is 1 hour 45 minutes long. It finishes at 4:30 pm. What time did it start?",
+   "options": {
+    "A": "3:15 pm",
+    "B": "2:15 pm",
+    "C": "6:15 pm",
+    "D": "2:45 pm"
+   },
+   "answer": "D",
+   "explanation": "Count back 1 hour from 4:30 pm: 3:30 pm. Then 45 more minutes back: 2:45 pm.",
+   "distractors": {
+    "A": "counted back only 1 hour 15 minutes",
+    "B": "counted back 2 hours 15 minutes",
+    "C": "added instead of counting back"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 300 190' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='160.0' x2='250.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='250.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='160.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='160.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='250.0' y1='160.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><circle cx='40.0' cy='160.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='165.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='250.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "11",
+    "B": "10",
+    "C": "9",
+    "D": "6"
+   },
+   "answer": "B",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it. The number at F is 10.",
+   "distractors": {
+    "A": "counted one route twice",
+    "C": "missed a route",
+    "D": "counted the blocks instead of routes"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "PAT",
+   "difficulty": 3,
+   "skill": "Completing a 3 × 3 pattern",
+   "stem": "Which picture should replace the question mark?",
+   "svg": "<svg viewBox='0 0 500 270' xmlns='http://www.w3.org/2000/svg' style='max-width:480px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><polygon points='36.0,40.4 45.6,57.7 26.4,57.7' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><polygon points='60.0,40.4 69.6,57.7 50.4,57.7' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><polygon points='84.0,40.4 93.6,57.7 74.4,57.7' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><rect x='100.0' y='10.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><rect x='114.0' y='41.6' width='16.9' height='16.9' fill='none' stroke-width='2' /><rect x='149.2' y='41.6' width='16.9' height='16.9' fill='none' stroke-width='2' /><rect x='180.0' y='10.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><circle cx='220.0' cy='50.0' r='9.6' fill='currentColor' fill-opacity='0.9' stroke-width='2' /><rect x='20.0' y='90.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><rect x='51.6' y='121.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.9' stroke-width='2' /><rect x='100.0' y='90.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><circle cx='116.0' cy='130.0' r='9.6' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><circle cx='140.0' cy='130.0' r='9.6' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><circle cx='164.0' cy='130.0' r='9.6' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><rect x='180.0' y='90.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><polygon points='202.4,120.4 212.0,137.7 192.8,137.7' fill='none' stroke-width='2' /><polygon points='237.6,120.4 247.2,137.7 228.0,137.7' fill='none' stroke-width='2' /><rect x='20.0' y='170.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><circle cx='42.4' cy='210.0' r='9.6' fill='none' stroke-width='2' /><circle cx='77.6' cy='210.0' r='9.6' fill='none' stroke-width='2' /><rect x='100.0' y='170.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><polygon points='140.0,200.4 149.6,217.7 130.4,217.7' fill='currentColor' fill-opacity='0.9' stroke-width='2' /><rect x='180.0' y='170.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><text x='220.0' y='220.0' font-size='30' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >?</text><rect x='300.0' y='30.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><rect x='307.6' y='61.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.9' stroke-width='2' /><rect x='331.6' y='61.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.9' stroke-width='2' /><rect x='355.6' y='61.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.9' stroke-width='2' /><text x='340.0' y='130.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><rect x='395.0' y='30.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><rect x='426.6' y='61.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><text x='435.0' y='130.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><rect x='300.0' y='145.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><rect x='307.6' y='176.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><rect x='331.6' y='176.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><rect x='355.6' y='176.6' width='16.9' height='16.9' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><text x='340.0' y='245.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><rect x='395.0' y='145.0' width='80.0' height='80.0' fill='none' stroke-width='1.6' /><polygon points='411.0,175.4 420.6,192.7 401.4,192.7' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><polygon points='435.0,175.4 444.6,192.7 425.4,192.7' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><polygon points='459.0,175.4 468.6,192.7 449.4,192.7' fill='currentColor' fill-opacity='0.35' stroke-width='2' /><text x='435.0' y='245.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text></svg>",
+   "inlineOptions": true,
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+   },
+   "answer": "C",
+   "explanation": "In every row and every column, each shape (circle, square, triangle), each shading (empty, half, full) and each number (1, 2, 3) appears once. The bottom row is missing a square, half shading and 3 shapes: that is C.",
+   "distractors": {
+    "A": "wrong shading",
+    "B": "wrong number of shapes",
+    "D": "wrong shape"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "ORD",
+   "difficulty": 3,
+   "skill": "Finishing order",
+   "stem": "Four friends ran a race.\n• Sana finished straight after Max.\n• Tom did not come first.\n• Ella did not come last.\n• Tom finished before Max.\nWho came last?",
+   "options": {
+    "A": "Ella",
+    "B": "Max",
+    "C": "Tom",
+    "D": "Sana"
+   },
+   "answer": "D",
+   "explanation": "Max and Sana finish one after the other, and Tom is before Max, so Tom, Max, Sana are in that order. Tom isn't first, so Ella is first. Order: Ella, Tom, Max, Sana.",
+   "distractors": {
+    "A": "check every clue against your order",
+    "B": "check every clue against your order",
+    "C": "check every clue against your order"
+   }
+  },
+  {
+   "n": 15,
+   "topic": "STR",
+   "difficulty": 3,
+   "skill": "Best explanation",
+   "stem": "The school bus is usually on time, but this morning it was 20 minutes late.\nWhich statement best explains this?",
+   "options": {
+    "A": "A fallen tree blocked the main road, so the bus had to go a longer way.",
+    "B": "The bus driver's name is Mr Rossi.",
+    "C": "The bus is painted yellow.",
+    "D": "Some students like sitting at the back."
+   },
+   "answer": "A",
+   "explanation": "A blocked road forcing a longer route would make the bus late.",
+   "distractors": {
+    "B": "doesn't explain lateness",
+    "C": "not connected",
+    "D": "not connected"
+   }
+  },
+  {
+   "n": 16,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square C3, facing north. It follows these instructions:\nforward 1, turn left, forward 1, turn left, forward 1.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 290 296' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='260.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='260.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='260.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='260.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='260.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='260.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='240.0' stroke-width='1.2' /><text x='62.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='106.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='150.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='194.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='238.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='150.0' cy='130.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='150.0' y1='139.0' x2='150.0' y2='122.0' stroke-width='3' /><polygon points='150.0,118.0 154.3,127.0 145.7,127.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='150.0' y='284.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "D3",
+    "B": "B5",
+    "C": "B2",
+    "D": "B3"
+   },
+   "answer": "D",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on B3.",
+   "distractors": {
+    "A": "turned right instead of left (and left instead of right)",
+    "B": "turned the wrong way at the last turn",
+    "C": "one square too far on the last move"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "Rule: Children can join the swimming squad only if they can swim 50 metres without stopping.\nTara: 'Lucas is in the squad, so he can swim 50 metres without stopping.'\nJack: 'Zoe can swim 50 metres without stopping, so she is in the squad.'\nIf the rule is followed, whose reasoning is correct?",
+   "options": {
+    "A": "Tara only",
+    "B": "Jack only",
+    "C": "Both Tara and Jack",
+    "D": "Neither Tara nor Jack"
+   },
+   "answer": "A",
+   "explanation": "Tara ✓: everyone in the squad must be able to swim 50 metres. Jack ✗: Zoe can swim 50 metres, but she may not have joined the squad.",
+   "distractors": {
+    "B": "being able to swim 50 m doesn't mean she joined",
+    "C": "Zoe might not have joined",
+    "D": "Tara follows the rule correctly"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "FLW",
+   "difficulty": 3,
+   "skill": "Spot the mistake",
+   "stem": "Every time Rory wears his lucky socks, it rains. So Rory's socks make it rain.\nWhat is the mistake in this reasoning?",
+   "options": {
+    "A": "Rory should wear different socks.",
+    "B": "It doesn't rain every day.",
+    "C": "Two things happening together doesn't mean one causes the other.",
+    "D": "Socks can get wet in the rain."
+   },
+   "answer": "C",
+   "explanation": "Socks can't change the weather. It is just a coincidence (or Rory notices more when he wears them).",
+   "distractors": {
+    "A": "advice, not the mistake",
+    "B": "true but not the mistake",
+    "D": "not the mistake"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "FLW",
+   "difficulty": 3,
+   "skill": "Spot the mistake",
+   "stem": "Jess asked three friends which movie they liked best, and all three chose the same movie. Jess says: 'Everyone in Australia likes that movie best.'\nWhat is wrong with Jess's thinking?",
+   "options": {
+    "A": "The movie might be very long.",
+    "B": "Three friends are far too few to tell what everyone in Australia thinks.",
+    "C": "Jess didn't watch the movie.",
+    "D": "Some movies are for adults."
+   },
+   "answer": "B",
+   "explanation": "Asking only three people, who are friends and may like the same things, can't show what millions of people think.",
+   "distractors": {
+    "A": "not about the reasoning",
+    "C": "we don't know that, and it doesn't matter",
+    "D": "not about the reasoning"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "STR",
+   "difficulty": 3,
+   "skill": "Weaken an argument",
+   "stem": "Owen says: 'We should get a robot vacuum cleaner. Then our floors will always be clean.'\nWhich statement, if true, most weakens Owen's argument?",
+   "options": {
+    "A": "Robot vacuums can't go up stairs or clean under very low furniture, and most of our house is stairs and rugs.",
+    "B": "Robot vacuums come in different colours.",
+    "C": "Owen's friend has a robot vacuum.",
+    "D": "Vacuum cleaners were invented a long time ago."
+   },
+   "answer": "A",
+   "explanation": "If the robot can't reach most of the house, the floors won't 'always be clean'.",
+   "distractors": {
+    "B": "colour doesn't affect cleaning",
+    "C": "doesn't say whether it works",
+    "D": "not connected"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "NUM",
+   "difficulty": 3,
+   "skill": "Number clues",
+   "stem": "I am a number between 40 and 70. I am in the 3 times table and the 5 times table, and I am even. What number am I?",
+   "options": {
+    "A": "45",
+    "B": "60",
+    "C": "50",
+    "D": "54"
+   },
+   "answer": "B",
+   "explanation": "Numbers between 40 and 70 in both the 3 and 5 times tables: 45 and 60. Only 60 is even.",
+   "distractors": {
+    "A": "it is odd",
+    "C": "not in the 3 times table",
+    "D": "not in the 5 times table"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting shapes in a figure",
+   "stem": "How many triangles of any size are there in this figure?",
+   "svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg' style='max-width:380px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='200.0,20.0 40.0,240.0 360.0,240.0' fill='none' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='146.7' y2='240.0' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='253.3' y2='240.0' stroke-width='2.2' /></svg>",
+   "options": {
+    "A": "6",
+    "B": "3",
+    "C": "7",
+    "D": "5"
+   },
+   "answer": "A",
+   "explanation": "Every triangle has its top at the top point and its bottom edge on one of the 1 straight lines across. On each line there are 4 points where the slanted lines meet it, and any 2 of them make a triangle: 6 ways. So 1 × 6 = 6 triangles.",
+   "distractors": {
+    "B": "counted only the smallest triangles",
+    "C": "counted some shapes that are not triangles",
+    "D": "missed the big outside triangle"
+   }
+  },
+  {
+   "n": 23,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "View from above",
+   "stem": "Which picture shows this stack of cubes seen from directly above? The dashed lines show the floor squares. In the answers, the front of the stack is at the bottom.",
+   "svg": "<svg viewBox='0 0 470 284' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='150.0' y1='42.0' x2='227.9' y2='87.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='150.0' y1='42.0' x2='72.1' y2='87.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='124.0' y1='57.0' x2='202.0' y2='102.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='176.0' y1='57.0' x2='98.0' y2='102.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='98.0' y1='72.0' x2='176.0' y2='117.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='202.0' y1='72.0' x2='124.0' y2='117.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='72.1' y1='87.0' x2='150.0' y2='132.0' stroke-width='1' stroke-dasharray='3 3'/><line x1='227.9' y1='87.0' x2='150.0' y2='132.0' stroke-width='1' stroke-dasharray='3 3'/><polygon points='150.0,12.0 176.0,27.0 150.0,42.0 124.0,27.0' fill='var(--card, #fff)' stroke='none'/><polygon points='150.0,12.0 176.0,27.0 150.0,42.0 124.0,27.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.5' /><polygon points='176.0,57.0 150.0,72.0 150.0,42.0 176.0,27.0' fill='var(--card, #fff)' stroke='none'/><polygon points='176.0,57.0 150.0,72.0 150.0,42.0 176.0,27.0' fill='currentColor' fill-opacity='0.42' stroke-width='1.5' /><polygon points='124.0,57.0 150.0,72.0 150.0,42.0 124.0,27.0' fill='var(--card, #fff)' stroke='none'/><polygon points='124.0,57.0 150.0,72.0 150.0,42.0 124.0,27.0' fill='currentColor' fill-opacity='0.24' stroke-width='1.5' /><polygon points='124.0,27.0 150.0,42.0 124.0,57.0 98.0,42.0' fill='var(--card, #fff)' stroke='none'/><polygon points='124.0,27.0 150.0,42.0 124.0,57.0 98.0,42.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.5' /><polygon points='150.0,72.0 124.0,87.0 124.0,57.0 150.0,42.0' fill='var(--card, #fff)' stroke='none'/><polygon points='150.0,72.0 124.0,87.0 124.0,57.0 150.0,42.0' fill='currentColor' fill-opacity='0.42' stroke-width='1.5' /><polygon points='98.0,72.0 124.0,87.0 124.0,57.0 98.0,42.0' fill='var(--card, #fff)' stroke='none'/><polygon points='98.0,72.0 124.0,87.0 124.0,57.0 98.0,42.0' fill='currentColor' fill-opacity='0.24' stroke-width='1.5' /><polygon points='98.0,42.0 124.0,57.0 98.0,72.0 72.1,57.0' fill='var(--card, #fff)' stroke='none'/><polygon points='98.0,42.0 124.0,57.0 98.0,72.0 72.1,57.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.5' /><polygon points='124.0,87.0 98.0,102.0 98.0,72.0 124.0,57.0' fill='var(--card, #fff)' stroke='none'/><polygon points='124.0,87.0 98.0,102.0 98.0,72.0 124.0,57.0' fill='currentColor' fill-opacity='0.42' stroke-width='1.5' /><polygon points='72.1,87.0 98.0,102.0 98.0,72.0 72.1,57.0' fill='var(--card, #fff)' stroke='none'/><polygon points='72.1,87.0 98.0,102.0 98.0,72.0 72.1,57.0' fill='currentColor' fill-opacity='0.24' stroke-width='1.5' /><polygon points='124.0,57.0 150.0,72.0 124.0,87.0 98.0,72.0' fill='var(--card, #fff)' stroke='none'/><polygon points='124.0,57.0 150.0,72.0 124.0,87.0 98.0,72.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.5' /><polygon points='150.0,102.0 124.0,117.0 124.0,87.0 150.0,72.0' fill='var(--card, #fff)' stroke='none'/><polygon points='150.0,102.0 124.0,117.0 124.0,87.0 150.0,72.0' fill='currentColor' fill-opacity='0.42' stroke-width='1.5' /><polygon points='98.0,102.0 124.0,117.0 124.0,87.0 98.0,72.0' fill='var(--card, #fff)' stroke='none'/><polygon points='98.0,102.0 124.0,117.0 124.0,87.0 98.0,72.0' fill='currentColor' fill-opacity='0.24' stroke-width='1.5' /><text x='76.5' y='142.0' font-size='13' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >Front</text><line x1='78.5' y1='132.0' x2='92.5' y2='120.0' stroke-width='2' /><polygon points='94.5,118.0 91.2,125.3 86.7,120.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><rect x='30.0' y='182.0' width='72.0' height='72.0' fill='none' stroke-width='0.8' stroke-dasharray='2 3'/><rect x='30.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='30.0' y='206.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='30.0' y='230.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='54.0' y='230.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><text x='66.0' y='276.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='66.0' y='176.0' font-size='10' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >back</text><rect x='140.0' y='182.0' width='72.0' height='72.0' fill='none' stroke-width='0.8' stroke-dasharray='2 3'/><rect x='140.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='140.0' y='206.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='164.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='188.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><text x='176.0' y='276.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='176.0' y='176.0' font-size='10' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >back</text><rect x='250.0' y='182.0' width='72.0' height='72.0' fill='none' stroke-width='0.8' stroke-dasharray='2 3'/><rect x='250.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='274.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='298.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='298.0' y='206.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><text x='286.0' y='276.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='286.0' y='176.0' font-size='10' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >back</text><rect x='360.0' y='182.0' width='72.0' height='72.0' fill='none' stroke-width='0.8' stroke-dasharray='2 3'/><rect x='384.0' y='230.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='408.0' y='182.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='408.0' y='206.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><rect x='408.0' y='230.0' width='24.0' height='24.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><text x='396.0' y='276.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='396.0' y='176.0' font-size='10' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >back</text></svg>",
+   "inlineOptions": true,
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+   },
+   "answer": "A",
+   "explanation": "From above you see every column that has at least one cube, however tall it is. Match the columns row by row, from the back row to the front row: A is the only one that matches.",
+   "distractors": {
+    "B": "turned a quarter-turn",
+    "C": "looked from the side, not from above",
+    "D": "mirror image (left and right swapped)"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "PAT",
+   "difficulty": 3,
+   "skill": "Growing patterns",
+   "stem": "These patterns are made from matchsticks. How many matchsticks are needed for pattern 15?",
+   "svg": "<svg viewBox='0 0 296 112' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='20.0' y1='20.0' x2='46.0' y2='20.0' stroke-width='4' /><line x1='20.0' y1='46.0' x2='46.0' y2='46.0' stroke-width='4' /><line x1='20.0' y1='72.0' x2='46.0' y2='72.0' stroke-width='4' /><line x1='46.0' y1='20.0' x2='46.0' y2='46.0' stroke-width='4' /><line x1='46.0' y1='46.0' x2='46.0' y2='72.0' stroke-width='4' /><line x1='20.0' y1='20.0' x2='20.0' y2='72.0' stroke-width='4' /><text x='33.0' y='100.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Pattern 1</text><line x1='86.0' y1='20.0' x2='112.0' y2='20.0' stroke-width='4' /><line x1='86.0' y1='46.0' x2='112.0' y2='46.0' stroke-width='4' /><line x1='86.0' y1='72.0' x2='112.0' y2='72.0' stroke-width='4' /><line x1='112.0' y1='20.0' x2='112.0' y2='46.0' stroke-width='4' /><line x1='112.0' y1='46.0' x2='112.0' y2='72.0' stroke-width='4' /><line x1='112.0' y1='20.0' x2='138.0' y2='20.0' stroke-width='4' /><line x1='112.0' y1='46.0' x2='138.0' y2='46.0' stroke-width='4' /><line x1='112.0' y1='72.0' x2='138.0' y2='72.0' stroke-width='4' /><line x1='138.0' y1='20.0' x2='138.0' y2='46.0' stroke-width='4' /><line x1='138.0' y1='46.0' x2='138.0' y2='72.0' stroke-width='4' /><line x1='86.0' y1='20.0' x2='86.0' y2='72.0' stroke-width='4' /><text x='112.0' y='100.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Pattern 2</text><line x1='178.0' y1='20.0' x2='204.0' y2='20.0' stroke-width='4' /><line x1='178.0' y1='46.0' x2='204.0' y2='46.0' stroke-width='4' /><line x1='178.0' y1='72.0' x2='204.0' y2='72.0' stroke-width='4' /><line x1='204.0' y1='20.0' x2='204.0' y2='46.0' stroke-width='4' /><line x1='204.0' y1='46.0' x2='204.0' y2='72.0' stroke-width='4' /><line x1='204.0' y1='20.0' x2='230.0' y2='20.0' stroke-width='4' /><line x1='204.0' y1='46.0' x2='230.0' y2='46.0' stroke-width='4' /><line x1='204.0' y1='72.0' x2='230.0' y2='72.0' stroke-width='4' /><line x1='230.0' y1='20.0' x2='230.0' y2='46.0' stroke-width='4' /><line x1='230.0' y1='46.0' x2='230.0' y2='72.0' stroke-width='4' /><line x1='230.0' y1='20.0' x2='256.0' y2='20.0' stroke-width='4' /><line x1='230.0' y1='46.0' x2='256.0' y2='46.0' stroke-width='4' /><line x1='230.0' y1='72.0' x2='256.0' y2='72.0' stroke-width='4' /><line x1='256.0' y1='20.0' x2='256.0' y2='46.0' stroke-width='4' /><line x1='256.0' y1='46.0' x2='256.0' y2='72.0' stroke-width='4' /><line x1='178.0' y1='20.0' x2='178.0' y2='72.0' stroke-width='4' /><text x='217.0' y='100.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Pattern 3</text></svg>",
+   "options": {
+    "A": "105",
+    "B": "75",
+    "C": "77",
+    "D": "72"
+   },
+   "answer": "C",
+   "explanation": "Count: 7, 12, 17… Each new pattern adds 5 matchsticks. Pattern 15 = 7 + 14 × 5 = 77.",
+   "distractors": {
+    "A": "multiplied pattern 1 by 15: the shared sticks are counted twice",
+    "B": "forgot the extra stick(s) at the start",
+    "D": "that is pattern 14"
+   }
+  },
+  {
+   "n": 25,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction and number of turns",
+   "stem": "Gear A turns once clockwise. Which way does gear C turn, and how many times?",
+   "svg": "<svg viewBox='0 0 199.58282015924843 141.29333271016657' xmlns='http://www.w3.org/2000/svg' style='max-width:279px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='112.2,85.6 112.2,89.8 106.7,94.0 106.0,97.6 109.4,103.6 107.8,107.4 101.2,109.3 99.1,112.3 100.0,119.2 97.1,122.1 90.2,121.2 87.2,123.3 85.3,129.9 81.5,131.5 75.5,128.1 71.9,128.8 67.7,134.2 63.5,134.2 59.3,128.8 55.7,128.1 49.7,131.5 45.9,129.9 44.0,123.3 41.0,121.2 34.1,122.1 31.2,119.2 32.1,112.3 30.0,109.3 23.4,107.4 21.8,103.6 25.2,97.6 24.5,94.0 19.0,89.8 19.0,85.6 24.5,81.4 25.2,77.8 21.8,71.8 23.4,68.0 30.0,66.1 32.1,63.1 31.2,56.2 34.1,53.3 41.0,54.2 44.0,52.1 45.9,45.5 49.7,43.9 55.7,47.3 59.3,46.6 63.5,41.1 67.7,41.1 71.9,46.6 75.5,47.3 81.5,43.9 85.3,45.5 87.2,52.1 90.2,54.2 97.1,53.3 100.0,56.2 99.1,63.1 101.2,66.1 107.8,68.0 109.4,71.8 106.0,77.8 106.7,81.4' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='65.6' cy='87.7' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='65.6' y='81.7' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='65.6' y='103.7' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >16 teeth</text><polygon points='150.6,57.8 150.6,62.3 144.7,66.3 143.3,69.7 144.7,76.6 141.4,79.8 134.5,78.5 131.1,79.9 127.1,85.8 122.6,85.8 118.6,79.9 115.2,78.5 108.3,79.8 105.1,76.6 106.4,69.7 105.0,66.3 99.2,62.3 99.2,57.8 105.0,53.8 106.4,50.4 105.1,43.5 108.3,40.3 115.2,41.6 118.6,40.2 122.6,34.4 127.1,34.4 131.1,40.2 134.5,41.6 141.4,40.3 144.7,43.5 143.3,50.4 144.7,53.8' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='124.9' cy='60.1' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='124.9' y='54.1' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='124.9' y='73.8' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='192.5,42.5 192.5,47.1 186.6,51.0 185.2,54.4 186.6,61.4 183.3,64.6 176.4,63.2 173.0,64.6 169.1,70.5 164.5,70.5 160.5,64.6 157.2,63.2 150.2,64.6 147.0,61.4 148.3,54.4 146.9,51.0 141.1,47.1 141.1,42.5 146.9,38.6 148.3,35.2 147.0,28.2 150.2,25.0 157.2,26.4 160.5,25.0 164.5,19.1 169.1,19.1 173.0,25.0 176.4,26.4 183.3,25.0 186.6,28.2 185.2,35.2 186.6,38.6' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='166.8' cy='44.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='166.8' y='38.8' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='166.8' y='58.5' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M13.4,68.7 A55.6,55.6 0 0 1 46.6,35.4' stroke-width='2.5'/><polygon points='46.6,35.4 40.3,41.9 37.6,34.5' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "anticlockwise, 2 turns",
+    "B": "clockwise, 2 turns",
+    "C": "clockwise, 1 turn",
+    "D": "anticlockwise, 1/2 turn"
+   },
+   "answer": "B",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise. The teeth pass one at a time, so one turn of A (16 teeth) moves 16 teeth of every gear. Gear C has 8 teeth, so it turns 16 ÷ 8 = 2 times. (The gears in between don't change this.)",
+   "distractors": {
+    "A": "each gear turns the opposite way to the one it touches: count the steps",
+    "C": "a smaller gear turns more times",
+    "D": "turns the wrong way and divided the wrong way round"
+   }
+  },
+  {
+   "n": 26,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Nets: which cube can be made",
+   "stem": "This net is folded to make a cube. Which cube could it make?",
+   "svg": "<svg viewBox='0 0 450 270' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='34.0' height='34.0' fill='none' stroke-width='1.8' /><g transform='matrix(0.3400 0 0 0.3400 20.00 10.00)'><rect x='30' y='30' width='40' height='40' fill='currentColor' stroke='none'/></g><rect x='54.0' y='10.0' width='34.0' height='34.0' fill='none' stroke-width='1.8' /><g transform='matrix(0.3400 0 0 0.3400 54.00 10.00)'><path d='M50 22 V78 M22 50 H78' stroke-width='3' vector-effect='non-scaling-stroke'/></g><rect x='54.0' y='44.0' width='34.0' height='34.0' fill='none' stroke-width='1.8' /><g transform='matrix(0.3400 0 0 0.3400 54.00 44.00)'><circle cx='50' cy='50' r='28' fill='none' stroke-width='2.2' vector-effect='non-scaling-stroke'/><circle cx='50' cy='50' r='9' fill='currentColor' stroke='none'/></g><rect x='88.0' y='44.0' width='34.0' height='34.0' fill='none' stroke-width='1.8' /><g transform='matrix(0.3400 0 0 0.3400 88.00 44.00)'><path d='M28 28 L72 72 M72 28 L28 72' stroke-width='3' vector-effect='non-scaling-stroke'/></g><rect x='88.0' y='78.0' width='34.0' height='34.0' fill='none' stroke-width='1.8' /><g transform='matrix(0.3400 0 0 0.3400 88.00 78.00)'><circle cx='50' cy='50' r='19' fill='currentColor' stroke='none'/></g><rect x='122.0' y='78.0' width='34.0' height='34.0' fill='none' stroke-width='1.8' /><g transform='matrix(0.3400 0 0 0.3400 122.00 78.00)'><circle cx='50' cy='50' r='25' fill='none' stroke-width='2.4' vector-effect='non-scaling-stroke'/></g><polygon points='60.0,142.0 99.8,165.0 60.0,188.0 20.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='60.0,142.0 99.8,165.0 60.0,188.0 20.2,165.0' fill='currentColor' fill-opacity='0.06' stroke-width='1.8' /><polygon points='99.8,211.0 60.0,234.0 60.0,188.0 99.8,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='99.8,211.0 60.0,234.0 60.0,188.0 99.8,165.0' fill='currentColor' fill-opacity='0.22' stroke-width='1.8' /><polygon points='20.2,211.0 60.0,234.0 60.0,188.0 20.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='20.2,211.0 60.0,234.0 60.0,188.0 20.2,165.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><g transform='matrix(0.3984 -0.2300 0.3984 0.2300 20.16 165.00)'><path d='M50 22 V78 M22 50 H78' stroke-width='3' vector-effect='non-scaling-stroke'/></g><g transform='matrix(0.3984 0.2300 0.0000 0.4600 20.16 165.00)'><circle cx='50' cy='50' r='28' fill='none' stroke-width='2.2' vector-effect='non-scaling-stroke'/><circle cx='50' cy='50' r='9' fill='currentColor' stroke='none'/></g><g transform='matrix(0.3984 -0.2300 0.0000 0.4600 60.00 188.00)'><rect x='30' y='30' width='40' height='40' fill='currentColor' stroke='none'/></g><text x='60.0' y='258.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><polygon points='170.0,142.0 209.8,165.0 170.0,188.0 130.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='170.0,142.0 209.8,165.0 170.0,188.0 130.2,165.0' fill='currentColor' fill-opacity='0.06' stroke-width='1.8' /><polygon points='209.8,211.0 170.0,234.0 170.0,188.0 209.8,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='209.8,211.0 170.0,234.0 170.0,188.0 209.8,165.0' fill='currentColor' fill-opacity='0.22' stroke-width='1.8' /><polygon points='130.2,211.0 170.0,234.0 170.0,188.0 130.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='130.2,211.0 170.0,234.0 170.0,188.0 130.2,165.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><g transform='matrix(0.3984 -0.2300 0.3984 0.2300 130.16 165.00)'><circle cx='50' cy='50' r='28' fill='none' stroke-width='2.2' vector-effect='non-scaling-stroke'/><circle cx='50' cy='50' r='9' fill='currentColor' stroke='none'/></g><g transform='matrix(0.3984 0.2300 0.0000 0.4600 130.16 165.00)'><circle cx='50' cy='50' r='25' fill='none' stroke-width='2.4' vector-effect='non-scaling-stroke'/></g><g transform='matrix(0.3984 -0.2300 0.0000 0.4600 170.00 188.00)'><circle cx='50' cy='50' r='19' fill='currentColor' stroke='none'/></g><text x='170.0' y='258.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><polygon points='280.0,142.0 319.8,165.0 280.0,188.0 240.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='280.0,142.0 319.8,165.0 280.0,188.0 240.2,165.0' fill='currentColor' fill-opacity='0.06' stroke-width='1.8' /><polygon points='319.8,211.0 280.0,234.0 280.0,188.0 319.8,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='319.8,211.0 280.0,234.0 280.0,188.0 319.8,165.0' fill='currentColor' fill-opacity='0.22' stroke-width='1.8' /><polygon points='240.2,211.0 280.0,234.0 280.0,188.0 240.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='240.2,211.0 280.0,234.0 280.0,188.0 240.2,165.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><g transform='matrix(0.3984 -0.2300 0.3984 0.2300 240.16 165.00)'><circle cx='50' cy='50' r='28' fill='none' stroke-width='2.2' vector-effect='non-scaling-stroke'/><circle cx='50' cy='50' r='9' fill='currentColor' stroke='none'/></g><g transform='matrix(0.3984 0.2300 0.0000 0.4600 240.16 165.00)'><circle cx='50' cy='50' r='19' fill='currentColor' stroke='none'/></g><g transform='matrix(0.3984 -0.2300 0.0000 0.4600 280.00 188.00)'><rect x='30' y='30' width='40' height='40' fill='currentColor' stroke='none'/></g><text x='280.0' y='258.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><polygon points='390.0,142.0 429.8,165.0 390.0,188.0 350.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='390.0,142.0 429.8,165.0 390.0,188.0 350.2,165.0' fill='currentColor' fill-opacity='0.06' stroke-width='1.8' /><polygon points='429.8,211.0 390.0,234.0 390.0,188.0 429.8,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='429.8,211.0 390.0,234.0 390.0,188.0 429.8,165.0' fill='currentColor' fill-opacity='0.22' stroke-width='1.8' /><polygon points='350.2,211.0 390.0,234.0 390.0,188.0 350.2,165.0' fill='var(--card, #fff)' stroke='none'/><polygon points='350.2,211.0 390.0,234.0 390.0,188.0 350.2,165.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><g transform='matrix(0.3984 -0.2300 0.3984 0.2300 350.16 165.00)'><circle cx='50' cy='50' r='28' fill='none' stroke-width='2.2' vector-effect='non-scaling-stroke'/><circle cx='50' cy='50' r='9' fill='currentColor' stroke='none'/></g><g transform='matrix(0.3984 0.2300 0.0000 0.4600 350.16 165.00)'><rect x='30' y='30' width='40' height='40' fill='currentColor' stroke='none'/></g><g transform='matrix(0.3984 -0.2300 0.0000 0.4600 390.00 188.00)'><circle cx='50' cy='50' r='19' fill='currentColor' stroke='none'/></g><text x='390.0' y='258.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text></svg>",
+   "inlineOptions": true,
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+   },
+   "answer": "D",
+   "explanation": "Find faces that end up opposite (they can never be seen together): cross & square, dot & plus, ring & target. Then check the order around a corner. Only D shows three faces that really meet at a corner in that order (top, left, right going anticlockwise: target, square, dot).",
+   "distractors": {
+    "A": "these faces do meet, but not in this order around the corner",
+    "B": "the target and the ring are on opposite faces, so they can never be seen together",
+    "C": "the right three faces, but in mirror-image order around the corner"
+   }
+  },
+  {
+   "n": 27,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Views of the same cube",
+   "stem": "These pictures show the same cube from 3 different angles. Each face has a different letter (the letters may be turned different ways). Which letter is on the face opposite K?",
+   "svg": "<svg viewBox='0 0 435 140' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='75.0,20.0 120.0,46.0 75.0,72.0 30.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='75.0,20.0 120.0,46.0 75.0,72.0 30.0,46.0' fill='currentColor' fill-opacity='0.06' stroke-width='1.8' /><polygon points='120.0,98.0 75.0,124.0 75.0,72.0 120.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='120.0,98.0 75.0,124.0 75.0,72.0 120.0,46.0' fill='currentColor' fill-opacity='0.22' stroke-width='1.8' /><polygon points='30.0,98.0 75.0,124.0 75.0,72.0 30.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='30.0,98.0 75.0,124.0 75.0,72.0 30.0,46.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><g transform='matrix(0.4503 -0.2600 0.4503 0.2600 29.97 46.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>G</text></g><g transform='matrix(0.4503 0.2600 0.0000 0.5200 29.97 46.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Z</text></g><g transform='matrix(0.4503 -0.2600 0.0000 0.5200 75.00 72.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>D</text></g><polygon points='200.0,20.0 245.0,46.0 200.0,72.0 155.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='200.0,20.0 245.0,46.0 200.0,72.0 155.0,46.0' fill='currentColor' fill-opacity='0.06' stroke-width='1.8' /><polygon points='245.0,98.0 200.0,124.0 200.0,72.0 245.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='245.0,98.0 200.0,124.0 200.0,72.0 245.0,46.0' fill='currentColor' fill-opacity='0.22' stroke-width='1.8' /><polygon points='155.0,98.0 200.0,124.0 200.0,72.0 155.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='155.0,98.0 200.0,124.0 200.0,72.0 155.0,46.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><g transform='matrix(0.4503 -0.2600 0.4503 0.2600 154.97 46.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>Z</text></g><g transform='matrix(0.4503 0.2600 0.0000 0.5200 154.97 46.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>G</text></g><g transform='matrix(0.4503 -0.2600 0.0000 0.5200 200.00 72.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>K</text></g><polygon points='325.0,20.0 370.0,46.0 325.0,72.0 280.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='325.0,20.0 370.0,46.0 325.0,72.0 280.0,46.0' fill='currentColor' fill-opacity='0.06' stroke-width='1.8' /><polygon points='370.0,98.0 325.0,124.0 325.0,72.0 370.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='370.0,98.0 325.0,124.0 325.0,72.0 370.0,46.0' fill='currentColor' fill-opacity='0.22' stroke-width='1.8' /><polygon points='280.0,98.0 325.0,124.0 325.0,72.0 280.0,46.0' fill='var(--card, #fff)' stroke='none'/><polygon points='280.0,98.0 325.0,124.0 325.0,72.0 280.0,46.0' fill='currentColor' fill-opacity='0.12' stroke-width='1.8' /><g transform='matrix(0.4503 -0.2600 0.4503 0.2600 279.97 46.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>W</text></g><g transform='matrix(0.4503 0.2600 0.0000 0.5200 279.97 46.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>D</text></g><g transform='matrix(0.4503 -0.2600 0.0000 0.5200 325.00 72.00)'><text x='50' y='68' font-size='52' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>M</text></g></svg>",
+   "options": {
+    "A": "G",
+    "B": "Z",
+    "C": "W",
+    "D": "D"
+   },
+   "answer": "D",
+   "explanation": "A letter seen in the same picture as K is on a face touching K, so it can't be opposite. The letters next to K are G, Z. Work out where the remaining letters must go: the face opposite K is D.",
+   "distractors": {
+    "A": "G is seen next to K in one of the pictures, so it can't be opposite",
+    "B": "Z is seen next to K in one of the pictures, so it can't be opposite",
+    "C": "not opposite"
+   }
+  },
+  {
+   "n": 28,
+   "topic": "NUM",
+   "difficulty": 4,
+   "skill": "Legs and heads puzzle",
+   "stem": "On a farm there are some chickens and some cows. Altogether there are 12 heads and 34 legs.\nHow many cows are there?",
+   "options": {
+    "A": "7",
+    "B": "6",
+    "C": "5",
+    "D": "4"
+   },
+   "answer": "C",
+   "explanation": "If all 12 were chickens, there would be 24 legs. There are 10 extra legs, and each cow adds 2 extra legs, so there are 10 ÷ 2 = 5 cows (and 7 chickens). Check: 7 × 2 + 5 × 4 = 34 ✓.",
+   "distractors": {
+    "A": "that is the number of chickens",
+    "B": "6 cows would give 36 legs",
+    "D": "4 cows would give 32 legs"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "DED",
+   "difficulty": 4,
+   "skill": "Who is telling the truth",
+   "stem": "Someone left the gate open. Exactly one of these three children is lying.\nIvy: 'It was Kit.'\nJay: 'It wasn't me.'\nKit: 'It was Jay.'\nWho left the gate open?",
+   "options": {
+    "A": "Ivy",
+    "B": "Jay",
+    "C": "It is impossible to tell",
+    "D": "Kit"
+   },
+   "answer": "D",
+   "explanation": "Ivy and Kit blame different people, so they can't both be telling the truth: one of them is the liar. That means Jay is telling the truth, so it wasn't Jay, and Kit's statement is the lie. Ivy is right: it was Kit.",
+   "distractors": {
+    "A": "then Ivy and Kit would both be lying",
+    "B": "then Jay's statement would be a lie as well as Ivy's",
+    "C": "only one person fits exactly one lie"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "At a museum, children under 12 get in free. On Sundays, everyone gets a free badge.\nAmir: 'I am 10, so I got in free.'\nBella: 'Carlos got a free badge, so it must be Sunday.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Bella only",
+    "B": "Both Amir and Bella",
+    "C": "Amir only",
+    "D": "Neither Amir nor Bella"
+   },
+   "answer": "C",
+   "explanation": "Amir ✓: he is under 12, so he gets in free. Bella ✗: badges are given on Sundays, but they might also be given at other times; the rule doesn't say ONLY on Sundays.",
+   "distractors": {
+    "A": "badges might be given on other days too",
+    "B": "Bella's conclusion doesn't have to be true",
+    "D": "Amir's reasoning follows the rule"
+   }
+  }
+ ]
+}

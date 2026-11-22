@@ -1,0 +1,492 @@
+{
+ "id": "p-voc-sel",
+ "title": "Practice: Vocabulary (Selective level)",
+ "section": "Vocabulary",
+ "topics": {
+  "VOC": "Vocabulary in context"
+ },
+ "groupLabel": "By topic",
+ "practice": true,
+ "questions": [
+  {
+   "n": 1,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The new rule ___ effect from the start of next term.",
+   "options": {
+    "A": "makes",
+    "B": "brings",
+    "C": "gives",
+    "D": "takes"
+   },
+   "answer": "D",
+   "explanation": "A rule 'takes effect' when it starts to apply.",
+   "distractors": {
+    "A": "you make a difference, not 'make effect' here",
+    "C": "'gives effect' is used differently (gives effect to a plan)",
+    "B": "'brings effect' isn't English"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "After weeks of practice, her hard work finally ___ off.",
+   "options": {
+    "A": "paid",
+    "B": "set",
+    "C": "took",
+    "D": "kept"
+   },
+   "answer": "A",
+   "explanation": "'Pay off' means bring good results.",
+   "distractors": {
+    "D": "'kept off' means stayed away",
+    "C": "'took off' means left the ground or became popular",
+    "B": "'set off' means started a journey"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Phrasal verbs and phrases",
+   "stem": "The scientist ___ an experiment to test her idea.",
+   "options": {
+    "A": "carried off",
+    "B": "carried over",
+    "C": "carried on",
+    "D": "carried out"
+   },
+   "answer": "D",
+   "explanation": "You 'carry out' an experiment (do it).",
+   "distractors": {
+    "C": "means continued",
+    "A": "means took away, or won",
+    "B": "means moved to later"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The storm caused ___ damage to the coastline.",
+   "options": {
+    "A": "wide-eyed",
+    "B": "widening",
+    "C": "wide-open",
+    "D": "widespread"
+   },
+   "answer": "D",
+   "explanation": "'Widespread damage' is damage over a large area.",
+   "distractors": {
+    "A": "describes a surprised person",
+    "C": "describes a door or space",
+    "B": "means getting wider"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "His explanation was so ___ that nobody understood it.",
+   "options": {
+    "A": "confusion",
+    "B": "confuse",
+    "C": "confusing",
+    "D": "confused"
+   },
+   "answer": "C",
+   "explanation": "'Confusing' describes something that confuses people.",
+   "distractors": {
+    "D": "describes how a person feels",
+    "A": "a noun",
+    "B": "a verb"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The two friends ___ out over who would be captain.",
+   "options": {
+    "A": "came",
+    "B": "went",
+    "C": "broke",
+    "D": "fell"
+   },
+   "answer": "D",
+   "explanation": "'Fall out' means argue and stop being friendly.",
+   "distractors": {
+    "C": "'broke out' means started suddenly (a fire broke out)",
+    "B": "'went out' means left the house",
+    "A": "'came out' means appeared"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The detective looked for ___ that would prove who stole the painting.",
+   "options": {
+    "A": "evidently",
+    "B": "evidence",
+    "C": "evident",
+    "D": "evidential"
+   },
+   "answer": "B",
+   "explanation": "'Evidence' is the noun meaning proof.",
+   "distractors": {
+    "C": "an adjective meaning obvious",
+    "A": "an adverb",
+    "D": "an adjective, not what you look for"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Phrasal verbs and phrases",
+   "stem": "The village was ___ by floodwater, and no cars could get in or out.",
+   "options": {
+    "A": "cut out",
+    "B": "cut off",
+    "C": "cut down",
+    "D": "cut up"
+   },
+   "answer": "B",
+   "explanation": "A place that can't be reached is 'cut off'.",
+   "distractors": {
+    "C": "means chop down, or reduce",
+    "A": "means remove, or stop working",
+    "D": "means cut into pieces"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The crowd ___ into applause when the singer appeared.",
+   "options": {
+    "A": "burst",
+    "B": "split",
+    "C": "blew",
+    "D": "fell"
+   },
+   "answer": "A",
+   "explanation": "'Burst into applause' means suddenly start clapping.",
+   "distractors": {
+    "C": "'blew into' doesn't fit",
+    "D": "'fell into applause' isn't English",
+    "B": "'split into' means divide"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "She was ___ of breath after running up the hill.",
+   "options": {
+    "A": "out",
+    "B": "full",
+    "C": "low",
+    "D": "empty"
+   },
+   "answer": "A",
+   "explanation": "'Out of breath' means breathing hard after exercise.",
+   "distractors": {
+    "B": "'full of breath' isn't a phrase",
+    "C": "'low of breath' isn't English",
+    "D": "'empty of breath' isn't English"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The chef's soup had a ___ flavour of garlic.",
+   "options": {
+    "A": "mighty",
+    "B": "heavy",
+    "C": "strong",
+    "D": "tall"
+   },
+   "answer": "C",
+   "explanation": "We say a 'strong flavour'.",
+   "distractors": {
+    "D": "tall describes height",
+    "A": "describes great strength, not taste",
+    "B": "a heavy meal, but not a heavy flavour"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "VOC",
+   "difficulty": 3,
+   "skill": "Words that go together",
+   "stem": "The explorers ___ off at dawn to cross the desert.",
+   "options": {
+    "A": "put",
+    "B": "got",
+    "C": "set",
+    "D": "took"
+   },
+   "answer": "C",
+   "explanation": "'Set off' means start a journey.",
+   "distractors": {
+    "A": "'put off' means delay",
+    "D": "'took off' means left the ground (planes)",
+    "B": "'got off' means left a bus or train"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The class ___ a vote to choose the excursion.",
+   "options": {
+    "A": "gave",
+    "B": "held",
+    "C": "did",
+    "D": "made"
+   },
+   "answer": "B",
+   "explanation": "You 'hold a vote'.",
+   "distractors": {
+    "D": "'made a vote' isn't the usual phrase",
+    "C": "'did a vote' isn't English",
+    "A": "you give your vote, but you hold a vote"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "We need to ___ a decision before Friday.",
+   "options": {
+    "A": "set",
+    "B": "make",
+    "C": "do",
+    "D": "take on"
+   },
+   "answer": "B",
+   "explanation": "We 'make a decision'.",
+   "distractors": {
+    "C": "'do a decision' isn't English",
+    "D": "means accept a task",
+    "A": "'set a decision' isn't English"
+   }
+  },
+  {
+   "n": 15,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The old house had been ___ for years, and weeds grew through the floor.",
+   "options": {
+    "A": "absorbed",
+    "B": "abolished",
+    "C": "abandoned",
+    "D": "abundant"
+   },
+   "answer": "C",
+   "explanation": "An abandoned house has been left empty.",
+   "distractors": {
+    "D": "means plentiful",
+    "B": "means officially ended (laws)",
+    "A": "means soaked up"
+   }
+  },
+  {
+   "n": 16,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The athlete was ___ from the race for breaking the rules.",
+   "options": {
+    "A": "disconnected",
+    "B": "disqualified",
+    "C": "discovered",
+    "D": "disappointed"
+   },
+   "answer": "B",
+   "explanation": "Breaking the rules gets you disqualified.",
+   "distractors": {
+    "D": "means let down",
+    "C": "means found",
+    "A": "means unplugged"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "It was a ___ escape: the falling branch missed him by centimetres.",
+   "options": {
+    "A": "thin",
+    "B": "narrow",
+    "C": "close-up",
+    "D": "slim"
+   },
+   "answer": "B",
+   "explanation": "A 'narrow escape' is when you only just avoid danger.",
+   "distractors": {
+    "A": "'thin escape' isn't the phrase",
+    "D": "'slim chance', but not 'slim escape'",
+    "C": "a close-up is a photo"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "Despite the rain, the match went ___ as planned.",
+   "options": {
+    "A": "onward",
+    "B": "along",
+    "C": "forward",
+    "D": "ahead"
+   },
+   "answer": "D",
+   "explanation": "'Go ahead' means happen as planned.",
+   "distractors": {
+    "C": "'go forward' means move to the front",
+    "B": "'go along' means agree, or travel with",
+    "A": "'go onward' means continue a journey"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The koala's ___ is the eucalyptus forest.",
+   "options": {
+    "A": "inhabitant",
+    "B": "habit",
+    "C": "inhibit",
+    "D": "habitat"
+   },
+   "answer": "D",
+   "explanation": "An animal's habitat is the place where it naturally lives.",
+   "distractors": {
+    "B": "a habit is something you do often",
+    "A": "a person or animal that lives somewhere",
+    "C": "a verb meaning hold back"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The hikers were ___ to find shelter before dark.",
+   "options": {
+    "A": "determined",
+    "B": "deterred",
+    "C": "detained",
+    "D": "detected"
+   },
+   "answer": "A",
+   "explanation": "'Determined to' means firmly decided to do something.",
+   "distractors": {
+    "B": "means put off",
+    "C": "means held back",
+    "D": "means noticed"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "He spoke so ___ that we could barely hear him.",
+   "options": {
+    "A": "softly",
+    "B": "softness",
+    "C": "soft",
+    "D": "soften"
+   },
+   "answer": "A",
+   "explanation": "'Softly' (adverb) describes how he spoke.",
+   "distractors": {
+    "B": "a noun",
+    "D": "a verb",
+    "C": "an adjective; we need an adverb after 'spoke so'"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The town ___ a festival every spring to celebrate the wattle.",
+   "options": {
+    "A": "hosts",
+    "B": "visits",
+    "C": "attends",
+    "D": "guests"
+   },
+   "answer": "A",
+   "explanation": "A town that organises a festival 'hosts' it.",
+   "distractors": {
+    "D": "guests are visitors, not a verb here",
+    "B": "you visit a festival somewhere else",
+    "C": "you attend an event, not run it"
+   }
+  },
+  {
+   "n": 23,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The cyclist lost her ___ and fell off on the gravel.",
+   "options": {
+    "A": "grip strength",
+    "B": "level",
+    "C": "weight",
+    "D": "balance"
+   },
+   "answer": "D",
+   "explanation": "'Lose your balance' means become unsteady.",
+   "distractors": {
+    "C": "losing weight is about the body",
+    "B": "'lose your level' isn't English",
+    "A": "too specific and not the phrase"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "VOC",
+   "difficulty": 4,
+   "skill": "Words that go together",
+   "stem": "The teacher ___ that we bring water on the hot day.",
+   "options": {
+    "A": "suggestion",
+    "B": "suggested",
+    "C": "suggestive",
+    "D": "suggesting"
+   },
+   "answer": "B",
+   "explanation": "'Suggested' is the past-tense verb needed.",
+   "distractors": {
+    "A": "a noun",
+    "C": "an adjective",
+    "D": "needs 'was' before it"
+   }
+  }
+ ]
+}

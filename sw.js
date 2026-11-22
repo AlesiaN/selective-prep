@@ -1,12 +1,13 @@
 /* Service worker: keeps the app and tests available offline.
    Bump VERSION whenever you change app files so phones pick up the new version. */
-const VERSION = 'v5';
+const VERSION = 'v7';
 const CACHE = `selective-prep-${VERSION}`;
 const APP_SHELL = [
   './',
   './index.html',
   './styles.css',
   './app.js',
+  './practice.js',
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
@@ -22,8 +23,9 @@ self.addEventListener('install', (event) => {
     try {
       const res = await fetch('./tests/index.json', { cache: 'no-cache' });
       const idx = await res.json();
-      const tests = idx.sections ? idx.sections.flatMap((sec) => sec.tests || []) : (idx.tests || []);
-      await cache.addAll([...new Set(tests.map((t) => `./tests/${t.file}`))]);
+      const sections = idx.exams ? idx.exams.flatMap((x) => x.sections || []) : (idx.sections || []);
+      const tests = sections.length ? sections.flatMap((sec) => sec.tests || []) : (idx.tests || []);
+      await cache.addAll([...new Set(tests.filter((t) => t.file).map((t) => `./tests/${t.file}`))]);
     } catch (e) { /* offline during install: tests get cached on first use */ }
     self.skipWaiting();
   })());

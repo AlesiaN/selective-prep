@@ -1,0 +1,173 @@
+{
+ "id": "p-gap-sel2",
+ "title": "Gapped text: Why Do We Yawn?",
+ "section": "Reading",
+ "practice": true,
+ "timeLimitMinutes": 0,
+ "groupLabel": "By part",
+ "topics": {
+  "GAP": "Gapped text"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 4,
+   "kind": "gapped",
+   "title": "Why Do We Yawn?",
+   "intro": "5 sentences have been removed. Choose the sentence that best fits each gap. There is one extra sentence you do not need.",
+   "credit": "Original text written for this practice.",
+   "paragraphs": [
+    "Everybody yawns. Babies yawn before they are even born, and so do dogs, cats, snakes and fish. [[1]] Surprisingly, scientists still cannot agree on the answer.",
+    "For a long time, people believed we yawn because our bodies need more oxygen. [[2]] When volunteers breathed air with extra oxygen, they yawned just as often as before.",
+    "A newer idea is that yawning cools the brain. [[3]] Supporters of this theory point out that people yawn more in spring and autumn than on very hot days, when the air is too warm to cool anything.",
+    "Then there is the strangest thing about yawning: it is catching. [[4]] Some studies have found that we are more likely to catch a yawn from family and friends than from strangers.",
+    "[[5]] It may even help a group stay alert together. Whatever the reason, you have probably yawned at least once while reading this."
+   ],
+   "bank": {
+    "A": "Seeing, hearing or even reading about someone yawning can make you yawn too.",
+    "B": "So why do we do it?",
+    "C": "Taking a deep breath of air draws cooler blood towards the head, like a radiator.",
+    "D": "This suggests that contagious yawning may be linked to how much we care about others.",
+    "E": "Some people believe yawning is rude.",
+    "F": "But experiments have not supported this explanation."
+   }
+  }
+ ],
+ "questions": [
+  {
+   "n": 1,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 1,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "Seeing, hearing or even reading about someone yawning can make you yawn too.",
+    "B": "So why do we do it?",
+    "C": "Taking a deep breath of air draws cooler blood towards the head, like a radiator.",
+    "D": "This suggests that contagious yawning may be linked to how much we care about others.",
+    "E": "Some people believe yawning is rude.",
+    "F": "But experiments have not supported this explanation."
+   },
+   "answer": "B",
+   "explanation": "After showing that all kinds of creatures yawn, B asks the question the article explores; 'the answer' in the next sentence refers to it.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 1",
+    "C": "doesn't connect with the sentences before and after gap 1",
+    "D": "doesn't connect with the sentences before and after gap 1",
+    "E": "this is the extra sentence: manners aren't discussed in the article",
+    "F": "doesn't connect with the sentences before and after gap 1"
+   }
+  },
+  {
+   "n": 2,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 2,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "Seeing, hearing or even reading about someone yawning can make you yawn too.",
+    "B": "So why do we do it?",
+    "C": "Taking a deep breath of air draws cooler blood towards the head, like a radiator.",
+    "D": "This suggests that contagious yawning may be linked to how much we care about others.",
+    "E": "Some people believe yawning is rude.",
+    "F": "But experiments have not supported this explanation."
+   },
+   "answer": "F",
+   "explanation": "After the oxygen idea, F says experiments didn't support it, and the next sentence describes one such experiment.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 2",
+    "B": "doesn't connect with the sentences before and after gap 2",
+    "C": "doesn't connect with the sentences before and after gap 2",
+    "D": "doesn't connect with the sentences before and after gap 2",
+    "E": "this is the extra sentence: manners aren't discussed in the article"
+   }
+  },
+  {
+   "n": 3,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 3,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "Seeing, hearing or even reading about someone yawning can make you yawn too.",
+    "B": "So why do we do it?",
+    "C": "Taking a deep breath of air draws cooler blood towards the head, like a radiator.",
+    "D": "This suggests that contagious yawning may be linked to how much we care about others.",
+    "E": "Some people believe yawning is rude.",
+    "F": "But experiments have not supported this explanation."
+   },
+   "answer": "C",
+   "explanation": "C explains HOW yawning might cool the brain, which the next sentence supports with evidence about the seasons.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 3",
+    "B": "doesn't connect with the sentences before and after gap 3",
+    "D": "doesn't connect with the sentences before and after gap 3",
+    "E": "this is the extra sentence: manners aren't discussed in the article",
+    "F": "doesn't connect with the sentences before and after gap 3"
+   }
+  },
+  {
+   "n": 4,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 4,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "Seeing, hearing or even reading about someone yawning can make you yawn too.",
+    "B": "So why do we do it?",
+    "C": "Taking a deep breath of air draws cooler blood towards the head, like a radiator.",
+    "D": "This suggests that contagious yawning may be linked to how much we care about others.",
+    "E": "Some people believe yawning is rude.",
+    "F": "But experiments have not supported this explanation."
+   },
+   "answer": "A",
+   "explanation": "'It is catching', then A explains what that means.",
+   "distractors": {
+    "B": "doesn't connect with the sentences before and after gap 4",
+    "C": "doesn't connect with the sentences before and after gap 4",
+    "D": "doesn't connect with the sentences before and after gap 4",
+    "E": "this is the extra sentence: manners aren't discussed in the article",
+    "F": "doesn't connect with the sentences before and after gap 4"
+   }
+  },
+  {
+   "n": 5,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 5,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "Seeing, hearing or even reading about someone yawning can make you yawn too.",
+    "B": "So why do we do it?",
+    "C": "Taking a deep breath of air draws cooler blood towards the head, like a radiator.",
+    "D": "This suggests that contagious yawning may be linked to how much we care about others.",
+    "E": "Some people believe yawning is rude.",
+    "F": "But experiments have not supported this explanation."
+   },
+   "answer": "D",
+   "explanation": "Gap 5 starts the last paragraph. 'This' in D refers back to catching yawns from people we care about, and 'It may even help a group…' continues the idea.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 5",
+    "B": "doesn't connect with the sentences before and after gap 5",
+    "C": "doesn't connect with the sentences before and after gap 5",
+    "E": "this is the extra sentence: manners aren't discussed in the article",
+    "F": "doesn't connect with the sentences before and after gap 5"
+   }
+  }
+ ]
+}

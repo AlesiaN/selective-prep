@@ -1,0 +1,159 @@
+{
+ "id": "p-poe-lg",
+ "title": "Practice poem: Legend (Judith Wright)",
+ "section": "Poetry",
+ "topics": {
+  "POE": "Poetry"
+ },
+ "groupLabel": "By topic",
+ "practice": true,
+ "questions": [
+  {
+   "n": 1,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 1,
+   "skill": "Understanding a poem",
+   "stem": "What does the boy take with him when he sets out?",
+   "options": {
+    "A": "a horse and a sword",
+    "B": "a rainbow and a compass",
+    "C": "a rifle and a black dog",
+    "D": "a bag of food and a map"
+   },
+   "answer": "C",
+   "explanation": "The poem opens with the blacksmith's boy going out with a rifle and his black dog running behind.",
+   "distractors": {
+    "A": "not in the poem",
+    "D": "not in the poem",
+    "B": "he catches the rainbow later"
+   }
+  },
+  {
+   "n": 2,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "Cobwebs, rivers and thorn branches try to stop the boy. How does the poet make nature seem?",
+   "options": {
+    "A": "small and unimportant",
+    "B": "peaceful and calm",
+    "C": "as if it is alive and deliberately trying to block him",
+    "D": "beautiful and welcoming"
+   },
+   "answer": "C",
+   "explanation": "Nature is personified: things 'snatch', 'hinder' and 'catch' at him as if they want to stop him.",
+   "distractors": {
+    "B": "the obstacles fight him",
+    "D": "they try to stop and even blind him",
+    "A": "they are powerful obstacles"
+   }
+  },
+  {
+   "n": 3,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 3,
+   "skill": "Understanding a poem",
+   "stem": "When things go wrong, the boy keeps saying what he can do (break branches, swim rivers, stare out spiders). What does this show?",
+   "options": {
+    "A": "He is lying to his dog.",
+    "B": "He is brave and determined, and talks himself through his fears.",
+    "C": "He has given up.",
+    "D": "He is bored."
+   },
+   "answer": "B",
+   "explanation": "His boasts keep his courage up as each danger appears: he won't let the obstacles beat him.",
+   "distractors": {
+    "A": "he isn't deceiving anyone",
+    "C": "he keeps going",
+    "D": "he's facing danger, not boredom"
+   }
+  },
+  {
+   "n": 4,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 4,
+   "skill": "Understanding a poem",
+   "stem": "The boy ends up carrying the rainbow 'instead of his broken gun'. What could this suggest?",
+   "options": {
+    "A": "He sold his gun to buy a rainbow.",
+    "B": "His courage is rewarded with something beautiful and magical, not won by force.",
+    "C": "He has learned to make rainbows.",
+    "D": "The rainbow is a new kind of weapon."
+   },
+   "answer": "B",
+   "explanation": "His gun breaks, yet he wins the rainbow: a gentle, magical prize that suits a legend more than a weapon does.",
+   "distractors": {
+    "C": "he catches it; he doesn't make it",
+    "A": "the gun breaks",
+    "D": "it's a prize, not a weapon"
+   }
+  },
+  {
+   "n": 5,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 2,
+   "skill": "Understanding a poem",
+   "stem": "Why is the poem called 'Legend'?",
+   "options": {
+    "A": "It tells a story like an old folk tale, with magic and a hero.",
+    "B": "It is a set of instructions.",
+    "C": "It describes a real person from history.",
+    "D": "It is a true story from the newspaper."
+   },
+   "answer": "A",
+   "explanation": "A legend is a traditional story with heroes and wonders. The boy's journey, the talking crow, and catching a rainbow belong to that kind of tale.",
+   "distractors": {
+    "D": "catching a rainbow isn't realistic",
+    "B": "it tells a story",
+    "C": "the boy is a story character"
+   }
+  },
+  {
+   "n": 6,
+   "passage": "p1",
+   "topic": "POE",
+   "skillGroup": "Poetry",
+   "difficulty": 2,
+   "skill": "Understanding a poem",
+   "stem": "By the end, the whole world says nobody is braver or bolder than the boy. What is the mood of the ending?",
+   "options": {
+    "A": "sad and lonely",
+    "B": "joyful and triumphant",
+    "C": "angry and bitter",
+    "D": "scary and tense"
+   },
+   "answer": "B",
+   "explanation": "After all the dangers, he comes home with the rainbow on his shoulder and everyone praises him: the ending celebrates his victory.",
+   "distractors": {
+    "A": "he is praised by everyone",
+    "C": "nothing angry about the ending",
+    "D": "the danger is over"
+   }
+  }
+ ],
+ "passages": [
+  {
+   "id": "p1",
+   "part": 3,
+   "kind": "prose",
+   "title": "Legend – Judith Wright",
+   "intro": "Find and read this poem before you start.",
+   "credit": "The poem is still in copyright, so it is not printed here.",
+   "paragraphs": [
+    "Read 'Legend' by Judith Wright. It is in Judith Wright's 'Collected Poems' and in many school anthologies; you can also find it by searching the title and poet online.",
+    "The poem tells, like an old folk tale, the story of a blacksmith's boy who sets out on a journey.",
+    "Keep the poem open next to this app while you answer. Read it twice: once for the story, once for how it is written."
+   ]
+  }
+ ]
+}

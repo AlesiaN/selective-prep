@@ -1,0 +1,292 @@
+{
+ "id": "p-poe-tech",
+ "title": "Practice: Poetry techniques",
+ "section": "Poetry",
+ "topics": {
+  "TECH": "Poetry techniques"
+ },
+ "groupLabel": "By topic",
+ "practice": true,
+ "questions": [
+  {
+   "n": 1,
+   "topic": "TECH",
+   "difficulty": 2,
+   "skill": "Poetry techniques",
+   "stem": "'The wind whispered through the trees.' Which technique is used?",
+   "options": {
+    "A": "personification",
+    "B": "simile",
+    "C": "rhyme",
+    "D": "alliteration"
+   },
+   "answer": "A",
+   "explanation": "The wind is given a human action (whispering): personification.",
+   "distractors": {
+    "B": "a simile uses 'like' or 'as'",
+    "D": "alliteration repeats first sounds",
+    "C": "no rhyming words"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "TECH",
+   "difficulty": 2,
+   "skill": "Poetry techniques",
+   "stem": "'Her smile was as bright as the sun.' Which technique is used?",
+   "options": {
+    "A": "metaphor",
+    "B": "onomatopoeia",
+    "C": "personification",
+    "D": "simile"
+   },
+   "answer": "D",
+   "explanation": "A comparison using 'as … as' is a simile.",
+   "distractors": {
+    "A": "a metaphor says something IS something else, without 'like' or 'as'",
+    "C": "nothing non-human acts like a person",
+    "B": "no sound words"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "TECH",
+   "difficulty": 2,
+   "skill": "Poetry techniques",
+   "stem": "'The classroom was a zoo.' Which technique is used?",
+   "options": {
+    "A": "alliteration",
+    "B": "simile",
+    "C": "repetition",
+    "D": "metaphor"
+   },
+   "answer": "D",
+   "explanation": "It says the classroom IS a zoo (not 'like a zoo'): a metaphor.",
+   "distractors": {
+    "B": "there is no 'like' or 'as'",
+    "A": "no repeated first sounds",
+    "C": "no repeated words"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "TECH",
+   "difficulty": 2,
+   "skill": "Poetry techniques",
+   "stem": "'Six slippery snails slid slowly.' Which technique is used?",
+   "options": {
+    "A": "rhyme",
+    "B": "onomatopoeia",
+    "C": "alliteration",
+    "D": "metaphor"
+   },
+   "answer": "C",
+   "explanation": "Repeating the 's' sound at the start of words is alliteration.",
+   "distractors": {
+    "A": "the words don't rhyme",
+    "B": "the words don't imitate sounds",
+    "D": "no comparison"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "TECH",
+   "difficulty": 2,
+   "skill": "Poetry techniques",
+   "stem": "'The bees buzzed and the twigs snapped.' Which words are examples of onomatopoeia?",
+   "options": {
+    "A": "buzzed, snapped",
+    "B": "the, and",
+    "C": "bees, snapped",
+    "D": "bees, twigs"
+   },
+   "answer": "A",
+   "explanation": "'Buzzed' and 'snapped' sound like the noises they describe.",
+   "distractors": {
+    "D": "these are things, not sound words",
+    "B": "small joining words",
+    "C": "'bees' isn't a sound word"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "TECH",
+   "difficulty": 2,
+   "skill": "Poetry techniques",
+   "stem": "What is a stanza?",
+   "options": {
+    "A": "the last line of a poem",
+    "B": "a word that rhymes",
+    "C": "the title of a poem",
+    "D": "a group of lines in a poem, like a paragraph"
+   },
+   "answer": "D",
+   "explanation": "A stanza (or verse) is a group of lines separated by a space.",
+   "distractors": {
+    "B": "that's a rhyme",
+    "C": "the title is the name",
+    "A": "that's just a line"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "TECH",
+   "difficulty": 2,
+   "skill": "Poetry techniques",
+   "stem": "In a poem, the lines end with the words 'cat', 'tree', 'hat', 'sea'. What is the rhyme scheme?",
+   "options": {
+    "A": "ABCD",
+    "B": "ABBA",
+    "C": "AABB",
+    "D": "ABAB"
+   },
+   "answer": "D",
+   "explanation": "cat (A), tree (B), hat (A), sea (B): ABAB.",
+   "distractors": {
+    "C": "that would be cat, hat, tree, sea",
+    "B": "that would be cat, tree, sea, hat",
+    "A": "the lines do rhyme in pairs"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "TECH",
+   "difficulty": 3,
+   "skill": "Poetry techniques",
+   "stem": "The poet repeats 'I remember' at the start of every stanza. What is the most likely effect?",
+   "options": {
+    "A": "It makes the poem rhyme.",
+    "B": "It shows the poem is set in the future.",
+    "C": "It shows the poet forgot what to write.",
+    "D": "It shows the poem is about memories and gives it a strong rhythm."
+   },
+   "answer": "D",
+   "explanation": "Repetition emphasises the main idea (memory) and ties the poem together.",
+   "distractors": {
+    "C": "repetition is a deliberate choice",
+    "A": "repeating a phrase at the start of lines is not rhyme",
+    "B": "'remember' is about the past"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "TECH",
+   "difficulty": 3,
+   "skill": "Poetry techniques",
+   "stem": "What is the 'tone' of a poem?",
+   "options": {
+    "A": "the feeling or attitude the poem shows, like happy, angry or sad",
+    "B": "the rhyme scheme",
+    "C": "how loud the poem should be read",
+    "D": "the number of lines"
+   },
+   "answer": "A",
+   "explanation": "Tone is the mood or attitude in the writing.",
+   "distractors": {
+    "C": "tone is about feeling, not volume",
+    "D": "that's length",
+    "B": "that's the pattern of rhymes"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "TECH",
+   "difficulty": 3,
+   "skill": "Poetry techniques",
+   "stem": "A poet writes 'I've told you a million times!' What technique is this?",
+   "options": {
+    "A": "alliteration",
+    "B": "onomatopoeia",
+    "C": "exaggeration (hyperbole)",
+    "D": "simile"
+   },
+   "answer": "C",
+   "explanation": "No one has really said it a million times: it's exaggeration for effect.",
+   "distractors": {
+    "D": "no 'like' or 'as' comparison",
+    "B": "no sound words",
+    "A": "no repeated first sounds"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "TECH",
+   "difficulty": 3,
+   "skill": "Poetry techniques",
+   "stem": "Who is the 'speaker' of a poem?",
+   "options": {
+    "A": "the person who reads it aloud in class",
+    "B": "always the poet",
+    "C": "the main animal in the poem",
+    "D": "the voice telling the poem, which may not be the poet"
+   },
+   "answer": "D",
+   "explanation": "The speaker is the 'I' or voice in the poem. Poets often write as someone else.",
+   "distractors": {
+    "A": "that's a reader",
+    "B": "poets often invent a speaker",
+    "C": "not necessarily"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "TECH",
+   "difficulty": 3,
+   "skill": "Poetry techniques",
+   "stem": "'The old car coughed and spluttered up the hill.' What does this suggest about the car?",
+   "options": {
+    "A": "It is brand new and powerful.",
+    "B": "It is old and struggling, as if it were sick.",
+    "C": "It has a person inside who is ill.",
+    "D": "It is going downhill fast."
+   },
+   "answer": "B",
+   "explanation": "Coughing and spluttering are what a sick person does: the car is struggling (personification).",
+   "distractors": {
+    "A": "the opposite",
+    "C": "took the words literally",
+    "D": "it's going 'up the hill'"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "TECH",
+   "difficulty": 3,
+   "skill": "Poetry techniques",
+   "stem": "A poem ends with a short line after many long ones. What effect does this usually have?",
+   "options": {
+    "A": "It makes the poem rhyme.",
+    "B": "It shows the poet ran out of time.",
+    "C": "It makes the ending stand out and feel strong or final.",
+    "D": "It means the poem is unfinished."
+   },
+   "answer": "C",
+   "explanation": "A sudden short line slows the reader and makes the ending hit harder.",
+   "distractors": {
+    "B": "line length is a deliberate choice",
+    "A": "line length doesn't create rhyme",
+    "D": "it's a deliberate ending"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "TECH",
+   "difficulty": 3,
+   "skill": "Poetry techniques",
+   "stem": "'The thunder grumbled like an angry giant.' Which TWO techniques are used?",
+   "options": {
+    "A": "simile and personification",
+    "B": "alliteration and onomatopoeia",
+    "C": "repetition and rhyme",
+    "D": "metaphor and rhyme"
+   },
+   "answer": "A",
+   "explanation": "'Like an angry giant' is a simile; thunder 'grumbling' gives it a human action (personification).",
+   "distractors": {
+    "D": "it uses 'like', so it's a simile, and nothing rhymes",
+    "B": "'grumbled' is close to a sound word, but there's no alliteration",
+    "C": "nothing is repeated or rhymed"
+   }
+  }
+ ]
+}

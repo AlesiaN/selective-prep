@@ -1,0 +1,173 @@
+{
+ "id": "p-gap-oc1",
+ "title": "Gapped text: Seeing-eye Dogs",
+ "section": "Reading",
+ "practice": true,
+ "timeLimitMinutes": 0,
+ "groupLabel": "By part",
+ "topics": {
+  "GAP": "Gapped text"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 4,
+   "kind": "gapped",
+   "title": "Seeing-eye Dogs",
+   "intro": "5 sentences have been removed. Choose the sentence that best fits each gap. There is one extra sentence you do not need.",
+   "credit": "Original text written for this practice.",
+   "paragraphs": [
+    "Some dogs have a very important job: they help people who are blind or cannot see well. [[1]]",
+    "Training starts when the dogs are puppies. They live with a volunteer family for about a year. [[2]] They are taken on buses and trains, to shops and to busy streets.",
+    "When they are older, the dogs go to a special school. There, they learn to stop at kerbs and steps, and to walk around things in the way. [[3]] If its owner tells it to cross a road when a car is coming, the dog will not move.",
+    "[[4]] Its owner must not pat it or talk to it in a silly voice while it is working. That is why you should always ask before patting a dog in a harness.",
+    "At the end of the day, the harness comes off. [[5]] Most seeing-eye dogs love to play, chase balls and snooze on the couch, just like any other dog."
+   ],
+   "bank": {
+    "A": "Then the dog is just a pet again.",
+    "B": "They even learn when NOT to obey a command.",
+    "C": "They are called seeing-eye dogs or guide dogs.",
+    "D": "Cats can also be trained to do tricks.",
+    "E": "The family teaches them good manners and helps them get used to noisy places.",
+    "F": "A guide dog wearing its harness is concentrating hard."
+   }
+  }
+ ],
+ "questions": [
+  {
+   "n": 1,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 1,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "Then the dog is just a pet again.",
+    "B": "They even learn when NOT to obey a command.",
+    "C": "They are called seeing-eye dogs or guide dogs.",
+    "D": "Cats can also be trained to do tricks.",
+    "E": "The family teaches them good manners and helps them get used to noisy places.",
+    "F": "A guide dog wearing its harness is concentrating hard."
+   },
+   "answer": "C",
+   "explanation": "Gap 1 comes after a description of the job. C gives these helpful dogs their name.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 1",
+    "B": "doesn't connect with the sentences before and after gap 1",
+    "D": "this is the extra sentence: it's about cats, not guide dogs",
+    "E": "doesn't connect with the sentences before and after gap 1",
+    "F": "doesn't connect with the sentences before and after gap 1"
+   }
+  },
+  {
+   "n": 2,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 2,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "Then the dog is just a pet again.",
+    "B": "They even learn when NOT to obey a command.",
+    "C": "They are called seeing-eye dogs or guide dogs.",
+    "D": "Cats can also be trained to do tricks.",
+    "E": "The family teaches them good manners and helps them get used to noisy places.",
+    "F": "A guide dog wearing its harness is concentrating hard."
+   },
+   "answer": "E",
+   "explanation": "After 'they live with a volunteer family', E says what the family does, and the next sentence gives examples of noisy places (buses, trains, busy streets).",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 2",
+    "B": "doesn't connect with the sentences before and after gap 2",
+    "C": "doesn't connect with the sentences before and after gap 2",
+    "D": "this is the extra sentence: it's about cats, not guide dogs",
+    "F": "doesn't connect with the sentences before and after gap 2"
+   }
+  },
+  {
+   "n": 3,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 3,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "Then the dog is just a pet again.",
+    "B": "They even learn when NOT to obey a command.",
+    "C": "They are called seeing-eye dogs or guide dogs.",
+    "D": "Cats can also be trained to do tricks.",
+    "E": "The family teaches them good manners and helps them get used to noisy places.",
+    "F": "A guide dog wearing its harness is concentrating hard."
+   },
+   "answer": "B",
+   "explanation": "The next sentence describes the dog refusing a command when a car is coming. B introduces this surprising idea.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 3",
+    "C": "doesn't connect with the sentences before and after gap 3",
+    "D": "this is the extra sentence: it's about cats, not guide dogs",
+    "E": "doesn't connect with the sentences before and after gap 3",
+    "F": "doesn't connect with the sentences before and after gap 3"
+   }
+  },
+  {
+   "n": 4,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 4,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "Then the dog is just a pet again.",
+    "B": "They even learn when NOT to obey a command.",
+    "C": "They are called seeing-eye dogs or guide dogs.",
+    "D": "Cats can also be trained to do tricks.",
+    "E": "The family teaches them good manners and helps them get used to noisy places.",
+    "F": "A guide dog wearing its harness is concentrating hard."
+   },
+   "answer": "F",
+   "explanation": "The next sentence says the owner must not pat it 'while it is working'. F explains that a dog in its harness is concentrating.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 4",
+    "B": "doesn't connect with the sentences before and after gap 4",
+    "C": "doesn't connect with the sentences before and after gap 4",
+    "D": "this is the extra sentence: it's about cats, not guide dogs",
+    "E": "doesn't connect with the sentences before and after gap 4"
+   }
+  },
+  {
+   "n": 5,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 3,
+   "gap": 5,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "Then the dog is just a pet again.",
+    "B": "They even learn when NOT to obey a command.",
+    "C": "They are called seeing-eye dogs or guide dogs.",
+    "D": "Cats can also be trained to do tricks.",
+    "E": "The family teaches them good manners and helps them get used to noisy places.",
+    "F": "A guide dog wearing its harness is concentrating hard."
+   },
+   "answer": "A",
+   "explanation": "'The harness comes off', then A: the dog becomes a pet again, which leads to playing and snoozing.",
+   "distractors": {
+    "B": "doesn't connect with the sentences before and after gap 5",
+    "C": "doesn't connect with the sentences before and after gap 5",
+    "D": "this is the extra sentence: it's about cats, not guide dogs",
+    "E": "doesn't connect with the sentences before and after gap 5",
+    "F": "doesn't connect with the sentences before and after gap 5"
+   }
+  }
+ ]
+}

@@ -21,8 +21,13 @@
     timeUp: false,
     filter: 'wrong',
     timerId: null,
-    sections: [],
-    sectionIdx: 0,   // Maths / Reading
+    exams: [],       // Selective / OC / Practice
+    examIdx: 0,
+    sections: [],    // sections of the chosen exam
+    sectionIdx: 0,   // Maths / Reading / ...
+    meta: null,      // index entry of the test being sat
+    seed: 0,         // random seed for generated / drawn practice sets
+    practice: false, // instant feedback, no time limit
     picks: {},       // chosen test per section
     passageUI: { id: null, open: true, scroll: 0, tab: 'A' },
   };
@@ -43,6 +48,7 @@
       if (!state.test) return;
       try {
         localStorage.setItem(PROGRESS_KEY, JSON.stringify({
+          id: state.meta && state.meta.id, seed: state.seed,
           file: state.file, answers: state.answers, flags: state.flags,
           current: state.current, startedAt: state.startedAt, endAt: state.endAt,
           prompt: state.writing ? state.writing.prompt.id : undefined,
@@ -80,11 +86,18 @@
     app.innerHTML = `<h1>Selective Prep</h1><p class="muted">Loading tests…</p>`;
     try {
       const idx = await getJSON('tests/index.json');
-      // index.json: { sections: [{ id, label, rules: [...], tests: [...] }] }  (older files: { tests: [...] })
-      state.sections = idx.sections || [{ id: 'maths', label: 'Maths', tests: idx.tests || [] }];
-      state.tests = state.sections.flatMap((s) => s.tests);
+      // index.json: { exams: [{ id, label, subtitle, sections: [{ id, label, rules: [...], tests: [...] }] }] }
+      // (older files: { sections: [...] } or { tests: [...] })
+      state.exams = idx.exams || [{ id: 'selective', label: 'Selective', sections: idx.sections || [{ id: 'maths', label: 'Maths', tests: idx.tests || [] }] }];
+      state.tests = state.exams.flatMap((x) => x.sections.flatMap((sec) => sec.tests));
       try {
-        const si = Number(localStorage.getItem('selective-prep:section'));
+        const ei = Number(localStorage.getItem('selective-prep:exam'));
+        if (ei >= 0 && ei < state.exams.length) state.examIdx = ei;
+      } catch (e) { /* ignore */ }
+      state.sections = state.exams[state.examIdx].sections;
+      state.sectionIdx = 0;
+      try {
+        const si = Number(localStorage.getItem('selective-prep:section:' + state.exams[state.examIdx].id));
         if (si >= 0 && si < state.sections.length) state.sectionIdx = si;
         const pk = JSON.parse(localStorage.getItem('selective-prep:picks') || '{}');
         state.picks = pk && typeof pk === 'object' ? pk : {};
@@ -96,17 +109,20 @@
     }
     const persist = () => {
       try {
-        localStorage.setItem('selective-prep:section', String(state.sectionIdx));
+        localStorage.setItem('selective-prep:exam', String(state.examIdx));
+        localStorage.setItem('selective-prep:section:' + state.exams[state.examIdx].id, String(state.sectionIdx));
         localStorage.setItem('selective-prep:picks', JSON.stringify(state.picks));
       } catch (e) { /* ignore */ }
     };
     const saved = store.load();
-    const savedMeta = saved && state.tests.find((t) => t.file === saved.file && (t.prompt || null) === (saved.prompt || null));
-    const savedSection = savedMeta && state.sections.find((sec) => sec.tests.includes(savedMeta));
+    const savedMeta = saved && (state.tests.find((t) => saved.id && t.id === saved.id) ||
+      state.tests.find((t) => t.file && t.file === saved.file && (t.prompt || null) === (saved.prompt || null)));
+    const savedExam = savedMeta && state.exams.find((x) => x.sections.some((sec) => sec.tests.includes(savedMeta)));
+    const savedSection = savedExam && savedExam.sections.find((sec) => sec.tests.includes(savedMeta));
     const resume = savedMeta ? `
       <div class="card">
         <h2 style="margin-top:0">Test in progress</h2>
-        <p>${esc(savedSection ? savedSection.label + ' ' : '')}${esc(savedMeta.label || savedMeta.title)}: ${saved.prompt ? (saved.text || '').trim().split(/\s+/).filter(Boolean).length + ' words written' : Object.keys(saved.answers || {}).length + ' answered'}, ${saved.endAt > Date.now() ? fmtClock(saved.endAt - Date.now()) + ' left' : 'time is up'}.</p>
+        <p>${esc(savedExam && state.exams.length > 1 ? savedExam.label + ' ' : '')}${esc(savedSection ? savedSection.label + ' ' : '')}${esc(savedMeta.label || savedMeta.title)}: ${saved.prompt ? (saved.text || '').trim().split(/\s+/).filter(Boolean).length + ' words written' : Object.keys(saved.answers || {}).length + ' answered'}${savedMeta.practice ? '' : ', ' + (saved.endAt > Date.now() ? fmtClock(saved.endAt - Date.now()) + ' left' : 'time is up')}.</p>
         <div class="row wrap">
           <button class="btn primary" id="resume">Continue</button>
           <button class="btn danger" id="discard">Discard</button>
@@ -115,7 +131,10 @@
 
     app.innerHTML = `
       <h1>Selective Prep</h1>
-      <p class="muted">Practice for the NSW Selective High School Placement Test.</p>
+      ${state.exams.length > 1 ? `<div class="seg exam-seg" role="radiogroup" aria-label="Choose a test type">
+        ${state.exams.map((x, i) => `<button class="seg-btn" role="radio" data-exam="${i}" aria-checked="${i === state.examIdx}">${esc(x.label)}</button>`).join('')}
+      </div>` : ''}
+      <p class="muted">${esc(state.exams[state.examIdx].subtitle || 'Practice for the NSW Selective High School Placement Test.')}</p>
       ${resume}
       <div class="seg section-seg" role="radiogroup" aria-label="Choose a section">
         ${state.sections.map((sec, i) => `<button class="seg-btn" role="radio" data-section="${i}" aria-checked="${i === state.sectionIdx}">${esc(sec.label)}</button>`).join('')}
@@ -140,14 +159,14 @@
       const rules = sec.rules || ['35 questions in 40 minutes, like the real test.', 'No calculator. Have paper and a pencil ready.'];
       document.getElementById('rules').innerHTML = `<h2 style="margin-top:0">How it works</h2><ul class="rules">
         ${rules.map((r) => `<li>${esc(r)}</li>`).join('')}
-        ${sec.id === 'writing' ? '' : `<li>There's no penalty for wrong answers, so answer every question.</li>
+        ${sec.id === 'writing' || sec.practice ? '' : `<li>There's no penalty for wrong answers, so answer every question.</li>
         <li>Use <b>Flag</b> to mark questions you want to come back to.</li>
         <li>At the end you'll see your score, your strong and weak areas, and an explanation for every question.</li>`}</ul>`;
       document.getElementById('test-seg').innerHTML = sec.tests.map((tt, k) =>
         `<button class="seg-btn" role="radio" data-pick="${k}" aria-checked="${k === i}">${esc(tt.label || 'Test ' + (k + 1))}</button>`).join('');
-      document.getElementById('pick-info').innerHTML = t ? `<h3 style="margin:14px 0 2px">${esc(t.title)}</h3><p class="muted small" style="margin-top:0">${t.prompt ? esc(t.form || 'Writing') + ' · 1 task' : esc(t.questions) + ' ' + (t.answers ? 'answers' : 'questions')} · ${esc(t.minutes)} minutes${t.note ? ' · ' + esc(t.note) : ''}</p>` : '<p class="muted">No tests yet.</p>';
+      document.getElementById('pick-info').innerHTML = t ? `<h3 style="margin:14px 0 2px">${esc(t.title)}</h3><p class="muted small" style="margin-top:0">${t.prompt ? esc(t.form || 'Writing') + ' · 1 task' : esc(t.draw || t.questions) + ' ' + (t.answers ? 'answers' : 'questions')} · ${t.practice ? 'no time limit' : esc(t.minutes) + ' minutes'}${t.note ? ' · ' + esc(t.note) : ''}</p>` : '<p class="muted">No tests yet.</p>';
       const start = document.getElementById('start');
-      start.textContent = t ? (t.prompt ? `Start writing: ${t.label}` : `Start ${sec.label} ${t.label || 'test'}`) : 'Start';
+      start.textContent = t ? (t.prompt ? `Start writing: ${t.label}` : t.practice ? `Practise: ${t.label}` : `Start ${sec.label} ${t.label || 'test'}`) : 'Start';
       start.disabled = !t;
       app.querySelectorAll('[data-pick]').forEach((b) => {
         b.onclick = () => { state.picks[sec.id] = Number(b.dataset.pick); persist(); showSection(); };
@@ -155,6 +174,9 @@
     };
     app.querySelectorAll('[data-section]').forEach((b) => {
       b.onclick = () => { state.sectionIdx = Number(b.dataset.section); persist(); showSection(); };
+    });
+    app.querySelectorAll('[data-exam]').forEach((b) => {
+      b.onclick = () => { state.examIdx = Number(b.dataset.exam); state.sectionIdx = 0; try { localStorage.setItem('selective-prep:exam', String(state.examIdx)); } catch (e) { /* ignore */ } renderHome(); };
     });
     showSection();
     document.getElementById('start').onclick = () => {
@@ -164,28 +186,53 @@
         openModal(`<h2 style="margin-top:0">Start a new test?</h2><p>This will discard the test in progress.</p>
           <div class="row"><button class="btn" id="m-cancel">Cancel</button><button class="btn primary" id="m-ok">Start</button></div>`);
         document.getElementById('m-cancel').onclick = closeModal;
-        document.getElementById('m-ok').onclick = () => { closeModal(); store.clear(); startTest(t.file, null, t.prompt); };
+        document.getElementById('m-ok').onclick = () => { closeModal(); store.clear(); startTest(t, null); };
       } else {
-        startTest(t.file, null, t.prompt);
+        startTest(t, null);
       }
     };
     if (savedMeta) {
-      document.getElementById('resume').onclick = () => startTest(saved.file, saved, saved.prompt);
+      document.getElementById('resume').onclick = () => startTest(savedMeta, saved);
       document.getElementById('discard').onclick = () => { store.clear(); renderHome(); };
     }
   }
 
   // ---------- test ----------
-  async function startTest(file, saved, promptId) {
+  // Seeded random numbers, so a generated or drawn practice set can be resumed exactly.
+  function rng(seed) {
+    let a = seed >>> 0;
+    return () => { a = (a + 0x6D2B79F5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  }
+  function drawQuestions(test, k, seed) {
+    const r = rng(seed);
+    const qs = test.questions.slice();
+    for (let i = qs.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [qs[i], qs[j]] = [qs[j], qs[i]]; }
+    test.questions = qs.slice(0, Math.min(k, qs.length)).map((q, i) => Object.assign({}, q, { n: i + 1 }));
+    return test;
+  }
+  async function startTest(meta, saved) {
     app.innerHTML = `<p class="muted">Loading…</p>`;
+    const file = meta.file;
+    const promptId = meta.prompt;
+    state.meta = meta;
+    state.seed = (saved && saved.seed) || (Math.floor(Math.random() * 2147483646) + 1);
     let test;
-    try { test = await getJSON('tests/' + file); } catch (e) {
+    try {
+      if (meta.gen) {
+        if (!window.PracticeGen) throw new Error('no generator');
+        test = window.PracticeGen.make(meta.gen, state.seed, meta.draw || meta.questions || 10);
+      } else {
+        test = await getJSON('tests/' + file);
+        if (meta.draw) test = drawQuestions(test, meta.draw, state.seed);
+      }
+    } catch (e) {
       app.innerHTML = `<div class="card"><p>Couldn't load this test.</p><button class="btn" id="home">Back</button></div>`;
       document.getElementById('home').onclick = renderHome;
       return;
     }
     state.test = test;
-    state.file = file;
+    state.file = file || meta.gen;
+    state.practice = !!(meta.practice || test.practice);
     state.submittedAt = 0;
     state.writing = null;
     if (test.kind === 'writing') {
@@ -215,6 +262,7 @@
       state.startedAt = Date.now();
       state.endAt = state.startedAt + (test.timeLimitMinutes || 40) * 60 * 1000;
     }
+    if (state.practice) state.endAt = state.startedAt + 24 * 3600 * 1000; // practice: no time limit
     store.save();
     if (Date.now() >= state.endAt) { submit(true); return; }
     renderQuestion();
@@ -233,6 +281,10 @@
     if (el) {
       el.textContent = fmtClock(left);
       el.classList.toggle('low', left <= 5 * 60 * 1000);
+    }
+    if (state.practice) {
+      if (el) { el.textContent = fmtClock(Date.now() - state.startedAt); el.classList.remove('low'); el.setAttribute('aria-label', 'Time used'); }
+      return;
     }
     if (left <= 0) { if (state.writing) finishWriting(true); else submit(true); }
   }
@@ -313,6 +365,7 @@
     const isLast = state.current === qs.length - 1;
     const p = q.passage ? passageById(q.passage) : null;
     const inline = !!q.inlineOptions || !!(p && p.kind === 'extracts');
+    const fb = state.practice && chosen; // practice: show the answer as soon as one is picked
     const usedIn = {};
     if (p && p.kind === 'gapped') gapQuestions(p).forEach((x) => { if (x.n !== q.n && state.answers[x.n]) usedIn[state.answers[x.n]] = x.gap; });
 
@@ -331,14 +384,18 @@
         ${q.svg ? `<div class="figure">${q.svg}</div>` : ''}
         <div class="opts ${inline ? 'opts-inline' : ''}" role="group" aria-label="Answer options">
           ${Object.keys(q.options).map((L) => `
-            <button class="opt" data-opt="${L}" aria-pressed="${chosen === L}">
+            <button class="opt${fb ? (L === q.answer ? ' is-right' : L === chosen ? ' is-wrong' : ' is-dim') : ''}" data-opt="${L}" aria-pressed="${chosen === L}" ${fb ? 'disabled' : ''}>
               <span class="letter">${L}</span><span>${inline ? '' : esc(q.options[L])}${usedIn[L] ? ` <span class="used">used in gap ${usedIn[L]}</span>` : ''}</span>
             </button>`).join('')}
         </div>
+        ${fb ? `<div class="feedback ${chosen === q.answer ? 'ok' : 'bad'}">
+          <b>${chosen === q.answer ? 'Correct!' : `Not quite. The answer is ${q.answer}.`}</b>
+          ${chosen !== q.answer && q.distractors && q.distractors[chosen] ? `<p class="small"><b>Likely mistake:</b> ${esc(q.distractors[chosen])}</p>` : ''}
+          <p class="small">${esc(q.explanation)}</p></div>` : ''}
       </div>
       <div class="row between">
         <button class="btn flag-btn" id="flag" aria-pressed="${!!state.flags[q.n]}">${state.flags[q.n] ? 'Flagged' : 'Flag for review'}</button>
-        ${chosen ? `<button class="btn" id="clear">Clear answer</button>` : ''}
+        ${chosen && !state.practice ? `<button class="btn" id="clear">Clear answer</button>` : ''}
       </div>
       <div class="bottombar"><div class="inner">
         <button class="btn" id="prev" ${state.current === 0 ? 'disabled' : ''}>Back</button>
@@ -361,6 +418,7 @@
 
   function choose(L) {
     const q = state.test.questions[state.current];
+    if (state.practice && state.answers[q.n]) return;
     state.answers[q.n] = L;
     store.save();
     renderQuestion();

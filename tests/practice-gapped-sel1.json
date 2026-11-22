@@ -1,0 +1,173 @@
+{
+ "id": "p-gap-sel1",
+ "title": "Gapped text: The Great Emu War",
+ "section": "Reading",
+ "practice": true,
+ "timeLimitMinutes": 0,
+ "groupLabel": "By part",
+ "topics": {
+  "GAP": "Gapped text"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 4,
+   "kind": "gapped",
+   "title": "The Great Emu War",
+   "intro": "5 sentences have been removed. Choose the sentence that best fits each gap. There is one extra sentence you do not need.",
+   "credit": "Original text written for this practice.",
+   "paragraphs": [
+    "In 1932, farmers in Western Australia faced an unusual enemy. About 20,000 emus had moved into the wheat-growing district around Campion, trampling crops and breaking fences. [[1]]",
+    "The government agreed to help, and sent a small group of soldiers armed with machine guns. [[2]] The emus, however, had other ideas.",
+    "Whenever the soldiers approached, the birds scattered in every direction, running at up to 50 kilometres an hour. [[3]] Even when the soldiers mounted a gun on a truck, the bumpy ground made it impossible to aim.",
+    "After about a week, the soldiers were withdrawn. [[4]] Newspapers around the world reported on the 'war', and many joked that the emus had won.",
+    "Today, farmers use stronger fences rather than soldiers to keep emus away from crops. [[5]] Historians still use the story as a reminder that nature does not always behave the way people expect."
+   ],
+   "bank": {
+    "A": "Although they returned briefly later in the year, the campaign never achieved what was hoped.",
+    "B": "Emus lay large, dark green eggs.",
+    "C": "Their plan was simple: find the flocks and shoot as many birds as possible.",
+    "D": "This made them extremely difficult targets.",
+    "E": "The farmers, many of them former soldiers, asked the government to send help.",
+    "F": "The emu, meanwhile, appears on the Australian coat of arms."
+   }
+  }
+ ],
+ "questions": [
+  {
+   "n": 1,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 1,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "Although they returned briefly later in the year, the campaign never achieved what was hoped.",
+    "B": "Emus lay large, dark green eggs.",
+    "C": "Their plan was simple: find the flocks and shoot as many birds as possible.",
+    "D": "This made them extremely difficult targets.",
+    "E": "The farmers, many of them former soldiers, asked the government to send help.",
+    "F": "The emu, meanwhile, appears on the Australian coat of arms."
+   },
+   "answer": "E",
+   "explanation": "After describing the damage, E says the farmers asked for help; the next sentence says 'the government agreed to help'.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 1",
+    "B": "this is the extra sentence: it's true, but nothing in the article links to eggs",
+    "C": "doesn't connect with the sentences before and after gap 1",
+    "D": "doesn't connect with the sentences before and after gap 1",
+    "F": "it fits only at the end, where the article moves to the present day"
+   }
+  },
+  {
+   "n": 2,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 2,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "Although they returned briefly later in the year, the campaign never achieved what was hoped.",
+    "B": "Emus lay large, dark green eggs.",
+    "C": "Their plan was simple: find the flocks and shoot as many birds as possible.",
+    "D": "This made them extremely difficult targets.",
+    "E": "The farmers, many of them former soldiers, asked the government to send help.",
+    "F": "The emu, meanwhile, appears on the Australian coat of arms."
+   },
+   "answer": "C",
+   "explanation": "C describes the soldiers' plan; 'The emus, however, had other ideas' contrasts with it.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 2",
+    "B": "this is the extra sentence: it's true, but nothing in the article links to eggs",
+    "D": "doesn't connect with the sentences before and after gap 2",
+    "E": "doesn't connect with the sentences before and after gap 2",
+    "F": "it fits only at the end, where the article moves to the present day"
+   }
+  },
+  {
+   "n": 3,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 3,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "Although they returned briefly later in the year, the campaign never achieved what was hoped.",
+    "B": "Emus lay large, dark green eggs.",
+    "C": "Their plan was simple: find the flocks and shoot as many birds as possible.",
+    "D": "This made them extremely difficult targets.",
+    "E": "The farmers, many of them former soldiers, asked the government to send help.",
+    "F": "The emu, meanwhile, appears on the Australian coat of arms."
+   },
+   "answer": "D",
+   "explanation": "Birds scattering at 50 km/h would be hard to hit: 'This' in D refers back to that. 'Even when…' continues the idea of difficulty.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 3",
+    "B": "this is the extra sentence: it's true, but nothing in the article links to eggs",
+    "C": "doesn't connect with the sentences before and after gap 3",
+    "E": "doesn't connect with the sentences before and after gap 3",
+    "F": "it fits only at the end, where the article moves to the present day"
+   }
+  },
+  {
+   "n": 4,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 4,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "Although they returned briefly later in the year, the campaign never achieved what was hoped.",
+    "B": "Emus lay large, dark green eggs.",
+    "C": "Their plan was simple: find the flocks and shoot as many birds as possible.",
+    "D": "This made them extremely difficult targets.",
+    "E": "The farmers, many of them former soldiers, asked the government to send help.",
+    "F": "The emu, meanwhile, appears on the Australian coat of arms."
+   },
+   "answer": "A",
+   "explanation": "'Withdrawn' after a week, then A explains they came back briefly but still failed, which leads to the jokes that the emus won.",
+   "distractors": {
+    "B": "this is the extra sentence: it's true, but nothing in the article links to eggs",
+    "C": "doesn't connect with the sentences before and after gap 4",
+    "D": "doesn't connect with the sentences before and after gap 4",
+    "E": "doesn't connect with the sentences before and after gap 4",
+    "F": "it fits only at the end, where the article moves to the present day"
+   }
+  },
+  {
+   "n": 5,
+   "passage": "p1",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "difficulty": 4,
+   "gap": 5,
+   "skill": "Choosing the sentence that fits a gap",
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "Although they returned briefly later in the year, the campaign never achieved what was hoped.",
+    "B": "Emus lay large, dark green eggs.",
+    "C": "Their plan was simple: find the flocks and shoot as many birds as possible.",
+    "D": "This made them extremely difficult targets.",
+    "E": "The farmers, many of them former soldiers, asked the government to send help.",
+    "F": "The emu, meanwhile, appears on the Australian coat of arms."
+   },
+   "answer": "F",
+   "explanation": "The final paragraph moves to the present day; F adds a 'meanwhile' fact about the emu's place in Australia today, before the closing sentence.",
+   "distractors": {
+    "A": "doesn't connect with the sentences before and after gap 5",
+    "B": "this is the extra sentence: it's true, but nothing in the article links to eggs",
+    "C": "doesn't connect with the sentences before and after gap 5",
+    "D": "doesn't connect with the sentences before and after gap 5",
+    "E": "doesn't connect with the sentences before and after gap 5"
+   }
+  }
+ ]
+}

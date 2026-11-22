@@ -1,0 +1,810 @@
+{
+ "id": "oc-mr-01",
+ "title": "OC Mathematical Reasoning – Practice Test 1",
+ "section": "Mathematical Reasoning",
+ "timeLimitMinutes": 40,
+ "groupLabel": "By topic",
+ "topics": {
+  "NUM": "Number and place value",
+  "OPS": "Adding, subtracting, multiplying, dividing",
+  "FRAC": "Fractions",
+  "MON": "Money",
+  "TIME": "Time",
+  "MEAS": "Length, mass and capacity",
+  "AREA": "Area and perimeter",
+  "SHAPE": "2D and 3D shapes, angles",
+  "POS": "Position and maps",
+  "PAT": "Patterns and missing numbers",
+  "DATA": "Graphs and tables",
+  "CHN": "Chance",
+  "LOG": "Reasoning puzzles"
+ },
+ "questions": [
+  {
+   "n": 1,
+   "topic": "NUM",
+   "difficulty": 1,
+   "skill": "Place value with regrouping",
+   "stem": "Which number is made of 3 thousands, 14 tens and 6 ones?",
+   "options": {
+    "A": "3416",
+    "B": "3046",
+    "C": "3014",
+    "D": "3146",
+    "E": "31 406"
+   },
+   "answer": "D",
+   "explanation": "14 tens is 140. So 3000 + 140 + 6 = 3146.",
+   "distractors": {
+    "A": "wrote the 14 in the hundreds place",
+    "B": "used 4 tens and dropped the extra ten",
+    "C": "wrote the digits side by side",
+    "E": "wrote the digits side by side"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "OPS",
+   "difficulty": 1,
+   "skill": "Adding in a word problem",
+   "stem": "A school has 248 boys and 275 girls. How many students are there altogether?",
+   "options": {
+    "A": "513",
+    "B": "413",
+    "C": "523",
+    "D": "533",
+    "E": "27"
+   },
+   "answer": "C",
+   "explanation": "248 + 275 = 523 (8 + 5 = 13, carry 1; 4 + 7 + 1 = 12, carry 1; 2 + 2 + 1 = 5).",
+   "distractors": {
+    "A": "forgot to carry from the tens",
+    "B": "forgot both carries",
+    "D": "carried one too many",
+    "E": "subtracted instead of adding"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "MEAS",
+   "difficulty": 1,
+   "skill": "Metres and centimetres",
+   "stem": "A plank is 2 m 35 cm long. How long is it in centimetres?",
+   "options": {
+    "A": "235 cm",
+    "B": "2035 cm",
+    "C": "23.5 cm",
+    "D": "37 cm",
+    "E": "2350 cm"
+   },
+   "answer": "A",
+   "explanation": "1 m = 100 cm, so 2 m = 200 cm. 200 + 35 = 235 cm.",
+   "distractors": {
+    "B": "wrote the numbers side by side",
+    "C": "divided by 10",
+    "D": "added 2 + 35",
+    "E": "used 1000 cm in a metre"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "NUM",
+   "difficulty": 2,
+   "skill": "Estimating",
+   "stem": "Which is the best estimate for 489 + 312?",
+   "options": {
+    "A": "700",
+    "B": "800",
+    "C": "900",
+    "D": "80",
+    "E": "8000"
+   },
+   "answer": "B",
+   "explanation": "Round each number: 489 is about 500, and 312 is about 300. 500 + 300 = 800. (The exact answer is 801.)",
+   "distractors": {
+    "A": "rounded both numbers down too far",
+    "C": "rounded both numbers up",
+    "D": "place value slip",
+    "E": "place value slip"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "CHN",
+   "difficulty": 2,
+   "skill": "Chance on a spinner",
+   "stem": "On this spinner, which statement is true?",
+   "svg": "<svg viewBox='0 0 290 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><path d='M100,100 L100.0,20.0 A80,80 0 0 1 156.6,43.4 Z' fill='currentColor' fill-opacity='0.75' stroke-width='1.6'/><text x='121.4' y='52.3' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>R</text><path d='M100,100 L156.6,43.4 A80,80 0 0 1 180.0,100.0 Z' fill='currentColor' fill-opacity='0.45' stroke-width='1.6'/><text x='151.7' y='82.6' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>B</text><path d='M100,100 L180.0,100.0 A80,80 0 0 1 156.6,156.6 Z' fill='currentColor' fill-opacity='0.75' stroke-width='1.6'/><text x='151.7' y='125.4' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>R</text><path d='M100,100 L156.6,156.6 A80,80 0 0 1 100.0,180.0 Z' fill='currentColor' fill-opacity='0.2' stroke-width='1.6'/><text x='121.4' y='155.7' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>G</text><path d='M100,100 L100.0,180.0 A80,80 0 0 1 43.4,156.6 Z' fill='currentColor' fill-opacity='0.75' stroke-width='1.6'/><text x='78.6' y='155.7' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>R</text><path d='M100,100 L43.4,156.6 A80,80 0 0 1 20.0,100.0 Z' fill='currentColor' fill-opacity='0.45' stroke-width='1.6'/><text x='48.3' y='125.4' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>B</text><path d='M100,100 L20.0,100.0 A80,80 0 0 1 43.4,43.4 Z' fill='currentColor' fill-opacity='0.0' stroke-width='1.6'/><text x='48.3' y='82.6' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>Y</text><path d='M100,100 L43.4,43.4 A80,80 0 0 1 100.0,20.0 Z' fill='currentColor' fill-opacity='0.75' stroke-width='1.6'/><text x='78.6' y='52.3' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' paint-order='stroke' stroke='var(--card, #fff)' stroke-width='3'>R</text><line x1='100.0' y1='100.0' x2='130.0' y2='50.0' stroke-width='3' /><circle cx='100.0' cy='100.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='200.0' y='60.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >R = red</text><text x='200.0' y='80.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >B = blue</text><text x='200.0' y='100.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >G = green</text><text x='200.0' y='120.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >Y = yellow</text></svg>",
+   "options": {
+    "A": "Landing on blue and landing on green are equally likely.",
+    "B": "Landing on yellow is impossible.",
+    "C": "Landing on red is more likely than landing on any other colour.",
+    "D": "Landing on red is certain.",
+    "E": "Landing on green is more likely than landing on blue."
+   },
+   "answer": "C",
+   "explanation": "Red has 4 of the 8 parts, blue 2, green 1 and yellow 1. Red is the most likely.",
+   "distractors": {
+    "A": "blue has 2 parts, green has 1",
+    "B": "yellow has 1 part, so it can happen",
+    "D": "red is only half the spinner",
+    "E": "blue has more parts"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "FRAC",
+   "difficulty": 2,
+   "skill": "Fraction of a shape",
+   "stem": "What fraction of the square is shaded?",
+   "svg": "<svg viewBox='0 0 160 140' xmlns='http://www.w3.org/2000/svg' style='max-width:160px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='30.0' height='30.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><rect x='50.0' y='10.0' width='30.0' height='30.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><rect x='80.0' y='10.0' width='30.0' height='30.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><rect x='110.0' y='10.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='20.0' y='40.0' width='30.0' height='30.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><rect x='50.0' y='40.0' width='30.0' height='30.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><rect x='80.0' y='40.0' width='30.0' height='30.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><rect x='110.0' y='40.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='20.0' y='70.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='50.0' y='70.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='80.0' y='70.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='110.0' y='70.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='20.0' y='100.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='50.0' y='100.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='80.0' y='100.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /><rect x='110.0' y='100.0' width='30.0' height='30.0' fill='none' stroke-width='1.5' /></svg>",
+   "options": {
+    "A": "3/8",
+    "B": "6/10",
+    "C": "1/2",
+    "D": "3/4",
+    "E": "6/8"
+   },
+   "answer": "A",
+   "explanation": "6 of the 16 small squares are shaded: 6/16. Divide top and bottom by 2: 3/8.",
+   "distractors": {
+    "B": "compared shaded with unshaded (6 and 10)",
+    "C": "guessed: 8 would be half",
+    "D": "counted rows instead of squares",
+    "E": "only counted the top two rows"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "OPS",
+   "difficulty": 2,
+   "skill": "Sharing equally",
+   "stem": "96 stickers are shared equally among 8 children. How many stickers does each child get?",
+   "options": {
+    "A": "11",
+    "B": "12",
+    "C": "13",
+    "D": "88",
+    "E": "104"
+   },
+   "answer": "B",
+   "explanation": "96 ÷ 8 = 12 (8 × 12 = 96).",
+   "distractors": {
+    "A": "division slip (8 × 11 = 88)",
+    "C": "division slip (8 × 13 = 104)",
+    "D": "subtracted 8",
+    "E": "added 8"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "OPS",
+   "difficulty": 2,
+   "skill": "Subtracting across zeros",
+   "stem": "What is 1000 − 367?",
+   "options": {
+    "A": "743",
+    "B": "733",
+    "C": "633",
+    "D": "643",
+    "E": "1367"
+   },
+   "answer": "C",
+   "explanation": "Count up: 367 + 3 = 370, + 30 = 400, + 600 = 1000. 3 + 30 + 600 = 633.",
+   "distractors": {
+    "A": "subtracted the smaller digit from the bigger in each column",
+    "B": "regrouping mistake in the tens",
+    "D": "regrouping mistake in the ones",
+    "E": "added instead"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "AREA",
+   "difficulty": 2,
+   "skill": "Perimeter of a rectangle",
+   "stem": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter?",
+   "options": {
+    "A": "13 cm",
+    "B": "26 cm",
+    "C": "40 cm",
+    "D": "21 cm",
+    "E": "18 cm"
+   },
+   "answer": "B",
+   "explanation": "Perimeter is the distance all the way round: 8 + 5 + 8 + 5 = 26 cm.",
+   "distractors": {
+    "A": "only added one length and one width",
+    "C": "that is the area (in cm²)",
+    "D": "added three sides only",
+    "E": "doubled the length but not the width"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "MEAS",
+   "difficulty": 2,
+   "skill": "Reading a measuring jug",
+   "stem": "How much more water is needed to fill this jug to 1 litre?",
+   "svg": "<svg viewBox='0 0 240 200' xmlns='http://www.w3.org/2000/svg' style='max-width:220px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='60.0,20.0 60.0,190.0 150.0,190.0 150.0,20.0' fill='none' stroke-width='2.5' /><line x1='150.0' y1='190.0' x2='165.0' y2='190.0' stroke-width='1.8' /><text x='172.0' y='195.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >0 mL</text><line x1='150.0' y1='170.0' x2='158.0' y2='170.0' stroke-width='1.2' /><line x1='150.0' y1='150.0' x2='165.0' y2='150.0' stroke-width='1.8' /><text x='172.0' y='155.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >250 mL</text><line x1='150.0' y1='130.0' x2='158.0' y2='130.0' stroke-width='1.2' /><line x1='150.0' y1='110.0' x2='165.0' y2='110.0' stroke-width='1.8' /><text x='172.0' y='115.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >500 mL</text><line x1='150.0' y1='90.0' x2='158.0' y2='90.0' stroke-width='1.2' /><line x1='150.0' y1='70.0' x2='165.0' y2='70.0' stroke-width='1.8' /><text x='172.0' y='75.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >750 mL</text><line x1='150.0' y1='50.0' x2='158.0' y2='50.0' stroke-width='1.2' /><line x1='150.0' y1='30.0' x2='165.0' y2='30.0' stroke-width='1.8' /><text x='172.0' y='35.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >1 L</text><rect x='61.0' y='70.0' width='88.0' height='120.0' fill='currentColor' fill-opacity='0.25' stroke-width='0' /></svg>",
+   "options": {
+    "A": "750 mL",
+    "B": "25 mL",
+    "C": "350 mL",
+    "D": "1250 mL",
+    "E": "250 mL"
+   },
+   "answer": "E",
+   "explanation": "The water is at 750 mL. 1 L = 1000 mL. 1000 − 750 = 250 mL.",
+   "distractors": {
+    "A": "that is how much is in the jug",
+    "B": "used 100 mL in a litre",
+    "C": "subtraction slip",
+    "D": "added instead of subtracting"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "DATA",
+   "difficulty": 2,
+   "skill": "Using a table",
+   "stem": "A class collected cans over a week: Monday 14, Tuesday 9, Wednesday 17, Thursday 11, Friday 19. On how many days did they collect more than 12 cans?",
+   "options": {
+    "A": "2",
+    "B": "4",
+    "C": "5",
+    "D": "12",
+    "E": "3"
+   },
+   "answer": "E",
+   "explanation": "More than 12: Monday 14, Wednesday 17, Friday 19. That is 3 days. (Tuesday 9 and Thursday 11 are less.)",
+   "distractors": {
+    "A": "missed one day",
+    "B": "included a day with fewer than 12",
+    "C": "counted every day",
+    "D": "that is the number in the question"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "MON",
+   "difficulty": 2,
+   "skill": "Change from a note",
+   "stem": "Lily buys a book for $8.50, a pen for $2.75 and a ruler for $1.40. She pays with a $20 note. How much change does she get?",
+   "options": {
+    "A": "$7.35",
+    "B": "$12.65",
+    "C": "$8.35",
+    "D": "$7.45",
+    "E": "$6.35"
+   },
+   "answer": "A",
+   "explanation": "Total: $8.50 + $2.75 + $1.40 = $12.65. Change: $20.00 − $12.65 = $7.35.",
+   "distractors": {
+    "B": "that is the total cost",
+    "C": "subtraction slip with the dollars",
+    "D": "subtraction slip with the cents",
+    "E": "subtraction slip with the dollars"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "POS",
+   "difficulty": 2,
+   "skill": "Following directions on a map",
+   "stem": "Key: S = School  P = Pool  L = Library  M = Market  F = Farm.\nZac starts at the School. He walks 3 squares east, then 3 squares north. Where is he now?",
+   "svg": "<svg viewBox='0 0 310 240' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='40.0' y='10.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='80.0' y='10.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='120.0' y='10.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='160.0' y='10.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='200.0' y='10.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='40.0' y='50.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='80.0' y='50.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='120.0' y='50.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='160.0' y='50.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='200.0' y='50.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='40.0' y='90.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='80.0' y='90.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='120.0' y='90.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='160.0' y='90.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='200.0' y='90.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='40.0' y='130.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='80.0' y='130.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='120.0' y='130.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='160.0' y='130.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='200.0' y='130.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='40.0' y='170.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='80.0' y='170.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='120.0' y='170.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='160.0' y='170.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><rect x='200.0' y='170.0' width='40.0' height='40.0' fill='none' stroke-width='1' /><text x='60.0' y='228.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='100.0' y='228.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='140.0' y='228.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='180.0' y='228.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='220.0' y='228.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='35.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='28.0' y='75.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='28.0' y='115.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='28.0' y='155.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='28.0' y='195.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='60.0' cy='150.0' r='13.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.5' /><text x='60.0' y='154.0' font-size='12' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='180.0' cy='30.0' r='13.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.5' /><text x='180.0' y='34.0' font-size='12' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >P</text><circle cx='220.0' cy='110.0' r='13.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.5' /><text x='220.0' y='114.0' font-size='12' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >L</text><circle cx='100.0' cy='70.0' r='13.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.5' /><text x='100.0' y='74.0' font-size='12' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >M</text><circle cx='140.0' cy='190.0' r='13.0' fill='currentColor' fill-opacity='0.2' stroke-width='1.5' /><text x='140.0' y='194.0' font-size='12' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >F</text><text x='270.0' y='30.0' font-size='14' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >N ↑</text></svg>",
+   "options": {
+    "A": "Pool",
+    "B": "Library",
+    "C": "Market",
+    "D": "Farm",
+    "E": "School"
+   },
+   "answer": "A",
+   "explanation": "The School is at A2. 3 squares east (right) is D2. 3 squares north (up) is D5: the Pool.",
+   "distractors": {
+    "B": "check the directions: east is right, north is up",
+    "C": "check the directions: east is right, north is up",
+    "D": "check the directions: east is right, north is up",
+    "E": "check the directions: east is right, north is up"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "OPS",
+   "difficulty": 2,
+   "skill": "Multiplying in a word problem",
+   "stem": "Pencils come in packets of 24. How many pencils are in 6 packets?",
+   "options": {
+    "A": "144",
+    "B": "124",
+    "C": "30",
+    "D": "164",
+    "E": "134"
+   },
+   "answer": "A",
+   "explanation": "24 × 6 = 20 × 6 + 4 × 6 = 120 + 24 = 144.",
+   "distractors": {
+    "B": "forgot to carry the 2 from 4 × 6",
+    "C": "added 24 + 6",
+    "D": "times-table slip",
+    "E": "times-table slip"
+   }
+  },
+  {
+   "n": 15,
+   "topic": "FRAC",
+   "difficulty": 2,
+   "skill": "Fraction of an amount",
+   "stem": "There are 20 apples in a box. Three-quarters of them are red. How many apples are red?",
+   "options": {
+    "A": "5",
+    "B": "15",
+    "C": "12",
+    "D": "60",
+    "E": "17"
+   },
+   "answer": "B",
+   "explanation": "One quarter of 20 is 5. Three quarters is 3 × 5 = 15.",
+   "distractors": {
+    "A": "that is one quarter",
+    "C": "confused quarters with fifths",
+    "D": "multiplied 20 by 3",
+    "E": "took 3 away from 20"
+   }
+  },
+  {
+   "n": 16,
+   "topic": "TIME",
+   "difficulty": 2,
+   "skill": "Days of the week",
+   "stem": "Today is Wednesday. What day of the week will it be in 10 days' time?",
+   "options": {
+    "A": "Saturday",
+    "B": "Friday",
+    "C": "Sunday",
+    "D": "Thursday",
+    "E": "Monday"
+   },
+   "answer": "A",
+   "explanation": "7 days from Wednesday is Wednesday again. 3 more days: Thursday, Friday, Saturday.",
+   "distractors": {
+    "B": "counted on 9 days",
+    "C": "counted on 11 days",
+    "D": "counted on 8 days",
+    "E": "counted backwards"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "SHAPE",
+   "difficulty": 2,
+   "skill": "Faces of a 3D object",
+   "stem": "How many faces does this triangular prism have?",
+   "svg": "<svg viewBox='0 0 260 145' xmlns='http://www.w3.org/2000/svg' style='max-width:260px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='40.0,130.0 110.0,130.0 75.0,70.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><polygon points='110.0,130.0 230.0,100.0 195.0,40.0 75.0,70.0' fill='currentColor' fill-opacity='0.06' stroke-width='2' /><line x1='40.0' y1='130.0' x2='160.0' y2='100.0' stroke-width='1.5' stroke-dasharray='5 4'/><line x1='160.0' y1='100.0' x2='230.0' y2='100.0' stroke-width='1.5' stroke-dasharray='5 4'/><line x1='160.0' y1='100.0' x2='195.0' y2='40.0' stroke-width='1.5' stroke-dasharray='5 4'/></svg>",
+   "options": {
+    "A": "6",
+    "B": "3",
+    "C": "5",
+    "D": "9",
+    "E": "4"
+   },
+   "answer": "C",
+   "explanation": "2 triangle faces (front and back) + 3 rectangle faces joining them = 5 faces.",
+   "distractors": {
+    "A": "that is a cube or box",
+    "B": "only counted the rectangles",
+    "D": "that is the number of edges",
+    "E": "missed one face hidden at the back"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "MEAS",
+   "difficulty": 3,
+   "skill": "Reading a scale",
+   "stem": "What number is the arrow pointing to?",
+   "svg": "<svg viewBox='0 0 440 95' xmlns='http://www.w3.org/2000/svg' style='max-width:440px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='20.0' y1='50.0' x2='420.0' y2='50.0' stroke-width='2' /><line x1='20.0' y1='36.0' x2='20.0' y2='64.0' stroke-width='1.6' /><text x='20.0' y='84.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >200</text><line x1='60.0' y1='42.0' x2='60.0' y2='58.0' stroke-width='1.6' /><line x1='100.0' y1='42.0' x2='100.0' y2='58.0' stroke-width='1.6' /><line x1='140.0' y1='42.0' x2='140.0' y2='58.0' stroke-width='1.6' /><line x1='180.0' y1='42.0' x2='180.0' y2='58.0' stroke-width='1.6' /><line x1='220.0' y1='36.0' x2='220.0' y2='64.0' stroke-width='1.6' /><text x='220.0' y='84.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >300</text><line x1='260.0' y1='42.0' x2='260.0' y2='58.0' stroke-width='1.6' /><line x1='300.0' y1='42.0' x2='300.0' y2='58.0' stroke-width='1.6' /><line x1='340.0' y1='42.0' x2='340.0' y2='58.0' stroke-width='1.6' /><line x1='380.0' y1='42.0' x2='380.0' y2='58.0' stroke-width='1.6' /><line x1='420.0' y1='36.0' x2='420.0' y2='64.0' stroke-width='1.6' /><text x='420.0' y='84.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >400</text><line x1='300.0' y1='10.0' x2='300.0' y2='34.0' stroke-width='2.5' /><polygon points='300.0,38.0 296.1,29.9 303.9,29.9' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "270",
+    "B": "307",
+    "C": "370",
+    "D": "340",
+    "E": "360"
+   },
+   "answer": "D",
+   "explanation": "From 200 to 300 there are 5 gaps, so each small gap is 100 ÷ 5 = 20. The arrow is 7 gaps from 200: 200 + 7 × 20 = 340.",
+   "distractors": {
+    "A": "counted each gap as 10",
+    "B": "counted each gap as 1",
+    "C": "started counting from 300",
+    "E": "one gap too far"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "MON",
+   "difficulty": 3,
+   "skill": "Money: two steps",
+   "stem": "Mia has $15. She buys 2 books that cost $4.50 each. How much money does she have left?",
+   "options": {
+    "A": "$10.50",
+    "B": "$9.00",
+    "C": "$6.50",
+    "D": "$5.00",
+    "E": "$6.00"
+   },
+   "answer": "E",
+   "explanation": "2 books cost 2 × $4.50 = $9.00. $15.00 − $9.00 = $6.00.",
+   "distractors": {
+    "A": "only paid for one book",
+    "B": "that is what she spent",
+    "C": "subtraction slip",
+    "D": "subtraction slip"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "SHAPE",
+   "difficulty": 3,
+   "skill": "Lines of symmetry",
+   "stem": "Which shape has exactly 2 lines of symmetry?",
+   "options": {
+    "A": "a square",
+    "B": "an equilateral triangle",
+    "C": "a rectangle (that is not a square)",
+    "D": "a circle",
+    "E": "a kite"
+   },
+   "answer": "C",
+   "explanation": "A rectangle can be folded in half across the middle two ways: top to bottom and side to side. Its diagonals are NOT lines of symmetry.",
+   "distractors": {
+    "A": "a square has 4 lines of symmetry",
+    "B": "it has 3",
+    "D": "a circle has endless lines of symmetry",
+    "E": "a kite has 1"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "LOG",
+   "difficulty": 3,
+   "skill": "Number clues",
+   "stem": "I am a number between 40 and 50. I am odd. My two digits add up to 13. What number am I?",
+   "options": {
+    "A": "47",
+    "B": "48",
+    "C": "94",
+    "D": "49",
+    "E": "45"
+   },
+   "answer": "D",
+   "explanation": "Odd numbers between 40 and 50: 41, 43, 45, 47, 49. Only 49 has digits that add to 13 (4 + 9).",
+   "distractors": {
+    "A": "digits add to 11",
+    "B": "digits add to 12, and it is even",
+    "C": "not between 40 and 50",
+    "E": "digits add to 9"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "TIME",
+   "difficulty": 3,
+   "skill": "Reading a timetable",
+   "stem": "This is the timetable for a school bus. How long does the bus take to travel from the Library to the School?",
+   "svg": "<svg viewBox='0 0 220 170' xmlns='http://www.w3.org/2000/svg' style='max-width:230px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='200.0' height='150.0' fill='none' stroke-width='1.6' /><line x1='130.0' y1='10.0' x2='130.0' y2='160.0' stroke-width='1' /><text x='70.0' y='30.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Stop</text><text x='170.0' y='30.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Time</text><line x1='10.0' y1='40.0' x2='210.0' y2='40.0' stroke-width='1' /><text x='70.0' y='60.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Park St</text><text x='170.0' y='60.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8:05</text><line x1='10.0' y1='70.0' x2='210.0' y2='70.0' stroke-width='1' /><text x='70.0' y='90.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Library</text><text x='170.0' y='90.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8:17</text><line x1='10.0' y1='100.0' x2='210.0' y2='100.0' stroke-width='1' /><text x='70.0' y='120.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Pool</text><text x='170.0' y='120.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8:26</text><line x1='10.0' y1='130.0' x2='210.0' y2='130.0' stroke-width='1' /><text x='70.0' y='150.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >School</text><text x='170.0' y='150.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8:43</text></svg>",
+   "options": {
+    "A": "38 minutes",
+    "B": "17 minutes",
+    "C": "43 minutes",
+    "D": "36 minutes",
+    "E": "26 minutes"
+   },
+   "answer": "E",
+   "explanation": "From 8:17 to 8:43: 8:17 → 8:20 is 3 minutes, 8:20 → 8:43 is 23 minutes. 3 + 23 = 26 minutes.",
+   "distractors": {
+    "A": "started from Park St",
+    "B": "from Pool to School",
+    "C": "read the arrival minutes only",
+    "D": "subtraction slip"
+   }
+  },
+  {
+   "n": 23,
+   "topic": "AREA",
+   "difficulty": 3,
+   "skill": "Area by counting squares",
+   "stem": "Each small square has an area of 1 square centimetre. What is the area of the shaded shape?",
+   "svg": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg' style='max-width:200px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='54.0' y='10.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='88.0' y='10.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='122.0' y='10.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='156.0' y='10.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='20.0' y='44.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='54.0' y='44.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='88.0' y='44.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='122.0' y='44.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='156.0' y='44.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='20.0' y='78.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='54.0' y='78.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='88.0' y='78.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='122.0' y='78.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='156.0' y='78.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='20.0' y='112.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='54.0' y='112.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='88.0' y='112.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='122.0' y='112.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='156.0' y='112.0' width='34.0' height='34.0' fill='none' stroke-width='0.6' stroke-dasharray='2 3'/><rect x='20.0' y='44.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><rect x='54.0' y='78.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><rect x='88.0' y='44.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><rect x='122.0' y='44.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><rect x='54.0' y='44.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><rect x='88.0' y='10.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><rect x='88.0' y='78.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><rect x='54.0' y='10.0' width='34.0' height='34.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><polygon points='122.0,44.0 156.0,44.0 122.0,10.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /><polygon points='54.0,10.0 54.0,44.0 20.0,44.0' fill='currentColor' fill-opacity='0.4' stroke-width='1.4' /></svg>",
+   "options": {
+    "A": "10 cm²",
+    "B": "9 cm²",
+    "C": "8 cm²",
+    "D": "12 cm²",
+    "E": "20 cm²"
+   },
+   "answer": "B",
+   "explanation": "Count the whole squares: 8. The two triangles are half-squares each, making 1 more. 8 + 1 = 9 cm².",
+   "distractors": {
+    "A": "counted each half-square as a whole one",
+    "C": "left out the half-squares",
+    "D": "miscounted",
+    "E": "counted the whole grid"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "PAT",
+   "difficulty": 3,
+   "skill": "Growing dot patterns",
+   "stem": "How many dots will Shape 6 have?",
+   "svg": "<svg viewBox='0 0 320 95' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='20.0' cy='20.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='20.0' y='46.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Shape 1</text><circle cx='81.0' cy='20.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='74.0' cy='34.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='88.0' cy='34.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='81.0' y='60.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Shape 2</text><circle cx='156.0' cy='20.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='149.0' cy='34.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='163.0' cy='34.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='142.0' cy='48.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='156.0' cy='48.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='170.0' cy='48.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='156.0' y='74.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Shape 3</text><circle cx='245.0' cy='20.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='238.0' cy='34.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='252.0' cy='34.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='231.0' cy='48.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='245.0' cy='48.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='259.0' cy='48.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='224.0' cy='62.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='238.0' cy='62.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='252.0' cy='62.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><circle cx='266.0' cy='62.0' r='5.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='245.0' y='88.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Shape 4</text></svg>",
+   "options": {
+    "A": "15",
+    "B": "18",
+    "C": "12",
+    "D": "21",
+    "E": "28"
+   },
+   "answer": "D",
+   "explanation": "Each shape adds a new row with one more dot: 1, 3, 6, 10, then 10 + 5 = 15, then 15 + 6 = 21.",
+   "distractors": {
+    "A": "that is Shape 5",
+    "B": "added 3 each time",
+    "C": "doubled Shape 3",
+    "E": "that is Shape 7"
+   }
+  },
+  {
+   "n": 25,
+   "topic": "TIME",
+   "difficulty": 3,
+   "skill": "Reading a clock and adding time",
+   "stem": "The clock shows when a soccer game started in the afternoon. The game lasted 45 minutes. When did it finish?",
+   "svg": "<svg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg' style='max-width:170px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='80.0' cy='80.0' r='66.0' fill='none' stroke-width='2.5' /><text x='106.0' y='40.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><text x='125.0' y='59.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='132.0' y='85.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='125.0' y='111.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='106.0' y='130.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='80.0' y='137.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >6</text><text x='54.0' y='130.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >7</text><text x='35.0' y='111.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >8</text><text x='28.0' y='85.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >9</text><text x='35.0' y='59.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >10</text><text x='54.0' y='40.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >11</text><text x='80.0' y='33.0' font-size='13' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >12</text><line x1='86.6' y1='17.3' x2='86.9' y2='14.4' stroke-width='1' /><line x1='93.1' y1='18.4' x2='93.7' y2='15.4' stroke-width='1' /><line x1='99.5' y1='20.1' x2='100.4' y2='17.2' stroke-width='1' /><line x1='105.6' y1='22.4' x2='106.8' y2='19.7' stroke-width='1' /><line x1='117.0' y1='29.0' x2='118.8' y2='26.6' stroke-width='1' /><line x1='122.2' y1='33.2' x2='124.2' y2='31.0' stroke-width='1' /><line x1='126.8' y1='37.8' x2='129.0' y2='35.8' stroke-width='1' /><line x1='131.0' y1='43.0' x2='133.4' y2='41.2' stroke-width='1' /><line x1='137.6' y1='54.4' x2='140.3' y2='53.2' stroke-width='1' /><line x1='139.9' y1='60.5' x2='142.8' y2='59.6' stroke-width='1' /><line x1='141.6' y1='66.9' x2='144.6' y2='66.3' stroke-width='1' /><line x1='142.7' y1='73.4' x2='145.6' y2='73.1' stroke-width='1' /><line x1='142.7' y1='86.6' x2='145.6' y2='86.9' stroke-width='1' /><line x1='141.6' y1='93.1' x2='144.6' y2='93.7' stroke-width='1' /><line x1='139.9' y1='99.5' x2='142.8' y2='100.4' stroke-width='1' /><line x1='137.6' y1='105.6' x2='140.3' y2='106.8' stroke-width='1' /><line x1='131.0' y1='117.0' x2='133.4' y2='118.8' stroke-width='1' /><line x1='126.8' y1='122.2' x2='129.0' y2='124.2' stroke-width='1' /><line x1='122.2' y1='126.8' x2='124.2' y2='129.0' stroke-width='1' /><line x1='117.0' y1='131.0' x2='118.8' y2='133.4' stroke-width='1' /><line x1='105.6' y1='137.6' x2='106.8' y2='140.3' stroke-width='1' /><line x1='99.5' y1='139.9' x2='100.4' y2='142.8' stroke-width='1' /><line x1='93.1' y1='141.6' x2='93.7' y2='144.6' stroke-width='1' /><line x1='86.6' y1='142.7' x2='86.9' y2='145.6' stroke-width='1' /><line x1='73.4' y1='142.7' x2='73.1' y2='145.6' stroke-width='1' /><line x1='66.9' y1='141.6' x2='66.3' y2='144.6' stroke-width='1' /><line x1='60.5' y1='139.9' x2='59.6' y2='142.8' stroke-width='1' /><line x1='54.4' y1='137.6' x2='53.2' y2='140.3' stroke-width='1' /><line x1='43.0' y1='131.0' x2='41.2' y2='133.4' stroke-width='1' /><line x1='37.8' y1='126.8' x2='35.8' y2='129.0' stroke-width='1' /><line x1='33.2' y1='122.2' x2='31.0' y2='124.2' stroke-width='1' /><line x1='29.0' y1='117.0' x2='26.6' y2='118.8' stroke-width='1' /><line x1='22.4' y1='105.6' x2='19.7' y2='106.8' stroke-width='1' /><line x1='20.1' y1='99.5' x2='17.2' y2='100.4' stroke-width='1' /><line x1='18.4' y1='93.1' x2='15.4' y2='93.7' stroke-width='1' /><line x1='17.3' y1='86.6' x2='14.4' y2='86.9' stroke-width='1' /><line x1='17.3' y1='73.4' x2='14.4' y2='73.1' stroke-width='1' /><line x1='18.4' y1='66.9' x2='15.4' y2='66.3' stroke-width='1' /><line x1='20.1' y1='60.5' x2='17.2' y2='59.6' stroke-width='1' /><line x1='22.4' y1='54.4' x2='19.7' y2='53.2' stroke-width='1' /><line x1='29.0' y1='43.0' x2='26.6' y2='41.2' stroke-width='1' /><line x1='33.2' y1='37.8' x2='31.0' y2='35.8' stroke-width='1' /><line x1='37.8' y1='33.2' x2='35.8' y2='31.0' stroke-width='1' /><line x1='43.0' y1='29.0' x2='41.2' y2='26.6' stroke-width='1' /><line x1='54.4' y1='22.4' x2='53.2' y2='19.7' stroke-width='1' /><line x1='60.5' y1='20.1' x2='59.6' y2='17.2' stroke-width='1' /><line x1='66.9' y1='18.4' x2='66.3' y2='15.4' stroke-width='1' /><line x1='73.4' y1='17.3' x2='73.1' y2='14.4' stroke-width='1' /><line x1='80.0' y1='80.0' x2='113.9' y2='77.0' stroke-width='5' stroke-linecap='round'/><line x1='80.0' y1='80.0' x2='35.0' y2='54.0' stroke-width='3' stroke-linecap='round'/><circle cx='80.0' cy='80.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /></svg>",
+   "options": {
+    "A": "3:05 pm",
+    "B": "2:95 pm",
+    "C": "3:35 pm",
+    "D": "10:35 pm",
+    "E": "3:45 pm"
+   },
+   "answer": "C",
+   "explanation": "The clock shows 2:50 pm. 10 minutes takes it to 3:00, and 35 more minutes makes 3:35 pm.",
+   "distractors": {
+    "A": "added 15 minutes, not 45",
+    "B": "there are only 60 minutes in an hour",
+    "D": "read the hands the wrong way round",
+    "E": "added 55 minutes"
+   }
+  },
+  {
+   "n": 26,
+   "topic": "PAT",
+   "difficulty": 3,
+   "skill": "Finding a later term",
+   "stem": "The pattern 3, 7, 11, 15, … keeps going. What is the 10th number in the pattern?",
+   "options": {
+    "A": "39",
+    "B": "43",
+    "C": "40",
+    "D": "35",
+    "E": "30"
+   },
+   "answer": "A",
+   "explanation": "Each number is 4 more than the one before. From the 1st to the 10th number there are 9 jumps of 4: 3 + 9 × 4 = 39.",
+   "distractors": {
+    "B": "one jump too many",
+    "C": "did 10 × 4",
+    "D": "that is the 9th number",
+    "E": "did 10 × 3"
+   }
+  },
+  {
+   "n": 27,
+   "topic": "NUM",
+   "difficulty": 3,
+   "skill": "Common multiples",
+   "stem": "Which number is a multiple of both 4 and 6?",
+   "options": {
+    "A": "18",
+    "B": "20",
+    "C": "30",
+    "D": "36",
+    "E": "42"
+   },
+   "answer": "D",
+   "explanation": "36 = 4 × 9 and 36 = 6 × 6. The others: 18 and 30 and 42 are not multiples of 4; 20 is not a multiple of 6.",
+   "distractors": {
+    "A": "a multiple of 6 but not 4",
+    "B": "a multiple of 4 but not 6",
+    "C": "a multiple of 6 but not 4",
+    "E": "a multiple of 6 but not 4"
+   }
+  },
+  {
+   "n": 28,
+   "topic": "OPS",
+   "difficulty": 3,
+   "skill": "Division: what to do with the remainder",
+   "stem": "50 students are going to a museum. Each car can take 4 students. How many cars are needed so that every student has a seat?",
+   "options": {
+    "A": "12",
+    "B": "12 remainder 2",
+    "C": "14",
+    "D": "13",
+    "E": "46"
+   },
+   "answer": "D",
+   "explanation": "50 ÷ 4 = 12 remainder 2. Twelve cars carry 48 students, and the other 2 still need a car, so 13 cars.",
+   "distractors": {
+    "A": "2 students would be left behind",
+    "B": "you can't have 'remainder 2' cars",
+    "C": "one car too many",
+    "E": "subtracted 4"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "DATA",
+   "difficulty": 3,
+   "skill": "Reading a picture graph",
+   "stem": "The picture graph shows students' favourite fruits. How many more students chose mangoes than bananas?",
+   "svg": "<svg viewBox='0 0 320 195' xmlns='http://www.w3.org/2000/svg' style='max-width:320px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><text x='80.0' y='36.0' font-size='13' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >Apples</text><circle cx='105.0' cy='31.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><circle cx='135.0' cy='31.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><circle cx='165.0' cy='31.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><text x='80.0' y='72.0' font-size='13' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >Bananas</text><circle cx='105.0' cy='67.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><path d='M135.0,56.0 A11,11 0 0 0 135.0,78.0 Z' fill='currentColor' fill-opacity='0.6' stroke-width='1.5'/><text x='80.0' y='108.0' font-size='13' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >Grapes</text><circle cx='105.0' cy='103.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><circle cx='135.0' cy='103.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><path d='M165.0,92.0 A11,11 0 0 0 165.0,114.0 Z' fill='currentColor' fill-opacity='0.6' stroke-width='1.5'/><text x='80.0' y='144.0' font-size='13' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >Mangoes</text><circle cx='105.0' cy='139.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><circle cx='135.0' cy='139.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><circle cx='165.0' cy='139.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><circle cx='195.0' cy='139.0' r='11.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><path d='M225.0,128.0 A11,11 0 0 0 225.0,150.0 Z' fill='currentColor' fill-opacity='0.6' stroke-width='1.5'/><circle cx='110.0' cy='175.0' r='9.0' fill='currentColor' fill-opacity='0.6' stroke-width='1.5' /><text x='126.0' y='180.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >= 4 votes</text></svg>",
+   "options": {
+    "A": "3",
+    "B": "24",
+    "C": "12",
+    "D": "6",
+    "E": "18"
+   },
+   "answer": "C",
+   "explanation": "Each circle is 4 votes, so a half-circle is 2. Mangoes: 4½ circles = 18. Bananas: 1½ circles = 6. 18 − 6 = 12.",
+   "distractors": {
+    "A": "counted circles, not votes",
+    "B": "added instead of subtracting",
+    "D": "that is the bananas total",
+    "E": "that is the mangoes total"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "SHAPE",
+   "difficulty": 3,
+   "skill": "Counting right angles",
+   "stem": "How many right angles are inside this shape?",
+   "svg": "<svg viewBox='0 0 230 190' xmlns='http://www.w3.org/2000/svg' style='max-width:220px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='30.0,15.0 190.0,15.0 190.0,95.0 110.0,95.0 150.0,175.0 30.0,175.0' fill='currentColor' fill-opacity='0.12' stroke-width='2.2' /></svg>",
+   "options": {
+    "A": "5",
+    "B": "3",
+    "C": "2",
+    "D": "4",
+    "E": "6"
+   },
+   "answer": "D",
+   "explanation": "Check each corner with the corner of a page. The corners at the bottom-left, bottom-right, the step and the top-left are square: 4 right angles. The two corners on the slanting side are not right angles.",
+   "distractors": {
+    "A": "counted a slanted corner as a right angle",
+    "B": "missed the corner at the step",
+    "C": "only counted the corners at the bottom",
+    "E": "counted every corner"
+   }
+  },
+  {
+   "n": 31,
+   "topic": "PAT",
+   "difficulty": 4,
+   "skill": "Missing number with a remainder",
+   "stem": "? ÷ 6 = 9 remainder 2. What is the missing number?",
+   "options": {
+    "A": "54",
+    "B": "52",
+    "C": "15",
+    "D": "17",
+    "E": "56"
+   },
+   "answer": "E",
+   "explanation": "6 × 9 = 54, and 2 is left over: 54 + 2 = 56.",
+   "distractors": {
+    "A": "forgot the remainder",
+    "B": "subtracted the remainder",
+    "C": "added 6 + 9",
+    "D": "added all three numbers"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "LOG",
+   "difficulty": 4,
+   "skill": "Balance puzzles",
+   "stem": "Both scales are balanced. How many pears weigh the same as 2 melons?",
+   "svg": "<svg viewBox='0 0 500 195' xmlns='http://www.w3.org/2000/svg' style='max-width:480px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='120.0,120.0 108.0,140.0 132.0,140.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><line x1='120.0' y1='120.0' x2='120.0' y2='70.0' stroke-width='2.5' /><line x1='50.0' y1='70.0' x2='190.0' y2='70.0' stroke-width='2.5' /><line x1='0.0' y1='70.0' x2='100.0' y2='70.0' stroke-width='3' /><circle cx='50.0' cy='52.0' r='17.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.8' /><line x1='140.0' y1='70.0' x2='240.0' y2='70.0' stroke-width='3' /><circle cx='164.0' cy='58.0' r='11.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><circle cx='190.0' cy='58.0' r='11.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><circle cx='216.0' cy='58.0' r='11.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><polygon points='380.0,120.0 368.0,140.0 392.0,140.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><line x1='380.0' y1='120.0' x2='380.0' y2='70.0' stroke-width='2.5' /><line x1='310.0' y1='70.0' x2='450.0' y2='70.0' stroke-width='2.5' /><line x1='260.0' y1='70.0' x2='360.0' y2='70.0' stroke-width='3' /><circle cx='297.0' cy='58.0' r='11.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><circle cx='323.0' cy='58.0' r='11.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><line x1='400.0' y1='70.0' x2='500.0' y2='70.0' stroke-width='3' /><polygon points='450.0,44.0 461.0,70.0 439.0,70.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><circle cx='140.0' cy='170.0' r='10.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.5' /><text x='156.0' y='175.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >apple</text><circle cx='240.0' cy='170.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.8' /><text x='260.0' y='175.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >melon</text><polygon points='350.0,160.0 360.0,182.0 340.0,182.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.5' /><text x='368.0' y='175.0' font-size='12' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >pear</text></svg>",
+   "options": {
+    "A": "6",
+    "B": "2",
+    "C": "4",
+    "D": "1",
+    "E": "3"
+   },
+   "answer": "E",
+   "explanation": "1 melon = 3 apples, so 2 melons = 6 apples. 2 apples = 1 pear, so 6 apples = 3 pears.",
+   "distractors": {
+    "A": "that is the number of apples",
+    "B": "thought each melon equals one pear",
+    "C": "added 2 + 2",
+    "D": "compared one melon with one pear"
+   }
+  },
+  {
+   "n": 33,
+   "topic": "SHAPE",
+   "difficulty": 4,
+   "skill": "Nets of a cube",
+   "stem": "Which of these nets can be folded to make a cube?",
+   "svg": "<svg viewBox='0 0 410 200' xmlns='http://www.w3.org/2000/svg' style='max-width:410px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='42.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='64.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='86.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='42.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='64.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><text x='10.0' y='45.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >A</text><rect x='172.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='150.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='172.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='194.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='216.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='194.0' y='59.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><text x='140.0' y='45.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >B</text><rect x='290.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='312.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='334.0' y='15.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='290.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='312.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='334.0' y='37.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><text x='280.0' y='45.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >C</text><rect x='60.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='82.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='104.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='126.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='148.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='104.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><text x='50.0' y='150.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >D</text><rect x='230.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='252.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='252.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='274.0' y='120.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='274.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><rect x='296.0' y='142.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.15' stroke-width='1.6' /><text x='220.0' y='150.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >E</text></svg>",
+   "inlineOptions": true,
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D",
+    "E": "E"
+   },
+   "answer": "B",
+   "explanation": "Net B is a cross shape with one square moved along: when folded, every face covers a different side. A, C and E have squares that would overlap (in C, two rows of three leave gaps and overlaps; in A and E, two squares land on the same side). D has five squares in a row, which is too long to wrap around a cube.",
+   "distractors": {
+    "A": "two squares would fold onto the same side",
+    "C": "two rows of three squares can't fold into a cube",
+    "D": "five in a row is too long",
+    "E": "two squares would fold onto the same side"
+   }
+  },
+  {
+   "n": 34,
+   "topic": "AREA",
+   "difficulty": 4,
+   "skill": "Perimeter of a joined shape",
+   "stem": "Five squares, each with sides of 2 cm, are joined to make this shape. What is the perimeter of the shape?",
+   "svg": "<svg viewBox='0 0 200 160' xmlns='http://www.w3.org/2000/svg' style='max-width:180px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='30.0' y='59.0' width='44.0' height='44.0' fill='currentColor' fill-opacity='0.2' stroke-width='2' /><rect x='74.0' y='103.0' width='44.0' height='44.0' fill='currentColor' fill-opacity='0.2' stroke-width='2' /><rect x='118.0' y='59.0' width='44.0' height='44.0' fill='currentColor' fill-opacity='0.2' stroke-width='2' /><rect x='74.0' y='15.0' width='44.0' height='44.0' fill='currentColor' fill-opacity='0.2' stroke-width='2' /><rect x='74.0' y='59.0' width='44.0' height='44.0' fill='currentColor' fill-opacity='0.2' stroke-width='2' /><text x='96.0' y='10.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >2 cm</text><line x1='74.0' y1='15.0' x2='118.0' y2='15.0' stroke-width='0' /></svg>",
+   "options": {
+    "A": "12 cm",
+    "B": "40 cm",
+    "C": "20 cm",
+    "D": "28 cm",
+    "E": "24 cm"
+   },
+   "answer": "E",
+   "explanation": "Count the outside edges: 12 edges, each 2 cm long. 12 × 2 = 24 cm. (Edges where two squares touch are inside the shape and don't count.)",
+   "distractors": {
+    "A": "counted edges but forgot each is 2 cm",
+    "B": "counted all 4 sides of all 5 squares (5 × 4 × 2)",
+    "C": "that is the area in cm²",
+    "D": "counted two inside edges"
+   }
+  },
+  {
+   "n": 35,
+   "topic": "TIME",
+   "difficulty": 4,
+   "skill": "Time across midday",
+   "stem": "A school excursion left at 9:40 am and returned at 2:15 pm. How long was the excursion?",
+   "options": {
+    "A": "5 hours 35 minutes",
+    "B": "4 hours 35 minutes",
+    "C": "4 hours 25 minutes",
+    "D": "7 hours 25 minutes",
+    "E": "5 hours 25 minutes"
+   },
+   "answer": "B",
+   "explanation": "9:40 am → 10:00 am is 20 minutes. 10:00 am → 2:00 pm is 4 hours. 2:00 → 2:15 is 15 minutes. Total: 4 hours 35 minutes.",
+   "distractors": {
+    "A": "counted one hour too many",
+    "C": "minute slip",
+    "D": "subtracted 2 from 9 without thinking about am/pm",
+    "E": "subtracted the times like ordinary numbers"
+   }
+  }
+ ]
+}

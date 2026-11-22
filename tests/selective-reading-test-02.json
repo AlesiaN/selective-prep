@@ -1,0 +1,1046 @@
+{
+ "id": "shs-rd-02",
+ "title": "Selective Reading – Practice Test 2",
+ "section": "Reading",
+ "timeLimitMinutes": 45,
+ "groupLabel": "By part",
+ "topics": {
+  "FIC": "Part 1 – Fiction",
+  "CLZ": "Part 2 – Vocabulary cloze",
+  "POE": "Part 3 – Poetry",
+  "GAP": "Part 4 – Gapped text",
+  "MAT": "Part 5 – Multiple matching"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 1,
+   "kind": "prose",
+   "title": "Second Place",
+   "intro": "Read the story below, then answer questions 1–8. Paragraphs are numbered.",
+   "credit": "Original story written for this practice test.",
+   "paragraphs": [
+    "For three years in a row, the spelling bee trophy had lived on the shelf above Priya's desk, between her swimming medals and a jar of shells. She dusted it every Sunday. It wasn't that she was vain, exactly. It was just that the trophy was proof of something, and Priya liked proof.",
+    "So when the new boy, Theo, stood up in the final round and spelled 'conscientious' without even pausing, something in her stomach dropped like a lift with a snapped cable.",
+    "She spelled her own word – 'rhythm' – perfectly. So did he, with 'onomatopoeia'. Round after round they went, while the rest of the hall shuffled and yawned and the principal checked his watch. Then the judge read out 'liaison', and Priya, who knew it, who had written it out twenty times only last week, heard herself say 'l-i-a-s-o-n'.",
+    "The bell on the judge's table gave a small, polite ting. It was the loudest sound she had ever heard.",
+    "Theo spelled it correctly, of course. People clapped. Mrs Fernandez put the trophy into his hands, and he held it awkwardly, as if someone had passed him a baby and walked away.",
+    "Priya smiled the whole time. She smiled so hard her face ached. Afterwards, three people told her she had been 'a really good sport', and each time she said thank you and wanted to throw something.",
+    "She found him at the bus stop, the trophy sticking out of his backpack. She had planned to say 'congratulations' in a voice so cool it would frost the windows. Instead she said, 'Who taught you to spell like that?'",
+    "Theo looked surprised. 'My nan,' he said. 'Every night, after tea. She reads the words out of the dictionary and I spell them.'",
+    "'She must be good at spelling.'",
+    "He hesitated. 'She can't really read English. She came here from Greece when she was sixty. She sounds the words out, and if she gets the sound wrong, I have to work out what she means.' He shrugged. 'It's harder than it sounds. Last night she said \"chee-mist\" and I spent five minutes before I worked out she meant \"chemist\".'",
+    "Priya thought of her own practice: the neat lists, the coloured pens, her mother checking her answers with a tick or a frown. She tried to picture an old woman at a kitchen table, frowning over a dictionary full of words that would not behave.",
+    "The bus pulled up. Theo climbed on, then turned in the doorway. 'Next year,' he said, 'you could come over. Nan says two spellers is better than one. She makes good biscuits.'",
+    "The doors hissed shut before Priya could answer. She watched the bus go, and was surprised to find that the empty space on her shelf did not seem quite so large."
+   ],
+   "numbered": true
+  },
+  {
+   "id": "p2",
+   "part": 2,
+   "kind": "cloze",
+   "title": "Clean Sweep",
+   "intro": "Read the text below. Choose the best word to fill each of the 8 gaps (questions 9–16).",
+   "credit": "Original text written for this practice test.",
+   "text": "At seven o'clock on a grey Saturday morning, forty volunteers {1} up at the southern end of the beach, armed with gloves, buckets and an impressive {2} of hats. The plan was simple: walk the length of the sand in a line and collect every piece of rubbish {3} sight.\n\nBy lunchtime, the line had {4} more than three hundred kilograms of litter. Most of it was plastic: bottle tops, straws and countless tiny fragments that had broken down in the waves. 'People think the ocean will just {5} of it,' said the organiser, Mele Taufa. 'But plastic doesn't disappear. It just breaks into smaller and smaller {6}.'\n\nNot everything was rubbish, however. One volunteer found a message in a bottle, written by a ten-year-old in New Zealand. 'It certainly {7} my day,' she laughed. She has already written back, and plans to keep in {8} with her new pen pal."
+  },
+  {
+   "id": "p3",
+   "part": 3,
+   "kind": "poem",
+   "title": "Clancy of the Overflow",
+   "intro": "Read the poem below, then answer questions 17–22. Lines are numbered. (droving: moving cattle or sheep over long distances; foetid: bad-smelling; pallid: pale; daunt: discourage.)",
+   "credit": "A. B. ('Banjo') Paterson, first published in The Bulletin, 1889. Public domain.",
+   "stanzas": [
+    [
+     "I had written him a letter which I had, for want of better",
+     "Knowledge, sent to where I met him down the Lachlan, years ago,",
+     "He was shearing when I knew him, so I sent the letter to him,",
+     "Just 'on spec', addressed as follows: 'Clancy, of The Overflow'."
+    ],
+    [
+     "And an answer came directed in a writing unexpected,",
+     "(And I think the same was written with a thumbnail dipped in tar)",
+     "'Twas his shearing mate who wrote it, and verbatim I will quote it:",
+     "'Clancy's gone to Queensland droving, and we don't know where he are.'"
+    ],
+    [
+     "In my wild erratic fancy visions come to me of Clancy",
+     "Gone a-droving 'down the Cooper' where the western drovers go;",
+     "As the stock are slowly stringing, Clancy rides behind them singing,",
+     "For the drover's life has pleasures that the townsfolk never know."
+    ],
+    [
+     "And the bush hath friends to meet him, and their kindly voices greet him",
+     "In the murmur of the breezes and the river on its bars,",
+     "And he sees the vision splendid of the sunlit plains extended,",
+     "And at night the wondrous glory of the everlasting stars."
+    ],
+    [
+     "I am sitting in my dingy little office, where a stingy",
+     "Ray of sunlight struggles feebly down between the houses tall,",
+     "And the foetid air and gritty of the dusty, dirty city",
+     "Through the open window floating, spreads its foulness over all."
+    ],
+    [
+     "And in place of lowing cattle, I can hear the fiendish rattle",
+     "Of the tramways and the buses making hurry down the street,",
+     "And the language uninviting of the gutter children fighting,",
+     "Comes fitfully and faintly through the ceaseless tramp of feet."
+    ],
+    [
+     "And the hurrying people daunt me, and their pallid faces haunt me",
+     "As they shoulder one another in their rush and nervous haste,",
+     "With their eager eyes and greedy, and their stunted forms and weedy,",
+     "For townsfolk have no time to grow, they have no time to waste."
+    ],
+    [
+     "And I somehow rather fancy that I'd like to change with Clancy,",
+     "Like to take a turn at droving where the seasons come and go,",
+     "While he faced the round eternal of the cash-book and the journal –",
+     "But I doubt he'd suit the office, Clancy, of 'The Overflow'."
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "part": 4,
+   "kind": "gapped",
+   "title": "The Dinosaur Tree",
+   "intro": "Six sentences have been removed from the article. Choose the sentence (A–G) that best fits each gap (questions 23–28). There is one extra sentence you do not need.",
+   "credit": "Original article written for this practice test.",
+   "paragraphs": [
+    "In 1994, a national parks officer named David Noble went canyoning in a remote gorge in the Blue Mountains, west of Sydney. Abseiling into a narrow valley, he noticed a tree with strange, bubbly bark and fern-like leaves. [[1]] He took a small branch home to show some experts.",
+    "The experts were astonished. The tree was a species that nobody had ever recorded. [[2]] Its closest relatives were known only from fossils, some of them more than ninety million years old. Newspapers around the world called it 'the dinosaur tree'.",
+    "The Wollemi pine, as it was named, turned out to be extremely rare. Fewer than a hundred adult trees grow in the wild, all in a few hidden gorges. [[3]] Visitors could easily carry a deadly plant disease into the gorge on their boots, so the exact location is kept secret.",
+    "Scientists came up with a clever plan to protect the wild trees. [[4]] Today you can buy a Wollemi pine at a garden centre, and thousands of them grow in parks and backyards around the world. If the wild trees were ever lost, the species would survive.",
+    "That plan was tested in the summer of 2019–20, when huge bushfires swept through the Blue Mountains. As the flames came closer, firefighters were lowered into the gorge from helicopters. [[5]] When the smoke cleared, the trees were blackened in places, but almost all of them had survived.",
+    "The Wollemi pine had outlasted the dinosaurs, ice ages and droughts. [[6]] It is a reminder that some of the world's greatest treasures are not hidden in faraway jungles, but a few hours' drive from a big city."
+   ],
+   "bank": {
+    "A": "They set up watering systems to keep the ground around the trees damp.",
+    "B": "He had walked in the bush for years, but he had never seen anything like it.",
+    "C": "Even more surprising, it belonged to a family of trees thought to have died out long ago.",
+    "D": "Because so few trees exist in one small area, a single disaster could wipe them out.",
+    "E": "They grew thousands of young trees from cuttings and seeds, and sold them to the public.",
+    "F": "This time, it had needed a little help from people.",
+    "G": "Pine trees are often planted to make paper and timber."
+   }
+  },
+  {
+   "id": "p5",
+   "part": 5,
+   "kind": "extracts",
+   "title": "Finding the Way",
+   "intro": "Read the four extracts about finding your way. For questions 29–38, choose which extract (A, B, C or D) each statement matches. You can use each letter more than once.",
+   "credit": "Original texts written for this practice test. The app in extract C is invented.",
+   "extracts": {
+    "A": {
+     "title": "Reading the Land (advice from an orienteering coach)",
+     "text": "Every season, a few of my young orienteers come back from a course in tears, convinced they are hopeless at finding their way. They are not. What they usually lack is the habit of checking. Before you leave each marker, look at the map, then look up and find two things around you that are on it: a fence, a creek, a steep slope. Turn the map so that it matches the land. It feels slow at first, and the fastest runners in the club still do it. Getting lost is rarely one big mistake. It is a string of small guesses that nobody stopped to check."
+    },
+    "B": {
+     "title": "The Day I Disappeared (a memoir)",
+     "text": "When I was six, I let go of my father's hand in the Bangkok weekend market and stepped, just for a moment, into a forest of hanging silk scarves. When I came out, he was gone. I remember the noise more than the fear – a thousand voices, the hiss of frying pans, a radio playing a song I still cannot bear to hear. A woman selling mangoes noticed me before I even started crying. She sat me on an upturned crate, gave me a slice of mango, and simply waited. Twenty minutes later my father came running, white-faced. He did not scold me. He just held on, for a very long time."
+    },
+    "C": {
+     "title": "TrailMate: does it deserve a place in your pocket? (an app review)",
+     "text": "TrailMate promises to make getting lost a thing of the past, and on a sunny day in a national park it comes close. The maps are clear, the walking tracks are marked accurately, and a friendly voice warns you when you wander off course. However, the app drains a phone battery alarmingly fast, and in one deep valley it lost its signal completely, leaving me staring at a blue dot in a blank screen. My verdict: a useful companion, but not a replacement for a paper map and the sense to use it. Pack a spare battery, and tell someone where you are going."
+    },
+    "D": {
+     "title": "Home Again (a science magazine article)",
+     "text": "A racing pigeon released hundreds of kilometres from home will usually find its way back within a day, often over land it has never seen. How it does this has puzzled scientists for centuries. Experiments suggest pigeons use several tools at once. They seem to sense the Earth's magnetic field, use the position of the sun, and recognise landmarks such as roads and rivers as they get closer to home. Some researchers think smell plays a part too. What is clear is that no single sense explains the pigeon's skill. Like a good navigator, it checks one source of information against another."
+    }
+   }
+  }
+ ],
+ "questions": [
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Character from a detail",
+   "difficulty": 2,
+   "stem": "What does paragraph 1 suggest about why the trophy matters to Priya?",
+   "options": {
+    "A": "It is the most valuable thing she owns.",
+    "B": "It shows her, and others, that she is good at something.",
+    "C": "Her mother makes her keep it clean.",
+    "D": "She wants to win it so she can give it away."
+   },
+   "answer": "B",
+   "explanation": "The writer says the trophy 'was proof of something, and Priya liked proof'. It matters because it proves she is good at spelling, not because of what it is worth.",
+   "distractors": {
+    "A": "nothing suggests it is valuable in money",
+    "C": "she dusts it herself, every Sunday",
+    "D": "she wants to keep it on her shelf"
+   },
+   "n": 1
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a simile",
+   "difficulty": 2,
+   "stem": "In paragraph 2, Priya's stomach drops 'like a lift with a snapped cable'. This shows that she",
+   "options": {
+    "A": "suddenly realises that she might lose.",
+    "B": "feels sick from nerves before her turn.",
+    "C": "is frightened of lifts.",
+    "D": "is excited by the challenge."
+   },
+   "answer": "A",
+   "explanation": "A lift with a snapped cable falls suddenly and frighteningly. When Theo spells a hard word easily, Priya has the sudden, sinking feeling that she might be beaten.",
+   "distractors": {
+    "B": "it happens because of Theo's spelling, not before her turn",
+    "C": "took the comparison literally",
+    "D": "a falling lift suggests fear, not excitement"
+   },
+   "n": 2
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Contrast for effect",
+   "difficulty": 3,
+   "stem": "'The bell on the judge's table gave a small, polite ting. It was the loudest sound she had ever heard.' (paragraph 4). The writer contrasts 'small, polite' with 'loudest' to show",
+   "options": {
+    "A": "that the bell was broken.",
+    "B": "that the audience was making a lot of noise.",
+    "C": "that the judge was being unkind.",
+    "D": "how huge the mistake feels to Priya, even though the sound is tiny."
+   },
+   "answer": "D",
+   "explanation": "The bell is actually quiet and polite, but to Priya it means she has made a mistake and lost, so it feels deafening.",
+   "distractors": {
+    "A": "the bell works: that's why she hears it",
+    "B": "the hall is shuffling and yawning, not loud",
+    "C": "'polite' suggests the opposite of unkind"
+   },
+   "n": 3
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Reading feelings behind behaviour",
+   "difficulty": 2,
+   "stem": "In paragraph 6, Priya 'smiled so hard her face ached'. What does this suggest?",
+   "options": {
+    "A": "She is genuinely pleased for Theo.",
+    "B": "She is relieved the spelling bee is over.",
+    "C": "She is pretending to be happy when she is really upset.",
+    "D": "She thinks the result was unfair."
+   },
+   "answer": "C",
+   "explanation": "Her smile is forced: it hurts, and she 'wanted to throw something' each time someone called her a good sport. She is hiding how upset she is.",
+   "distractors": {
+    "A": "she wants to throw something, so she isn't pleased",
+    "B": "nothing suggests relief",
+    "D": "she knows she misspelled the word; she doesn't say it's unfair"
+   },
+   "n": 4
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Purpose and structure",
+   "skill": "A change in plan",
+   "difficulty": 3,
+   "stem": "Priya planned to congratulate Theo coldly, but instead asked 'Who taught you to spell like that?' (paragraph 7). This shows that",
+   "options": {
+    "A": "she wants to report Theo for cheating.",
+    "B": "she has decided to be friends with Theo.",
+    "C": "she forgot what she was going to say.",
+    "D": "her curiosity about how he did it is stronger than her pride."
+   },
+   "answer": "D",
+   "explanation": "She meant to sound cool and distant, but the question slips out because she really wants to know how he became so good. Curiosity wins over her hurt pride.",
+   "distractors": {
+    "A": "nothing suggests she thinks he cheated",
+    "B": "that comes later, if at all; here she just asks a question",
+    "C": "she doesn't forget; she says something different"
+   },
+   "n": 5
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding a detail",
+   "difficulty": 3,
+   "stem": "Why does Theo say practising with his nan is 'harder than it sounds' (paragraph 10)?",
+   "options": {
+    "A": "He has to work out the real word from her pronunciation before he can spell it.",
+    "B": "His nan gets cross when he makes mistakes.",
+    "C": "The dictionary they use is in Greek.",
+    "D": "They practise very late at night."
+   },
+   "answer": "A",
+   "explanation": "His nan reads the words with a Greek accent and sometimes says them wrongly, like 'chee-mist' for 'chemist'. Theo has to figure out the word first, then spell it.",
+   "distractors": {
+    "B": "nothing says she gets cross",
+    "C": "she reads 'out of the dictionary' in English words she can't easily read",
+    "D": "they practise 'after tea', not late at night"
+   },
+   "n": 6
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Comparing characters",
+   "difficulty": 4,
+   "stem": "In paragraph 11, why does Priya think about 'the neat lists, the coloured pens'?",
+   "options": {
+    "A": "She realises she practised the wrong words.",
+    "B": "She is comparing her easy, organised practice with Theo's harder one.",
+    "C": "She wants to give her pens to Theo.",
+    "D": "She is planning how to beat Theo next year."
+   },
+   "answer": "B",
+   "explanation": "Her practice is tidy and supported, with a mother checking every answer. Theo's is a puzzle at a kitchen table with a nan who can't read English well. Priya begins to see how hard he has worked.",
+   "distractors": {
+    "A": "'liaison' was on her list; she just slipped",
+    "C": "nothing suggests giving anything away",
+    "D": "the paragraph is about understanding Theo, not beating him"
+   },
+   "n": 7
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Interpreting the ending",
+   "difficulty": 4,
+   "stem": "What does the final sentence suggest about Priya at the end of the story?",
+   "options": {
+    "A": "She has decided to buy a new trophy for her shelf.",
+    "B": "She is still angry, but hiding it better.",
+    "C": "She has started to accept losing and may have gained a friend.",
+    "D": "She regrets talking to Theo at the bus stop."
+   },
+   "answer": "C",
+   "explanation": "The 'empty space' is where the trophy used to be. It seems smaller now because Priya understands Theo better and has been invited to practise with him. Losing hurts less.",
+   "distractors": {
+    "A": "took 'empty space' literally",
+    "B": "her anger has eased; the space seems smaller",
+    "D": "the ending suggests the conversation helped her"
+   },
+   "n": 8
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 1: choose the best word.",
+   "options": {
+    "A": "stood",
+    "B": "picked",
+    "C": "took",
+    "D": "turned"
+   },
+   "answer": "D",
+   "explanation": "'Turn up' means to arrive: the volunteers arrived at the beach.",
+   "distractors": {
+    "A": "'stood up' means rose to their feet, not arrived",
+    "B": "'picked up' needs an object (picked up rubbish)",
+    "C": "'took up' means started a hobby"
+   },
+   "gap": 1,
+   "n": 9
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 2: choose the best word.",
+   "options": {
+    "A": "queue",
+    "B": "array",
+    "C": "flock",
+    "D": "crew"
+   },
+   "answer": "B",
+   "explanation": "An 'array' is a large, eye-catching collection of things: 'an impressive array of hats'.",
+   "distractors": {
+    "A": "a queue is a line of people waiting",
+    "C": "a flock is a group of birds or sheep",
+    "D": "a crew is a group of people working together, not hats"
+   },
+   "gap": 2,
+   "n": 10
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 3: choose the best word.",
+   "options": {
+    "A": "in",
+    "B": "on",
+    "C": "at",
+    "D": "by"
+   },
+   "answer": "A",
+   "explanation": "'In sight' means able to be seen. 'Every piece of rubbish in sight' means all they could see.",
+   "distractors": {
+    "B": "'on sight' means as soon as something is seen, which changes the meaning",
+    "C": "'at sight' is used for reading music, not here",
+    "D": "'by sight' means recognising someone by their face"
+   },
+   "gap": 3,
+   "n": 11
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 4: choose the best word.",
+   "options": {
+    "A": "won",
+    "B": "earned",
+    "C": "gathered",
+    "D": "met"
+   },
+   "answer": "C",
+   "explanation": "You gather (collect) litter.",
+   "distractors": {
+    "A": "you win a prize, not litter",
+    "B": "you earn money or praise",
+    "D": "you meet people"
+   },
+   "gap": 4,
+   "n": 12
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 5: choose the best word.",
+   "options": {
+    "A": "get rid",
+    "B": "take care",
+    "C": "make sure",
+    "D": "keep clear"
+   },
+   "answer": "A",
+   "explanation": "'Get rid of' something means to remove it. People think the ocean will remove the plastic.",
+   "distractors": {
+    "B": "'take care of' means look after, which doesn't fit the ocean removing rubbish",
+    "C": "'make sure of' means check, not remove",
+    "D": "'keep clear of' means stay away from"
+   },
+   "gap": 5,
+   "n": 13
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 6: choose the best word.",
+   "options": {
+    "A": "slices",
+    "B": "crumbs",
+    "C": "portions",
+    "D": "pieces"
+   },
+   "answer": "D",
+   "explanation": "Plastic breaks into smaller and smaller pieces. 'Pieces' is the general word for bits of something broken.",
+   "distractors": {
+    "A": "slices are cut from food like bread or cake",
+    "B": "crumbs are tiny bits of bread or biscuit",
+    "C": "portions are servings of food"
+   },
+   "gap": 6,
+   "n": 14
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 7: choose the best word.",
+   "options": {
+    "A": "did",
+    "B": "made",
+    "C": "had",
+    "D": "gave"
+   },
+   "answer": "B",
+   "explanation": "'It made my day' is a fixed phrase meaning it made me very happy.",
+   "distractors": {
+    "A": "'did my day' isn't an English phrase",
+    "C": "'had my day' means my time of success is over",
+    "D": "'gave my day' isn't an English phrase"
+   },
+   "gap": 7,
+   "n": 15
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 8: choose the best word.",
+   "options": {
+    "A": "reach",
+    "B": "line",
+    "C": "touch",
+    "D": "mind"
+   },
+   "answer": "C",
+   "explanation": "'Keep in touch' means to stay in contact with someone.",
+   "distractors": {
+    "A": "'within reach' is about distance, and 'keep in reach' isn't a phrase for staying friends",
+    "B": "'keep in line' means behave or obey",
+    "D": "'keep in mind' means remember"
+   },
+   "gap": 8,
+   "n": 16
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "What a detail suggests about a character",
+   "difficulty": 3,
+   "stem": "The speaker thinks the reply was 'written with a thumbnail dipped in tar' (line 6). This suggests that",
+   "options": {
+    "A": "the shearing mate was angry with the speaker.",
+    "B": "the letter was written in a great hurry because Clancy was leaving.",
+    "C": "the shearing mate was rough and not used to writing letters.",
+    "D": "Clancy did not want the speaker to read the letter."
+   },
+   "answer": "C",
+   "explanation": "Tar was used in shearing sheds. A letter that looks as if it was scrawled with a tarry thumb is messy and clumsy: the writer is a rough bush worker, not someone who writes letters often. The mistake 'where he are' adds to this.",
+   "distractors": {
+    "A": "nothing in the reply sounds angry",
+    "B": "Clancy has already gone; the mate isn't rushing",
+    "D": "the mate writes back, and Clancy didn't write it at all"
+   },
+   "n": 17
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a deliberate mistake",
+   "difficulty": 3,
+   "stem": "Why does the poet keep the mistake 'we don't know where he are' (line 8) in the shearing mate's reply?",
+   "options": {
+    "A": "to show that the speaker cannot read the letter properly",
+    "B": "to show that Clancy is in danger",
+    "C": "to suggest that the speaker made up the reply",
+    "D": "to make the reply sound real and add a touch of humour"
+   },
+   "answer": "D",
+   "explanation": "The speaker says he will quote it 'verbatim' (word for word). Keeping the bush worker's grammar makes the letter sound authentic, and it is gently funny.",
+   "distractors": {
+    "A": "he quotes it exactly, so he read it fine",
+    "B": "droving is his job; there's no hint of danger",
+    "C": "he insists he is quoting it word for word"
+   },
+   "n": 18
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Interpreting imagery",
+   "difficulty": 3,
+   "stem": "In stanza 4 (lines 13–16), the bush is described as having 'friends' with 'kindly voices'. What is the effect of this?",
+   "options": {
+    "A": "It makes nature seem welcoming and companionable, so Clancy is never lonely.",
+    "B": "It shows that Clancy has many friends among the other drovers.",
+    "C": "It suggests that the bush can be dangerous at night.",
+    "D": "It shows that the speaker misses his friends in the bush."
+   },
+   "answer": "A",
+   "explanation": "The 'friends' and 'voices' are the breezes and the river: nature is personified as a friendly companion. Even alone, Clancy is in good company.",
+   "distractors": {
+    "B": "the 'friends' are the breezes and river, not people",
+    "C": "the stanza is full of glory and kindness, not danger",
+    "D": "the stanza is about Clancy, not the speaker's friends"
+   },
+   "n": 19
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of word choice",
+   "difficulty": 3,
+   "stem": "In lines 17–18, the poet describes 'a stingy ray of sunlight' that 'struggles feebly'. These words suggest that the speaker's office is",
+   "options": {
+    "A": "too hot in summer.",
+    "B": "dark, gloomy and cramped.",
+    "C": "high up above the city.",
+    "D": "cheap to rent."
+   },
+   "answer": "B",
+   "explanation": "A 'stingy' ray gives very little, and it 'struggles feebly' between tall houses. Hardly any light gets in: the office is dark and depressing, the opposite of the 'sunlit plains' Clancy sees.",
+   "distractors": {
+    "A": "little sunlight means the opposite of hot",
+    "C": "the light comes 'down between the houses tall', so it's low down",
+    "D": "'stingy' describes the light, not the rent"
+   },
+   "n": 20
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Purpose and structure",
+   "skill": "How the poem is organised",
+   "difficulty": 4,
+   "stem": "How is the poem organised?",
+   "options": {
+    "A": "It tells the story of a letter, imagines Clancy's life in the bush, then contrasts it with the speaker's life in the city.",
+    "B": "It describes Clancy's life from childhood to old age.",
+    "C": "It begins in the city and ends with the speaker moving to the bush.",
+    "D": "It compares two drovers working on different stations."
+   },
+   "answer": "A",
+   "explanation": "Stanzas 1–2: the letter and the reply. Stanzas 3–4: the speaker imagines Clancy droving. Stanzas 5–7: the dirty, noisy city. Stanza 8: the speaker wishes they could swap.",
+   "distractors": {
+    "B": "it covers only Clancy's present life as a drover",
+    "C": "the speaker only wishes he could swap; he stays in the office",
+    "D": "there is only one drover, Clancy"
+   },
+   "n": 21
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Tone of the final line",
+   "difficulty": 5,
+   "stem": "In the last line, the speaker says 'I doubt he'd suit the office'. What does this show?",
+   "options": {
+    "A": "The speaker thinks Clancy is not clever enough for office work.",
+    "B": "The speaker has offered Clancy a job.",
+    "C": "The speaker realises that swapping lives would only work one way: office life would not suit a free man like Clancy.",
+    "D": "The speaker is angry that Clancy has not written back."
+   },
+   "answer": "C",
+   "explanation": "The speaker would love to try droving, but admits, with a wry smile, that Clancy would hate the cramped, dull office. The city life the speaker endures would be no gift to Clancy.",
+   "distractors": {
+    "A": "it's about freedom and lifestyle, not cleverness",
+    "B": "no job is offered; it's an imagined swap",
+    "D": "Clancy never received the letter: he'd gone droving"
+   },
+   "n": 22
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "They set up watering systems to keep the ground around the trees damp.",
+    "B": "He had walked in the bush for years, but he had never seen anything like it.",
+    "C": "Even more surprising, it belonged to a family of trees thought to have died out long ago.",
+    "D": "Because so few trees exist in one small area, a single disaster could wipe them out.",
+    "E": "They grew thousands of young trees from cuttings and seeds, and sold them to the public.",
+    "F": "This time, it had needed a little help from people.",
+    "G": "Pine trees are often planted to make paper and timber."
+   },
+   "answer": "B",
+   "explanation": "Noble has just noticed a strange tree, and the next sentence says he took a branch home to show experts. B explains why: though experienced in the bush, he had never seen one like it.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 1",
+    "C": "doesn't link to the sentences around gap 1",
+    "D": "doesn't link to the sentences around gap 1",
+    "E": "doesn't link to the sentences around gap 1",
+    "F": "doesn't link to the sentences around gap 1",
+    "G": "the extra sentence: it's about pine trees in general and doesn't link to any gap"
+   },
+   "gap": 1,
+   "n": 23
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "They set up watering systems to keep the ground around the trees damp.",
+    "B": "He had walked in the bush for years, but he had never seen anything like it.",
+    "C": "Even more surprising, it belonged to a family of trees thought to have died out long ago.",
+    "D": "Because so few trees exist in one small area, a single disaster could wipe them out.",
+    "E": "They grew thousands of young trees from cuttings and seeds, and sold them to the public.",
+    "F": "This time, it had needed a little help from people.",
+    "G": "Pine trees are often planted to make paper and timber."
+   },
+   "answer": "C",
+   "explanation": "'Even more surprising' builds on 'a species that nobody had ever recorded', and 'thought to have died out long ago' leads into the next sentence about fossil relatives.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 2",
+    "B": "doesn't link to the sentences around gap 2",
+    "D": "doesn't link to the sentences around gap 2",
+    "E": "doesn't link to the sentences around gap 2",
+    "F": "doesn't link to the sentences around gap 2",
+    "G": "the extra sentence: it's about pine trees in general and doesn't link to any gap"
+   },
+   "gap": 2,
+   "n": 24
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 4,
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "They set up watering systems to keep the ground around the trees damp.",
+    "B": "He had walked in the bush for years, but he had never seen anything like it.",
+    "C": "Even more surprising, it belonged to a family of trees thought to have died out long ago.",
+    "D": "Because so few trees exist in one small area, a single disaster could wipe them out.",
+    "E": "They grew thousands of young trees from cuttings and seeds, and sold them to the public.",
+    "F": "This time, it had needed a little help from people.",
+    "G": "Pine trees are often planted to make paper and timber."
+   },
+   "answer": "D",
+   "explanation": "After 'fewer than a hundred… in a few hidden gorges', D explains the danger of being so rare and so close together. The next sentence gives one such disaster: disease carried in on boots.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 3",
+    "B": "doesn't link to the sentences around gap 3",
+    "C": "doesn't link to the sentences around gap 3",
+    "E": "doesn't link to the sentences around gap 3",
+    "F": "doesn't link to the sentences around gap 3",
+    "G": "the extra sentence: it's about pine trees in general and doesn't link to any gap"
+   },
+   "gap": 3,
+   "n": 25
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "They set up watering systems to keep the ground around the trees damp.",
+    "B": "He had walked in the bush for years, but he had never seen anything like it.",
+    "C": "Even more surprising, it belonged to a family of trees thought to have died out long ago.",
+    "D": "Because so few trees exist in one small area, a single disaster could wipe them out.",
+    "E": "They grew thousands of young trees from cuttings and seeds, and sold them to the public.",
+    "F": "This time, it had needed a little help from people.",
+    "G": "Pine trees are often planted to make paper and timber."
+   },
+   "answer": "E",
+   "explanation": "'A clever plan to protect the wild trees' needs explaining, and the next sentence says you can now buy one at a garden centre. E describes the plan.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 4",
+    "B": "doesn't link to the sentences around gap 4",
+    "C": "doesn't link to the sentences around gap 4",
+    "D": "doesn't link to the sentences around gap 4",
+    "F": "doesn't link to the sentences around gap 4",
+    "G": "the extra sentence: it's about pine trees in general and doesn't link to any gap"
+   },
+   "gap": 4,
+   "n": 26
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "They set up watering systems to keep the ground around the trees damp.",
+    "B": "He had walked in the bush for years, but he had never seen anything like it.",
+    "C": "Even more surprising, it belonged to a family of trees thought to have died out long ago.",
+    "D": "Because so few trees exist in one small area, a single disaster could wipe them out.",
+    "E": "They grew thousands of young trees from cuttings and seeds, and sold them to the public.",
+    "F": "This time, it had needed a little help from people.",
+    "G": "Pine trees are often planted to make paper and timber."
+   },
+   "answer": "A",
+   "explanation": "The firefighters were lowered into the gorge; A says what 'they' did there: kept the ground damp so the trees would survive.",
+   "distractors": {
+    "B": "doesn't link to the sentences around gap 5",
+    "C": "doesn't link to the sentences around gap 5",
+    "D": "doesn't link to the sentences around gap 5",
+    "E": "doesn't link to the sentences around gap 5",
+    "F": "doesn't link to the sentences around gap 5",
+    "G": "the extra sentence: it's about pine trees in general and doesn't link to any gap"
+   },
+   "gap": 5,
+   "n": 27
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 4,
+   "stem": "Which sentence best fits gap 6?",
+   "options": {
+    "A": "They set up watering systems to keep the ground around the trees damp.",
+    "B": "He had walked in the bush for years, but he had never seen anything like it.",
+    "C": "Even more surprising, it belonged to a family of trees thought to have died out long ago.",
+    "D": "Because so few trees exist in one small area, a single disaster could wipe them out.",
+    "E": "They grew thousands of young trees from cuttings and seeds, and sold them to the public.",
+    "F": "This time, it had needed a little help from people.",
+    "G": "Pine trees are often planted to make paper and timber."
+   },
+   "answer": "F",
+   "explanation": "After listing what the tree survived on its own (dinosaurs, ice ages, droughts), F points out that this time, with the fires, it needed help: the firefighters.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 6",
+    "B": "doesn't link to the sentences around gap 6",
+    "C": "doesn't link to the sentences around gap 6",
+    "D": "doesn't link to the sentences around gap 6",
+    "E": "doesn't link to the sentences around gap 6",
+    "G": "the extra sentence: it's about pine trees in general and doesn't link to any gap"
+   },
+   "gap": 6,
+   "n": 28
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer says that people who think they have no sense of direction are wrong?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "The coach's young orienteers are 'convinced they are hopeless at finding their way. They are not.'",
+   "distractors": {
+    "B": "the child got lost, but no one says they lack direction sense",
+    "C": "the reviewer doesn't discuss people's ability",
+    "D": "about pigeons, not people"
+   },
+   "n": 29
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which extract describes a stranger who helped calmly without making a fuss?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "B",
+   "explanation": "The mango seller sat the child down, gave her mango, 'and simply waited'.",
+   "distractors": {
+    "A": "the coach is not a stranger to the orienteers",
+    "C": "the app's voice is not a person",
+    "D": "no stranger helps"
+   },
+   "n": 30
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer gives a mixed opinion, praising some things and criticising others?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "The reviewer praises the clear maps and accurate tracks but criticises the battery drain and the lost signal.",
+   "distractors": {
+    "A": "gives advice, not an opinion of good and bad points",
+    "B": "tells a story without judging anything",
+    "D": "explains research; it doesn't praise and criticise"
+   },
+   "n": 31
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which extract explains that something is still not fully understood?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "D",
+   "explanation": "Pigeon navigation 'has puzzled scientists for centuries', and 'some researchers think smell plays a part too'.",
+   "distractors": {
+    "A": "the coach is sure about the cause of getting lost",
+    "B": "nothing is left unexplained",
+    "C": "the reviewer knows exactly why the app failed: no signal"
+   },
+   "n": 32
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer remembers sounds more clearly than feelings?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "B",
+   "explanation": "'I remember the noise more than the fear', followed by voices, frying pans and a radio song.",
+   "distractors": {
+    "A": "no memories of sounds",
+    "C": "mentions a 'friendly voice', but not memories",
+    "D": "about pigeons' senses, not memories"
+   },
+   "n": 33
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which writer compares an animal to a careful human navigator?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "D",
+   "explanation": "A also says to check the map against the land, but D says the pigeon, 'like a good navigator, … checks one source of information against another'.",
+   "distractors": {
+    "A": "the coach talks about checking, but compares nobody to an animal",
+    "B": "no animal comparison",
+    "C": "no animal comparison"
+   },
+   "n": 34
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer warns that relying on technology alone could be risky?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "The app is 'not a replacement for a paper map', and the writer says to pack a spare battery and tell someone your plans.",
+   "distractors": {
+    "A": "says nothing about technology",
+    "B": "no technology involved",
+    "D": "no technology involved"
+   },
+   "n": 35
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "In which extract does a parent show relief rather than anger?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "B",
+   "explanation": "'He did not scold me. He just held on, for a very long time.'",
+   "distractors": {
+    "A": "no parents appear",
+    "C": "no parents appear",
+    "D": "no parents appear"
+   },
+   "n": 36
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which writer explains how a big problem can grow out of many small ones?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "'Getting lost is rarely one big mistake. It is a string of small guesses that nobody stopped to check.'",
+   "distractors": {
+    "B": "the child steps away 'just for a moment': one small action, not a string of mistakes",
+    "C": "the app's problems are listed, but not as building up",
+    "D": "the pigeon's tools work together; there's no problem growing"
+   },
+   "n": 37
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer suggests that a good habit may seem slow but is worth it?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "Checking 'feels slow at first, and the fastest runners in the club still do it'.",
+   "distractors": {
+    "B": "no habit is described",
+    "C": "advises packing a battery, but doesn't say it's slow",
+    "D": "describes how pigeons navigate, not a habit that feels slow"
+   },
+   "n": 38
+  }
+ ]
+}

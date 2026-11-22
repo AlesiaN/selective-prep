@@ -1,0 +1,687 @@
+{
+ "id": "p-spa-moves",
+ "title": "Spatial practice: mirrors, gears, robots and routes",
+ "section": "Thinking Skills",
+ "practice": true,
+ "timeLimitMinutes": 0,
+ "groupLabel": "By type",
+ "topics": {
+  "SPA": "Spatial",
+  "PAT": "Picture patterns",
+  "DATA": "Diagrams"
+ },
+ "questions": [
+  {
+   "n": 1,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='80.5' y2='127.0' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='78.8' y2='154.0' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "4:25",
+    "B": "7:35",
+    "C": "4:35",
+    "D": "8:25"
+   },
+   "answer": "A",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 7:35. Flip it back: the minute hand is really at 25 minutes, and the hour hand is just past 4. The real time is 4:25. Quick check: the two times always add up to 12:00 (7:35 + 4:25 = 12:00).",
+   "distractors": {
+    "B": "that is just reading the mirror image",
+    "C": "hour right but minute hand read the wrong way round",
+    "D": "minute hand right but hour hand read the wrong way round"
+   }
+  },
+  {
+   "n": 2,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction",
+   "stem": "Gear A turns clockwise. Which way does gear E turn?",
+   "svg": "<svg viewBox='0 0 433.8387416793177 207.0210794199981' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='91.3,73.9 91.3,78.1 85.8,82.3 84.8,85.8 87.6,92.2 85.4,95.9 78.5,96.7 75.9,99.3 75.1,106.2 71.4,108.4 65.0,105.6 61.5,106.6 57.3,112.1 53.1,112.1 48.9,106.6 45.4,105.6 39.0,108.4 35.3,106.2 34.5,99.3 31.9,96.7 25.0,95.9 22.8,92.2 25.6,85.8 24.6,82.3 19.1,78.1 19.1,73.9 24.6,69.7 25.6,66.2 22.8,59.8 25.0,56.1 31.9,55.3 34.5,52.7 35.3,45.8 39.0,43.6 45.4,46.4 48.9,45.4 53.1,39.9 57.3,39.9 61.5,45.4 65.0,46.4 71.4,43.6 75.1,45.8 75.9,52.7 78.5,55.3 85.4,56.1 87.6,59.8 84.8,66.2 85.8,69.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='55.2' cy='76.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='55.2' y='70.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='55.2' y='92.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >12 teeth</text><polygon points='198.4,74.0 198.4,78.0 193.0,82.3 192.4,85.9 196.2,91.7 195.0,95.5 188.5,98.0 186.9,101.2 188.7,107.9 186.3,111.1 179.4,111.4 176.8,114.0 176.5,120.9 173.3,123.3 166.6,121.5 163.4,123.1 160.9,129.6 157.1,130.8 151.3,127.0 147.7,127.6 143.4,133.0 139.4,133.0 135.1,127.6 131.5,127.0 125.7,130.8 121.9,129.6 119.4,123.1 116.2,121.5 109.5,123.3 106.3,120.9 106.0,114.0 103.4,111.4 96.5,111.1 94.1,107.9 95.9,101.2 94.3,98.0 87.8,95.5 86.6,91.7 90.4,85.9 89.8,82.3 84.4,78.0 84.4,74.0 89.8,69.7 90.4,66.1 86.6,60.3 87.8,56.5 94.3,54.0 95.9,50.8 94.1,44.1 96.5,40.9 103.4,40.6 106.0,38.0 106.3,31.1 109.5,28.7 116.2,30.5 119.4,28.9 121.9,22.4 125.7,21.2 131.5,25.0 135.1,24.4 139.4,19.0 143.4,19.0 147.7,24.4 151.3,25.0 157.1,21.2 160.9,22.4 163.4,28.9 166.6,30.5 173.3,28.7 176.5,31.1 176.8,38.0 179.4,40.6 186.3,40.9 188.7,44.1 186.9,50.8 188.5,54.0 195.0,56.5 196.2,60.3 192.4,66.1 193.0,69.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='141.4' cy='76.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='141.4' y='70.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='141.4' y='92.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >20 teeth</text><polygon points='298.9,110.6 298.9,114.6 293.6,118.9 293.0,122.5 296.7,128.3 295.5,132.1 289.1,134.6 287.4,137.8 289.2,144.4 286.8,147.7 280.0,148.0 277.4,150.6 277.1,157.5 273.8,159.9 267.2,158.1 263.9,159.7 261.5,166.2 257.6,167.4 251.9,163.6 248.3,164.2 244.0,169.6 239.9,169.6 235.6,164.2 232.0,163.6 226.3,167.4 222.4,166.2 220.0,159.7 216.7,158.1 210.1,159.9 206.8,157.5 206.5,150.6 203.9,148.0 197.0,147.7 194.7,144.4 196.5,137.8 194.8,134.6 188.4,132.1 187.1,128.3 190.9,122.5 190.3,118.9 185.0,114.6 185.0,110.6 190.3,106.3 190.9,102.7 187.1,96.9 188.4,93.1 194.8,90.6 196.5,87.4 194.7,80.7 197.0,77.5 203.9,77.1 206.5,74.6 206.8,67.7 210.1,65.3 216.7,67.1 220.0,65.5 222.4,59.0 226.3,57.8 232.0,61.6 235.6,61.0 239.9,55.6 244.0,55.6 248.3,61.0 251.9,61.6 257.6,57.8 261.5,59.0 263.9,65.5 267.2,67.1 273.8,65.3 277.1,67.7 277.4,74.6 280.0,77.1 286.8,77.5 289.2,80.7 287.4,87.4 289.1,90.6 295.5,93.1 296.7,96.9 293.0,102.7 293.6,106.3' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='241.9' cy='112.6' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='241.9' y='106.6' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='241.9' y='128.6' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >20 teeth</text><polygon points='376.1,151.4 376.1,155.5 370.6,159.7 369.9,163.3 373.3,169.3 371.7,173.1 365.1,175.0 363.0,178.0 363.9,184.9 361.0,187.8 354.1,187.0 351.1,189.0 349.2,195.6 345.4,197.2 339.4,193.8 335.8,194.5 331.6,200.0 327.4,200.0 323.2,194.5 319.6,193.8 313.6,197.2 309.8,195.6 307.9,189.0 304.9,187.0 298.0,187.8 295.1,184.9 296.0,178.0 293.9,175.0 287.3,173.1 285.7,169.3 289.1,163.3 288.4,159.7 282.9,155.5 282.9,151.4 288.4,147.1 289.1,143.5 285.7,137.5 287.3,133.7 293.9,131.9 296.0,128.8 295.1,122.0 298.0,119.0 304.9,119.9 307.9,117.8 309.8,111.2 313.6,109.6 319.6,113.0 323.2,112.3 327.4,106.9 331.6,106.9 335.8,112.3 339.4,113.0 345.4,109.6 349.2,111.2 351.1,117.8 354.1,119.9 361.0,119.0 363.9,122.0 363.0,128.8 365.1,131.9 371.7,133.7 373.3,137.5 369.9,143.5 370.6,147.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='329.5' cy='153.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='329.5' y='147.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='329.5' y='169.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >16 teeth</text><polygon points='426.8,127.1 426.8,131.5 421.1,135.5 419.9,139.0 422.1,145.7 419.6,149.2 412.6,149.2 409.6,151.3 407.5,158.0 403.3,159.4 397.7,155.2 394.0,155.2 388.4,159.4 384.2,158.0 382.1,151.3 379.1,149.2 372.1,149.2 369.5,145.7 371.7,139.0 370.6,135.5 364.9,131.5 364.9,127.1 370.6,123.0 371.7,119.5 369.5,112.9 372.1,109.3 379.1,109.4 382.1,107.2 384.2,100.5 388.4,99.2 394.0,103.3 397.7,103.3 403.3,99.2 407.5,100.5 409.6,107.2 412.6,109.4 419.6,109.3 422.1,112.9 419.9,119.5 421.1,123.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='395.8' cy='129.3' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='395.8' y='123.3' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='395.8' y='145.2' font-size='10.92' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >10 teeth</text><path d='M12.7,60.5 A45.2,45.2 0 0 1 39.7,33.5' stroke-width='2.5'/><polygon points='39.7,33.5 33.5,40.0 30.8,32.6' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "anticlockwise",
+    "B": "It depends on the sizes of the gears",
+    "C": "The gears cannot turn",
+    "D": "clockwise"
+   },
+   "answer": "D",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise, E clockwise.",
+   "distractors": {
+    "A": "count again: each pair of touching gears turn opposite ways",
+    "B": "size changes the speed, not the direction",
+    "C": "a single chain of gears turns freely"
+   }
+  },
+  {
+   "n": 3,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square C3, facing north. It follows these instructions:\nforward 1, turn right, forward 2, turn left, forward 1, turn left, forward 1, turn left, forward 1.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 290 296' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='260.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='260.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='260.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='260.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='260.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='260.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='240.0' stroke-width='1.2' /><text x='62.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='106.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='150.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='194.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='238.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='150.0' cy='130.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='150.0' y1='139.0' x2='150.0' y2='122.0' stroke-width='3' /><polygon points='150.0,118.0 154.3,127.0 145.7,127.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='150.0' y='284.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "B4",
+    "B": "D4",
+    "C": "D3",
+    "D": "B2"
+   },
+   "answer": "B",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on D4.",
+   "distractors": {
+    "A": "turned right instead of left (and left instead of right)",
+    "C": "one square too far on the last move",
+    "D": "started facing south instead of north"
+   }
+  },
+  {
+   "n": 4,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. The street marked ✕ is closed. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 300 260' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='230.0' x2='250.0' y2='230.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='250.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='250.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='230.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='230.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='230.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='250.0' y1='230.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><rect x='63.0' y='78.0' width='24.0' height='24.0' fill='none' stroke-width='0' fill='var(--card, #fff)'/><line x1='66.0' y1='81.0' x2='84.0' y2='99.0' stroke-width='3.5' /><line x1='84.0' y1='81.0' x2='66.0' y2='99.0' stroke-width='3.5' /><circle cx='40.0' cy='230.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='235.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='250.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "20",
+    "B": "18",
+    "C": "16",
+    "D": "17"
+   },
+   "answer": "D",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it (but nothing comes through the road marked ✕). The number at F is 17. Without the roadworks it would be 20.",
+   "distractors": {
+    "A": "ignored the roadworks",
+    "B": "counted one route twice",
+    "C": "missed a route"
+   }
+  },
+  {
+   "n": 5,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='70.9' y2='108.7' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='78.8' y2='154.0' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "8:35",
+    "B": "3:35",
+    "C": "3:25",
+    "D": "9:25"
+   },
+   "answer": "C",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 8:35. Flip it back: the minute hand is really at 25 minutes, and the hour hand is just past 3. The real time is 3:25. Quick check: the two times always add up to 12:00 (8:35 + 3:25 = 12:00).",
+   "distractors": {
+    "A": "that is just reading the mirror image",
+    "B": "hour right but minute hand read the wrong way round",
+    "D": "minute hand right but hour hand read the wrong way round"
+   }
+  },
+  {
+   "n": 6,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction",
+   "stem": "Gear A turns clockwise. Which way does gear D turn?",
+   "svg": "<svg viewBox='0 0 219.86494810398858 123.07660753335676' xmlns='http://www.w3.org/2000/svg' style='max-width:307px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='80.9,82.9 80.9,87.3 75.2,91.3 74.1,94.8 76.3,101.5 73.7,105.0 66.7,105.0 63.8,107.1 61.6,113.8 57.5,115.2 51.8,111.0 48.2,111.0 42.5,115.2 38.4,113.8 36.2,107.1 33.3,105.0 26.3,105.0 23.7,101.5 25.9,94.8 24.8,91.3 19.1,87.3 19.1,82.9 24.8,78.8 25.9,75.3 23.7,68.7 26.3,65.1 33.3,65.2 36.2,63.0 38.4,56.3 42.5,55.0 48.2,59.1 51.8,59.1 57.5,55.0 61.6,56.3 63.8,63.0 66.7,65.2 73.7,65.1 76.3,68.7 74.1,75.3 75.2,78.8' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='50.0' cy='85.1' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='50.0' y='79.1' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='50.0' y='101.0' font-size='10.92' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >10 teeth</text><polygon points='130.8,59.6 130.8,64.0 125.1,68.1 123.9,71.6 126.2,78.2 123.6,81.8 116.6,81.7 113.6,83.9 111.5,90.6 107.3,91.9 101.7,87.8 98.0,87.8 92.4,91.9 88.2,90.6 86.1,83.9 83.1,81.7 76.1,81.8 73.5,78.2 75.7,71.6 74.6,68.1 68.9,64.0 68.9,59.6 74.6,55.6 75.7,52.1 73.5,45.4 76.1,41.9 83.1,41.9 86.1,39.8 88.2,33.1 92.4,31.7 98.0,35.9 101.7,35.9 107.3,31.7 111.5,33.1 113.6,39.8 116.6,41.9 123.6,41.9 126.2,45.4 123.9,52.1 125.1,55.6' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='99.8' cy='61.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='99.8' y='55.8' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='99.8' y='77.8' font-size='10.92' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >10 teeth</text><polygon points='172.3,42.5 172.3,47.1 166.5,51.0 165.1,54.4 166.4,61.4 163.2,64.6 156.3,63.2 152.9,64.6 148.9,70.5 144.4,70.5 140.4,64.6 137.0,63.2 130.1,64.6 126.9,61.4 128.2,54.4 126.8,51.0 120.9,47.1 120.9,42.5 126.8,38.6 128.2,35.2 126.9,28.2 130.1,25.0 137.0,26.4 140.4,25.0 144.4,19.1 148.9,19.1 152.9,25.0 156.3,26.4 163.2,25.0 166.4,28.2 165.1,35.2 166.5,38.6' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='146.6' cy='44.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='146.6' y='38.8' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='146.6' y='58.5' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='212.8,61.4 212.8,65.9 206.9,69.9 205.5,73.3 206.8,80.2 203.6,83.4 196.7,82.1 193.3,83.5 189.3,89.3 184.8,89.3 180.8,83.5 177.4,82.1 170.5,83.4 167.3,80.2 168.6,73.3 167.2,69.9 161.4,65.9 161.4,61.4 167.2,57.4 168.6,54.0 167.3,47.1 170.5,43.9 177.4,45.2 180.8,43.8 184.8,37.9 189.3,37.9 193.3,43.8 196.7,45.2 203.6,43.9 206.8,47.1 205.5,54.0 206.9,57.4' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='187.1' cy='63.6' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='187.1' y='57.6' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='187.1' y='77.4' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M12.4,71.4 A40.0,40.0 0 0 1 36.3,47.5' stroke-width='2.5'/><polygon points='36.3,47.5 30.0,53.9 27.4,46.6' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "clockwise",
+    "B": "It depends on the sizes of the gears",
+    "C": "The gears cannot turn",
+    "D": "anticlockwise"
+   },
+   "answer": "D",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise.",
+   "distractors": {
+    "A": "count again: each pair of touching gears turn opposite ways",
+    "B": "size changes the speed, not the direction",
+    "C": "a single chain of gears turns freely"
+   }
+  },
+  {
+   "n": 7,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square D3, facing north. It follows these instructions:\nforward 2, turn left, forward 1, turn left, forward 2, turn left, forward 2, turn right, forward 1.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 290 296' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='260.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='260.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='260.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='260.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='260.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='260.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='240.0' stroke-width='1.2' /><text x='62.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='106.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='150.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='194.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='238.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='194.0' cy='130.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='194.0' y1='139.0' x2='194.0' y2='122.0' stroke-width='3' /><polygon points='194.0,118.0 198.3,127.0 189.7,127.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='150.0' y='284.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "E2",
+    "B": "C2",
+    "C": "E4",
+    "D": "E1"
+   },
+   "answer": "A",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on E2.",
+   "distractors": {
+    "B": "turned right instead of left (and left instead of right)",
+    "C": "turned the wrong way at the last turn",
+    "D": "one square too far on the last move"
+   }
+  },
+  {
+   "n": 8,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. The street marked ✕ is closed. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 230 260' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='230.0' x2='180.0' y2='230.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='180.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='180.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='230.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='230.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='230.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><rect x='133.0' y='218.0' width='24.0' height='24.0' fill='none' stroke-width='0' fill='var(--card, #fff)'/><line x1='136.0' y1='221.0' x2='154.0' y2='239.0' stroke-width='3.5' /><line x1='154.0' y1='221.0' x2='136.0' y2='239.0' stroke-width='3.5' /><circle cx='40.0' cy='230.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='235.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='180.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='198.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "10",
+    "B": "8",
+    "C": "9",
+    "D": "6"
+   },
+   "answer": "C",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it (but nothing comes through the road marked ✕). The number at F is 9. Without the roadworks it would be 10.",
+   "distractors": {
+    "A": "counted one route twice",
+    "B": "missed a route",
+    "D": "counted the blocks instead of routes"
+   }
+  },
+  {
+   "n": 9,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='111.7' y2='140.0' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='78.8' y2='46.0' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "6:05",
+    "B": "5:55",
+    "C": "6:55",
+    "D": "7:25"
+   },
+   "answer": "A",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 5:55. Flip it back: the minute hand is really at 5 minutes, and the hour hand is just past 6. The real time is 6:05. Quick check: the two times always add up to 12:00 (5:55 + 6:05 = 12:00).",
+   "distractors": {
+    "B": "that is just reading the mirror image",
+    "C": "hour right but minute hand read the wrong way round",
+    "D": "not the reflection of the hands"
+   }
+  },
+  {
+   "n": 10,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction",
+   "stem": "Gear A turns clockwise. Which way does gear E turn?",
+   "svg": "<svg viewBox='0 0 396.4776670524356 221.54152467876924' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='91.3,53.1 91.3,57.3 85.8,61.5 84.8,65.0 87.6,71.4 85.4,75.1 78.5,75.9 75.9,78.5 75.1,85.4 71.4,87.6 65.0,84.8 61.5,85.8 57.3,91.3 53.1,91.3 48.9,85.8 45.4,84.8 39.0,87.6 35.3,85.4 34.5,78.5 31.9,75.9 25.0,75.1 22.8,71.4 25.6,65.0 24.6,61.5 19.1,57.3 19.1,53.1 24.6,48.9 25.6,45.4 22.8,39.0 25.0,35.3 31.9,34.5 34.5,31.9 35.3,25.0 39.0,22.8 45.4,25.6 48.9,24.6 53.1,19.1 57.3,19.1 61.5,24.6 65.0,25.6 71.4,22.8 75.1,25.0 75.9,31.9 78.5,34.5 85.4,35.3 87.6,39.0 84.8,45.4 85.8,48.9' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='55.2' cy='55.2' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='55.2' y='49.2' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='55.2' y='71.2' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >12 teeth</text><polygon points='210.1,94.0 210.1,98.0 204.8,102.3 204.3,106.0 208.3,111.5 207.3,115.4 201.1,118.2 199.7,121.6 202.1,128.0 200.1,131.4 193.4,132.5 191.1,135.5 191.8,142.3 189.0,145.1 182.2,144.4 179.3,146.6 178.2,153.4 174.7,155.4 168.3,152.9 164.9,154.4 162.1,160.6 158.3,161.6 152.7,157.6 149.1,158.1 144.7,163.4 140.8,163.4 136.4,158.1 132.8,157.6 127.2,161.6 123.4,160.6 120.6,154.4 117.2,152.9 110.8,155.4 107.3,153.4 106.2,146.6 103.3,144.4 96.5,145.1 93.7,142.3 94.4,135.5 92.1,132.5 85.4,131.4 83.4,128.0 85.8,121.6 84.4,118.2 78.2,115.4 77.2,111.5 81.1,106.0 80.7,102.3 75.4,98.0 75.4,94.0 80.7,89.7 81.1,86.1 77.2,80.5 78.2,76.7 84.4,73.9 85.8,70.5 83.4,64.1 85.4,60.6 92.1,59.5 94.4,56.6 93.7,49.8 96.5,47.0 103.3,47.7 106.2,45.4 107.3,38.7 110.8,36.7 117.2,39.1 120.6,37.7 123.4,31.5 127.2,30.4 132.8,34.4 136.4,33.9 140.8,28.7 144.7,28.7 149.1,33.9 152.7,34.4 158.3,30.4 162.1,31.5 164.9,37.7 168.3,39.1 174.7,36.7 178.2,38.7 179.3,45.4 182.2,47.7 189.0,47.0 191.8,49.8 191.1,56.6 193.4,59.5 200.1,60.6 202.1,64.1 199.7,70.5 201.1,73.9 207.3,76.7 208.3,80.5 204.3,86.1 204.8,89.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='142.7' cy='96.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='142.7' y='90.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='142.7' y='112.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><polygon points='249.5,123.2 249.5,127.8 243.6,131.7 242.2,135.1 243.5,142.1 240.3,145.3 233.4,143.9 230.0,145.4 226.0,151.2 221.5,151.2 217.5,145.4 214.1,143.9 207.2,145.3 204.0,142.1 205.3,135.1 203.9,131.7 198.1,127.8 198.1,123.2 203.9,119.3 205.3,115.9 204.0,108.9 207.2,105.7 214.1,107.1 217.5,105.7 221.5,99.8 226.0,99.8 230.0,105.7 233.4,107.1 240.3,105.7 243.5,108.9 242.2,115.9 243.6,119.3' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='223.8' cy='125.5' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='223.8' y='119.5' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='223.8' y='139.2' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='349.4,155.5 349.4,159.6 344.1,163.9 343.5,167.5 347.2,173.2 346.0,177.1 339.6,179.5 337.9,182.8 339.7,189.4 337.4,192.7 330.5,193.0 327.9,195.6 327.6,202.4 324.3,204.8 317.7,203.0 314.4,204.7 312.0,211.1 308.1,212.3 302.4,208.6 298.8,209.2 294.5,214.5 290.4,214.5 286.1,209.2 282.5,208.6 276.8,212.3 272.9,211.1 270.5,204.7 267.2,203.0 260.6,204.8 257.3,202.4 257.0,195.6 254.4,193.0 247.5,192.7 245.2,189.4 247.0,182.8 245.3,179.5 238.9,177.1 237.7,173.2 241.4,167.5 240.8,163.9 235.5,159.6 235.5,155.5 240.8,151.2 241.4,147.6 237.7,141.9 238.9,138.0 245.3,135.6 247.0,132.3 245.2,125.7 247.5,122.4 254.4,122.1 257.0,119.5 257.3,112.6 260.6,110.3 267.2,112.1 270.5,110.4 272.9,104.0 276.8,102.7 282.5,106.5 286.1,105.9 290.4,100.6 294.5,100.6 298.8,105.9 302.4,106.5 308.1,102.7 312.0,104.0 314.4,110.4 317.7,112.1 324.3,110.3 327.6,112.6 327.9,119.5 330.5,122.1 337.4,122.4 339.7,125.7 337.9,132.3 339.6,135.6 346.0,138.0 347.2,141.9 343.5,147.6 344.1,151.2' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='292.4' cy='157.5' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='292.4' y='151.5' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='292.4' y='173.5' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >20 teeth</text><polygon points='389.4,129.3 389.4,133.9 383.5,137.8 382.1,141.2 383.5,148.2 380.2,151.4 373.3,150.1 369.9,151.5 366.0,157.3 361.4,157.3 357.4,151.5 354.1,150.1 347.1,151.4 343.9,148.2 345.2,141.2 343.8,137.8 338.0,133.9 338.0,129.3 343.8,125.4 345.2,122.0 343.9,115.1 347.1,111.8 354.1,113.2 357.4,111.8 361.4,105.9 366.0,105.9 369.9,111.8 373.3,113.2 380.2,111.8 383.5,115.1 382.1,122.0 383.5,125.4' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='363.7' cy='131.6' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='363.7' y='125.6' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='363.7' y='145.4' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M12.7,39.7 A45.2,45.2 0 0 1 39.7,12.7' stroke-width='2.5'/><polygon points='39.7,12.7 33.5,19.2 30.8,11.8' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "anticlockwise",
+    "B": "clockwise",
+    "C": "It depends on the sizes of the gears",
+    "D": "The gears cannot turn"
+   },
+   "answer": "B",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise, E clockwise.",
+   "distractors": {
+    "A": "count again: each pair of touching gears turn opposite ways",
+    "C": "size changes the speed, not the direction",
+    "D": "a single chain of gears turns freely"
+   }
+  },
+  {
+   "n": 11,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square C1, facing north. It follows these instructions:\nforward 2, turn left, forward 2, turn left, forward 2.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 290 296' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='260.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='260.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='260.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='260.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='260.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='260.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='240.0' stroke-width='1.2' /><text x='62.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='106.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='150.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='194.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='238.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='150.0' cy='218.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='150.0' y1='227.0' x2='150.0' y2='210.0' stroke-width='3' /><polygon points='150.0,206.0 154.3,215.0 145.7,215.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='150.0' y='284.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "E1",
+    "B": "A1",
+    "C": "A5",
+    "D": "A2"
+   },
+   "answer": "B",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on A1.",
+   "distractors": {
+    "A": "turned right instead of left (and left instead of right)",
+    "C": "turned the wrong way at the last turn",
+    "D": "one square short on the last move"
+   }
+  },
+  {
+   "n": 12,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. The street marked ✕ is closed. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 230 190' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='160.0' x2='180.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='180.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='160.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='160.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><rect x='133.0' y='78.0' width='24.0' height='24.0' fill='none' stroke-width='0' fill='var(--card, #fff)'/><line x1='136.0' y1='81.0' x2='154.0' y2='99.0' stroke-width='3.5' /><line x1='154.0' y1='81.0' x2='136.0' y2='99.0' stroke-width='3.5' /><circle cx='40.0' cy='160.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='165.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='180.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='198.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "4",
+    "B": "6",
+    "C": "5",
+    "D": "3"
+   },
+   "answer": "A",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it (but nothing comes through the road marked ✕). The number at F is 4. Without the roadworks it would be 6.",
+   "distractors": {
+    "B": "ignored the roadworks",
+    "C": "counted one route twice",
+    "D": "missed a route"
+   }
+  },
+  {
+   "n": 13,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='142.8' y2='77.1' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='56.0' y2='68.8' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "1:50",
+    "B": "10:10",
+    "C": "10:50",
+    "D": "2:10"
+   },
+   "answer": "B",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 1:50. Flip it back: the minute hand is really at 10 minutes, and the hour hand is just past 10. The real time is 10:10. Quick check: the two times always add up to 12:00 (1:50 + 10:10 = 12:00).",
+   "distractors": {
+    "A": "that is just reading the mirror image",
+    "C": "hour right but minute hand read the wrong way round",
+    "D": "minute hand right but hour hand read the wrong way round"
+   }
+  },
+  {
+   "n": 14,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction and number of turns",
+   "stem": "Gear A turns once clockwise. Which way does gear C turn, and how many times?",
+   "svg": "<svg viewBox='0 0 267.483094143225 160.8' xmlns='http://www.w3.org/2000/svg' style='max-width:374px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='153.8,84.4 153.8,88.4 148.5,92.7 148.0,96.4 152.0,101.9 151.0,105.8 144.7,108.6 143.3,112.0 145.7,118.4 143.8,121.8 137.0,122.9 134.8,125.8 135.4,132.6 132.6,135.4 125.8,134.8 122.9,137.0 121.8,143.8 118.4,145.7 112.0,143.3 108.6,144.7 105.8,151.0 101.9,152.0 96.4,148.0 92.7,148.5 88.4,153.8 84.4,153.8 80.1,148.5 76.4,148.0 70.9,152.0 67.0,151.0 64.2,144.7 60.8,143.3 54.4,145.7 51.0,143.8 49.9,137.0 47.0,134.8 40.2,135.4 37.4,132.6 38.0,125.8 35.8,122.9 29.0,121.8 27.1,118.4 29.5,112.0 28.1,108.6 21.8,105.8 20.8,101.9 24.8,96.4 24.3,92.7 19.0,88.4 19.0,84.4 24.3,80.1 24.8,76.4 20.8,70.9 21.8,67.0 28.1,64.2 29.5,60.8 27.1,54.4 29.0,51.0 35.8,49.9 38.0,47.0 37.4,40.2 40.2,37.4 47.0,38.0 49.9,35.8 51.0,29.0 54.4,27.1 60.8,29.5 64.2,28.1 67.0,21.8 70.9,20.8 76.4,24.8 80.1,24.3 84.4,19.0 88.4,19.0 92.7,24.3 96.4,24.8 101.9,20.8 105.8,21.8 108.6,28.1 112.0,29.5 118.4,27.1 121.8,29.0 122.9,35.8 125.8,38.0 132.6,37.4 135.4,40.2 134.8,47.0 137.0,49.9 143.8,51.0 145.7,54.4 143.3,60.8 144.7,64.2 151.0,67.0 152.0,70.9 148.0,76.4 148.5,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='86.4' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='86.4' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='86.4' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><polygon points='219.1,84.3 219.1,88.5 213.6,92.7 212.6,96.2 215.4,102.6 213.2,106.3 206.3,107.1 203.7,109.7 202.9,116.6 199.2,118.8 192.8,116.0 189.3,117.0 185.1,122.5 180.9,122.5 176.7,117.0 173.2,116.0 166.8,118.8 163.1,116.6 162.3,109.7 159.7,107.1 152.8,106.3 150.6,102.6 153.4,96.2 152.4,92.7 146.9,88.5 146.9,84.3 152.4,80.1 153.4,76.6 150.6,70.2 152.8,66.5 159.7,65.7 162.3,63.1 163.1,56.2 166.8,54.0 173.2,56.8 176.7,55.8 180.9,50.3 185.1,50.3 189.3,55.8 192.8,56.8 199.2,54.0 202.9,56.2 203.7,63.1 206.3,65.7 213.2,66.5 215.4,70.2 212.6,76.6 213.6,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='183.0' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='183.0' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='183.0' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >12 teeth</text><polygon points='260.4,102.9 260.4,107.5 254.5,111.4 253.1,114.8 254.5,121.8 251.2,125.0 244.3,123.7 240.9,125.1 237.0,130.9 232.4,130.9 228.5,125.1 225.1,123.7 218.1,125.0 214.9,121.8 216.2,114.8 214.8,111.4 209.0,107.5 209.0,102.9 214.8,99.0 216.2,95.6 214.9,88.6 218.1,85.4 225.1,86.8 228.5,85.4 232.4,79.5 237.0,79.5 240.9,85.4 244.3,86.8 251.2,85.4 254.5,88.6 253.1,95.6 254.5,99.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='234.7' cy='105.2' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='234.7' y='99.2' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='234.7' y='118.9' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M14.6,60.3 A76.4,76.4 0 0 1 60.3,14.6' stroke-width='2.5'/><polygon points='60.3,14.6 54.0,21.1 51.3,13.7' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "anticlockwise, 3 turns",
+    "B": "clockwise, 1 turn",
+    "C": "clockwise, 3 turns",
+    "D": "anticlockwise, 1/3 turn"
+   },
+   "answer": "C",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise. The teeth pass one at a time, so one turn of A (24 teeth) moves 24 teeth of every gear. Gear C has 8 teeth, so it turns 24 ÷ 8 = 3 times. (The gears in between don't change this.)",
+   "distractors": {
+    "A": "each gear turns the opposite way to the one it touches: count the steps",
+    "B": "a smaller gear turns more times",
+    "D": "turns the wrong way and divided the wrong way round"
+   }
+  },
+  {
+   "n": 15,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square D3, facing north. It follows these instructions:\nforward 3, turn right, forward 2, turn right, forward 2, turn right, forward 1, turn right, forward 1.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 334 340' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='304.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='304.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='304.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='304.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='304.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='304.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='284.0' x2='304.0' y2='284.0' stroke-width='1.2' /><line x1='304.0' y1='20.0' x2='304.0' y2='284.0' stroke-width='1.2' /><text x='62.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >6</text><text x='106.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='150.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='194.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='238.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='282.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >F</text><text x='28.0' y='267.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='194.0' cy='174.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='194.0' y1='183.0' x2='194.0' y2='166.0' stroke-width='3' /><polygon points='194.0,162.0 198.3,171.0 189.7,171.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='172.0' y='328.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "C5",
+    "B": "E3",
+    "C": "E6",
+    "D": "E5"
+   },
+   "answer": "D",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on E5.",
+   "distractors": {
+    "A": "turned right instead of left (and left instead of right)",
+    "B": "turned the wrong way at the last turn",
+    "C": "one square too far on the last move"
+   }
+  },
+  {
+   "n": 16,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 300 260' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='230.0' x2='250.0' y2='230.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='250.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='250.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='230.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='230.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='230.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='250.0' y1='230.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><circle cx='40.0' cy='230.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='235.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='250.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "21",
+    "B": "20",
+    "C": "19",
+    "D": "9"
+   },
+   "answer": "B",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it. The number at F is 20.",
+   "distractors": {
+    "A": "counted one route twice",
+    "C": "missed a route",
+    "D": "counted the blocks instead of routes"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='137.0' y2='70.5' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='141.2' y2='154.0' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "10:35",
+    "B": "1:25",
+    "C": "10:25",
+    "D": "2:35"
+   },
+   "answer": "A",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 1:25. Flip it back: the minute hand is really at 35 minutes, and the hour hand is just past 10. The real time is 10:35. Quick check: the two times always add up to 12:00 (1:25 + 10:35 = 12:00).",
+   "distractors": {
+    "B": "that is just reading the mirror image",
+    "C": "hour right but minute hand read the wrong way round",
+    "D": "minute hand right but hour hand read the wrong way round"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction and number of turns",
+   "stem": "Gear A turns once clockwise. Which way does gear E turn, and how many times?",
+   "svg": "<svg viewBox='0 0 407.8184621681754 200.01538392835812' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='133.0,134.0 133.0,138.0 127.6,142.3 127.0,146.0 130.8,151.7 129.6,155.5 123.1,158.0 121.5,161.2 123.3,167.9 120.9,171.1 114.0,171.5 111.4,174.1 111.1,180.9 107.9,183.3 101.2,181.5 98.0,183.2 95.5,189.6 91.7,190.8 85.9,187.1 82.3,187.6 78.0,193.0 74.0,193.0 69.7,187.6 66.1,187.1 60.3,190.8 56.5,189.6 54.0,183.2 50.8,181.5 44.1,183.3 40.9,180.9 40.6,174.1 38.0,171.5 31.1,171.1 28.7,167.9 30.5,161.2 28.9,158.0 22.4,155.5 21.2,151.7 25.0,146.0 24.4,142.3 19.0,138.0 19.0,134.0 24.4,129.7 25.0,126.1 21.2,120.3 22.4,116.5 28.9,114.1 30.5,110.8 28.7,104.2 31.1,100.9 38.0,100.6 40.6,98.0 40.9,91.1 44.1,88.7 50.8,90.5 54.0,88.9 56.5,82.5 60.3,81.2 66.1,85.0 69.7,84.4 74.0,79.1 78.0,79.1 82.3,84.4 85.9,85.0 91.7,81.2 95.5,82.5 98.0,88.9 101.2,90.5 107.9,88.7 111.1,91.1 111.4,98.0 114.0,100.6 120.9,100.9 123.3,104.2 121.5,110.8 123.1,114.1 129.6,116.5 130.8,120.3 127.0,126.1 127.6,129.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='76.0' cy='136.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='76.0' y='130.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='76.0' y='152.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >20 teeth</text><polygon points='249.8,84.4 249.8,88.4 244.5,92.7 244.0,96.4 248.0,101.9 247.0,105.8 240.7,108.6 239.3,112.0 241.7,118.4 239.8,121.8 233.0,122.9 230.8,125.8 231.4,132.6 228.6,135.4 221.8,134.8 218.9,137.0 217.8,143.8 214.4,145.7 208.0,143.3 204.6,144.7 201.8,151.0 197.9,152.0 192.4,148.0 188.7,148.5 184.4,153.8 180.4,153.8 176.1,148.5 172.4,148.0 166.9,152.0 163.0,151.0 160.2,144.7 156.8,143.3 150.4,145.7 147.0,143.8 145.9,137.0 143.0,134.8 136.2,135.4 133.4,132.6 134.0,125.8 131.8,122.9 125.0,121.8 123.1,118.4 125.5,112.0 124.1,108.6 117.8,105.8 116.8,101.9 120.8,96.4 120.3,92.7 115.0,88.4 115.0,84.4 120.3,80.1 120.8,76.4 116.8,70.9 117.8,67.0 124.1,64.2 125.5,60.8 123.1,54.4 125.0,51.0 131.8,49.9 134.0,47.0 133.4,40.2 136.2,37.4 143.0,38.0 145.9,35.8 147.0,29.0 150.4,27.1 156.8,29.5 160.2,28.1 163.0,21.8 166.9,20.8 172.4,24.8 176.1,24.3 180.4,19.0 184.4,19.0 188.7,24.3 192.4,24.8 197.9,20.8 201.8,21.8 204.6,28.1 208.0,29.5 214.4,27.1 217.8,29.0 218.9,35.8 221.8,38.0 228.6,37.4 231.4,40.2 230.8,47.0 233.0,49.9 239.8,51.0 241.7,54.4 239.3,60.8 240.7,64.2 247.0,67.0 248.0,70.9 244.0,76.4 244.5,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='182.4' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='182.4' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='182.4' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><polygon points='299.2,115.5 299.2,119.9 293.5,123.9 292.4,127.4 294.6,134.1 292.0,137.6 285.0,137.6 282.0,139.7 279.9,146.4 275.8,147.7 270.1,143.6 266.5,143.6 260.8,147.7 256.7,146.4 254.5,139.7 251.6,137.6 244.6,137.6 242.0,134.1 244.2,127.4 243.1,123.9 237.4,119.9 237.4,115.5 243.1,111.4 244.2,107.9 242.0,101.3 244.6,97.7 251.6,97.8 254.5,95.6 256.7,88.9 260.8,87.6 266.5,91.7 270.1,91.7 275.8,87.6 279.9,88.9 282.0,95.6 285.0,97.8 292.0,97.7 294.6,101.3 292.4,107.9 293.5,111.4' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='268.3' cy='117.7' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.3' y='111.7' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='268.3' y='133.6' font-size='10.92' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >10 teeth</text><polygon points='349.1,92.2 349.1,96.6 343.4,100.7 342.2,104.2 344.4,110.8 341.9,114.4 334.9,114.3 331.9,116.5 329.8,123.1 325.6,124.5 320.0,120.4 316.3,120.4 310.7,124.5 306.5,123.1 304.4,116.5 301.4,114.3 294.4,114.4 291.8,110.8 294.0,104.2 292.9,100.7 287.2,96.6 287.2,92.2 292.9,88.1 294.0,84.7 291.8,78.0 294.4,74.5 301.4,74.5 304.4,72.4 306.5,65.7 310.7,64.3 316.3,68.5 320.0,68.5 325.6,64.3 329.8,65.7 331.9,72.4 334.9,74.5 341.9,74.5 344.4,78.0 342.2,84.7 343.4,88.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='318.1' cy='94.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='318.1' y='88.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='318.1' y='110.3' font-size='10.92' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >10 teeth</text><polygon points='400.7,111.0 400.7,115.4 395.1,119.5 393.9,123.0 396.1,129.6 393.5,133.2 386.5,133.1 383.6,135.3 381.5,142.0 377.3,143.3 371.7,139.2 368.0,139.2 362.3,143.3 358.2,142.0 356.1,135.3 353.1,133.1 346.1,133.2 343.5,129.6 345.7,123.0 344.6,119.5 338.9,115.4 338.9,111.0 344.6,107.0 345.7,103.5 343.5,96.8 346.1,93.3 353.1,93.3 356.1,91.2 358.2,84.5 362.3,83.1 368.0,87.3 371.7,87.3 377.3,83.1 381.5,84.5 383.6,91.2 386.5,93.3 393.5,93.3 396.1,96.8 393.9,103.5 395.1,107.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='369.8' cy='113.2' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='369.8' y='107.2' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='369.8' y='129.1' font-size='10.92' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >10 teeth</text><path d='M14.0,113.4 A66.0,66.0 0 0 1 53.4,74.0' stroke-width='2.5'/><polygon points='53.4,74.0 47.2,80.4 44.5,73.1' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "anticlockwise, 2 turns",
+    "B": "clockwise, 1 turn",
+    "C": "clockwise, 2 turns",
+    "D": "anticlockwise, 1/2 turn"
+   },
+   "answer": "C",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise, E clockwise. The teeth pass one at a time, so one turn of A (20 teeth) moves 20 teeth of every gear. Gear E has 10 teeth, so it turns 20 ÷ 10 = 2 times. (The gears in between don't change this.)",
+   "distractors": {
+    "A": "each gear turns the opposite way to the one it touches: count the steps",
+    "B": "a smaller gear turns more times",
+    "D": "turns the wrong way and divided the wrong way round"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square D1, facing north. It follows these instructions:\nforward 2, turn right, forward 1, turn left, forward 1.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 290 296' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='260.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='260.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='260.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='260.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='260.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='260.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='240.0' stroke-width='1.2' /><text x='62.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='106.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='150.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='194.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='238.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='194.0' cy='218.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='194.0' y1='227.0' x2='194.0' y2='210.0' stroke-width='3' /><polygon points='194.0,206.0 198.3,215.0 189.7,215.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='150.0' y='284.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "C4",
+    "B": "E2",
+    "C": "E4",
+    "D": "E5"
+   },
+   "answer": "C",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on E4.",
+   "distractors": {
+    "A": "turned right instead of left (and left instead of right)",
+    "B": "turned the wrong way at the last turn",
+    "D": "one square too far on the last move"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 300 190' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='160.0' x2='250.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='250.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='160.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='160.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='250.0' y1='160.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><circle cx='40.0' cy='160.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='165.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='250.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "11",
+    "B": "9",
+    "C": "6",
+    "D": "10"
+   },
+   "answer": "D",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it. The number at F is 10.",
+   "distractors": {
+    "A": "counted one route twice",
+    "B": "missed a route",
+    "C": "counted the blocks instead of routes"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='139.5' y2='73.0' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='78.8' y2='154.0' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "10:25",
+    "B": "1:35",
+    "C": "10:35",
+    "D": "2:25"
+   },
+   "answer": "A",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 1:35. Flip it back: the minute hand is really at 25 minutes, and the hour hand is just past 10. The real time is 10:25. Quick check: the two times always add up to 12:00 (1:35 + 10:25 = 12:00).",
+   "distractors": {
+    "B": "that is just reading the mirror image",
+    "C": "hour right but minute hand read the wrong way round",
+    "D": "minute hand right but hour hand read the wrong way round"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction and number of turns",
+   "stem": "Gear A turns once clockwise. Which way does gear C turn, and how many times?",
+   "svg": "<svg viewBox='0 0 277.63083061232 185.22015400625486' xmlns='http://www.w3.org/2000/svg' style='max-width:388px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='153.8,108.8 153.8,112.8 148.5,117.1 148.0,120.8 152.0,126.3 151.0,130.2 144.7,133.0 143.3,136.4 145.7,142.8 143.8,146.2 137.0,147.3 134.8,150.2 135.4,157.1 132.6,159.9 125.8,159.2 122.9,161.4 121.8,168.2 118.4,170.2 112.0,167.7 108.6,169.1 105.8,175.4 101.9,176.4 96.4,172.4 92.7,172.9 88.4,178.2 84.4,178.2 80.1,172.9 76.4,172.4 70.9,176.4 67.0,175.4 64.2,169.1 60.8,167.7 54.4,170.2 51.0,168.2 49.9,161.4 47.0,159.2 40.2,159.9 37.4,157.1 38.0,150.2 35.8,147.3 29.0,146.2 27.1,142.8 29.5,136.4 28.1,133.0 21.8,130.2 20.8,126.3 24.8,120.8 24.3,117.1 19.0,112.8 19.0,108.8 24.3,104.5 24.8,100.9 20.8,95.3 21.8,91.5 28.1,88.6 29.5,85.3 27.1,78.9 29.0,75.4 35.8,74.3 38.0,71.4 37.4,64.6 40.2,61.8 47.0,62.5 49.9,60.2 51.0,53.5 54.4,51.5 60.8,53.9 64.2,52.5 67.0,46.3 70.9,45.2 76.4,49.2 80.1,48.7 84.4,43.4 88.4,43.4 92.7,48.7 96.4,49.2 101.9,45.2 105.8,46.3 108.6,52.5 112.0,53.9 118.4,51.5 121.8,53.5 122.9,60.2 125.8,62.5 132.6,61.8 135.4,64.6 134.8,71.4 137.0,74.3 143.8,75.4 145.7,78.9 143.3,85.3 144.7,88.6 151.0,91.5 152.0,95.3 148.0,100.9 148.5,104.5' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='86.4' cy='110.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='86.4' y='104.8' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='86.4' y='126.8' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><polygon points='229.9,63.5 229.9,67.7 224.5,71.9 223.8,75.5 227.2,81.5 225.6,85.3 219.0,87.2 216.9,90.2 217.7,97.1 214.8,100.0 208.0,99.1 204.9,101.2 203.1,107.8 199.3,109.4 193.3,106.0 189.7,106.7 185.4,112.2 181.3,112.2 177.1,106.7 173.5,106.0 167.5,109.4 163.7,107.8 161.8,101.2 158.8,99.1 151.9,100.0 149.0,97.1 149.8,90.2 147.8,87.2 141.2,85.3 139.6,81.5 143.0,75.5 142.3,71.9 136.8,67.7 136.8,63.5 142.3,59.3 143.0,55.7 139.6,49.7 141.2,45.9 147.8,44.0 149.8,41.0 149.0,34.1 151.9,31.2 158.8,32.1 161.8,30.0 163.7,23.4 167.5,21.8 173.5,25.2 177.1,24.5 181.3,19.0 185.4,19.0 189.7,24.5 193.3,25.2 199.3,21.8 203.1,23.4 204.9,30.0 208.0,32.1 214.8,31.2 217.7,34.1 216.9,41.0 219.0,44.0 225.6,45.9 227.2,49.7 223.8,55.7 224.5,59.3' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='183.4' cy='65.6' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='183.4' y='59.6' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='183.4' y='81.6' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >16 teeth</text><polygon points='270.5,85.7 270.5,90.2 264.7,94.2 263.3,97.6 264.6,104.5 261.4,107.8 254.5,106.4 251.1,107.8 247.1,113.7 242.6,113.7 238.6,107.8 235.2,106.4 228.3,107.8 225.0,104.5 226.4,97.6 225.0,94.2 219.1,90.2 219.1,85.7 225.0,81.7 226.4,78.3 225.0,71.4 228.3,68.2 235.2,69.5 238.6,68.1 242.6,62.3 247.1,62.3 251.1,68.1 254.5,69.5 261.4,68.2 264.6,71.4 263.3,78.3 264.7,81.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='244.8' cy='88.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='244.8' y='82.0' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='244.8' y='101.7' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M14.6,84.7 A76.4,76.4 0 0 1 60.3,39.0' stroke-width='2.5'/><polygon points='60.3,39.0 54.0,45.5 51.3,38.1' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "anticlockwise, 3 turns",
+    "B": "clockwise, 1 turn",
+    "C": "clockwise, 3 turns",
+    "D": "anticlockwise, 1/3 turn"
+   },
+   "answer": "C",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise. The teeth pass one at a time, so one turn of A (24 teeth) moves 24 teeth of every gear. Gear C has 8 teeth, so it turns 24 ÷ 8 = 3 times. (The gears in between don't change this.)",
+   "distractors": {
+    "A": "each gear turns the opposite way to the one it touches: count the steps",
+    "B": "a smaller gear turns more times",
+    "D": "turns the wrong way and divided the wrong way round"
+   }
+  },
+  {
+   "n": 23,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square A3, facing north. It follows these instructions:\nforward 3, turn right, forward 3, turn right, forward 2, turn right, forward 2.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 334 340' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='304.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='304.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='304.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='304.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='304.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='304.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='284.0' x2='304.0' y2='284.0' stroke-width='1.2' /><line x1='304.0' y1='20.0' x2='304.0' y2='284.0' stroke-width='1.2' /><text x='62.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >6</text><text x='106.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='150.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='194.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='238.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='282.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >F</text><text x='28.0' y='267.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='62.0' cy='174.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='62.0' y1='183.0' x2='62.0' y2='166.0' stroke-width='3' /><polygon points='62.0,162.0 66.3,171.0 57.7,171.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='172.0' y='328.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "F4",
+    "B": "B4",
+    "C": "C4",
+    "D": "A4"
+   },
+   "answer": "B",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on B4.",
+   "distractors": {
+    "A": "turned the wrong way at the last turn",
+    "C": "one square short on the last move",
+    "D": "one square too far on the last move"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. The street marked ✕ is closed. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 300 260' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='230.0' x2='250.0' y2='230.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='250.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='250.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='230.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='230.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='230.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='250.0' y1='230.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><rect x='63.0' y='8.0' width='24.0' height='24.0' fill='none' stroke-width='0' fill='var(--card, #fff)'/><line x1='66.0' y1='11.0' x2='84.0' y2='29.0' stroke-width='3.5' /><line x1='84.0' y1='11.0' x2='66.0' y2='29.0' stroke-width='3.5' /><circle cx='40.0' cy='230.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='235.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='250.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "20",
+    "B": "18",
+    "C": "9",
+    "D": "19"
+   },
+   "answer": "D",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it (but nothing comes through the road marked ✕). The number at F is 19. Without the roadworks it would be 20.",
+   "distractors": {
+    "A": "counted one route twice",
+    "B": "missed a route",
+    "C": "counted the blocks instead of routes"
+   }
+  },
+  {
+   "n": 25,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='135.7' y2='130.6' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='56.0' y2='131.2' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "7:20",
+    "B": "4:40",
+    "C": "7:40",
+    "D": "5:20"
+   },
+   "answer": "A",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 4:40. Flip it back: the minute hand is really at 20 minutes, and the hour hand is just past 7. The real time is 7:20. Quick check: the two times always add up to 12:00 (4:40 + 7:20 = 12:00).",
+   "distractors": {
+    "B": "that is just reading the mirror image",
+    "C": "hour right but minute hand read the wrong way round",
+    "D": "minute hand right but hour hand read the wrong way round"
+   }
+  },
+  {
+   "n": 26,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction",
+   "stem": "Gear A turns clockwise. Which way does gear E turn?",
+   "svg": "<svg viewBox='0 0 365.5299305833407 176.59615533584656' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='70.5,77.8 70.5,82.4 64.6,86.3 63.2,89.7 64.6,96.7 61.4,99.9 54.4,98.5 51.0,99.9 47.1,105.8 42.5,105.8 38.6,99.9 35.2,98.5 28.2,99.9 25.0,96.7 26.4,89.7 25.0,86.3 19.1,82.4 19.1,77.8 25.0,73.9 26.4,70.5 25.0,63.5 28.2,60.3 35.2,61.7 38.6,60.3 42.5,54.4 47.1,54.4 51.0,60.3 54.4,61.7 61.4,60.3 64.6,63.5 63.2,70.5 64.6,73.9' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='44.8' cy='80.1' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='44.8' y='74.1' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='44.8' y='93.8' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='115.1,77.8 115.1,82.4 109.2,86.3 107.8,89.7 109.2,96.7 106.0,99.9 99.0,98.5 95.6,99.9 91.7,105.8 87.1,105.8 83.2,99.9 79.8,98.5 72.8,99.9 69.6,96.7 71.0,89.7 69.6,86.3 63.7,82.4 63.7,77.8 69.6,73.9 71.0,70.5 69.6,63.5 72.8,60.3 79.8,61.7 83.2,60.3 87.1,54.4 91.7,54.4 95.6,60.3 99.0,61.7 106.0,60.3 109.2,63.5 107.8,70.5 109.2,73.9' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='89.4' cy='80.1' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='89.4' y='74.1' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='89.4' y='93.8' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='157.0,93.1 157.0,97.6 151.2,101.6 149.7,105.0 151.1,111.9 147.9,115.1 140.9,113.8 137.5,115.2 133.6,121.1 129.0,121.1 125.1,115.2 121.7,113.8 114.7,115.1 111.5,111.9 112.9,105.0 111.5,101.6 105.6,97.6 105.6,93.1 111.5,89.1 112.9,85.7 111.5,78.8 114.7,75.6 121.7,76.9 125.1,75.5 129.0,69.7 133.6,69.7 137.5,75.5 140.9,76.9 147.9,75.6 151.1,78.8 149.7,85.7 151.2,89.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='131.3' cy='95.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='131.3' y='89.4' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='131.3' y='109.1' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='237.1,120.9 237.1,125.1 231.7,129.3 231.0,132.9 234.4,138.9 232.8,142.7 226.2,144.6 224.1,147.6 225.0,154.5 222.0,157.4 215.2,156.5 212.1,158.6 210.3,165.2 206.5,166.8 200.5,163.4 196.9,164.1 192.6,169.6 188.5,169.6 184.3,164.1 180.7,163.4 174.7,166.8 170.9,165.2 169.0,158.6 166.0,156.5 159.1,157.4 156.2,154.5 157.0,147.6 155.0,144.6 148.4,142.7 146.8,138.9 150.2,132.9 149.5,129.3 144.0,125.1 144.0,120.9 149.5,116.7 150.2,113.1 146.8,107.1 148.4,103.3 155.0,101.4 157.0,98.4 156.2,91.5 159.1,88.6 166.0,89.5 169.0,87.4 170.9,80.8 174.7,79.2 180.7,82.6 184.3,81.9 188.5,76.4 192.6,76.4 196.9,81.9 200.5,82.6 206.5,79.2 210.3,80.8 212.1,87.4 215.2,89.5 222.0,88.6 225.0,91.5 224.1,98.4 226.2,101.4 232.8,103.3 234.4,107.1 231.0,113.1 231.7,116.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='190.6' cy='123.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='190.6' y='117.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='190.6' y='139.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >16 teeth</text><polygon points='358.5,84.4 358.5,88.4 353.2,92.7 352.7,96.4 356.7,101.9 355.7,105.8 349.5,108.6 348.1,112.0 350.5,118.4 348.5,121.8 341.7,122.9 339.5,125.8 340.2,132.6 337.4,135.4 330.6,134.8 327.6,137.0 326.5,143.8 323.1,145.7 316.7,143.3 313.3,144.7 310.5,151.0 306.6,152.0 301.1,148.0 297.4,148.5 293.1,153.8 289.1,153.8 284.8,148.5 281.2,148.0 275.6,152.0 271.8,151.0 269.0,144.7 265.6,143.3 259.2,145.7 255.7,143.8 254.6,137.0 251.7,134.8 244.9,135.4 242.1,132.6 242.8,125.8 240.5,122.9 233.8,121.8 231.8,118.4 234.2,112.0 232.8,108.6 226.6,105.8 225.5,101.9 229.5,96.4 229.1,92.7 223.8,88.4 223.8,84.4 229.1,80.1 229.5,76.4 225.5,70.9 226.6,67.0 232.8,64.2 234.2,60.8 231.8,54.4 233.8,51.0 240.5,49.9 242.8,47.0 242.1,40.2 244.9,37.4 251.7,38.0 254.6,35.8 255.7,29.0 259.2,27.1 265.6,29.5 269.0,28.1 271.8,21.8 275.6,20.8 281.2,24.8 284.8,24.3 289.1,19.0 293.1,19.0 297.4,24.3 301.1,24.8 306.6,20.8 310.5,21.8 313.3,28.1 316.7,29.5 323.1,27.1 326.5,29.0 327.6,35.8 330.6,38.0 337.4,37.4 340.2,40.2 339.5,47.0 341.7,49.9 348.5,51.0 350.5,54.4 348.1,60.8 349.5,64.2 355.7,67.0 356.7,70.9 352.7,76.4 353.2,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='291.1' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='291.1' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='291.1' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><path d='M12.1,68.2 A34.8,34.8 0 0 1 32.9,47.4' stroke-width='2.5'/><polygon points='32.9,47.4 26.6,53.9 23.9,46.5' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "clockwise",
+    "B": "anticlockwise",
+    "C": "It depends on the sizes of the gears",
+    "D": "The gears cannot turn"
+   },
+   "answer": "A",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise, E clockwise.",
+   "distractors": {
+    "B": "count again: each pair of touching gears turn opposite ways",
+    "C": "size changes the speed, not the direction",
+    "D": "a single chain of gears turns freely"
+   }
+  },
+  {
+   "n": 27,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square B2, facing north. It follows these instructions:\nforward 2, turn left, forward 1, turn right, forward 2.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 334 340' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='304.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='304.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='304.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='304.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='304.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='304.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='284.0' stroke-width='1.2' /><line x1='40.0' y1='284.0' x2='304.0' y2='284.0' stroke-width='1.2' /><line x1='304.0' y1='20.0' x2='304.0' y2='284.0' stroke-width='1.2' /><text x='62.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >6</text><text x='106.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='150.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='194.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='238.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='282.0' y='304.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >F</text><text x='28.0' y='267.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='106.0' cy='218.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='106.0' y1='227.0' x2='106.0' y2='210.0' stroke-width='3' /><polygon points='106.0,206.0 110.3,215.0 101.7,215.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='172.0' y='328.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "C6",
+    "B": "A2",
+    "C": "A6",
+    "D": "A5"
+   },
+   "answer": "C",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on A6.",
+   "distractors": {
+    "A": "turned right instead of left (and left instead of right)",
+    "B": "turned the wrong way at the last turn",
+    "D": "one square short on the last move"
+   }
+  },
+  {
+   "n": 28,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 230 190' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='160.0' x2='180.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='180.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='160.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='160.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><circle cx='40.0' cy='160.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='165.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='180.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='198.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "7",
+    "B": "5",
+    "C": "4",
+    "D": "6"
+   },
+   "answer": "D",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it. The number at F is 6.",
+   "distractors": {
+    "A": "counted one route twice",
+    "B": "missed a route",
+    "C": "counted the blocks instead of routes"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Reading a clock in a mirror",
+   "stem": "Ella saw this clock in a mirror. The small triangle marks 12 o'clock. What time was it really?",
+   "svg": "<svg viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg' style='max-width:300px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='110.0' cy='100.0' r='80.0' fill='none' stroke-width='2.5' /><line x1='110.0' y1='29.0' x2='110.0' y2='22.0' stroke-width='2.5' /><line x1='147.5' y1='35.0' x2='149.0' y2='32.5' stroke-width='1.5' /><line x1='175.0' y1='62.5' x2='177.5' y2='61.0' stroke-width='1.5' /><line x1='181.0' y1='100.0' x2='188.0' y2='100.0' stroke-width='2.5' /><line x1='175.0' y1='137.5' x2='177.5' y2='139.0' stroke-width='1.5' /><line x1='147.5' y1='165.0' x2='149.0' y2='167.5' stroke-width='1.5' /><line x1='110.0' y1='171.0' x2='110.0' y2='178.0' stroke-width='2.5' /><line x1='72.5' y1='165.0' x2='71.0' y2='167.5' stroke-width='1.5' /><line x1='45.0' y1='137.5' x2='42.5' y2='139.0' stroke-width='1.5' /><line x1='39.0' y1='100.0' x2='32.0' y2='100.0' stroke-width='2.5' /><line x1='45.0' y1='62.5' x2='42.5' y2='61.0' stroke-width='1.5' /><line x1='72.5' y1='35.0' x2='71.0' y2='32.5' stroke-width='1.5' /><polygon points='105.0,34.0 115.0,34.0 110.0,42.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><line x1='110.0' y1='100.0' x2='131.5' y2='133.7' stroke-width='5' stroke-linecap='round'/><line x1='110.0' y1='100.0' x2='78.8' y2='46.0' stroke-width='3' stroke-linecap='round'/><circle cx='110.0' cy='100.0' r='4.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><line x1='230.0' y1='10.0' x2='230.0' y2='190.0' stroke-width='3' stroke-dasharray='6 5'/><text x='240.0' y='105.0' font-size='13' text-anchor='start' font-weight='normal' fill='currentColor' stroke='none' >mirror</text></svg>",
+   "options": {
+    "A": "4:55",
+    "B": "7:05",
+    "C": "7:55",
+    "D": "5:05"
+   },
+   "answer": "B",
+   "explanation": "A mirror swaps left and right, so the hands point the opposite way round the clock. In the mirror the clock looks like 4:55. Flip it back: the minute hand is really at 5 minutes, and the hour hand is just past 7. The real time is 7:05. Quick check: the two times always add up to 12:00 (4:55 + 7:05 = 12:00).",
+   "distractors": {
+    "A": "that is just reading the mirror image",
+    "C": "hour right but minute hand read the wrong way round",
+    "D": "minute hand right but hour hand read the wrong way round"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Gears: direction and number of turns",
+   "stem": "Gear A turns once clockwise. Which way does gear D turn, and how many times?",
+   "svg": "<svg viewBox='0 0 422.7199136802657 190.55316482643352' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='133.0,84.4 133.0,88.4 127.6,92.7 127.0,96.3 130.8,102.1 129.6,105.9 123.1,108.4 121.5,111.6 123.3,118.3 120.9,121.5 114.0,121.8 111.4,124.4 111.1,131.3 107.9,133.7 101.2,131.9 98.0,133.5 95.5,140.0 91.7,141.2 85.9,137.4 82.3,138.0 78.0,143.4 74.0,143.4 69.7,138.0 66.1,137.4 60.3,141.2 56.5,140.0 54.0,133.5 50.8,131.9 44.1,133.7 40.9,131.3 40.6,124.4 38.0,121.8 31.1,121.5 28.7,118.3 30.5,111.6 28.9,108.4 22.4,105.9 21.2,102.1 25.0,96.3 24.4,92.7 19.0,88.4 19.0,84.4 24.4,80.1 25.0,76.5 21.2,70.7 22.4,66.9 28.9,64.4 30.5,61.2 28.7,54.5 31.1,51.3 38.0,51.0 40.6,48.4 40.9,41.5 44.1,39.1 50.8,40.9 54.0,39.3 56.5,32.8 60.3,31.6 66.1,35.4 69.7,34.8 74.0,29.4 78.0,29.4 82.3,34.8 85.9,35.4 91.7,31.6 95.5,32.8 98.0,39.3 101.2,40.9 107.9,39.1 111.1,41.5 111.4,48.4 114.0,51.0 120.9,51.3 123.3,54.5 121.5,61.2 123.1,64.4 129.6,66.9 130.8,70.7 127.0,76.5 127.6,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='76.0' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='76.0' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='76.0' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >20 teeth</text><polygon points='260.8,84.4 260.8,88.4 255.5,92.7 255.0,96.4 259.0,101.9 258.0,105.8 251.7,108.6 250.3,112.0 252.7,118.4 250.8,121.8 244.0,122.9 241.8,125.8 242.4,132.6 239.6,135.4 232.8,134.8 229.9,137.0 228.8,143.8 225.4,145.7 219.0,143.3 215.6,144.7 212.8,151.0 208.9,152.0 203.4,148.0 199.7,148.5 195.4,153.8 191.4,153.8 187.1,148.5 183.4,148.0 177.9,152.0 174.0,151.0 171.2,144.7 167.8,143.3 161.4,145.7 158.0,143.8 156.9,137.0 154.0,134.8 147.2,135.4 144.4,132.6 145.0,125.8 142.8,122.9 136.0,121.8 134.1,118.4 136.5,112.0 135.1,108.6 128.8,105.8 127.8,101.9 131.8,96.4 131.3,92.7 126.0,88.4 126.0,84.4 131.3,80.1 131.8,76.4 127.8,70.9 128.8,67.0 135.1,64.2 136.5,60.8 134.1,54.4 136.0,51.0 142.8,49.9 145.0,47.0 144.4,40.2 147.2,37.4 154.0,38.0 156.9,35.8 158.0,29.0 161.4,27.1 167.8,29.5 171.2,28.1 174.0,21.8 177.9,20.8 183.4,24.8 187.1,24.3 191.4,19.0 195.4,19.0 199.7,24.3 203.4,24.8 208.9,20.8 212.8,21.8 215.6,28.1 219.0,29.5 225.4,27.1 228.8,29.0 229.9,35.8 232.8,38.0 239.6,37.4 242.4,40.2 241.8,47.0 244.0,49.9 250.8,51.0 252.7,54.4 250.3,60.8 251.7,64.2 258.0,67.0 259.0,70.9 255.0,76.4 255.5,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='193.4' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='193.4' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='193.4' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><polygon points='360.7,124.5 360.7,128.6 355.3,132.9 354.8,136.5 358.5,142.2 357.3,146.1 350.9,148.5 349.2,151.8 351.0,158.4 348.6,161.7 341.8,162.0 339.2,164.6 338.8,171.5 335.6,173.8 328.9,172.0 325.7,173.7 323.2,180.1 319.4,181.4 313.7,177.6 310.0,178.2 305.7,183.5 301.7,183.5 297.4,178.2 293.8,177.6 288.0,181.4 284.2,180.1 281.8,173.7 278.5,172.0 271.9,173.8 268.6,171.5 268.3,164.6 265.7,162.0 258.8,161.7 256.5,158.4 258.3,151.8 256.6,148.5 250.2,146.1 248.9,142.2 252.7,136.5 252.1,132.9 246.8,128.6 246.8,124.5 252.1,120.2 252.7,116.6 248.9,110.9 250.2,107.0 256.6,104.6 258.3,101.3 256.5,94.7 258.8,91.4 265.7,91.1 268.3,88.5 268.6,81.7 271.9,79.3 278.5,81.1 281.8,79.4 284.2,73.0 288.0,71.8 293.8,75.5 297.4,74.9 301.7,69.6 305.7,69.6 310.0,74.9 313.7,75.5 319.4,71.8 323.2,73.0 325.7,79.4 328.9,81.1 335.6,79.3 338.8,81.7 339.2,88.5 341.8,91.1 348.6,91.4 351.0,94.7 349.2,101.3 350.9,104.6 357.3,107.0 358.5,110.9 354.8,116.6 355.3,120.2' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='303.7' cy='126.6' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='303.7' y='120.6' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='303.7' y='142.6' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >20 teeth</text><polygon points='415.6,124.4 415.6,128.7 410.0,132.8 408.8,136.3 411.0,143.0 408.4,146.5 401.4,146.5 398.5,148.6 396.4,155.3 392.2,156.6 386.6,152.5 382.9,152.5 377.2,156.6 373.1,155.3 371.0,148.6 368.0,146.5 361.0,146.5 358.4,143.0 360.6,136.3 359.5,132.8 353.8,128.7 353.8,124.4 359.5,120.3 360.6,116.8 358.4,110.1 361.0,106.6 368.0,106.7 371.0,104.5 373.1,97.8 377.2,96.5 382.9,100.6 386.6,100.6 392.2,96.5 396.4,97.8 398.5,104.5 401.4,106.7 408.4,106.6 411.0,110.1 408.8,116.8 410.0,120.3' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='384.7' cy='126.6' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='384.7' y='120.6' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='384.7' y='142.5' font-size='10.92' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >10 teeth</text><path d='M14.0,63.8 A66.0,66.0 0 0 1 53.4,24.4' stroke-width='2.5'/><polygon points='53.4,24.4 47.2,30.8 44.5,23.5' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "clockwise, 2 turns",
+    "B": "anticlockwise, 1 turn",
+    "C": "anticlockwise, 2 turns",
+    "D": "clockwise, 1/2 turn"
+   },
+   "answer": "C",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise. The teeth pass one at a time, so one turn of A (20 teeth) moves 20 teeth of every gear. Gear D has 10 teeth, so it turns 20 ÷ 10 = 2 times. (The gears in between don't change this.)",
+   "distractors": {
+    "A": "each gear turns the opposite way to the one it touches: count the steps",
+    "B": "a smaller gear turns more times",
+    "D": "turns the wrong way and divided the wrong way round"
+   }
+  },
+  {
+   "n": 31,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Following directions on a grid",
+   "stem": "The robot starts on square C3, facing north. It follows these instructions:\nforward 1, turn left, forward 2, turn left, forward 2, turn left, forward 3.\nOn which square does it stop?",
+   "svg": "<svg viewBox='0 0 290 296' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='20.0' x2='260.0' y2='20.0' stroke-width='1.2' /><line x1='40.0' y1='20.0' x2='40.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='64.0' x2='260.0' y2='64.0' stroke-width='1.2' /><line x1='84.0' y1='20.0' x2='84.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='108.0' x2='260.0' y2='108.0' stroke-width='1.2' /><line x1='128.0' y1='20.0' x2='128.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='152.0' x2='260.0' y2='152.0' stroke-width='1.2' /><line x1='172.0' y1='20.0' x2='172.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='196.0' x2='260.0' y2='196.0' stroke-width='1.2' /><line x1='216.0' y1='20.0' x2='216.0' y2='240.0' stroke-width='1.2' /><line x1='40.0' y1='240.0' x2='260.0' y2='240.0' stroke-width='1.2' /><line x1='260.0' y1='20.0' x2='260.0' y2='240.0' stroke-width='1.2' /><text x='62.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='28.0' y='47.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='106.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='28.0' y='91.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='150.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='28.0' y='135.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><text x='194.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='28.0' y='179.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><text x='238.0' y='260.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >E</text><text x='28.0' y='223.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='150.0' cy='130.0' r='15.0' fill='currentColor' fill-opacity='0.15' stroke-width='2' /><line x1='150.0' y1='139.0' x2='150.0' y2='122.0' stroke-width='3' /><polygon points='150.0,118.0 154.3,127.0 145.7,127.0' fill='currentColor' fill-opacity='1' stroke-width='1' /><text x='150.0' y='284.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >↑ = the robot, facing up the page (north)</text></svg>",
+   "options": {
+    "A": "B2",
+    "B": "C2",
+    "C": "E2",
+    "D": "D2"
+   },
+   "answer": "D",
+   "explanation": "Track it one step at a time. Turns are made from the robot's own point of view. It finishes on D2.",
+   "distractors": {
+    "A": "turned right instead of left (and left instead of right)",
+    "B": "one square short on the last move",
+    "C": "one square too far on the last move"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "SPA",
+   "difficulty": 3,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. The street marked ✕ is closed. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 230 260' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='230.0' x2='180.0' y2='230.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='180.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='180.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='230.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='230.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='230.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><rect x='63.0' y='148.0' width='24.0' height='24.0' fill='none' stroke-width='0' fill='var(--card, #fff)'/><line x1='66.0' y1='151.0' x2='84.0' y2='169.0' stroke-width='3.5' /><line x1='84.0' y1='151.0' x2='66.0' y2='169.0' stroke-width='3.5' /><circle cx='40.0' cy='230.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='235.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='180.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='198.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "10",
+    "B": "7",
+    "C": "8",
+    "D": "6"
+   },
+   "answer": "B",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it (but nothing comes through the road marked ✕). The number at F is 7. Without the roadworks it would be 10.",
+   "distractors": {
+    "A": "ignored the roadworks",
+    "C": "counted one route twice",
+    "D": "counted the blocks instead of routes"
+   }
+  }
+ ]
+}
