@@ -4,63 +4,201 @@
  "section": "Writing",
  "kind": "writing",
  "timeLimitMinutes": 30,
- "markingGuide": "MARKING GUIDE – NSW Selective High School Placement Test, Writing (practice)\n\nYou are an experienced marker for the NSW Selective High School Placement Test writing task. You are giving feedback on a practice response written by an 11-year-old in Year 6, typed in 30 minutes. Her parent will read your feedback first.\n\nOfficial criteria (each examiner marks out of 25; two examiners' marks are added):\n• Set A – up to 15 marks – content, form, organisation and style. Awareness of purpose and audience shown by: selecting interesting content and relevant details; using an appropriate form; organising ideas coherently, using paragraphs and a range of cohesive devices; using a deliberately chosen style, range of vocabulary and level of formality.\n• Set B – up to 10 marks – using a range of sentence lengths, types and structures and correct punctuation; spelling correctly.\n• A response that does not address the given topic and form is marked lower, however fluent or creative it is.\n• Markers reward a title that sums up the piece, original and interesting ideas, precise vocabulary and imagery, and a complete structure that reaches a conclusion. Quality matters more than length.\n\nPlease reply in this order, in plain language, under 450 words:\n1. TASK CHECK – Does it answer the topic, use the required form (e.g. newspaper report, diary entry) and suit the audience? Yes / Partly / No, with one sentence.\n2. ESTIMATED MARK – Set A __/15 and Set B __/10 (total __/25), one sentence of reasoning for each. Be honest and calibrated; do not inflate. Say it is an estimate from one marker.\n3. TWO STRENGTHS – quote her own words.\n4. THREE IMPROVEMENTS, most important first – each with a short quote from her text and a better version she could have written.\n5. ONE PARAGRAPH REWRITTEN – her weakest paragraph, improved but still in her voice and at a strong Year 6 level (not adult writing).\n6. SPELLING AND PUNCTUATION – up to 8 errors as wrong → right. Write 'None found' if there are none.\n7. NEXT PRACTICE – one 10-minute exercise targeting her biggest weakness.\nAddress points 3–7 to the student warmly and directly. End with a two-line note for the parent: the one thing to focus on before the next practice.",
+ "markingGuide": "MARKING GUIDE – NSW Selective High School Placement Test, Writing (practice)\n\nYou are an experienced marker for the NSW Selective High School Placement Test writing task. You are giving feedback on a practice response written by an 11-year-old in Year 6, typed in 30 minutes. Her parent will read your feedback first.\n\nOfficial criteria (each examiner marks out of 25; two examiners' marks are added):\n• Set A – up to 15 marks – content, form, organisation and style. Awareness of purpose and audience shown by: selecting interesting content and relevant details; using an appropriate form; organising ideas coherently, using paragraphs and a range of cohesive devices; using a deliberately chosen style, range of vocabulary and level of formality.\n• Set B – up to 10 marks – using a range of sentence lengths, types and structures and correct punctuation; spelling correctly.\n• A response that does not address the given topic and form is marked lower, however fluent or creative it is.\n• Markers reward a title that sums up the piece, original and interesting ideas, precise vocabulary and imagery, and a complete structure that reaches a conclusion. Quality matters more than length.\n\nPlease reply in this order, in plain language, under 450 words:\n1. TASK CHECK – Does it answer the topic, use the required form (e.g. newspaper report, diary entry) and suit the audience? If the task allows any style, did she choose a form that suits her idea, and does the picture or statement genuinely drive the piece rather than being mentioned in passing? Yes / Partly / No, with one sentence.\n2. ESTIMATED MARK – Set A __/15 and Set B __/10 (total __/25), one sentence of reasoning for each. Be honest and calibrated; do not inflate. Say it is an estimate from one marker.\n3. TWO STRENGTHS – quote her own words.\n4. THREE IMPROVEMENTS, most important first – each with a short quote from her text and a better version she could have written.\n5. ONE PARAGRAPH REWRITTEN – her weakest paragraph, improved but still in her voice and at a strong Year 6 level (not adult writing).\n6. SPELLING AND PUNCTUATION – up to 8 errors as wrong → right. Write 'None found' if there are none.\n7. NEXT PRACTICE – one 10-minute exercise targeting her biggest weakness.\nAddress points 3–7 to the student warmly and directly. End with a two-line note for the parent: the one thing to focus on before the next practice.",
  "prompts": [
   {
-   "id": "w1", "label": "Story", "form": "Story (narrative)", "purpose": "Narrate and entertain",
+   "id": "w1",
+   "label": "Story",
+   "form": "Story (narrative)",
+   "purpose": "Narrate and entertain",
    "title": "The last bus",
    "context": "",
    "task": "Write a story that begins with the sentence below.",
    "start": "The last bus of the night pulled away, and that was when I realised my bag was still on it.",
-   "could": ["who you are and what is in the bag", "what you do to get it back, and who helps or gets in the way", "how you feel at different moments", "how the story ends – does anything change for you?"]
+   "could": [
+    "who you are and what is in the bag",
+    "what you do to get it back, and who helps or gets in the way",
+    "how you feel at different moments",
+    "how the story ends – does anything change for you?"
+   ]
   },
   {
-   "id": "w2", "label": "Letter", "form": "Persuasive letter", "purpose": "Persuade",
+   "id": "w2",
+   "label": "Letter",
+   "form": "Persuasive letter",
+   "purpose": "Persuade",
    "title": "Save Fig Tree Park",
    "context": "Your local council plans to turn Fig Tree Park into a car park for the new shopping centre. The park has a playground, a big old fig tree and an open grassy area where people meet on weekends.",
    "task": "Write a letter to the mayor to persuade the council to change its plan.",
    "start": "",
-   "could": ["give your strongest reasons, with examples of how people use the park", "show you understand why the council wants more parking", "suggest a better solution", "finish politely but firmly, telling the mayor what you want them to do"]
+   "could": [
+    "give your strongest reasons, with examples of how people use the park",
+    "show you understand why the council wants more parking",
+    "suggest a better solution",
+    "finish politely but firmly, telling the mayor what you want them to do"
+   ]
   },
   {
-   "id": "w3", "label": "News", "form": "Newspaper report", "purpose": "Inform and describe",
+   "id": "w3",
+   "label": "News",
+   "form": "Newspaper report",
+   "purpose": "Inform and describe",
    "title": "Foam flood on Main Street",
    "context": "Early on Saturday morning, someone poured a large bottle of bubble bath into the fountain in your town square. By 9 am, a wall of foam had spread down Main Street, covering footpaths, cars and the front of several shops.",
    "task": "Write a newspaper report about this event for your local paper.",
    "start": "",
-   "could": ["explain what happened, when and where", "describe the effect on shops, drivers and people in town", "include comments from people who were there", "say what happens next – the clean-up, and whether anyone is in trouble"]
+   "could": [
+    "explain what happened, when and where",
+    "describe the effect on shops, drivers and people in town",
+    "include comments from people who were there",
+    "say what happens next – the clean-up, and whether anyone is in trouble"
+   ]
   },
   {
-   "id": "w4", "label": "Guide", "form": "Guide (advice sheet)", "purpose": "Explain and advise",
+   "id": "w4",
+   "label": "Guide",
+   "form": "Guide (advice sheet)",
+   "purpose": "Explain and advise",
    "title": "A visitor's guide to the beach",
    "context": "A visitor from another planet is coming to stay with your family for the summer. They have never been to a beach and know nothing about how people behave there.",
    "task": "Write a guide for the visitor about how to spend a safe and enjoyable day at an Australian beach.",
    "start": "",
-   "could": ["what to bring and why", "beach safety rules and what the flags and signs mean", "how to behave around other people", "the best things to do, and things to avoid"]
+   "could": [
+    "what to bring and why",
+    "beach safety rules and what the flags and signs mean",
+    "how to behave around other people",
+    "the best things to do, and things to avoid"
+   ]
   },
   {
-   "id": "w5", "label": "Diary", "form": "Diary entry", "purpose": "Recount and reflect",
+   "id": "w5",
+   "label": "Diary",
+   "form": "Diary entry",
+   "purpose": "Recount and reflect",
    "title": "Principal for a day",
    "context": "Your school ran a competition, and the prize was to be principal for one day. You won.",
    "task": "Write a diary entry about your day as principal. Use the sentence below to start your diary.",
    "start": "Dear Diary, I never thought Mrs Hayes would actually hand me her keys, but at 8:30 this morning…",
-   "could": ["the decisions you made and why", "something that went wrong, and how you handled it", "how teachers and students reacted", "what you learnt about being in charge"]
+   "could": [
+    "the decisions you made and why",
+    "something that went wrong, and how you handled it",
+    "how teachers and students reacted",
+    "what you learnt about being in charge"
+   ]
   },
   {
-   "id": "w6", "label": "Review", "form": "Review", "purpose": "Describe and recommend",
+   "id": "w6",
+   "label": "Review",
+   "form": "Review",
+   "purpose": "Describe and recommend",
    "title": "Rate it!",
    "context": "A website for kids your age is asking readers to send in reviews.",
    "task": "Write a review of a book, film or game you know well, telling other readers whether it is worth their time.",
    "start": "",
-   "could": ["what it is about, without giving away the ending", "what is best about it, and what could be better", "who would enjoy it most", "a final rating out of five stars, with your reason"]
+   "could": [
+    "what it is about, without giving away the ending",
+    "what is best about it, and what could be better",
+    "who would enjoy it most",
+    "a final rating out of five stars, with your reason"
+   ]
   },
   {
-   "id": "w7", "label": "Speech", "form": "Speech (discussion)", "purpose": "Discuss and persuade",
+   "id": "w7",
+   "label": "Speech",
+   "form": "Speech (discussion)",
+   "purpose": "Discuss and persuade",
    "title": "A later start?",
    "context": "Your school is thinking about starting the school day one hour later, at 10 am, and finishing one hour later, at 4 pm. The principal has asked students to share their views at assembly.",
    "task": "Write a speech for the school assembly that discusses both sides of the idea and then gives your own view.",
    "start": "",
-   "could": ["the benefits of a later start", "the problems it might cause for students and families", "a fair comparison of both sides", "your view, and a strong closing line for your audience"]
+   "could": [
+    "the benefits of a later start",
+    "the problems it might cause for students and families",
+    "a fair comparison of both sides",
+    "your view, and a strong closing line for your audience"
+   ]
+  },
+  {
+   "id": "w8",
+   "label": "Picture 1",
+   "form": "Any style",
+   "purpose": "Respond to a picture",
+   "title": "The storm light (choose your own title)",
+   "context": "Look carefully at the picture.",
+   "image": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"An old lighthouse on rocks at night in a storm, its beam lighting a small rowing boat on the waves\">\n<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#1c2541\"/><stop offset=\"1\" stop-color=\"#3a506b\"/></linearGradient></defs>\n<rect width=\"400\" height=\"260\" fill=\"url(#sky)\"/>\n<path d=\"M0 40 Q60 10 120 35 T240 30 T400 38 V0 H0Z\" fill=\"#0b132b\" opacity=\".8\"/>\n<polyline points=\"300,20 288,55 300,55 286,95\" fill=\"none\" stroke=\"#f6f1a8\" stroke-width=\"3\"/>\n<polygon points=\"92,92 400,40 400,150\" fill=\"#fff7c2\" opacity=\".25\"/>\n<path d=\"M0 190 Q50 175 100 190 T200 188 T300 192 T400 186 V260 H0Z\" fill=\"#1d3557\"/>\n<path d=\"M0 210 Q40 198 80 212 T170 208 T260 214 T400 205 V260 H0Z\" fill=\"#14213d\"/>\n<path d=\"M20 200 L60 150 L130 155 L170 200Z\" fill=\"#2b2d42\"/>\n<rect x=\"78\" y=\"70\" width=\"28\" height=\"90\" fill=\"#e9ecef\"/>\n<rect x=\"78\" y=\"95\" width=\"28\" height=\"12\" fill=\"#c1121f\"/><rect x=\"78\" y=\"125\" width=\"28\" height=\"12\" fill=\"#c1121f\"/>\n<rect x=\"74\" y=\"58\" width=\"36\" height=\"14\" fill=\"#343a40\"/><circle cx=\"92\" cy=\"64\" r=\"6\" fill=\"#fff3b0\"/>\n<polygon points=\"72,58 92,42 112,58\" fill=\"#343a40\"/>\n<rect x=\"88\" y=\"145\" width=\"9\" height=\"15\" fill=\"#6c4f3d\"/>\n<path d=\"M300 170 Q315 182 345 172 L340 180 Q318 188 305 180Z\" fill=\"#8d5524\"/>\n<line x1=\"318\" y1=\"176\" x2=\"336\" y2=\"158\" stroke=\"#5c3d2e\" stroke-width=\"2\"/>\n<circle cx=\"322\" cy=\"166\" r=\"4\" fill=\"#ffd166\"/>\n</svg>",
+   "imageDesc": "An old red-and-white lighthouse on rocks at night during a storm. Lightning in the sky. The lighthouse beam shines across rough waves onto a small wooden rowing boat with one person holding a lantern.",
+   "task": "Use the picture as the starting point for a piece of writing. You can write in any style: a story, a diary entry, a poem, a news report, a description or something else. Give your writing a title.",
+   "start": "",
+   "could": [
+    "decide first what form fits your idea best",
+    "think about who is in the boat, and who is in the lighthouse",
+    "use the light, the dark and the storm to build feeling",
+    "make sure the picture really matters in your writing"
+   ]
+  },
+  {
+   "id": "w9",
+   "label": "Statement",
+   "form": "Any style",
+   "purpose": "Respond to a statement",
+   "title": "Small things (choose your own title)",
+   "context": "Read the statement below.",
+   "task": "Write a response to this statement. You can write in any style: a story, a persuasive piece, a discussion, a diary entry or something else. Give your writing a title.",
+   "start": "Small things can change everything.",
+   "could": [
+    "choose one clear idea of what ‘small things’ means to you",
+    "show it through a story, or argue it with examples",
+    "make the statement the heart of the piece, not just a mention at the end"
+   ]
+  },
+  {
+   "id": "w10",
+   "label": "Argue",
+   "form": "Persuasive essay",
+   "purpose": "Take a side and persuade",
+   "title": "Pocket money for chores?",
+   "context": "Some people believe children should be paid for helping at home. Others believe helping is part of being in a family and should never be paid.",
+   "task": "Do you agree or disagree that children should be paid for doing chores? Choose a side and write a persuasive essay to convince the reader.",
+   "start": "",
+   "could": [
+    "state your position clearly in the introduction",
+    "give two or three strong reasons, each in its own paragraph, with examples",
+    "answer the best argument on the other side",
+    "finish with a memorable conclusion"
+   ]
+  },
+  {
+   "id": "w11",
+   "label": "Email",
+   "form": "Email",
+   "purpose": "Respond to a situation",
+   "title": "The broken telescope",
+   "context": "Your class borrowed a telescope from the local astronomy club for a night-sky project. During the project it was dropped and one lens cracked. The club president, Ms Ortega, has not been told yet.",
+   "task": "Write an email to Ms Ortega explaining what happened, apologising, and suggesting how the class could make it right.",
+   "start": "",
+   "could": [
+    "use a clear subject line and a polite greeting and sign-off",
+    "explain what happened honestly, in order",
+    "suggest one or two realistic ways to fix the problem",
+    "choose a tone that is sincere and respectful"
+   ]
+  },
+  {
+   "id": "w12",
+   "label": "Picture 2",
+   "form": "Any style",
+   "purpose": "Respond to a picture",
+   "title": "The door in the tree (choose your own title)",
+   "context": "Look carefully at the picture.",
+   "image": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"A huge old tree in a park on a sunny afternoon, with a tiny wooden door at the bottom of its trunk, slightly open, and light shining out\">\n<rect width=\"400\" height=\"260\" fill=\"#bde0fe\"/>\n<circle cx=\"340\" cy=\"45\" r=\"24\" fill=\"#ffd166\"/>\n<rect y=\"200\" width=\"400\" height=\"60\" fill=\"#80b918\"/>\n<ellipse cx=\"200\" cy=\"85\" rx=\"150\" ry=\"75\" fill=\"#2d6a4f\"/>\n<ellipse cx=\"130\" cy=\"95\" rx=\"70\" ry=\"50\" fill=\"#40916c\"/><ellipse cx=\"270\" cy=\"90\" rx=\"75\" ry=\"52\" fill=\"#40916c\"/>\n<path d=\"M165 120 Q170 170 150 212 L250 212 Q230 170 235 120Z\" fill=\"#7f5539\"/>\n<path d=\"M150 212 Q130 216 115 222 M250 212 Q272 216 290 222\" stroke=\"#7f5539\" stroke-width=\"8\" fill=\"none\"/>\n<path d=\"M188 212 V184 Q200 172 212 184 V212Z\" fill=\"#432818\"/>\n<path d=\"M196 212 V185 Q203 179 210 185 V212Z\" fill=\"#ffe066\"/>\n<path d=\"M188 212 V184 Q192 180 196 185 L190 212Z\" fill=\"#9c6644\"/>\n<polygon points=\"196,212 210,212 240,240 175,240\" fill=\"#ffe066\" opacity=\".5\"/>\n<circle cx=\"193\" cy=\"198\" r=\"1.6\" fill=\"#ffd166\"/>\n<path d=\"M70 230 l6 -10 l6 10Z M320 235 l5 -9 l5 9Z\" fill=\"#55a630\"/>\n</svg>",
+   "imageDesc": "A huge old tree in a park on a sunny afternoon. At the bottom of the trunk is a tiny wooden door, about the height of a hand, standing slightly open, with warm golden light shining out onto the grass.",
+   "task": "Use the picture as the starting point for a piece of writing. You can write in any style. Give your writing a title.",
+   "start": "",
+   "could": [
+    "avoid the most obvious idea: what would make yours different?",
+    "use small details from the picture",
+    "show feelings through actions and senses, not just by naming them"
+   ]
   }
  ]
 }

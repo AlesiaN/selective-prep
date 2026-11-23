@@ -1,0 +1,901 @@
+{
+ "id": "oc-rd-03",
+ "title": "OC Reading – Practice Test 3",
+ "section": "Reading",
+ "timeLimitMinutes": 40,
+ "groupLabel": "By part",
+ "topics": {
+  "FIC": "Part 1 – Fiction",
+  "CLZ": "Part 2 – Vocabulary cloze",
+  "POE": "Part 3 – Poetry",
+  "GAP": "Part 4 – Gapped text",
+  "MAT": "Part 5 – Multiple matching"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 1,
+   "kind": "prose",
+   "title": "The Attic",
+   "intro": "Read the story below, then answer questions 1–6. Paragraphs are numbered.",
+   "credit": "Original story written for this practice test.",
+   "paragraphs": [
+    "Great-Aunt Harriet's house smelled of beeswax and old books, and it was full of things Nell was not allowed to touch. There were glass-fronted cabinets of shells, a clock that chimed thirteen times at midnight, and a stuffed owl that regarded visitors with a disapproving, slightly cross-eyed stare.",
+    "'You may explore,' Great-Aunt Harriet announced on the first morning, 'provided you do not disturb anything.' Nell privately thought that exploring without disturbing anything was like swimming without getting wet.",
+    "For two days she was impeccably well-behaved. On the third day it rained, the kind of steady, grey rain that makes a house feel smaller, and her good intentions began to wear thin.",
+    "The attic stairs were narrow and complained loudly at every step. At the top, under a dusty sheet, Nell found a wooden box with a brass clasp. Inside, wrapped in tissue paper, lay a telescope – and a notebook filled with tiny, careful handwriting and drawings of stars.",
+    "'Ah,' said a voice behind her. Nell spun around, her face burning. Great-Aunt Harriet stood at the top of the stairs, and for a long, dreadful moment neither of them spoke.",
+    "Then the old woman crossed the room, lifted the telescope as gently as if it were a sleeping bird, and smiled for the first time since Nell had arrived. 'I was eleven when I made those drawings,' she said. 'I had quite forgotten. Tonight, if the clouds clear, I shall show you Saturn.'"
+   ],
+   "numbered": true
+  },
+  {
+   "id": "p2",
+   "part": 2,
+   "kind": "cloze",
+   "title": "Cat's Eyes",
+   "intro": "Read the text below. Choose the best word to fill each of the 8 gaps (questions 7–14).",
+   "credit": "Original text written for this practice test.",
+   "text": "Before electric lights, travelling at night was difficult and often dangerous. Roads were dark, and it was {1} to see holes, rocks or other travellers until it was too late.\n\nIn the 1930s an English inventor named Percy Shaw had an idea that would {2} improve road safety. Driving home one foggy night, he noticed his headlights {3} in the eyes of a cat by the side of the road. This gave him the idea for 'cat's eyes': small glass {4} set into the middle of the road that reflect light back towards drivers.\n\nShaw's invention was simple but {5}. Each cat's eye is fixed in a rubber case, so when a car drives over it, it is pushed down and wiped clean. During the Second World War, when street lights had to be switched off, cat's eyes {6} drivers to find their way safely. Today they are used on roads all over the world, and Shaw's idea is still {7} as one of the most {8} inventions of the twentieth century."
+  },
+  {
+   "id": "p3",
+   "part": 3,
+   "kind": "poem",
+   "title": "From a Railway Carriage",
+   "intro": "Read the poem below, then answer questions 15–19. Lines are numbered. (brambles: prickly bushes with berries; tramp: a person with no home who travels on foot; lumping: moving heavily and clumsily.)",
+   "credit": "Robert Louis Stevenson, A Child's Garden of Verses, 1885. Public domain.",
+   "stanzas": [
+    [
+     "Faster than fairies, faster than witches,",
+     "Bridges and houses, hedges and ditches;",
+     "And charging along like troops in a battle,",
+     "All through the meadows the horses and cattle:",
+     "All of the sights of the hill and the plain",
+     "Fly as thick as driving rain;",
+     "And ever again, in the wink of an eye,",
+     "Painted stations whistle by."
+    ],
+    [
+     "Here is a child who clambers and scrambles,",
+     "All by himself and gathering brambles;",
+     "Here is a tramp who stands and gazes;",
+     "And there is the green for stringing the daisies!",
+     "Here is a cart run away in the road",
+     "Lumping along with man and load;",
+     "And here is a mill and there is a river:",
+     "Each a glimpse and gone for ever!"
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "part": 4,
+   "kind": "gapped",
+   "title": "An Idea That Stuck",
+   "intro": "Six sentences have been removed from the article. Choose the sentence (A–G) that best fits each gap (questions 20–25). There is one extra sentence you do not need.",
+   "credit": "Original article written for this practice test.",
+   "paragraphs": [
+    "In 1941, a Swiss engineer named George de Mestral went for a walk in the mountains with his dog. When they returned, both of them were covered in burrs, the prickly seed cases of a plant called burdock. [[1]]",
+    "Instead of simply pulling them off, de Mestral looked at the burrs under a microscope. [[2]] Fur and the loops in his woollen trousers caught on these hooks, which is how the plant spreads its seeds to new places.",
+    "De Mestral realised that the same idea could be used to join two pieces of fabric. [[3]] Making it work, however, was far from easy.",
+    "For years he experimented with different materials. Cotton wore out quickly, and many weavers thought his idea was ridiculous. [[4]] When this was heated, it formed tough little hooks that could be opened and closed thousands of times.",
+    "De Mestral patented his invention in 1955 and named it Velcro, from the French words for 'velvet' and 'hook'. [[5]] Its big break came when astronauts used it to stop equipment floating away inside their spacecraft.",
+    "Today, Velcro is used on shoes, bags, blood pressure cuffs and even in spacesuits. [[6]] It is a reminder that great ideas can come from paying attention to things that most people would simply brush away."
+   ],
+   "bank": {
+    "A": "He was curious about how they stuck so firmly.",
+    "B": "He saw that each one was covered in tiny hooks.",
+    "C": "One side would have hooks, and the other side would have soft loops.",
+    "D": "Eventually he discovered that nylon worked much better.",
+    "E": "At first, few people were interested in buying it.",
+    "F": "This kind of copying of nature is now called biomimicry.",
+    "G": "Dogs need to be brushed often to keep their coats healthy."
+   }
+  },
+  {
+   "id": "p5",
+   "part": 5,
+   "kind": "extracts",
+   "title": "Sleep",
+   "intro": "Read the four short texts about sleep. For questions 26–33, choose which text (A, B, C or D) each statement matches. You can use each letter more than once.",
+   "credit": "Original texts written for this practice test. The product in text C is invented.",
+   "extracts": {
+    "A": {
+     "title": "Half Asleep (a science article)",
+     "text": "Some animals have remarkable ways of sleeping. Dolphins rest one half of their brain at a time, so the other half can keep them breathing and watching for danger. Many birds can do the same, sleeping with one eye open. Giraffes, which are at risk from predators when lying down, often sleep for only a few minutes at a time. Scientists are still investigating exactly why all animals seem to need sleep at all."
+    },
+    "B": {
+     "title": "Summer Nights (a memoir)",
+     "text": "When I was a girl, the summers were so hot that we dragged our mattresses onto the back verandah. My brother and I lay awake listening to the possums thumping on the roof and the frogs in the dam. Mum said we would never get to sleep with all that noise. She was wrong. I have never slept so well since."
+    },
+    "C": {
+     "title": "CloudRest Pillows (an advertisement)",
+     "text": "Tired of tossing and turning? The CloudRest pillow is scientifically designed to give you the deepest sleep of your life. Made from our secret blend of foam, it moulds perfectly to your head and neck. Thousands of happy customers can't be wrong! Order today and wake up feeling like a brand-new person."
+    },
+    "D": {
+     "title": "Night Shift (a nurse's diary)",
+     "text": "3 am. The ward is quiet except for the beeping of machines. Most people are fast asleep, but for me this is the middle of the working day. I check on Mr Lim, who can't sleep either, and we talk quietly about cricket until his eyes start to close. Tomorrow I'll sleep while everyone else is at work or school. It's a strange, upside-down life, but I like being awake when the world needs looking after."
+    }
+   }
+  }
+ ],
+ "questions": [
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a description",
+   "difficulty": 3,
+   "stem": "The stuffed owl 'regarded visitors with a disapproving, slightly cross-eyed stare' (paragraph 1). What is the effect of this description?",
+   "options": {
+    "A": "It shows that the owl is still alive.",
+    "B": "It explains why Nell is frightened of birds.",
+    "C": "It shows that the house is very dark.",
+    "D": "It adds humour while showing how strict and unwelcoming the house feels."
+   },
+   "answer": "D",
+   "explanation": "'Disapproving' makes the owl seem like a strict grown-up, matching the rules of the house, while 'slightly cross-eyed' makes it funny.",
+   "distractors": {
+    "A": "it is stuffed; the description is playful",
+    "B": "nothing suggests Nell fears birds",
+    "C": "the description is about the owl's look, not the light"
+   },
+   "n": 1
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding a comparison",
+   "difficulty": 3,
+   "stem": "Nell thinks exploring without disturbing anything is 'like swimming without getting wet' (paragraph 2). What does she mean?",
+   "options": {
+    "A": "She would rather go swimming than explore.",
+    "B": "The rule is almost impossible to follow.",
+    "C": "The house is damp and cold.",
+    "D": "She is a careful explorer."
+   },
+   "answer": "B",
+   "explanation": "You can't swim without getting wet, so Nell is saying you can't really explore without touching or moving things: the rule is impossible.",
+   "distractors": {
+    "A": "took the comparison literally",
+    "C": "it's not about dampness",
+    "D": "she thinks the rule is unreasonable, not that she is careful"
+   },
+   "n": 2
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Vocabulary",
+   "skill": "Word meaning in context",
+   "difficulty": 4,
+   "stem": "In paragraph 3, 'impeccably well-behaved' means",
+   "options": {
+    "A": "behaving perfectly, without a single mistake.",
+    "B": "behaving badly but not getting caught.",
+    "C": "behaving well only when someone was watching.",
+    "D": "behaving in a bored, unhappy way."
+   },
+   "answer": "A",
+   "explanation": "'Impeccably' means perfectly or flawlessly. For two days Nell followed every rule.",
+   "distractors": {
+    "B": "the opposite of well-behaved",
+    "C": "the word doesn't suggest pretending",
+    "D": "the word is about how well she behaved, not how she felt"
+   },
+   "n": 3
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Personification",
+   "difficulty": 2,
+   "stem": "The attic stairs 'complained loudly at every step' (paragraph 4). This tells us that the stairs",
+   "options": {
+    "A": "were broken and dangerous.",
+    "B": "were covered in carpet.",
+    "C": "creaked noisily, as if they didn't want Nell to climb them.",
+    "D": "were very short."
+   },
+   "answer": "C",
+   "explanation": "Stairs can't really complain. The personification describes loud creaking, and it adds to the feeling that Nell is somewhere she shouldn't be.",
+   "distractors": {
+    "A": "creaky doesn't mean broken",
+    "B": "carpet would make them quieter",
+    "D": "the description is about sound, not size"
+   },
+   "n": 4
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Reading a character's feelings",
+   "difficulty": 3,
+   "stem": "Why does Nell's face 'burn' in paragraph 5?",
+   "options": {
+    "A": "The attic is very hot.",
+    "B": "She is angry with her great-aunt.",
+    "C": "She feels embarrassed and guilty at being caught.",
+    "D": "She has a fever from the rain."
+   },
+   "answer": "C",
+   "explanation": "She has broken the rule about not disturbing anything, and her great-aunt has caught her: a burning face shows embarrassment and guilt.",
+   "distractors": {
+    "A": "the burning is a reaction, not the temperature",
+    "B": "she spins round in fright, not anger",
+    "D": "nothing about illness"
+   },
+   "n": 5
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding a change in a character",
+   "difficulty": 4,
+   "stem": "How does Great-Aunt Harriet change at the end of the story?",
+   "options": {
+    "A": "She becomes angrier because Nell disobeyed her.",
+    "B": "She decides to send Nell home.",
+    "C": "She forgets that Nell broke the rules and goes to bed.",
+    "D": "She becomes warmer and more open after remembering her own childhood."
+   },
+   "answer": "D",
+   "explanation": "She smiles 'for the first time', remembers making the drawings at Nell's age, and offers to show Nell Saturn: the strict great-aunt softens and shares something she loves.",
+   "distractors": {
+    "A": "she smiles instead of scolding",
+    "B": "she invites Nell to stargaze",
+    "C": "she makes a plan for that night"
+   },
+   "n": 6
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 2,
+   "stem": "Gap 1: choose the best word.",
+   "options": {
+    "A": "unusual",
+    "B": "difficult",
+    "C": "useless",
+    "D": "careful"
+   },
+   "answer": "B",
+   "explanation": "It was difficult to see things in the dark.",
+   "distractors": {
+    "A": "'unusual to see' changes the meaning",
+    "C": "'useless to see' doesn't fit",
+    "D": "'careful to see' isn't English here"
+   },
+   "gap": 1,
+   "n": 7
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 2: choose the best word.",
+   "options": {
+    "A": "greatly",
+    "B": "nearly",
+    "C": "hardly",
+    "D": "rarely"
+   },
+   "answer": "A",
+   "explanation": "'Greatly improve' means improve a lot.",
+   "distractors": {
+    "B": "'nearly improve' doesn't make sense",
+    "C": "hardly means almost not",
+    "D": "rarely means not often"
+   },
+   "gap": 2,
+   "n": 8
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 3: choose the best word.",
+   "options": {
+    "A": "shouting",
+    "B": "sinking",
+    "C": "spilling",
+    "D": "shining"
+   },
+   "answer": "D",
+   "explanation": "His headlights were 'shining' in the cat's eyes: light shines.",
+   "distractors": {
+    "A": "lights don't shout",
+    "B": "lights don't sink",
+    "C": "liquids spill, not light"
+   },
+   "gap": 3,
+   "n": 9
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 4: choose the best word.",
+   "options": {
+    "A": "nails",
+    "B": "buttons",
+    "C": "studs",
+    "D": "beads"
+   },
+   "answer": "C",
+   "explanation": "Cat's eyes are small 'studs' set into the road surface.",
+   "distractors": {
+    "A": "nails are thin metal spikes",
+    "B": "buttons are on clothes",
+    "D": "beads are threaded on string"
+   },
+   "gap": 4,
+   "n": 10
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 5: choose the best word.",
+   "options": {
+    "A": "ingredient",
+    "B": "ingenious",
+    "C": "innocent",
+    "D": "inexpensive"
+   },
+   "answer": "B",
+   "explanation": "'Ingenious' means very clever and original: simple but ingenious.",
+   "distractors": {
+    "A": "an ingredient is part of a recipe",
+    "C": "innocent means not guilty",
+    "D": "inexpensive means cheap; 'simple but cheap' is not a contrast"
+   },
+   "gap": 5,
+   "n": 11
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 6: choose the best word.",
+   "options": {
+    "A": "helped",
+    "B": "let",
+    "C": "made",
+    "D": "kept"
+   },
+   "answer": "A",
+   "explanation": "'Helped drivers to find their way' is correct and natural.",
+   "distractors": {
+    "B": "'let drivers to find' isn't correct English",
+    "C": "'made drivers to find' isn't correct English",
+    "D": "'kept drivers to find' doesn't make sense"
+   },
+   "gap": 6,
+   "n": 12
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 7: choose the best word.",
+   "options": {
+    "A": "reminded",
+    "B": "rewarded",
+    "C": "repeated",
+    "D": "regarded"
+   },
+   "answer": "D",
+   "explanation": "'Regarded as' means thought of as.",
+   "distractors": {
+    "A": "reminded means helped to remember",
+    "B": "rewarded means given a prize",
+    "C": "repeated means done again"
+   },
+   "gap": 7,
+   "n": 13
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 8: choose the best word.",
+   "options": {
+    "A": "valuing",
+    "B": "valuable",
+    "C": "value",
+    "D": "valuer"
+   },
+   "answer": "B",
+   "explanation": "'One of the most valuable inventions': an adjective is needed after 'most'.",
+   "distractors": {
+    "A": "a verb form",
+    "C": "a noun",
+    "D": "a person who values things"
+   },
+   "gap": 8,
+   "n": 14
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Understanding the speaker's position",
+   "difficulty": 2,
+   "stem": "Where is the speaker of the poem?",
+   "options": {
+    "A": "standing in a meadow, watching a train go past",
+    "B": "riding a horse beside the railway",
+    "C": "inside a moving train, looking out of the window",
+    "D": "waiting on a station platform"
+   },
+   "answer": "C",
+   "explanation": "The title is 'From a Railway Carriage', and everything outside seems to rush past ('Painted stations whistle by'), which is how it looks from a moving train.",
+   "distractors": {
+    "A": "the sights move past the speaker, not the train",
+    "B": "the horses are in the meadows, not ridden",
+    "D": "the stations 'whistle by', so the speaker isn't waiting"
+   },
+   "n": 15
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of rhythm and sound",
+   "difficulty": 3,
+   "stem": "How does the rhythm of the poem help the reader imagine the journey?",
+   "options": {
+    "A": "The quick, regular beat sounds like the wheels of a train rushing along.",
+    "B": "The slow, long lines make the journey seem boring.",
+    "C": "The poem has no pattern, like a bumpy road.",
+    "D": "The rhythm stops and starts like a train arriving at stations."
+   },
+   "answer": "A",
+   "explanation": "Lines like 'Faster than fairies, faster than witches' have a fast, galloping, repeated beat, like train wheels clattering over the tracks.",
+   "distractors": {
+    "B": "the lines are quick and lively",
+    "C": "the poem has a strong regular rhythm and rhyme",
+    "D": "the rhythm keeps rushing on"
+   },
+   "n": 16
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Understanding a simile",
+   "difficulty": 3,
+   "stem": "The sights 'Fly as thick as driving rain' (line 6). This suggests that",
+   "options": {
+    "A": "so many things rush past so quickly that they blur together.",
+    "B": "it is raining heavily during the journey.",
+    "C": "birds are flying beside the train.",
+    "D": "the window is dirty and hard to see through."
+   },
+   "answer": "A",
+   "explanation": "Driving rain falls thick and fast. The sights pass in the same way: too many, too quickly to take in one by one.",
+   "distractors": {
+    "B": "took the comparison literally",
+    "C": "'fly' describes the sights rushing past, not birds",
+    "D": "nothing about a dirty window"
+   },
+   "n": 17
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Purpose and structure",
+   "skill": "How the second stanza works",
+   "difficulty": 4,
+   "stem": "In the second stanza, the speaker repeats 'Here is…' and 'there is…'. What is the effect?",
+   "options": {
+    "A": "It shows that the train has stopped so the speaker can look around.",
+    "B": "It shows that the speaker is pointing out places on a map.",
+    "C": "It shows that the speaker is bored and repeating himself.",
+    "D": "It gives a quick list of separate snapshots, each seen for only a moment."
+   },
+   "answer": "D",
+   "explanation": "Each 'Here is…' introduces a new picture (a child, a tramp, a cart, a mill), like snapshots flashing past the window one after another.",
+   "distractors": {
+    "A": "the sights are 'a glimpse and gone', so the train is still moving",
+    "B": "no map is involved",
+    "C": "the tone is excited, not bored"
+   },
+   "n": 18
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Understanding the last line",
+   "difficulty": 4,
+   "stem": "What does the last line, 'Each a glimpse and gone for ever!', suggest?",
+   "options": {
+    "A": "The speaker is sad that the journey is over.",
+    "B": "Every sight is seen for just a moment and will never be seen again.",
+    "C": "The speaker has lost something out of the window.",
+    "D": "Everything outside is being destroyed."
+   },
+   "answer": "B",
+   "explanation": "A glimpse is a very quick look. Because the train moves so fast, each sight appears for an instant and is gone, which makes the journey exciting and a little wistful.",
+   "distractors": {
+    "A": "the journey is still going on",
+    "C": "nothing has been lost",
+    "D": "the sights are left behind, not destroyed"
+   },
+   "n": 19
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 1?",
+   "options": {
+    "A": "He was curious about how they stuck so firmly.",
+    "B": "He saw that each one was covered in tiny hooks.",
+    "C": "One side would have hooks, and the other side would have soft loops.",
+    "D": "Eventually he discovered that nylon worked much better.",
+    "E": "At first, few people were interested in buying it.",
+    "F": "This kind of copying of nature is now called biomimicry.",
+    "G": "Dogs need to be brushed often to keep their coats healthy."
+   },
+   "answer": "A",
+   "explanation": "After both are covered in burrs, A says de Mestral wondered how they stuck. The next paragraph begins 'Instead of simply pulling them off', which follows from his curiosity.",
+   "distractors": {
+    "B": "doesn't link to the sentences around gap 1",
+    "C": "doesn't link to the sentences around gap 1",
+    "D": "doesn't link to the sentences around gap 1",
+    "E": "doesn't link to the sentences around gap 1",
+    "F": "doesn't link to the sentences around gap 1",
+    "G": "the extra sentence: it's about dog care, not the invention"
+   },
+   "gap": 1,
+   "n": 20
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 2,
+   "stem": "Which sentence best fits gap 2?",
+   "options": {
+    "A": "He was curious about how they stuck so firmly.",
+    "B": "He saw that each one was covered in tiny hooks.",
+    "C": "One side would have hooks, and the other side would have soft loops.",
+    "D": "Eventually he discovered that nylon worked much better.",
+    "E": "At first, few people were interested in buying it.",
+    "F": "This kind of copying of nature is now called biomimicry.",
+    "G": "Dogs need to be brushed often to keep their coats healthy."
+   },
+   "answer": "B",
+   "explanation": "Under the microscope he saw hooks; the next sentence refers to 'these hooks', so B must come first.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 2",
+    "C": "doesn't link to the sentences around gap 2",
+    "D": "doesn't link to the sentences around gap 2",
+    "E": "doesn't link to the sentences around gap 2",
+    "F": "doesn't link to the sentences around gap 2",
+    "G": "the extra sentence: it's about dog care, not the invention"
+   },
+   "gap": 2,
+   "n": 21
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 3,
+   "stem": "Which sentence best fits gap 3?",
+   "options": {
+    "A": "He was curious about how they stuck so firmly.",
+    "B": "He saw that each one was covered in tiny hooks.",
+    "C": "One side would have hooks, and the other side would have soft loops.",
+    "D": "Eventually he discovered that nylon worked much better.",
+    "E": "At first, few people were interested in buying it.",
+    "F": "This kind of copying of nature is now called biomimicry.",
+    "G": "Dogs need to be brushed often to keep their coats healthy."
+   },
+   "answer": "C",
+   "explanation": "'The same idea could be used to join two pieces of fabric', then C explains how: hooks on one side, loops on the other.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 3",
+    "B": "doesn't link to the sentences around gap 3",
+    "D": "doesn't link to the sentences around gap 3",
+    "E": "doesn't link to the sentences around gap 3",
+    "F": "doesn't link to the sentences around gap 3",
+    "G": "the extra sentence: it's about dog care, not the invention"
+   },
+   "gap": 3,
+   "n": 22
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 4,
+   "stem": "Which sentence best fits gap 4?",
+   "options": {
+    "A": "He was curious about how they stuck so firmly.",
+    "B": "He saw that each one was covered in tiny hooks.",
+    "C": "One side would have hooks, and the other side would have soft loops.",
+    "D": "Eventually he discovered that nylon worked much better.",
+    "E": "At first, few people were interested in buying it.",
+    "F": "This kind of copying of nature is now called biomimicry.",
+    "G": "Dogs need to be brushed often to keep their coats healthy."
+   },
+   "answer": "D",
+   "explanation": "After cotton failed, D says nylon worked better; the next sentence says 'When this was heated', and 'this' refers to the nylon.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 4",
+    "B": "doesn't link to the sentences around gap 4",
+    "C": "doesn't link to the sentences around gap 4",
+    "E": "doesn't link to the sentences around gap 4",
+    "F": "doesn't link to the sentences around gap 4",
+    "G": "the extra sentence: it's about dog care, not the invention"
+   },
+   "gap": 4,
+   "n": 23
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 4,
+   "stem": "Which sentence best fits gap 5?",
+   "options": {
+    "A": "He was curious about how they stuck so firmly.",
+    "B": "He saw that each one was covered in tiny hooks.",
+    "C": "One side would have hooks, and the other side would have soft loops.",
+    "D": "Eventually he discovered that nylon worked much better.",
+    "E": "At first, few people were interested in buying it.",
+    "F": "This kind of copying of nature is now called biomimicry.",
+    "G": "Dogs need to be brushed often to keep their coats healthy."
+   },
+   "answer": "E",
+   "explanation": "After the patent, E says few people were interested at first; 'Its big break came' in the next sentence shows things changed later.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 5",
+    "B": "doesn't link to the sentences around gap 5",
+    "C": "doesn't link to the sentences around gap 5",
+    "D": "doesn't link to the sentences around gap 5",
+    "F": "doesn't link to the sentences around gap 5",
+    "G": "the extra sentence: it's about dog care, not the invention"
+   },
+   "gap": 5,
+   "n": 24
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the sentence that fits a gap",
+   "difficulty": 4,
+   "stem": "Which sentence best fits gap 6?",
+   "options": {
+    "A": "He was curious about how they stuck so firmly.",
+    "B": "He saw that each one was covered in tiny hooks.",
+    "C": "One side would have hooks, and the other side would have soft loops.",
+    "D": "Eventually he discovered that nylon worked much better.",
+    "E": "At first, few people were interested in buying it.",
+    "F": "This kind of copying of nature is now called biomimicry.",
+    "G": "Dogs need to be brushed often to keep their coats healthy."
+   },
+   "answer": "F",
+   "explanation": "F names the idea of copying nature, which leads into the final sentence about paying attention to things in nature.",
+   "distractors": {
+    "A": "doesn't link to the sentences around gap 6",
+    "B": "doesn't link to the sentences around gap 6",
+    "C": "doesn't link to the sentences around gap 6",
+    "D": "doesn't link to the sentences around gap 6",
+    "E": "doesn't link to the sentences around gap 6",
+    "G": "the extra sentence: it's about dog care, not the invention"
+   },
+   "gap": 6,
+   "n": 25
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 1,
+   "stem": "Which text is trying to persuade the reader to buy something?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "C",
+   "explanation": "The pillow advertisement ends with 'Order today'.",
+   "distractors": {
+    "A": "gives information",
+    "B": "a memory",
+    "D": "a diary"
+   },
+   "n": 26
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer says that someone was wrong about how well they would sleep?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "B",
+   "explanation": "'Mum said we would never get to sleep… She was wrong.'",
+   "distractors": {
+    "A": "no one is wrong",
+    "C": "no one is shown to be wrong",
+    "D": "no wrong prediction"
+   },
+   "n": 27
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which text admits that something is still not fully understood?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "A",
+   "explanation": "'Scientists are still investigating exactly why all animals seem to need sleep at all.'",
+   "distractors": {
+    "B": "nothing is unexplained",
+    "C": "claims to be 'scientifically designed', the opposite of uncertain",
+    "D": "nothing unexplained"
+   },
+   "n": 28
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer is awake while most other people are asleep?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "D",
+   "explanation": "'Most people are fast asleep, but for me this is the middle of the working day.'",
+   "distractors": {
+    "A": "about animals",
+    "B": "lay awake, but only for a while before sleeping well",
+    "C": "an advertisement"
+   },
+   "n": 29
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which text uses a claim about other people's opinions to sound convincing?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "C",
+   "explanation": "'Thousands of happy customers can't be wrong!'",
+   "distractors": {
+    "A": "uses facts, not opinions",
+    "B": "Mum's opinion turned out wrong; it's not used to convince",
+    "D": "no other people's opinions"
+   },
+   "n": 30
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer describes helping someone else to fall asleep?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "D",
+   "explanation": "The nurse talks with Mr Lim 'until his eyes start to close'.",
+   "distractors": {
+    "A": "no helping",
+    "B": "no helping",
+    "C": "the pillow 'helps', but that's an advertisement claim, not someone helping"
+   },
+   "n": 31
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which text describes noises that did not stop the writer from sleeping well?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "B",
+   "explanation": "Possums and frogs were noisy, yet 'I have never slept so well since.'",
+   "distractors": {
+    "A": "no noise described",
+    "C": "no noise",
+    "D": "machines beep, but the nurse is working, not sleeping"
+   },
+   "n": 32
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which text explains how a body is adapted to stay safe while resting?",
+   "options": {
+    "A": "Text A",
+    "B": "Text B",
+    "C": "Text C",
+    "D": "Text D"
+   },
+   "answer": "A",
+   "explanation": "Dolphins rest half the brain to keep breathing and watching for danger; giraffes sleep briefly because of predators.",
+   "distractors": {
+    "B": "no adaptation",
+    "C": "the pillow 'moulds' to your head, but that's a product, not a body",
+    "D": "about a human's working hours"
+   },
+   "n": 33
+  }
+ ]
+}

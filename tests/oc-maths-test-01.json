@@ -17,77 +17,12 @@
   "PAT": "Patterns and missing numbers",
   "DATA": "Graphs and tables",
   "CHN": "Chance",
-  "LOG": "Reasoning puzzles"
+  "LOG": "Reasoning puzzles",
+  "WHO": "Whose reasoning is correct"
  },
  "questions": [
   {
    "n": 1,
-   "topic": "NUM",
-   "difficulty": 1,
-   "skill": "Place value with regrouping",
-   "stem": "Which number is made of 3 thousands, 14 tens and 6 ones?",
-   "options": {
-    "A": "3416",
-    "B": "3046",
-    "C": "3014",
-    "D": "3146",
-    "E": "31 406"
-   },
-   "answer": "D",
-   "explanation": "14 tens is 140. So 3000 + 140 + 6 = 3146.",
-   "distractors": {
-    "A": "wrote the 14 in the hundreds place",
-    "B": "used 4 tens and dropped the extra ten",
-    "C": "wrote the digits side by side",
-    "E": "wrote the digits side by side"
-   }
-  },
-  {
-   "n": 2,
-   "topic": "OPS",
-   "difficulty": 1,
-   "skill": "Adding in a word problem",
-   "stem": "A school has 248 boys and 275 girls. How many students are there altogether?",
-   "options": {
-    "A": "513",
-    "B": "413",
-    "C": "523",
-    "D": "533",
-    "E": "27"
-   },
-   "answer": "C",
-   "explanation": "248 + 275 = 523 (8 + 5 = 13, carry 1; 4 + 7 + 1 = 12, carry 1; 2 + 2 + 1 = 5).",
-   "distractors": {
-    "A": "forgot to carry from the tens",
-    "B": "forgot both carries",
-    "D": "carried one too many",
-    "E": "subtracted instead of adding"
-   }
-  },
-  {
-   "n": 3,
-   "topic": "MEAS",
-   "difficulty": 1,
-   "skill": "Metres and centimetres",
-   "stem": "A plank is 2 m 35 cm long. How long is it in centimetres?",
-   "options": {
-    "A": "235 cm",
-    "B": "2035 cm",
-    "C": "23.5 cm",
-    "D": "37 cm",
-    "E": "2350 cm"
-   },
-   "answer": "A",
-   "explanation": "1 m = 100 cm, so 2 m = 200 cm. 200 + 35 = 235 cm.",
-   "distractors": {
-    "B": "wrote the numbers side by side",
-    "C": "divided by 10",
-    "D": "added 2 + 35",
-    "E": "used 1000 cm in a metre"
-   }
-  },
-  {
-   "n": 4,
    "topic": "NUM",
    "difficulty": 2,
    "skill": "Estimating",
@@ -109,7 +44,7 @@
    }
   },
   {
-   "n": 5,
+   "n": 2,
    "topic": "CHN",
    "difficulty": 2,
    "skill": "Chance on a spinner",
@@ -132,7 +67,7 @@
    }
   },
   {
-   "n": 6,
+   "n": 3,
    "topic": "FRAC",
    "difficulty": 2,
    "skill": "Fraction of a shape",
@@ -155,73 +90,7 @@
    }
   },
   {
-   "n": 7,
-   "topic": "OPS",
-   "difficulty": 2,
-   "skill": "Sharing equally",
-   "stem": "96 stickers are shared equally among 8 children. How many stickers does each child get?",
-   "options": {
-    "A": "11",
-    "B": "12",
-    "C": "13",
-    "D": "88",
-    "E": "104"
-   },
-   "answer": "B",
-   "explanation": "96 ÷ 8 = 12 (8 × 12 = 96).",
-   "distractors": {
-    "A": "division slip (8 × 11 = 88)",
-    "C": "division slip (8 × 13 = 104)",
-    "D": "subtracted 8",
-    "E": "added 8"
-   }
-  },
-  {
-   "n": 8,
-   "topic": "OPS",
-   "difficulty": 2,
-   "skill": "Subtracting across zeros",
-   "stem": "What is 1000 − 367?",
-   "options": {
-    "A": "743",
-    "B": "733",
-    "C": "633",
-    "D": "643",
-    "E": "1367"
-   },
-   "answer": "C",
-   "explanation": "Count up: 367 + 3 = 370, + 30 = 400, + 600 = 1000. 3 + 30 + 600 = 633.",
-   "distractors": {
-    "A": "subtracted the smaller digit from the bigger in each column",
-    "B": "regrouping mistake in the tens",
-    "D": "regrouping mistake in the ones",
-    "E": "added instead"
-   }
-  },
-  {
-   "n": 9,
-   "topic": "AREA",
-   "difficulty": 2,
-   "skill": "Perimeter of a rectangle",
-   "stem": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter?",
-   "options": {
-    "A": "13 cm",
-    "B": "26 cm",
-    "C": "40 cm",
-    "D": "21 cm",
-    "E": "18 cm"
-   },
-   "answer": "B",
-   "explanation": "Perimeter is the distance all the way round: 8 + 5 + 8 + 5 = 26 cm.",
-   "distractors": {
-    "A": "only added one length and one width",
-    "C": "that is the area (in cm²)",
-    "D": "added three sides only",
-    "E": "doubled the length but not the width"
-   }
-  },
-  {
-   "n": 10,
+   "n": 4,
    "topic": "MEAS",
    "difficulty": 2,
    "skill": "Reading a measuring jug",
@@ -244,7 +113,7 @@
    }
   },
   {
-   "n": 11,
+   "n": 5,
    "topic": "DATA",
    "difficulty": 2,
    "skill": "Using a table",
@@ -266,7 +135,7 @@
    }
   },
   {
-   "n": 12,
+   "n": 6,
    "topic": "MON",
    "difficulty": 2,
    "skill": "Change from a note",
@@ -288,7 +157,7 @@
    }
   },
   {
-   "n": 13,
+   "n": 7,
    "topic": "POS",
    "difficulty": 2,
    "skill": "Following directions on a map",
@@ -311,29 +180,7 @@
    }
   },
   {
-   "n": 14,
-   "topic": "OPS",
-   "difficulty": 2,
-   "skill": "Multiplying in a word problem",
-   "stem": "Pencils come in packets of 24. How many pencils are in 6 packets?",
-   "options": {
-    "A": "144",
-    "B": "124",
-    "C": "30",
-    "D": "164",
-    "E": "134"
-   },
-   "answer": "A",
-   "explanation": "24 × 6 = 20 × 6 + 4 × 6 = 120 + 24 = 144.",
-   "distractors": {
-    "B": "forgot to carry the 2 from 4 × 6",
-    "C": "added 24 + 6",
-    "D": "times-table slip",
-    "E": "times-table slip"
-   }
-  },
-  {
-   "n": 15,
+   "n": 8,
    "topic": "FRAC",
    "difficulty": 2,
    "skill": "Fraction of an amount",
@@ -355,29 +202,7 @@
    }
   },
   {
-   "n": 16,
-   "topic": "TIME",
-   "difficulty": 2,
-   "skill": "Days of the week",
-   "stem": "Today is Wednesday. What day of the week will it be in 10 days' time?",
-   "options": {
-    "A": "Saturday",
-    "B": "Friday",
-    "C": "Sunday",
-    "D": "Thursday",
-    "E": "Monday"
-   },
-   "answer": "A",
-   "explanation": "7 days from Wednesday is Wednesday again. 3 more days: Thursday, Friday, Saturday.",
-   "distractors": {
-    "B": "counted on 9 days",
-    "C": "counted on 11 days",
-    "D": "counted on 8 days",
-    "E": "counted backwards"
-   }
-  },
-  {
-   "n": 17,
+   "n": 9,
    "topic": "SHAPE",
    "difficulty": 2,
    "skill": "Faces of a 3D object",
@@ -400,7 +225,7 @@
    }
   },
   {
-   "n": 18,
+   "n": 10,
    "topic": "MEAS",
    "difficulty": 3,
    "skill": "Reading a scale",
@@ -423,7 +248,7 @@
    }
   },
   {
-   "n": 19,
+   "n": 11,
    "topic": "MON",
    "difficulty": 3,
    "skill": "Money: two steps",
@@ -445,7 +270,7 @@
    }
   },
   {
-   "n": 20,
+   "n": 12,
    "topic": "SHAPE",
    "difficulty": 3,
    "skill": "Lines of symmetry",
@@ -467,7 +292,7 @@
    }
   },
   {
-   "n": 21,
+   "n": 13,
    "topic": "LOG",
    "difficulty": 3,
    "skill": "Number clues",
@@ -489,7 +314,7 @@
    }
   },
   {
-   "n": 22,
+   "n": 14,
    "topic": "TIME",
    "difficulty": 3,
    "skill": "Reading a timetable",
@@ -512,7 +337,7 @@
    }
   },
   {
-   "n": 23,
+   "n": 15,
    "topic": "AREA",
    "difficulty": 3,
    "skill": "Area by counting squares",
@@ -535,7 +360,7 @@
    }
   },
   {
-   "n": 24,
+   "n": 16,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Growing dot patterns",
@@ -558,7 +383,7 @@
    }
   },
   {
-   "n": 25,
+   "n": 17,
    "topic": "TIME",
    "difficulty": 3,
    "skill": "Reading a clock and adding time",
@@ -581,7 +406,7 @@
    }
   },
   {
-   "n": 26,
+   "n": 18,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Finding a later term",
@@ -603,7 +428,7 @@
    }
   },
   {
-   "n": 27,
+   "n": 19,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Common multiples",
@@ -625,7 +450,7 @@
    }
   },
   {
-   "n": 28,
+   "n": 20,
    "topic": "OPS",
    "difficulty": 3,
    "skill": "Division: what to do with the remainder",
@@ -647,7 +472,7 @@
    }
   },
   {
-   "n": 29,
+   "n": 21,
    "topic": "DATA",
    "difficulty": 3,
    "skill": "Reading a picture graph",
@@ -670,7 +495,7 @@
    }
   },
   {
-   "n": 30,
+   "n": 22,
    "topic": "SHAPE",
    "difficulty": 3,
    "skill": "Counting right angles",
@@ -693,7 +518,95 @@
    }
   },
   {
-   "n": 31,
+   "n": 23,
+   "topic": "MON",
+   "difficulty": 3,
+   "skill": "Money: several steps",
+   "stem": "Mia buys 3 pencils at 45c each and a ruler for $1.20. She pays with a $5 note. How much change does she get?",
+   "options": {
+    "A": "$3.35",
+    "B": "$2.55",
+    "C": "$3.80",
+    "D": "$2.45",
+    "E": "$2.35"
+   },
+   "answer": "D",
+   "explanation": "3 pencils cost 3 × 45c = $1.35. With the ruler: $1.35 + $1.20 = $2.55. Change: $5.00 − $2.55 = $2.45.",
+   "distractors": {
+    "A": "only paid for one pencil",
+    "B": "that is the total cost",
+    "C": "forgot the ruler",
+    "E": "subtraction slip"
+   }
+  },
+  {
+   "n": 24,
+   "topic": "OPS",
+   "difficulty": 3,
+   "skill": "Totals over time",
+   "stem": "Tom reads 12 pages every weekday (Monday to Friday) and 20 pages each day on the weekend. How many pages does he read in 2 weeks?",
+   "options": {
+    "A": "100",
+    "B": "128",
+    "C": "200",
+    "D": "224",
+    "E": "160"
+   },
+   "answer": "C",
+   "explanation": "One week: 5 × 12 = 60 pages, plus 2 × 20 = 40 pages, so 100 pages. Two weeks: 200 pages.",
+   "distractors": {
+    "A": "that is one week",
+    "B": "counted 1 weekend day per week",
+    "D": "counted 7 weekdays",
+    "E": "forgot one weekend"
+   }
+  },
+  {
+   "n": 25,
+   "topic": "TIME",
+   "difficulty": 3,
+   "skill": "Time: several steps",
+   "stem": "A bus leaves at 8:45 am and the trip takes 1 hour 25 minutes. Then Ali walks for 20 minutes to the museum. What time does he get to the museum?",
+   "options": {
+    "A": "10:30 am",
+    "B": "10:10 am",
+    "C": "9:30 am",
+    "D": "10:50 am",
+    "E": "10:20 am"
+   },
+   "answer": "A",
+   "explanation": "8:45 am + 1 h 25 min = 10:10 am. Then 20 minutes more: 10:30 am.",
+   "distractors": {
+    "B": "forgot the walk",
+    "C": "only added 45 minutes",
+    "D": "added the walk twice",
+    "E": "added 10 minutes for the walk"
+   }
+  },
+  {
+   "n": 26,
+   "topic": "LOG",
+   "difficulty": 3,
+   "skill": "Sharing with \"times as many\"",
+   "stem": "Sam has 3 times as many marbles as Jo. Together they have 48 marbles. How many marbles does Sam have?",
+   "options": {
+    "A": "12",
+    "B": "16",
+    "C": "36",
+    "D": "24",
+    "E": "45"
+   },
+   "answer": "C",
+   "explanation": "Think of Jo's marbles as 1 part and Sam's as 3 parts: 4 parts = 48, so 1 part = 12. Sam has 3 × 12 = 36.",
+   "distractors": {
+    "A": "that is Jo's share",
+    "B": "divided 48 by 3",
+    "D": "shared equally",
+    "E": "took 3 away from 48"
+   }
+  },
+  {
+   "n": 27,
    "topic": "PAT",
    "difficulty": 4,
    "skill": "Missing number with a remainder",
@@ -715,7 +628,7 @@
    }
   },
   {
-   "n": 32,
+   "n": 28,
    "topic": "LOG",
    "difficulty": 4,
    "skill": "Balance puzzles",
@@ -738,7 +651,7 @@
    }
   },
   {
-   "n": 33,
+   "n": 29,
    "topic": "SHAPE",
    "difficulty": 4,
    "skill": "Nets of a cube",
@@ -762,7 +675,7 @@
    }
   },
   {
-   "n": 34,
+   "n": 30,
    "topic": "AREA",
    "difficulty": 4,
    "skill": "Perimeter of a joined shape",
@@ -785,7 +698,7 @@
    }
   },
   {
-   "n": 35,
+   "n": 31,
    "topic": "TIME",
    "difficulty": 4,
    "skill": "Time across midday",
@@ -804,6 +717,94 @@
     "C": "minute slip",
     "D": "subtracted 2 from 9 without thinking about am/pm",
     "E": "subtracted the times like ordinary numbers"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "AREA",
+   "difficulty": 4,
+   "skill": "Area from perimeter clues",
+   "stem": "A rectangle has a perimeter of 30 cm. Its length is twice its width. What is its area?",
+   "options": {
+    "A": "30 cm²",
+    "B": "50 cm²",
+    "C": "200 cm²",
+    "D": "56 cm²",
+    "E": "45 cm²"
+   },
+   "answer": "B",
+   "explanation": "Width + length = 15 cm (half the perimeter). Length is twice the width, so width = 5 cm and length = 10 cm. Area = 5 × 10 = 50 cm².",
+   "distractors": {
+    "A": "that is the perimeter",
+    "C": "used the full perimeter for width + length",
+    "D": "guessed sides of 7 and 8",
+    "E": "used sides 5 and 9"
+   }
+  },
+  {
+   "n": 33,
+   "topic": "NUM",
+   "difficulty": 4,
+   "skill": "Remainders",
+   "stem": "What is the smallest number greater than 50 that leaves a remainder of 1 when divided by 2, by 3 and by 4?",
+   "options": {
+    "A": "53",
+    "B": "61",
+    "C": "73",
+    "D": "55",
+    "E": "49"
+   },
+   "answer": "B",
+   "explanation": "Numbers that divide exactly by 2, 3 and 4 are multiples of 12: 48, 60, 72… Add 1: 49, 61, 73. The smallest greater than 50 is 61.",
+   "distractors": {
+    "A": "leaves remainder 2 when divided by 3",
+    "C": "not the smallest",
+    "D": "leaves remainder 3 when divided by 4",
+    "E": "not greater than 50"
+   }
+  },
+  {
+   "n": 34,
+   "topic": "SHAPE",
+   "difficulty": 4,
+   "skill": "Painted cubes",
+   "stem": "A large cube is made from 27 small cubes (3 × 3 × 3). The outside of the large cube is painted. How many small cubes have paint on exactly 2 faces?",
+   "options": {
+    "A": "12",
+    "B": "8",
+    "C": "6",
+    "D": "24",
+    "E": "1"
+   },
+   "answer": "A",
+   "explanation": "Small cubes with exactly 2 painted faces sit on the edges of the big cube, but not at the corners. A cube has 12 edges, and each edge has 1 such cube in the middle: 12.",
+   "distractors": {
+    "B": "those are the corner cubes (3 painted faces)",
+    "C": "those are the face centres (1 painted face)",
+    "D": "counted 2 per edge",
+    "E": "that is the hidden centre cube (no paint)"
+   }
+  },
+  {
+   "n": 35,
+   "topic": "PAT",
+   "difficulty": 4,
+   "skill": "Missing number with fractions",
+   "stem": "Half of a number is 6 more than a quarter of the same number. What is the number?",
+   "options": {
+    "A": "24",
+    "B": "12",
+    "C": "48",
+    "D": "6",
+    "E": "18"
+   },
+   "answer": "A",
+   "explanation": "Half − quarter = a quarter of the number, and that equals 6. So the number is 4 × 6 = 24. Check: half is 12, quarter is 6, and 12 is 6 more than 6 ✓.",
+   "distractors": {
+    "B": "that is half the number",
+    "C": "doubled too many times",
+    "D": "that is a quarter of the number",
+    "E": "guess: half of 18 is 9 and a quarter is 4.5"
    }
   }
  ]

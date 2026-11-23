@@ -24,50 +24,6 @@
  "questions": [
   {
    "n": 1,
-   "topic": "TIM",
-   "difficulty": 1,
-   "skill": "24-hour time → 12-hour time, adding duration",
-   "stem": "A movie starts at 1945 and runs for 1 hour 50 minutes. At what time does it finish?",
-   "options": {
-    "A": "7:35 pm",
-    "B": "8:35 pm",
-    "C": "9:35 am",
-    "D": "9:35 pm",
-    "E": "11:35 pm"
-   },
-   "answer": "D",
-   "explanation": "1945 + 1 hour = 2045. Add 50 more minutes: 2045 + 15 min = 2100, then 35 more min = 2135. 2135 is 9:35 pm (subtract 12 from the hour).",
-   "distractors": {
-    "B": "added only the 50 minutes",
-    "C": "right digits but am/pm mixed up",
-    "E": "subtracted 10 instead of 12 when converting",
-    "A": "subtracted 14 instead of 12"
-   }
-  },
-  {
-   "n": 2,
-   "topic": "NUM",
-   "difficulty": 1,
-   "skill": "Place value with regrouping",
-   "stem": "A number is made of 3 thousands, 14 hundreds, 5 tens and 12 ones. What is the number?",
-   "options": {
-    "A": "3 462",
-    "B": "4 462",
-    "C": "4 472",
-    "D": "44 512",
-    "E": "314 512"
-   },
-   "answer": "B",
-   "explanation": "3 thousands = 3000. 14 hundreds = 1400. 5 tens = 50. 12 ones = 12. 3000 + 1400 + 50 + 12 = 4462. The 14 hundreds contains another thousand!",
-   "distractors": {
-    "A": "forgot that 14 hundreds includes 1 thousand",
-    "C": "slip adding the tens",
-    "D": "joined 4400 and 512 as digits",
-    "E": "wrote the parts next to each other instead of adding"
-   }
-  },
-  {
-   "n": 3,
    "topic": "FRA",
    "difficulty": 1,
    "skill": "Fraction of a quantity, part–whole",
@@ -89,29 +45,7 @@
    }
   },
   {
-   "n": 4,
-   "topic": "OPS",
-   "difficulty": 1,
-   "skill": "Inverse operations, undoing in reverse order",
-   "stem": "Tom thinks of a number. He halves it, then adds 9. His answer is 25. What number did Tom think of?",
-   "options": {
-    "A": "32",
-    "B": "34",
-    "C": "41",
-    "D": "50",
-    "E": "68"
-   },
-   "answer": "A",
-   "explanation": "Undo the steps in reverse order. Last step was +9, so do 25 − 9 = 16. Before that he halved, so double: 16 × 2 = 32. Check: 32 ÷ 2 = 16, 16 + 9 = 25 ✓",
-   "distractors": {
-    "B": "did 25 + 9 instead of undoing it",
-    "C": "undid the steps in the wrong order (25 × 2 − 9)",
-    "D": "only undid the halving (25 × 2)",
-    "E": "used the same operations instead of inverses ((25 + 9) × 2)"
-   }
-  },
-  {
-   "n": 5,
+   "n": 2,
    "topic": "MDV",
    "difficulty": 2,
    "skill": "Remainders, two conditions at once",
@@ -133,117 +67,7 @@
    }
   },
   {
-   "n": 6,
-   "topic": "SPA",
-   "difficulty": 2,
-   "skill": "Rotational symmetry (half-turn)",
-   "stem": "A shape has rotational symmetry if it looks exactly the same after turning it less than a full turn. Written as capital letters, which of these have rotational symmetry?\n1) S\n2) N\n3) T",
-   "options": {
-    "A": "1 only",
-    "B": "2 only",
-    "C": "1 and 2 only",
-    "D": "1 and 3 only",
-    "E": "None of them"
-   },
-   "answer": "C",
-   "explanation": "Turn each letter upside down (a half-turn). S still looks like S, and N still looks like N. T becomes an upside-down T, so it has no rotational symmetry (it only has a line of symmetry).",
-   "distractors": {
-    "A": "missed that N looks the same after a half-turn",
-    "B": "missed that S looks the same after a half-turn",
-    "D": "mixed up line symmetry (T) with rotational symmetry",
-    "E": "only checked quarter-turns"
-   }
-  },
-  {
-   "n": 7,
-   "topic": "MEA",
-   "difficulty": 2,
-   "skill": "Converting and ordering lengths",
-   "stem": "Which of these lengths is the SECOND longest?",
-   "options": {
-    "A": "2.3 m",
-    "B": "205 cm",
-    "C": "2 m 40 mm",
-    "D": "2080 mm",
-    "E": "0.0021 km"
-   },
-   "answer": "E",
-   "explanation": "Change all to mm: 2.3 m = 2300 mm, 205 cm = 2050 mm, 2 m 40 mm = 2040 mm, 2080 mm, 0.0021 km = 2.1 m = 2100 mm. Order: 2300, 2100, 2080, 2050, 2040. Second longest is 0.0021 km.",
-   "distractors": {
-    "A": "the longest, not second longest",
-    "D": "ignored the km option because the number looks tiny",
-    "B": "treated 205 as bigger than 2.3",
-    "C": "read 2 m 40 mm as 2.4 m"
-   }
-  },
-  {
-   "n": 8,
-   "topic": "PAT",
-   "difficulty": 2,
-   "skill": "Growing pattern, finding a rule",
-   "stem": "Matchsticks make a row of squares. 1 square uses 4 matchsticks, 2 squares use 7, 3 squares use 10. How many matchsticks are needed for a row of 20 squares?",
-   "options": {
-    "A": "58",
-    "B": "60",
-    "C": "61",
-    "D": "64",
-    "E": "80"
-   },
-   "answer": "C",
-   "explanation": "Each new square adds 3 matchsticks (it shares one side). Start with 1 matchstick, then add 3 for every square: 1 + 3 × 20 = 61.",
-   "distractors": {
-    "B": "forgot the first starting matchstick",
-    "E": "counted 4 for every square (no sharing)",
-    "A": "added 3 only 19 times from 4, then miscounted",
-    "D": "4 + 3 × 20"
-   }
-  },
-  {
-   "n": 9,
-   "topic": "AREA",
-   "difficulty": 2,
-   "skill": "Perimeter changes when a shape is cut",
-   "stem": "A rectangle is 12 cm long and 5 cm wide. It is cut in half to make two rectangles, each 6 cm by 5 cm. What is the TOTAL perimeter of the two pieces?",
-   "options": {
-    "A": "17 cm",
-    "B": "22 cm",
-    "C": "34 cm",
-    "D": "39 cm",
-    "E": "44 cm"
-   },
-   "answer": "E",
-   "explanation": "Each piece: 6 + 5 + 6 + 5 = 22 cm. Two pieces: 44 cm. The total is more than the original 34 cm, because the cut makes two new 5 cm edges.",
-   "distractors": {
-    "A": "halved the original perimeter",
-    "B": "only one piece",
-    "C": "assumed perimeter stays the same after cutting",
-    "D": "added only one new edge"
-   }
-  },
-  {
-   "n": 10,
-   "topic": "MEA",
-   "difficulty": 2,
-   "skill": "Reading a scale: marks vs spaces",
-   "stem": "A jug is labelled every 100 mL. Between each pair of labels there are 4 small unlabelled marks. The juice is exactly 3 small marks above the 300 mL label. Nina drinks 140 mL. How much juice is left?",
-   "options": {
-    "A": "190 mL",
-    "B": "220 mL",
-    "C": "235 mL",
-    "D": "260 mL",
-    "E": "500 mL"
-   },
-   "answer": "B",
-   "explanation": "4 marks make 5 equal spaces between labels, so each space = 100 ÷ 5 = 20 mL. 3 marks above 300 = 300 + 60 = 360 mL. 360 − 140 = 220 mL.",
-   "distractors": {
-    "C": "thought 4 marks = 4 spaces (25 mL each)",
-    "A": "thought each mark = 10 mL",
-    "D": "used 360 − 100",
-    "E": "added instead of subtracting"
-   }
-  },
-  {
-   "n": 11,
+   "n": 3,
    "topic": "FRA",
    "difficulty": 3,
    "skill": "Comparing fractions, fraction of an amount",
@@ -265,7 +89,7 @@
    }
   },
   {
-   "n": 12,
+   "n": 4,
    "topic": "DAT",
    "difficulty": 3,
    "skill": "Mean (average) as a total",
@@ -287,7 +111,7 @@
    }
   },
   {
-   "n": 13,
+   "n": 5,
    "topic": "ANG",
    "difficulty": 3,
    "skill": "Turns in degrees and compass directions",
@@ -309,7 +133,7 @@
    }
   },
   {
-   "n": 14,
+   "n": 6,
    "topic": "MON",
    "difficulty": 3,
    "skill": "Best buy, combinations",
@@ -331,7 +155,7 @@
    }
   },
   {
-   "n": 15,
+   "n": 7,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Decimals on a number line",
@@ -353,7 +177,7 @@
    }
   },
   {
-   "n": 16,
+   "n": 8,
    "topic": "FRA",
    "difficulty": 3,
    "skill": "Sharing in a ratio using parts",
@@ -375,7 +199,7 @@
    }
   },
   {
-   "n": 17,
+   "n": 9,
    "topic": "PRB",
    "difficulty": 3,
    "skill": "Systematic counting",
@@ -397,7 +221,7 @@
    }
   },
   {
-   "n": 18,
+   "n": 10,
    "topic": "DAT",
    "difficulty": 3,
    "skill": "Interpreting changes in data",
@@ -419,7 +243,7 @@
    }
   },
   {
-   "n": 19,
+   "n": 11,
    "topic": "OPS",
    "difficulty": 3,
    "skill": "Division with remainder in context, mixed units",
@@ -441,7 +265,7 @@
    }
   },
   {
-   "n": 20,
+   "n": 12,
    "topic": "AREA",
    "difficulty": 3,
    "skill": "Area vs perimeter when a corner is removed",
@@ -463,7 +287,7 @@
    }
   },
   {
-   "n": 21,
+   "n": 13,
    "topic": "MEA",
    "difficulty": 3,
    "skill": "Volume and capacity (1 L = 1000 cm³)",
@@ -485,7 +309,7 @@
    }
   },
   {
-   "n": 22,
+   "n": 14,
    "topic": "LOG",
    "difficulty": 3,
    "skill": "Comparing two combinations",
@@ -507,7 +331,7 @@
    }
   },
   {
-   "n": 23,
+   "n": 15,
    "topic": "ANG",
    "difficulty": 3,
    "skill": "Angles on a straight line, vertically opposite angles",
@@ -529,7 +353,161 @@
    }
   },
   {
-   "n": 24,
+   "n": 16,
+   "topic": "TIM",
+   "difficulty": 3,
+   "skill": "Time zones and elapsed time",
+   "stem": "A plane leaves Perth at 11:50 pm and the flight takes 4 hours 25 minutes. Sydney time is 3 hours ahead of Perth time. What is the time in Sydney when the plane lands?",
+   "options": {
+    "A": "4:15 am",
+    "B": "1:15 am",
+    "C": "7:15 pm",
+    "D": "7:15 am",
+    "E": "6:15 am"
+   },
+   "answer": "D",
+   "explanation": "11:50 pm + 4 h 25 min = 4:15 am (Perth time). Sydney is 3 hours ahead: 4:15 am + 3 h = 7:15 am.",
+   "distractors": {
+    "A": "that is the Perth time",
+    "B": "subtracted the 3 hours instead of adding",
+    "C": "it is the next morning, so am",
+    "E": "hour slip"
+   }
+  },
+  {
+   "n": 17,
+   "topic": "NUM",
+   "difficulty": 3,
+   "skill": "Largest and smallest numbers from digits",
+   "stem": "Using each of the digits 0, 3, 5 and 8 exactly once, Max makes the largest possible 4-digit number and the smallest possible 4-digit number. What is the difference between them?",
+   "options": {
+    "A": "8172",
+    "B": "5472",
+    "C": "5428",
+    "D": "5482",
+    "E": "4472"
+   },
+   "answer": "B",
+   "explanation": "Largest: 8530. Smallest: a 4-digit number can't start with 0, so it is 3058. 8530 − 3058 = 5472.",
+   "distractors": {
+    "A": "used 0358, which is not a 4-digit number",
+    "C": "subtraction slip",
+    "D": "subtraction slip",
+    "E": "subtraction slip"
+   }
+  },
+  {
+   "n": 18,
+   "topic": "FRA",
+   "difficulty": 3,
+   "skill": "Working backwards with fractions",
+   "stem": "Ella spent 1/4 of her money on a book. Then she spent $6 on lunch. Then she spent half of what was left on a game. She had $15 left. How much money did she start with?",
+   "options": {
+    "A": "$48",
+    "B": "$36",
+    "C": "$42",
+    "D": "$60",
+    "E": "$54"
+   },
+   "answer": "A",
+   "explanation": "Work backwards: before the game she had $15 × 2 = $30. Before lunch: $30 + $6 = $36. $36 is the 3/4 left after the book, so 1/4 is $12 and she started with $48.",
+   "distractors": {
+    "B": "stopped before undoing the book",
+    "C": "added the $6 at the wrong step",
+    "D": "treated $15 as a quarter",
+    "E": "undid the steps in the wrong order"
+   }
+  },
+  {
+   "n": 19,
+   "topic": "MEA",
+   "difficulty": 3,
+   "skill": "Comparing measurements",
+   "stem": "Which of these is the heaviest?",
+   "options": {
+    "A": "1¾ kg",
+    "B": "0.6 kg × 3",
+    "C": "1 kg 820 g",
+    "D": "3.68 kg ÷ 2",
+    "E": "2.3 kg − 450 g"
+   },
+   "answer": "E",
+   "explanation": "Change all to grams: 2300 − 450 = 1850 g; 1750 g; 1800 g; 1820 g; 3680 ÷ 2 = 1840 g. The heaviest is 2.3 kg − 450 g.",
+   "distractors": {
+    "A": "1750 g",
+    "B": "1800 g",
+    "C": "1820 g",
+    "D": "1840 g, close but less than 1850 g"
+   }
+  },
+  {
+   "n": 20,
+   "topic": "PAT",
+   "difficulty": 3,
+   "skill": "Growing patterns",
+   "stem": "Matchsticks are used to make 2 rows of squares. Pattern 1 is a 2 × 1 block of squares, pattern 2 is a 2 × 2 block, pattern 3 is a 2 × 3 block, and so on. How many matchsticks are needed for pattern 12?",
+   "options": {
+    "A": "72",
+    "B": "60",
+    "C": "62",
+    "D": "64",
+    "E": "57"
+   },
+   "answer": "C",
+   "explanation": "Pattern n has 3 rows of n horizontal sticks (3n) and n + 1 columns of 2 vertical sticks (2n + 2). Total 5n + 2. For n = 12: 60 + 2 = 62. Check: pattern 1 uses 7 sticks ✓.",
+   "distractors": {
+    "A": "counted 6 sticks per column",
+    "B": "forgot the 2 sticks at the start",
+    "D": "counted one column too many",
+    "E": "used 5n − 3"
+   }
+  },
+  {
+   "n": 21,
+   "topic": "AREA",
+   "difficulty": 3,
+   "skill": "Perimeter of a notched shape",
+   "stem": "A rectangle is 12 cm long and 8 cm wide. A 3 cm by 2 cm rectangle is cut out from the middle of one of the long sides, making a notch 2 cm deep. What is the perimeter of the new shape?",
+   "options": {
+    "A": "40 cm",
+    "B": "34 cm",
+    "C": "46 cm",
+    "D": "50 cm",
+    "E": "44 cm"
+   },
+   "answer": "E",
+   "explanation": "The original perimeter is 2 × (12 + 8) = 40 cm. Cutting the notch removes 3 cm of edge but adds 3 cm (the bottom of the notch) plus two 2 cm sides. So the perimeter grows by 4 cm: 44 cm.",
+   "distractors": {
+    "A": "forgot the two new sides of the notch",
+    "B": "subtracted the notch width",
+    "C": "added the notch width as well",
+    "D": "added all four sides of the small rectangle"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "MEA",
+   "difficulty": 3,
+   "skill": "Capacity in steps",
+   "stem": "A jug holds 1.2 L of water. Sam pours out 3 glasses of 180 mL each, then adds 250 mL. How much water is in the jug now?",
+   "options": {
+    "A": "1450 mL",
+    "B": "910 mL",
+    "C": "660 mL",
+    "D": "1090 mL",
+    "E": "960 mL"
+   },
+   "answer": "B",
+   "explanation": "1.2 L = 1200 mL. Pouring out 3 × 180 = 540 mL leaves 660 mL. Adding 250 mL gives 910 mL.",
+   "distractors": {
+    "A": "forgot to pour out the glasses",
+    "C": "forgot to add the 250 mL",
+    "D": "poured out only one glass",
+    "E": "subtraction slip"
+   }
+  },
+  {
+   "n": 23,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Folding a cube net (opposite faces)",
@@ -552,7 +530,7 @@
    }
   },
   {
-   "n": 25,
+   "n": 24,
    "topic": "LOG",
    "difficulty": 4,
    "skill": "Three linked amounts (bar model)",
@@ -574,7 +552,7 @@
    }
   },
   {
-   "n": 26,
+   "n": 25,
    "topic": "MDV",
    "difficulty": 4,
    "skill": "Lowest common multiple plus a remainder",
@@ -596,7 +574,7 @@
    }
   },
   {
-   "n": 27,
+   "n": 26,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Coordinates, reflection and translation",
@@ -618,7 +596,7 @@
    }
   },
   {
-   "n": 28,
+   "n": 27,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Visualising faces of a cuboid (statements)",
@@ -640,7 +618,7 @@
    }
   },
   {
-   "n": 29,
+   "n": 28,
    "topic": "PAT",
    "difficulty": 4,
    "skill": "Repeating structure, position in a pattern",
@@ -662,7 +640,7 @@
    }
   },
   {
-   "n": 30,
+   "n": 29,
    "topic": "FRA",
    "difficulty": 4,
    "skill": "Fraction of a remainder, working backwards",
@@ -684,7 +662,7 @@
    }
   },
   {
-   "n": 31,
+   "n": 30,
    "topic": "PRB",
    "difficulty": 4,
    "skill": "Probability with linked amounts (trial and improvement)",
@@ -706,7 +684,7 @@
    }
   },
   {
-   "n": 32,
+   "n": 31,
    "topic": "AREA",
    "difficulty": 4,
    "skill": "Perimeter of parts from perimeter of whole",
@@ -725,6 +703,28 @@
     "B": "12 + 12 only",
     "C": "12 + 4 + 12",
     "E": "12 × 3"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Rotational symmetry",
+   "stem": "A regular hexagon is divided into 6 identical triangles by lines from its centre to each corner. Two triangles that are next to each other are shaded. What is the smallest number of extra triangles that must be shaded so the hexagon looks the same after a turn of one-third of a full turn?",
+   "options": {
+    "A": "2",
+    "B": "1",
+    "C": "4",
+    "D": "3",
+    "E": "0"
+   },
+   "answer": "C",
+   "explanation": "A third of a turn moves each triangle 2 places round. If triangles 1 and 2 are shaded, then 3 and 4 must be, and then 5 and 6. All six must be shaded: 4 extra. (2 extra would only give symmetry for a half turn.)",
+   "distractors": {
+    "A": "that gives symmetry for a HALF turn, not a third",
+    "B": "not enough",
+    "D": "shading must come in pairs here",
+    "E": "the shape changes after a third of a turn"
    }
   },
   {

@@ -1,0 +1,1015 @@
+{
+ "id": "shs-rd-03",
+ "title": "Selective Reading – Practice Test 3",
+ "section": "Reading",
+ "timeLimitMinutes": 45,
+ "groupLabel": "By part",
+ "topics": {
+  "FIC": "Part 1 – Two linked texts",
+  "CLZ": "Part 2 – Vocabulary cloze",
+  "POE": "Part 3 – Poetry",
+  "GAP": "Part 4 – Gapped text",
+  "MAT": "Part 5 – Multiple matching"
+ },
+ "passages": [
+  {
+   "id": "p1",
+   "part": 1,
+   "kind": "prose",
+   "title": "Caught",
+   "intro": "Read the two texts below, then answer questions 1–8. Some questions ask about both texts.",
+   "credit": "Both texts were written for this practice test.",
+   "paragraphs": [
+    "TEXT A – from a story",
+    "The flags were up: red and yellow, planted in the sand like a promise. Between them the water was a flat, friendly blue. Beyond them, to the left, it looked even calmer – a smooth, dark lane where no waves broke at all. That was what Jess noticed first, because it was wrong. Calm water on a surf beach is never just calm.",
+    "Then she saw the boy. He was small, maybe seven, sitting on a boogie board in the smooth lane and drifting outwards as gently as a leaf on a pond. He was not paddling. He was not waving. He was simply getting smaller.",
+    "Jess's legs wanted to run straight into the water. Her head, which had sat through three summers of Sunday-morning nippers, told them to wait. Coach Ray's voice was suddenly as clear as if he were standing behind her: 'You can't help anyone if you become the second person who needs saving.'",
+    "So she did the thing that felt slowest. She raised her arm high and kept it there, waving it from side to side until a figure in a red and yellow cap on the tower stood up. Only then did she grab her own board, paddle out on the far side of the dark lane and come in towards the boy from the side, the way she had practised a hundred times on days when it had seemed pointless.",
+    "'Hold on to the board,' she said, and was surprised at how ordinary her voice sounded. 'Don't swim. We're just going to float for a bit.' The boy's eyes were enormous, but he held on. Behind her she heard the roar of the rescue boat.",
+    "TEXT B – from an information leaflet",
+    "A rip current is a strong channel of water flowing away from the shore. Rips form when waves push water up the beach and that water finds the easiest path back out to sea. Because the water is moving outwards, waves often do not break over a rip, so it can look like the calmest, safest place to swim. This is exactly why rips catch so many people.",
+    "Most people caught in a rip are not dragged under: they are carried away from the beach. Danger comes when a swimmer panics and tries to swim straight back against the current, which can be faster than an Olympic swimmer. Exhausted swimmers are the ones who get into trouble.",
+    "Surf lifesavers teach a simple plan: stay calm, float, and raise one arm to signal for help. If you see someone else caught in a rip, do not swim out to them unless you have training and something that floats. Alert a lifesaver or call for help first. A would-be rescuer who has to be rescued doubles the problem."
+   ],
+   "numbered": false
+  },
+  {
+   "id": "p2",
+   "part": 2,
+   "kind": "cloze",
+   "title": "Monsters of the Deep",
+   "intro": "Read the text below. Choose the best word to fill each of the 8 gaps (questions 9–16).",
+   "credit": "Original text written for this practice test.",
+   "text": "For centuries, sailors told stories of giant waves that rose out of calm seas and {1} ships without warning. Scientists {2} these tales as exaggerations: according to their calculations, such enormous waves should occur only once in thousands of years.\n\nThen, on New Year's Day in 1995, an instrument on an oil platform in the North Sea recorded a single wave 26 metres high. The evidence was {3}. Researchers began to take the sailors' accounts {4}, and within a few years satellite images had {5} that these 'rogue waves' are far more common than anyone had believed.\n\nRogue waves are thought to form when several smaller waves {6} and combine their energy. Ships are now designed to {7} much greater forces, and forecasters are working on ways to {8} where rogue waves are most likely to appear."
+  },
+  {
+   "id": "p3",
+   "part": 3,
+   "kind": "poem",
+   "title": "“Hope” is the thing with feathers",
+   "intro": "Read the poem below, then answer questions 17–22. Lines are numbered. (Gale: a very strong wind; abash: shame or silence; Extremity: the hardest, most desperate times.)",
+   "credit": "Emily Dickinson, written about 1861, first published 1891. Public domain.",
+   "stanzas": [
+    [
+     "“Hope” is the thing with feathers –",
+     "That perches in the soul –",
+     "And sings the tune without the words –",
+     "And never stops – at all –"
+    ],
+    [
+     "And sweetest – in the Gale – is heard –",
+     "And sore must be the storm –",
+     "That could abash the little Bird",
+     "That kept so many warm –"
+    ],
+    [
+     "I’ve heard it in the chillest land –",
+     "And on the strangest Sea –",
+     "Yet – never – in Extremity,",
+     "It asked a crumb – of Me."
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "part": 4,
+   "kind": "gapped",
+   "title": "The Rocks That Walk",
+   "intro": "Six paragraphs have been removed from the article. Choose the paragraph (A–G) that best fits each gap (questions 23–28). There is one extra paragraph you do not need.",
+   "credit": "Original article written for this practice test.",
+   "paragraphs": [
+    "In a remote dry lakebed in California's Death Valley, called Racetrack Playa, rocks move by themselves. Some weigh as much as a person, yet each one leaves a long, shallow trail behind it in the cracked mud, as if something had dragged it across the ground. For decades, nobody had ever seen one move.",
+    "[[1]]",
+    "[[2]]",
+    "That was the challenge two cousins, Richard and James Norris, decided to take on in 2011. They placed rocks fitted with GPS trackers on the playa and set up a weather station and cameras. Then they waited – for more than two years.",
+    "[[3]]",
+    "[[4]]",
+    "[[5]]",
+    "[[6]]"
+   ],
+   "bank": {
+    "A": "Over the years, people suggested all kinds of explanations. Some blamed hurricane-force winds; others suggested magnetism, slippery algae, or simply pranksters pushing the rocks around at night.",
+    "B": "The trouble was that none of these ideas could be tested without actually watching a rock move. And the rocks seemed to move so rarely that a scientist could visit for years without seeing a thing.",
+    "C": "Their patience was rewarded in December 2013. After a rare winter rain, the playa was covered by a shallow pond. On cold nights, a thin sheet of ice formed on its surface, as thin as a windowpane.",
+    "D": "On sunny mornings the ice began to crack into large floating panels. Even a light breeze was enough to push these panels across the pond, and the panels shoved the rocks along in front of them through the soft mud.",
+    "E": "The rocks did not race. They crept along at a few metres per minute, so slowly that a person standing nearby might not notice. Some travelled more than 200 metres before the ice melted and the water dried up.",
+    "F": "The mystery that had puzzled visitors for nearly a century had a surprisingly gentle answer: not powerful winds or magic, but thin ice, a breeze and a lot of patience.",
+    "G": "Death Valley is one of the hottest places on Earth, with summer temperatures that can reach more than 50 °C."
+   }
+  },
+  {
+   "id": "p5",
+   "part": 5,
+   "kind": "extracts",
+   "title": "Getting It Wrong",
+   "intro": "Read the four extracts about mistakes. For questions 29–38, choose which extract (A, B, C or D) each statement matches. You can use each letter more than once.",
+   "credit": "Original texts written for this practice test.",
+   "extracts": {
+    "A": {
+     "title": "The Lucky Burn (a chef's memoir)",
+     "text": "In my first week as head chef, I left a tray of caramel on the stove for far too long while I argued with a delivery driver. By the time I ran back, it had turned the colour of strong tea and smelled like a campfire. I was about to throw it out when an old waiter dipped a spoon in and said, 'Put salt in that and serve it with apples.' Twenty years later, burnt-salt caramel is still the most popular dessert on our menu. I have stopped pretending it was my idea."
+    },
+    "B": {
+     "title": "The Mould That Saved Millions (a science magazine)",
+     "text": "In 1928 the scientist Alexander Fleming returned from a holiday to find that mould had grown on one of the dishes of bacteria he had left on his bench. Around the mould, the bacteria had died. A less curious researcher might have scrubbed the dish clean. Fleming studied it instead, and the substance the mould produced, penicillin, became the first widely used antibiotic. Other scientists later did the hard work of making it in large amounts, a reminder that a lucky accident is only the beginning."
+    },
+    "C": {
+     "title": "We Lost Again (a junior coach's blog)",
+     "text": "Our under-11s lost 6–0 on Saturday, which is a slight improvement on last week's 9–0. Some parents have suggested the problem is the new kit. It isn't. The problem is that we panic and all chase the ball like seagulls after a chip. So this week we are practising one thing: staying in position. Losing is not the disaster people think it is, as long as you are willing to look honestly at why it happened."
+    },
+    "D": {
+     "title": "Review: 'Glorious Failures'",
+     "text": "This book promises to celebrate history's great mistakes, and some chapters, especially the one on failed flying machines, are genuinely fascinating. Too often, though, the author treats every disaster as a joke, and seems to forget that some of these 'glorious failures' cost people their savings, their health or worse. It is possible to learn from mistakes without making fun of the people who made them."
+    }
+   }
+  }
+ ],
+ "questions": [
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Comparing texts",
+   "skill": "What both texts show",
+   "difficulty": 3,
+   "stem": "What idea is found in BOTH texts?",
+   "options": {
+    "A": "Water that looks calm on a surf beach may actually be dangerous.",
+    "B": "Children should never use boogie boards at the beach.",
+    "C": "Rips are most dangerous on sunny days.",
+    "D": "Surf lifesavers should always be the first people to enter the water."
+   },
+   "answer": "A",
+   "explanation": "Text A: Jess notices the calm, dark lane is 'wrong'. Text B: waves don't break over a rip, so it 'can look like the calmest, safest place to swim'. Both warn that calm-looking water can be a rip.",
+   "distractors": {
+    "B": "neither text says this",
+    "C": "neither text mentions sunny days",
+    "D": "Text B tells ordinary people to alert lifesavers, but neither text says lifesavers must always go first"
+   },
+   "n": 1
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Comparing texts",
+   "skill": "How one text explains the other",
+   "difficulty": 4,
+   "stem": "Which part of Text B best explains why Jess waved her arm before going into the water?",
+   "options": {
+    "A": "Rips form when waves push water up the beach.",
+    "B": "A would-be rescuer who has to be rescued doubles the problem.",
+    "C": "Most people caught in a rip are not dragged under.",
+    "D": "A rip current can be faster than an Olympic swimmer."
+   },
+   "answer": "B",
+   "explanation": "Jess remembers Coach Ray: you can't help anyone if you become 'the second person who needs saving'. Text B gives the same reason: a rescuer who needs rescuing doubles the problem. So she signalled for help first.",
+   "distractors": {
+    "A": "explains how rips form, not why she waved",
+    "C": "true, but not why she signalled first",
+    "D": "explains why swimming against a rip is hard, not why she waited"
+   },
+   "n": 2
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Comparing texts",
+   "skill": "Matching actions to advice",
+   "difficulty": 3,
+   "stem": "Jess tells the boy 'Don't swim. We're just going to float for a bit.' Which advice in Text B does this follow?",
+   "options": {
+    "A": "Swim straight back to the shore as fast as possible.",
+    "B": "Only swim between the flags.",
+    "C": "Stay calm and float rather than swimming against the current.",
+    "D": "Call for help before going near the water."
+   },
+   "answer": "C",
+   "explanation": "Text B says to stay calm and float, and that swimming against the current exhausts people. Jess tells the boy to float and not swim.",
+   "distractors": {
+    "A": "Text B warns against this",
+    "B": "Text B doesn't give this advice, and it doesn't match what Jess says to the boy",
+    "D": "Jess did this earlier, but it's not what she says to the boy"
+   },
+   "n": 3
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of a simile",
+   "difficulty": 4,
+   "stem": "The boy drifts outwards 'as gently as a leaf on a pond' (Text A, paragraph 3). What is the effect of this comparison?",
+   "options": {
+    "A": "It shows that the boy is enjoying himself.",
+    "B": "It suggests that the water is shallow.",
+    "C": "It shows that the boy is about to fall off his board.",
+    "D": "It makes the danger seem peaceful and quiet, which makes it more frightening."
+   },
+   "answer": "D",
+   "explanation": "A leaf on a pond is calm and harmless. Describing the boy's drift this way shows how quietly the rip is taking him: there is no splashing or shouting, which is what makes it so dangerous.",
+   "distractors": {
+    "A": "he isn't waving or paddling, but nothing says he's enjoying it",
+    "B": "a pond suggests stillness, not depth",
+    "C": "the image is of gentle drifting, not falling"
+   },
+   "n": 4
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "A character's inner conflict",
+   "difficulty": 3,
+   "stem": "'Jess's legs wanted to run straight into the water. Her head … told them to wait.' (Text A, paragraph 4). This shows that Jess",
+   "options": {
+    "A": "is too frightened to help the boy.",
+    "B": "does not care what happens to the boy.",
+    "C": "cannot decide whether the boy is really in trouble.",
+    "D": "has to fight her instinct to rush in and instead follow her training."
+   },
+   "answer": "D",
+   "explanation": "Her 'legs' stand for her instinct to rush in; her 'head' remembers her training. She chooses the training, even though it feels slow.",
+   "distractors": {
+    "A": "she does help, after signalling",
+    "B": "her urge to run in shows she cares",
+    "C": "she has already realised the water is 'wrong' and the boy is drifting"
+   },
+   "n": 5
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Understanding a detail",
+   "difficulty": 4,
+   "stem": "Why does Jess paddle out 'on the far side of the dark lane' and come towards the boy from the side?",
+   "options": {
+    "A": "Because the boy asked her to come from that direction.",
+    "B": "Because the flags told her to swim there.",
+    "C": "So that she won't be caught in the same current that is carrying the boy away.",
+    "D": "So that the lifesaver on the tower could see her better."
+   },
+   "answer": "C",
+   "explanation": "The dark lane is the rip. Paddling around it and approaching from the side keeps Jess out of the strongest current, matching Text B's warning about rescuers needing rescue.",
+   "distractors": {
+    "A": "the boy doesn't speak",
+    "B": "the flags mark where to swim, not how to reach the boy",
+    "D": "she has already signalled the tower"
+   },
+   "n": 6
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Inference",
+   "skill": "Tone and character",
+   "difficulty": 4,
+   "stem": "Jess 'was surprised at how ordinary her voice sounded' (paragraph 6). What does this suggest?",
+   "options": {
+    "A": "She is calmer on the outside than she feels inside, which helps keep the boy calm.",
+    "B": "She is bored by the rescue.",
+    "C": "She is annoyed with the boy for drifting out.",
+    "D": "She has lost her voice from shouting."
+   },
+   "answer": "A",
+   "explanation": "She expects to sound frightened but sounds normal. Her calm voice is exactly what the boy needs, and it shows her training working.",
+   "distractors": {
+    "B": "the situation is tense, not boring",
+    "C": "nothing suggests annoyance",
+    "D": "she speaks clearly"
+   },
+   "n": 7
+  },
+  {
+   "passage": "p1",
+   "topic": "FIC",
+   "skillGroup": "Purpose and structure",
+   "skill": "Purpose of a text",
+   "difficulty": 2,
+   "stem": "What is the main purpose of Text B?",
+   "options": {
+    "A": "to tell an exciting story about a rescue",
+    "B": "to explain what rips are and how to respond to them safely",
+    "C": "to persuade people to join a surf lifesaving club",
+    "D": "to argue that beaches should be closed when there are rips"
+   },
+   "answer": "B",
+   "explanation": "Text B explains how rips form, why they look calm, why people get into trouble, and what to do: it informs and advises.",
+   "distractors": {
+    "A": "that is Text A",
+    "C": "it mentions lifesavers but doesn't ask people to join",
+    "D": "it gives advice, not an argument for closing beaches"
+   },
+   "n": 8
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 1: choose the best word.",
+   "options": {
+    "A": "soaked",
+    "B": "flooded",
+    "C": "drowned",
+    "D": "swamped"
+   },
+   "answer": "D",
+   "explanation": "'Swamped' means overwhelmed with water: a giant wave swamps a ship.",
+   "distractors": {
+    "A": "'soaked' is used for people or clothes getting wet",
+    "B": "places flood; a wave doesn't 'flood' a ship",
+    "C": "people drown, not ships"
+   },
+   "gap": 1,
+   "n": 9
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 2: choose the best word.",
+   "options": {
+    "A": "discarded",
+    "B": "denied",
+    "C": "dismissed",
+    "D": "deleted"
+   },
+   "answer": "C",
+   "explanation": "To 'dismiss' a story as an exaggeration means to treat it as not worth believing.",
+   "distractors": {
+    "A": "you discard objects you throw away",
+    "B": "you deny that something happened, but 'denied these tales as exaggerations' isn't English",
+    "D": "you delete files or words"
+   },
+   "gap": 2,
+   "n": 10
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 3: choose the best word.",
+   "options": {
+    "A": "unavoidable",
+    "B": "undeniable",
+    "C": "uncertain",
+    "D": "unlikely"
+   },
+   "answer": "B",
+   "explanation": "A measured 26-metre wave is proof that can't be argued with: the evidence was undeniable.",
+   "distractors": {
+    "A": "unavoidable means impossible to escape",
+    "C": "the opposite: the instrument measured it",
+    "D": "it actually happened"
+   },
+   "gap": 3,
+   "n": 11
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 4: choose the best word.",
+   "options": {
+    "A": "seriously",
+    "B": "strictly",
+    "C": "severely",
+    "D": "sincerely"
+   },
+   "answer": "A",
+   "explanation": "'Take something seriously' means treat it as true and important.",
+   "distractors": {
+    "B": "'take strictly' isn't a phrase",
+    "C": "'take severely' isn't a phrase",
+    "D": "you can mean something sincerely, but not 'take' it sincerely"
+   },
+   "gap": 4,
+   "n": 12
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 5: choose the best word.",
+   "options": {
+    "A": "convinced",
+    "B": "concluded",
+    "C": "contained",
+    "D": "confirmed"
+   },
+   "answer": "D",
+   "explanation": "Satellite images 'confirmed' (proved) that rogue waves are common.",
+   "distractors": {
+    "A": "you convince a person, not 'convinced that'",
+    "B": "people conclude; images don't",
+    "C": "contained means held inside"
+   },
+   "gap": 5,
+   "n": 13
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 4,
+   "stem": "Gap 6: choose the best word.",
+   "options": {
+    "A": "overflow",
+    "B": "overlap",
+    "C": "overtake",
+    "D": "overturn"
+   },
+   "answer": "B",
+   "explanation": "Waves that 'overlap' sit on top of each other and add their energy together.",
+   "distractors": {
+    "A": "overflow is when a container spills",
+    "C": "overtake means pass",
+    "D": "overturn means tip over"
+   },
+   "gap": 6,
+   "n": 14
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 7: choose the best word.",
+   "options": {
+    "A": "withstand",
+    "B": "withdraw",
+    "C": "withhold",
+    "D": "within"
+   },
+   "answer": "A",
+   "explanation": "'Withstand' means survive or resist a force.",
+   "distractors": {
+    "B": "withdraw means pull back",
+    "C": "withhold means keep back",
+    "D": "'within' is not a verb"
+   },
+   "gap": 7,
+   "n": 15
+  },
+  {
+   "passage": "p2",
+   "topic": "CLZ",
+   "skillGroup": "Vocabulary in context",
+   "skill": "Collocation and word choice",
+   "difficulty": 3,
+   "stem": "Gap 8: choose the best word.",
+   "options": {
+    "A": "prevent",
+    "B": "pretend",
+    "C": "predict",
+    "D": "protect"
+   },
+   "answer": "C",
+   "explanation": "Forecasters 'predict' where waves are likely to appear.",
+   "distractors": {
+    "A": "you can't prevent a wave",
+    "B": "pretend doesn't fit",
+    "D": "'protect where waves appear' doesn't make sense"
+   },
+   "gap": 8,
+   "n": 16
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Understanding an extended metaphor",
+   "difficulty": 2,
+   "stem": "Throughout the poem, hope is described as",
+   "options": {
+    "A": "a storm that blows across the sea.",
+    "B": "a small bird that lives inside a person.",
+    "C": "a song that the poet learned as a child.",
+    "D": "a warm coat that protects people from the cold."
+   },
+   "answer": "B",
+   "explanation": "Hope has 'feathers', 'perches', 'sings' and is called 'the little Bird': the whole poem develops one metaphor of hope as a bird in the soul.",
+   "distractors": {
+    "A": "the storm is what hope survives, not hope itself",
+    "C": "the bird sings a tune, but hope isn't a remembered song",
+    "D": "the bird 'kept so many warm', but hope isn't a coat"
+   },
+   "n": 17
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Interpreting a phrase",
+   "difficulty": 4,
+   "stem": "What does 'sings the tune without the words' (line 3) suggest about hope?",
+   "options": {
+    "A": "Hope is a feeling people have even when they can't explain it in words.",
+    "B": "Hope is very quiet and hard to hear.",
+    "C": "The poet has forgotten the words to a song.",
+    "D": "Hope only comes to people who can sing."
+   },
+   "answer": "A",
+   "explanation": "A tune without words is felt rather than explained. Hope works the same way: it lifts us even when we can't say exactly why.",
+   "distractors": {
+    "B": "line 5 says it is 'sweetest' and clearly heard in a gale",
+    "C": "took the line literally",
+    "D": "nothing about people needing to sing"
+   },
+   "n": 18
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Understanding a stanza",
+   "difficulty": 4,
+   "stem": "What is the main idea of the second stanza (lines 5–8)?",
+   "options": {
+    "A": "Hope disappears whenever life becomes difficult.",
+    "B": "Birds often die in storms at sea.",
+    "C": "The poet was once caught in a storm and kept warm by a bird.",
+    "D": "Hope is most comforting in hard times, and only a terrible storm could silence it."
+   },
+   "answer": "D",
+   "explanation": "Hope sounds 'sweetest' in the 'Gale' (hard times), and the storm would have to be very 'sore' (severe) to 'abash' (silence) the bird that has comforted so many people.",
+   "distractors": {
+    "A": "the opposite: it is sweetest in the gale",
+    "B": "the bird is a metaphor; the stanza isn't about real birds dying",
+    "C": "the stanza is figurative, not a real memory"
+   },
+   "n": 19
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Language and imagery",
+   "skill": "Effect of word choice",
+   "difficulty": 4,
+   "stem": "Why does the poet use the words 'chillest land' and 'strangest Sea' (lines 9–10)?",
+   "options": {
+    "A": "to describe real places the poet visited on holiday",
+    "B": "to show that birds can fly over land and sea",
+    "C": "to show that hope stays with people even in the coldest, loneliest and most unfamiliar situations",
+    "D": "to suggest that hope only exists in faraway places"
+   },
+   "answer": "C",
+   "explanation": "These are images of the hardest, most unfamiliar times in life. The speaker has 'heard' hope even there.",
+   "distractors": {
+    "A": "the places are figurative, not travel memories",
+    "B": "the point is about hope, not real birds' flight",
+    "D": "hope is in 'the soul', not only far away"
+   },
+   "n": 20
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Inference",
+   "skill": "Understanding the ending",
+   "difficulty": 5,
+   "stem": "What do the last two lines ('Yet – never – in Extremity, / It asked a crumb – of Me.') suggest about hope?",
+   "options": {
+    "A": "The speaker forgot to feed the bird.",
+    "B": "Hope gives comfort freely and asks nothing in return, even in the worst times.",
+    "C": "Hope eventually becomes hungry and leaves.",
+    "D": "The speaker feels guilty for not looking after hope."
+   },
+   "answer": "B",
+   "explanation": "A real bird would need food. This bird never asked even 'a crumb', even in 'Extremity'. Hope helps us without needing anything back.",
+   "distractors": {
+    "A": "took 'crumb' literally",
+    "C": "it never asked for anything, so it doesn't leave",
+    "D": "the tone is grateful, not guilty"
+   },
+   "n": 21
+  },
+  {
+   "passage": "p3",
+   "topic": "POE",
+   "skillGroup": "Purpose and structure",
+   "skill": "Effect of punctuation",
+   "difficulty": 4,
+   "stem": "The poet uses many dashes ( – ) instead of full stops and commas. What is the most likely effect?",
+   "options": {
+    "A": "They show that the poem is unfinished.",
+    "B": "They show where the bird stops singing.",
+    "C": "They create pauses that make the reader slow down and think about each idea.",
+    "D": "They make the poem rhyme."
+   },
+   "answer": "C",
+   "explanation": "The dashes break lines into small pieces and create pauses, so each image (the feathers, the gale, the crumb) is given weight. Dickinson used them in almost all her poems.",
+   "distractors": {
+    "A": "the poem is complete",
+    "B": "the bird 'never stops – at all'",
+    "D": "rhyme comes from word sounds, not punctuation"
+   },
+   "n": 22
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the paragraph that fits a gap",
+   "difficulty": 3,
+   "stem": "Which paragraph best fits gap 1?",
+   "options": {
+    "A": "Over the years, people suggested all kinds of explanations. Some blamed hurricane-force winds; others suggested magnetism, slippery algae, or simply pranksters pushing the rocks around at night.",
+    "B": "The trouble was that none of these ideas could be tested without actually watching a rock move. And the rocks seemed to move so rarely that a scientist could visit for years without seeing a thing.",
+    "C": "Their patience was rewarded in December 2013. After a rare winter rain, the playa was covered by a shallow pond. On cold nights, a thin sheet of ice formed on its surface, as thin as a windowpane.",
+    "D": "On sunny mornings the ice began to crack into large floating panels. Even a light breeze was enough to push these panels across the pond, and the panels shoved the rocks along in front of them through the soft mud.",
+    "E": "The rocks did not race. They crept along at a few metres per minute, so slowly that a person standing nearby might not notice. Some travelled more than 200 metres before the ice melted and the water dried up.",
+    "F": "The mystery that had puzzled visitors for nearly a century had a surprisingly gentle answer: not powerful winds or magic, but thin ice, a breeze and a lot of patience.",
+    "G": "Death Valley is one of the hottest places on Earth, with summer temperatures that can reach more than 50 °C."
+   },
+   "answer": "A",
+   "explanation": "After 'nobody had ever seen one move', the next paragraph naturally lists the explanations people suggested.",
+   "distractors": {
+    "B": "doesn't link to the paragraphs around gap 1",
+    "C": "doesn't link to the paragraphs around gap 1",
+    "D": "doesn't link to the paragraphs around gap 1",
+    "E": "doesn't link to the paragraphs around gap 1",
+    "F": "doesn't link to the paragraphs around gap 1",
+    "G": "the extra paragraph: a true fact about heat, but it doesn't fit the story of the moving rocks"
+   },
+   "gap": 1,
+   "n": 23
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the paragraph that fits a gap",
+   "difficulty": 4,
+   "stem": "Which paragraph best fits gap 2?",
+   "options": {
+    "A": "Over the years, people suggested all kinds of explanations. Some blamed hurricane-force winds; others suggested magnetism, slippery algae, or simply pranksters pushing the rocks around at night.",
+    "B": "The trouble was that none of these ideas could be tested without actually watching a rock move. And the rocks seemed to move so rarely that a scientist could visit for years without seeing a thing.",
+    "C": "Their patience was rewarded in December 2013. After a rare winter rain, the playa was covered by a shallow pond. On cold nights, a thin sheet of ice formed on its surface, as thin as a windowpane.",
+    "D": "On sunny mornings the ice began to crack into large floating panels. Even a light breeze was enough to push these panels across the pond, and the panels shoved the rocks along in front of them through the soft mud.",
+    "E": "The rocks did not race. They crept along at a few metres per minute, so slowly that a person standing nearby might not notice. Some travelled more than 200 metres before the ice melted and the water dried up.",
+    "F": "The mystery that had puzzled visitors for nearly a century had a surprisingly gentle answer: not powerful winds or magic, but thin ice, a breeze and a lot of patience.",
+    "G": "Death Valley is one of the hottest places on Earth, with summer temperatures that can reach more than 50 °C."
+   },
+   "answer": "B",
+   "explanation": "B explains the problem with all those explanations (they couldn't be tested), which leads to 'That was the challenge' in the next paragraph.",
+   "distractors": {
+    "A": "doesn't link to the paragraphs around gap 2",
+    "C": "doesn't link to the paragraphs around gap 2",
+    "D": "doesn't link to the paragraphs around gap 2",
+    "E": "doesn't link to the paragraphs around gap 2",
+    "F": "doesn't link to the paragraphs around gap 2",
+    "G": "the extra paragraph: a true fact about heat, but it doesn't fit the story of the moving rocks"
+   },
+   "gap": 2,
+   "n": 24
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the paragraph that fits a gap",
+   "difficulty": 3,
+   "stem": "Which paragraph best fits gap 3?",
+   "options": {
+    "A": "Over the years, people suggested all kinds of explanations. Some blamed hurricane-force winds; others suggested magnetism, slippery algae, or simply pranksters pushing the rocks around at night.",
+    "B": "The trouble was that none of these ideas could be tested without actually watching a rock move. And the rocks seemed to move so rarely that a scientist could visit for years without seeing a thing.",
+    "C": "Their patience was rewarded in December 2013. After a rare winter rain, the playa was covered by a shallow pond. On cold nights, a thin sheet of ice formed on its surface, as thin as a windowpane.",
+    "D": "On sunny mornings the ice began to crack into large floating panels. Even a light breeze was enough to push these panels across the pond, and the panels shoved the rocks along in front of them through the soft mud.",
+    "E": "The rocks did not race. They crept along at a few metres per minute, so slowly that a person standing nearby might not notice. Some travelled more than 200 metres before the ice melted and the water dried up.",
+    "F": "The mystery that had puzzled visitors for nearly a century had a surprisingly gentle answer: not powerful winds or magic, but thin ice, a breeze and a lot of patience.",
+    "G": "Death Valley is one of the hottest places on Earth, with summer temperatures that can reach more than 50 °C."
+   },
+   "answer": "C",
+   "explanation": "After two years of waiting, C begins 'Their patience was rewarded' and sets up the conditions: rain, a pond, thin ice.",
+   "distractors": {
+    "A": "doesn't link to the paragraphs around gap 3",
+    "B": "doesn't link to the paragraphs around gap 3",
+    "D": "doesn't link to the paragraphs around gap 3",
+    "E": "doesn't link to the paragraphs around gap 3",
+    "F": "doesn't link to the paragraphs around gap 3",
+    "G": "the extra paragraph: a true fact about heat, but it doesn't fit the story of the moving rocks"
+   },
+   "gap": 3,
+   "n": 25
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the paragraph that fits a gap",
+   "difficulty": 3,
+   "stem": "Which paragraph best fits gap 4?",
+   "options": {
+    "A": "Over the years, people suggested all kinds of explanations. Some blamed hurricane-force winds; others suggested magnetism, slippery algae, or simply pranksters pushing the rocks around at night.",
+    "B": "The trouble was that none of these ideas could be tested without actually watching a rock move. And the rocks seemed to move so rarely that a scientist could visit for years without seeing a thing.",
+    "C": "Their patience was rewarded in December 2013. After a rare winter rain, the playa was covered by a shallow pond. On cold nights, a thin sheet of ice formed on its surface, as thin as a windowpane.",
+    "D": "On sunny mornings the ice began to crack into large floating panels. Even a light breeze was enough to push these panels across the pond, and the panels shoved the rocks along in front of them through the soft mud.",
+    "E": "The rocks did not race. They crept along at a few metres per minute, so slowly that a person standing nearby might not notice. Some travelled more than 200 metres before the ice melted and the water dried up.",
+    "F": "The mystery that had puzzled visitors for nearly a century had a surprisingly gentle answer: not powerful winds or magic, but thin ice, a breeze and a lot of patience.",
+    "G": "Death Valley is one of the hottest places on Earth, with summer temperatures that can reach more than 50 °C."
+   },
+   "answer": "D",
+   "explanation": "D continues directly from the thin ice in C: the ice cracks into panels and the wind pushes them into the rocks.",
+   "distractors": {
+    "A": "doesn't link to the paragraphs around gap 4",
+    "B": "doesn't link to the paragraphs around gap 4",
+    "C": "doesn't link to the paragraphs around gap 4",
+    "E": "doesn't link to the paragraphs around gap 4",
+    "F": "doesn't link to the paragraphs around gap 4",
+    "G": "the extra paragraph: a true fact about heat, but it doesn't fit the story of the moving rocks"
+   },
+   "gap": 4,
+   "n": 26
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the paragraph that fits a gap",
+   "difficulty": 4,
+   "stem": "Which paragraph best fits gap 5?",
+   "options": {
+    "A": "Over the years, people suggested all kinds of explanations. Some blamed hurricane-force winds; others suggested magnetism, slippery algae, or simply pranksters pushing the rocks around at night.",
+    "B": "The trouble was that none of these ideas could be tested without actually watching a rock move. And the rocks seemed to move so rarely that a scientist could visit for years without seeing a thing.",
+    "C": "Their patience was rewarded in December 2013. After a rare winter rain, the playa was covered by a shallow pond. On cold nights, a thin sheet of ice formed on its surface, as thin as a windowpane.",
+    "D": "On sunny mornings the ice began to crack into large floating panels. Even a light breeze was enough to push these panels across the pond, and the panels shoved the rocks along in front of them through the soft mud.",
+    "E": "The rocks did not race. They crept along at a few metres per minute, so slowly that a person standing nearby might not notice. Some travelled more than 200 metres before the ice melted and the water dried up.",
+    "F": "The mystery that had puzzled visitors for nearly a century had a surprisingly gentle answer: not powerful winds or magic, but thin ice, a breeze and a lot of patience.",
+    "G": "Death Valley is one of the hottest places on Earth, with summer temperatures that can reach more than 50 °C."
+   },
+   "answer": "E",
+   "explanation": "E describes how the rocks moved (slowly, a few metres per minute), building on the mechanism in D.",
+   "distractors": {
+    "A": "doesn't link to the paragraphs around gap 5",
+    "B": "doesn't link to the paragraphs around gap 5",
+    "C": "doesn't link to the paragraphs around gap 5",
+    "D": "doesn't link to the paragraphs around gap 5",
+    "F": "doesn't link to the paragraphs around gap 5",
+    "G": "the extra paragraph: a true fact about heat, but it doesn't fit the story of the moving rocks"
+   },
+   "gap": 5,
+   "n": 27
+  },
+  {
+   "passage": "p4",
+   "topic": "GAP",
+   "skillGroup": "Text cohesion",
+   "skill": "Choosing the paragraph that fits a gap",
+   "difficulty": 3,
+   "stem": "Which paragraph best fits gap 6?",
+   "options": {
+    "A": "Over the years, people suggested all kinds of explanations. Some blamed hurricane-force winds; others suggested magnetism, slippery algae, or simply pranksters pushing the rocks around at night.",
+    "B": "The trouble was that none of these ideas could be tested without actually watching a rock move. And the rocks seemed to move so rarely that a scientist could visit for years without seeing a thing.",
+    "C": "Their patience was rewarded in December 2013. After a rare winter rain, the playa was covered by a shallow pond. On cold nights, a thin sheet of ice formed on its surface, as thin as a windowpane.",
+    "D": "On sunny mornings the ice began to crack into large floating panels. Even a light breeze was enough to push these panels across the pond, and the panels shoved the rocks along in front of them through the soft mud.",
+    "E": "The rocks did not race. They crept along at a few metres per minute, so slowly that a person standing nearby might not notice. Some travelled more than 200 metres before the ice melted and the water dried up.",
+    "F": "The mystery that had puzzled visitors for nearly a century had a surprisingly gentle answer: not powerful winds or magic, but thin ice, a breeze and a lot of patience.",
+    "G": "Death Valley is one of the hottest places on Earth, with summer temperatures that can reach more than 50 °C."
+   },
+   "answer": "F",
+   "explanation": "F is a concluding paragraph that sums up the answer to the mystery, so it belongs at the end.",
+   "distractors": {
+    "A": "doesn't link to the paragraphs around gap 6",
+    "B": "doesn't link to the paragraphs around gap 6",
+    "C": "doesn't link to the paragraphs around gap 6",
+    "D": "doesn't link to the paragraphs around gap 6",
+    "E": "doesn't link to the paragraphs around gap 6",
+    "G": "the extra paragraph: a true fact about heat, but it doesn't fit the story of the moving rocks"
+   },
+   "gap": 6,
+   "n": 28
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer admits that someone else deserves credit for a success?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "The chef says 'I have stopped pretending it was my idea': the old waiter thought of it.",
+   "distractors": {
+    "B": "credits other scientists, but the writer isn't admitting anything about themselves",
+    "C": "no success to credit",
+    "D": "a review, not an admission"
+   },
+   "n": 29
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer uses gentle humour about their own team's poor results?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "'A slight improvement on last week's 9–0' and 'like seagulls after a chip' are self-mocking jokes.",
+   "distractors": {
+    "A": "uses humour about a cooking mistake, not a team",
+    "B": "serious tone",
+    "D": "criticises another writer's humour"
+   },
+   "n": 30
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which writer criticises someone for not treating mistakes seriously enough?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "D",
+   "explanation": "The reviewer says the author 'treats every disaster as a joke' and forgets the real cost to people.",
+   "distractors": {
+    "A": "no criticism of anyone",
+    "B": "praises Fleming's curiosity",
+    "C": "rejects the parents' explanation, but not for treating mistakes lightly"
+   },
+   "n": 31
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which extract suggests that what someone does AFTER an accident matters most?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "B",
+   "explanation": "'A less curious researcher might have scrubbed the dish clean' and 'a lucky accident is only the beginning'.",
+   "distractors": {
+    "A": "the chef almost threw it out, but the extract doesn't make this the main point",
+    "C": "about losing, not an accident",
+    "D": "about how mistakes are written about"
+   },
+   "n": 32
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer rejects an explanation that other people have offered?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "Parents blame the new kit; the coach replies 'It isn't.'",
+   "distractors": {
+    "A": "no explanation is rejected",
+    "B": "no rival explanation",
+    "D": "criticises the book's tone, not an explanation"
+   },
+   "n": 33
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which extract describes a mistake that happened because the writer was distracted?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "The caramel burnt while the chef 'argued with a delivery driver'.",
+   "distractors": {
+    "B": "Fleming was on holiday, not distracted, and it isn't the writer",
+    "C": "the team panics, but the writer isn't distracted",
+    "D": "no personal mistake"
+   },
+   "n": 34
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 4,
+   "stem": "Which writer points out that a discovery needed many people's work to become useful?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "B",
+   "explanation": "'Other scientists later did the hard work of making it in large amounts.'",
+   "distractors": {
+    "A": "the waiter helps, but it isn't about many people's work",
+    "C": "about a team practising, not a discovery",
+    "D": "no discovery"
+   },
+   "n": 35
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 3,
+   "stem": "Which writer gives a balanced opinion, with both praise and criticism?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "D",
+   "explanation": "Some chapters are 'genuinely fascinating', but the author 'treats every disaster as a joke'.",
+   "distractors": {
+    "A": "no opinion of a work",
+    "B": "praises Fleming but criticises nobody",
+    "C": "mostly honest analysis, not praise and criticism of a work"
+   },
+   "n": 36
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 2,
+   "stem": "Which writer describes a plan to fix a specific problem?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "C",
+   "explanation": "'This week we are practising one thing: staying in position.'",
+   "distractors": {
+    "A": "no plan; the fix happened by chance",
+    "B": "no plan described",
+    "D": "suggests an attitude, not a plan"
+   },
+   "n": 37
+  },
+  {
+   "passage": "p5",
+   "topic": "MAT",
+   "skillGroup": "Locating and matching",
+   "skill": "Matching a statement to a text",
+   "difficulty": 5,
+   "stem": "Which writer describes a mistake that turned out well because someone else made a suggestion?",
+   "options": {
+    "A": "Extract A",
+    "B": "Extract B",
+    "C": "Extract C",
+    "D": "Extract D"
+   },
+   "answer": "A",
+   "explanation": "Both A (burnt caramel) and B (mould) turned out well, but only in A did someone else suggest what to do: the old waiter.",
+   "distractors": {
+    "B": "turned out well, but Fleming decided for himself",
+    "C": "the losses haven't turned out well (yet)",
+    "D": "a review, not a mistake that turned out well"
+   },
+   "n": 38
+  }
+ ]
+}

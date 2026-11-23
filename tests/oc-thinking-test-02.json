@@ -20,90 +20,6 @@
  "questions": [
   {
    "n": 1,
-   "topic": "DATA",
-   "difficulty": 2,
-   "skill": "Reading a Venn diagram",
-   "stem": "The diagram shows information about the students in a class. How many students are in only one of the two circles (likes apples or likes grapes, but not both)?",
-   "svg": "<svg viewBox='0 0 440 220' xmlns='http://www.w3.org/2000/svg' style='max-width:440px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='420.0' height='200.0' fill='none' stroke-width='1.8' /><circle cx='165.0' cy='115.0' r='85.0' fill='currentColor' fill-opacity='0.06' stroke-width='2' /><circle cx='275.0' cy='115.0' r='85.0' fill='currentColor' fill-opacity='0.06' stroke-width='2' /><text x='70.0' y='34.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Likes apples</text><text x='370.0' y='34.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Likes grapes</text><text x='125.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><text x='220.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >7</text><text x='315.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >11</text><text x='400.0' y='196.0' font-size='18' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text></svg>",
-   "options": {
-    "A": "23",
-    "B": "19",
-    "C": "7",
-    "D": "16"
-   },
-   "answer": "D",
-   "explanation": "\"Only one\" means the parts of the circles that do not overlap: 5 + 11 = 16.",
-   "distractors": {
-    "A": "included those who play both",
-    "B": "included those who play neither",
-    "C": "that is the number who play both"
-   }
-  },
-  {
-   "n": 2,
-   "topic": "SPA",
-   "difficulty": 2,
-   "skill": "Completing a symmetrical pattern",
-   "stem": "The pattern is symmetrical about the dashed line. Which piece fills the gap?",
-   "svg": "<svg viewBox='0 0 420 186' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='88.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='46.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='46.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='62.0' width='52.0' height='52.0' fill='none' stroke-width='2' stroke-dasharray='4 3'/><text x='150.0' y='96.0' font-size='22' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >?</text><line x1='98.0' y1='4.0' x2='98.0' y2='172.0' stroke-width='1.5' stroke-dasharray='6 4'/><rect x='230.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='20.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='230.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='256.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><rect x='320.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='320.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='46.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><text x='346.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><rect x='230.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='230.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='136.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='256.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><rect x='320.0' y='110.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='110.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='320.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='346.0' y='136.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='346.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text></svg>",
-   "inlineOptions": true,
-   "options": {
-    "A": "A",
-    "B": "B",
-    "C": "C",
-    "D": "D"
-   },
-   "answer": "B",
-   "explanation": "Each square must match the square at the same distance on the other side of the dashed line. Read the matching squares on the left half and copy them across in mirror order: B is the piece that fits.",
-   "distractors": {
-    "A": "upside down",
-    "C": "shaded and white squares swapped",
-    "D": "left and right are the wrong way round"
-   }
-  },
-  {
-   "n": 3,
-   "topic": "DED",
-   "difficulty": 2,
-   "skill": "What must be true",
-   "stem": "All the dogs at the park were on a lead. Biscuit is a dog at the park.\nWhich statement must be true?",
-   "options": {
-    "A": "Biscuit is a big dog.",
-    "B": "Everything on a lead is a dog.",
-    "C": "There were ten dogs at the park.",
-    "D": "Biscuit is on a lead."
-   },
-   "answer": "D",
-   "explanation": "Every dog at the park was on a lead, and Biscuit is one of them.",
-   "distractors": {
-    "A": "not stated",
-    "B": "the rule doesn't go that way",
-    "C": "the number isn't given"
-   }
-  },
-  {
-   "n": 4,
-   "topic": "DATA",
-   "difficulty": 2,
-   "skill": "Reading a bar chart",
-   "stem": "The graph shows how many books five students read in a term. Which statement is true?",
-   "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='225.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >0</text><line x1='50.0' y1='191.4' x2='470.0' y2='191.4' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='196.4' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >2</text><line x1='50.0' y1='162.9' x2='470.0' y2='162.9' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='167.9' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >4</text><line x1='50.0' y1='134.3' x2='470.0' y2='134.3' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='139.3' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >6</text><line x1='50.0' y1='105.7' x2='470.0' y2='105.7' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='110.7' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >8</text><line x1='50.0' y1='77.1' x2='470.0' y2='77.1' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='82.1' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >10</text><line x1='50.0' y1='48.6' x2='470.0' y2='48.6' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='53.6' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >12</text><line x1='50.0' y1='20.0' x2='470.0' y2='20.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='25.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >14</text><line x1='50.0' y1='20.0' x2='50.0' y2='220.0' stroke-width='1.6' /><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='1.6' /><rect x='75.0' y='191.4' width='46.0' height='28.6' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='98.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Chen</text><rect x='155.0' y='162.9' width='46.0' height='57.1' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='178.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Ella</text><rect x='235.0' y='48.6' width='46.0' height='171.4' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='258.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Ben</text><rect x='315.0' y='120.0' width='46.0' height='100.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='338.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Finn</text><rect x='395.0' y='134.3' width='46.0' height='85.7' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='418.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Dev</text><text x='14.0' y='120.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' transform='rotate(-90 14 120.0)'>Books</text></svg>",
-   "options": {
-    "A": "Ben read more books than Ella and Chen put together.",
-    "B": "The five students read 33 books altogether.",
-    "C": "Dev read the second-fewest books.",
-    "D": "Finn read twice as many books as Chen."
-   },
-   "answer": "A",
-   "explanation": "Read each bar: Ben 12, Finn 7, Dev 6, Ella 4, Chen 2. Ben read 12; Ella and Chen read 4 + 2 = 6 together.",
-   "distractors": {
-    "B": "they read 31 altogether",
-    "C": "Dev is in the middle; the second-fewest is Ella",
-    "D": "Finn read 7 and Chen read 2"
-   }
-  },
-  {
-   "n": 5,
    "topic": "FLW",
    "difficulty": 2,
    "skill": "Find the assumption",
@@ -123,7 +39,7 @@
    }
   },
   {
-   "n": 6,
+   "n": 2,
    "topic": "STR",
    "difficulty": 2,
    "skill": "Strengthen an argument",
@@ -143,27 +59,7 @@
    }
   },
   {
-   "n": 7,
-   "topic": "GRID",
-   "difficulty": 2,
-   "skill": "Who-does-what puzzle",
-   "stem": "Ava, Ben and Cleo each brought a different fruit: an apple, a banana or a pear.\n• Cleo brought the apple.\n• Ben did not bring the banana.\nWhat did Ava bring?",
-   "options": {
-    "A": "apple",
-    "B": "banana",
-    "C": "pear",
-    "D": "It is impossible to tell"
-   },
-   "answer": "B",
-   "explanation": "Cleo has the apple. Ben didn't bring the banana, so Ben has the pear. That leaves the banana for Ava.",
-   "distractors": {
-    "A": "check the clues again",
-    "C": "check the clues again",
-    "D": "check the clues again"
-   }
-  },
-  {
-   "n": 8,
+   "n": 3,
    "topic": "ORD",
    "difficulty": 3,
    "skill": "Ordering from clues",
@@ -183,7 +79,7 @@
    }
   },
   {
-   "n": 9,
+   "n": 4,
    "topic": "DED",
    "difficulty": 3,
    "skill": "What cannot be true",
@@ -203,7 +99,7 @@
    }
   },
   {
-   "n": 10,
+   "n": 5,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Strengthen an argument",
@@ -223,7 +119,7 @@
    }
   },
   {
-   "n": 11,
+   "n": 6,
    "topic": "TIME",
    "difficulty": 3,
    "skill": "Working with time",
@@ -243,7 +139,7 @@
    }
   },
   {
-   "n": 12,
+   "n": 7,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Counting routes",
@@ -264,7 +160,7 @@
    }
   },
   {
-   "n": 13,
+   "n": 8,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Completing a 3 × 3 pattern",
@@ -286,7 +182,7 @@
    }
   },
   {
-   "n": 14,
+   "n": 9,
    "topic": "ORD",
    "difficulty": 3,
    "skill": "Finishing order",
@@ -306,7 +202,7 @@
    }
   },
   {
-   "n": 15,
+   "n": 10,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Best explanation",
@@ -326,7 +222,7 @@
    }
   },
   {
-   "n": 16,
+   "n": 11,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Following directions on a grid",
@@ -347,7 +243,7 @@
    }
   },
   {
-   "n": 17,
+   "n": 12,
    "topic": "WHO",
    "difficulty": 3,
    "skill": "Whose reasoning is correct",
@@ -367,7 +263,7 @@
    }
   },
   {
-   "n": 18,
+   "n": 13,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Spot the mistake",
@@ -387,7 +283,7 @@
    }
   },
   {
-   "n": 19,
+   "n": 14,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Spot the mistake",
@@ -407,7 +303,7 @@
    }
   },
   {
-   "n": 20,
+   "n": 15,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Weaken an argument",
@@ -427,7 +323,7 @@
    }
   },
   {
-   "n": 21,
+   "n": 16,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Number clues",
@@ -447,7 +343,7 @@
    }
   },
   {
-   "n": 22,
+   "n": 17,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Counting shapes in a figure",
@@ -468,7 +364,7 @@
    }
   },
   {
-   "n": 23,
+   "n": 18,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "View from above",
@@ -490,7 +386,7 @@
    }
   },
   {
-   "n": 24,
+   "n": 19,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Growing patterns",
@@ -511,7 +407,7 @@
    }
   },
   {
-   "n": 25,
+   "n": 20,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Gears: direction and number of turns",
@@ -532,7 +428,47 @@
    }
   },
   {
-   "n": 26,
+   "n": 21,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "Most of the dogs at the park are on a lead.\nIvy: 'That dog at the park must be on a lead.'\nJai: 'If I pick any dog at the park, it is likely to be on a lead.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Ivy only",
+    "B": "Both Ivy and Jai",
+    "C": "Neither Ivy nor Jai",
+    "D": "Jai only"
+   },
+   "answer": "D",
+   "explanation": "Jai ✓: if most dogs are on a lead, any one dog is likely to be. Ivy ✗: 'most' isn't 'all', so that dog might not be.",
+   "distractors": {
+    "A": "'most' doesn't mean 'all'",
+    "B": "Ivy's conclusion isn't certain",
+    "C": "Jai's 'likely' is justified"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "To get a reading sticker, a student must read 5 books AND write a review.\nMax: 'Nia read 5 books, so she got a reading sticker.'\nOz: 'Pip got a reading sticker, so she wrote a review.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Max only",
+    "B": "Both Max and Oz",
+    "C": "Neither Max nor Oz",
+    "D": "Oz only"
+   },
+   "answer": "D",
+   "explanation": "Oz ✓: everyone with a sticker did both things, so Pip wrote a review. Max ✗: Nia also needed to write a review.",
+   "distractors": {
+    "A": "Nia also needed to write a review",
+    "B": "Max forgot the second condition",
+    "C": "Oz's reasoning works"
+   }
+  },
+  {
+   "n": 23,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Nets: which cube can be made",
@@ -554,7 +490,7 @@
    }
   },
   {
-   "n": 27,
+   "n": 24,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Views of the same cube",
@@ -575,7 +511,7 @@
    }
   },
   {
-   "n": 28,
+   "n": 25,
    "topic": "NUM",
    "difficulty": 4,
    "skill": "Legs and heads puzzle",
@@ -595,7 +531,7 @@
    }
   },
   {
-   "n": 29,
+   "n": 26,
    "topic": "DED",
    "difficulty": 4,
    "skill": "Who is telling the truth",
@@ -615,7 +551,7 @@
    }
   },
   {
-   "n": 30,
+   "n": 27,
    "topic": "WHO",
    "difficulty": 4,
    "skill": "Whose reasoning is correct",
@@ -632,6 +568,66 @@
     "A": "badges might be given on other days too",
     "B": "Bella's conclusion doesn't have to be true",
     "D": "Amir's reasoning follows the rule"
+   }
+  },
+  {
+   "n": 28,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "All the red books in the library are on the top shelf. Some of the books on the top shelf are about animals.\nKip: 'So some of the red books are about animals.'\nLou: 'So a book on the bottom shelf can't be red.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Kip only",
+    "B": "Lou only",
+    "C": "Both Kip and Lou",
+    "D": "Neither Kip nor Lou"
+   },
+   "answer": "B",
+   "explanation": "Lou ✓: every red book is on the top shelf, so a bottom-shelf book isn't red. Kip ✗: the animal books on the top shelf might all be other colours.",
+   "distractors": {
+    "A": "the animal books might not be red",
+    "C": "Kip's conclusion doesn't have to be true",
+    "D": "Lou's reasoning follows the rule"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "Every Friday, the school canteen sells pizza. Today the canteen sold pizza.\nRay: 'So today must be Friday.'\nSia: 'If tomorrow is Friday, the canteen will sell pizza tomorrow.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Sia only",
+    "B": "Ray only",
+    "C": "Both Ray and Sia",
+    "D": "Neither Ray nor Sia"
+   },
+   "answer": "A",
+   "explanation": "Sia ✓: the canteen sells pizza every Friday. Ray ✗: it might sell pizza on other days too; the rule doesn't say ONLY on Fridays.",
+   "distractors": {
+    "B": "pizza might be sold on other days too",
+    "C": "Ray's conclusion doesn't have to be true",
+    "D": "Sia applies the rule correctly"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "NUM",
+   "difficulty": 4,
+   "skill": "Two groups from totals",
+   "stem": "In a bike shed there are 11 bicycles and tricycles. Altogether they have 26 wheels. How many tricycles are there?",
+   "options": {
+    "A": "7",
+    "B": "4",
+    "C": "5",
+    "D": "3"
+   },
+   "answer": "B",
+   "explanation": "If all 11 were bicycles, there would be 22 wheels. Each tricycle adds 1 extra wheel, and there are 26 − 22 = 4 extra, so 4 tricycles (and 7 bicycles).",
+   "distractors": {
+    "A": "that is the number of bicycles",
+    "C": "one tricycle too many (27 wheels)",
+    "D": "one tricycle too few (25 wheels)"
    }
   }
  ]

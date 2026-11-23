@@ -40,27 +40,6 @@
   },
   {
    "n": 2,
-   "topic": "SPA",
-   "difficulty": 2,
-   "skill": "Gears: direction",
-   "stem": "Gear A turns clockwise. Which way does gear D turn?",
-   "svg": "<svg viewBox='0 0 257.94815821478454 153.57390133772088' xmlns='http://www.w3.org/2000/svg' style='max-width:361px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='70.5,105.8 70.5,110.3 64.6,114.3 63.2,117.7 64.6,124.6 61.4,127.8 54.4,126.5 51.0,127.9 47.1,133.7 42.5,133.7 38.6,127.9 35.2,126.5 28.2,127.8 25.0,124.6 26.4,117.7 25.0,114.3 19.1,110.3 19.1,105.8 25.0,101.8 26.4,98.4 25.0,91.5 28.2,88.3 35.2,89.6 38.6,88.2 42.5,82.3 47.1,82.3 51.0,88.2 54.4,89.6 61.4,88.3 64.6,91.5 63.2,98.4 64.6,101.8' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='44.8' cy='108.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='44.8' y='102.0' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='44.8' y='121.8' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='170.5,74.0 170.5,78.0 165.1,82.3 164.5,85.9 168.3,91.7 167.1,95.5 160.6,98.0 159.0,101.2 160.8,107.9 158.4,111.1 151.5,111.4 148.9,114.0 148.6,120.9 145.4,123.3 138.7,121.5 135.5,123.1 133.0,129.6 129.2,130.8 123.4,127.0 119.8,127.6 115.5,133.0 111.5,133.0 107.2,127.6 103.6,127.0 97.8,130.8 94.0,129.6 91.5,123.1 88.3,121.5 81.6,123.3 78.4,120.9 78.1,114.0 75.5,111.4 68.6,111.1 66.2,107.9 68.0,101.2 66.4,98.0 59.9,95.5 58.7,91.7 62.5,85.9 61.9,82.3 56.5,78.0 56.5,74.0 61.9,69.7 62.5,66.1 58.7,60.3 59.9,56.5 66.4,54.0 68.0,50.8 66.2,44.1 68.6,40.9 75.5,40.6 78.1,38.0 78.4,31.1 81.6,28.7 88.3,30.5 91.5,28.9 94.0,22.4 97.8,21.2 103.6,25.0 107.2,24.4 111.5,19.0 115.5,19.0 119.8,24.4 123.4,25.0 129.2,21.2 133.0,22.4 135.5,28.9 138.7,30.5 145.4,28.7 148.6,31.1 148.9,38.0 151.5,40.6 158.4,40.9 160.8,44.1 159.0,50.8 160.6,54.0 167.1,56.5 168.3,60.3 164.5,66.1 165.1,69.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='113.5' cy='76.0' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='113.5' y='70.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='113.5' y='92.0' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >20 teeth</text><polygon points='210.4,99.6 210.4,104.2 204.6,108.2 203.2,111.5 204.5,118.5 201.3,121.7 194.4,120.4 191.0,121.8 187.0,127.6 182.5,127.6 178.5,121.8 175.1,120.4 168.2,121.7 164.9,118.5 166.3,111.5 164.9,108.2 159.0,104.2 159.0,99.6 164.9,95.7 166.3,92.3 164.9,85.4 168.2,82.1 175.1,83.5 178.5,82.1 182.5,76.2 187.0,76.2 191.0,82.1 194.4,83.5 201.3,82.1 204.5,85.4 203.2,92.3 204.6,95.7' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='184.7' cy='101.9' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='184.7' y='95.9' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='184.7' y='115.7' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><polygon points='250.8,118.5 250.8,123.1 245.0,127.0 243.6,130.4 244.9,137.3 241.7,140.6 234.8,139.2 231.4,140.6 227.4,146.5 222.9,146.5 218.9,140.6 215.5,139.2 208.6,140.6 205.4,137.3 206.7,130.4 205.3,127.0 199.4,123.1 199.4,118.5 205.3,114.5 206.7,111.1 205.4,104.2 208.6,101.0 215.5,102.3 218.9,100.9 222.9,95.1 227.4,95.1 231.4,100.9 234.8,102.3 241.7,101.0 244.9,104.2 243.6,111.1 245.0,114.5' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='225.1' cy='120.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='225.1' y='114.8' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='225.1' y='134.5' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M12.1,96.1 A34.8,34.8 0 0 1 32.9,75.3' stroke-width='2.5'/><polygon points='32.9,75.3 26.6,81.8 23.9,74.4' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
-   "options": {
-    "A": "anticlockwise",
-    "B": "clockwise",
-    "C": "It depends on the sizes of the gears",
-    "D": "The gears cannot turn"
-   },
-   "answer": "A",
-   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise.",
-   "distractors": {
-    "B": "count again: each pair of touching gears turn opposite ways",
-    "C": "size changes the speed, not the direction",
-    "D": "a single chain of gears turns freely"
-   }
-  },
-  {
-   "n": 3,
    "topic": "FLW",
    "difficulty": 2,
    "skill": "Find the assumption",
@@ -80,48 +59,7 @@
    }
   },
   {
-   "n": 4,
-   "topic": "DATA",
-   "difficulty": 2,
-   "skill": "Reading a bar chart",
-   "stem": "The graph shows how many books five students read in a term. Which statement is true?",
-   "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='225.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >0</text><line x1='50.0' y1='191.4' x2='470.0' y2='191.4' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='196.4' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >2</text><line x1='50.0' y1='162.9' x2='470.0' y2='162.9' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='167.9' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >4</text><line x1='50.0' y1='134.3' x2='470.0' y2='134.3' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='139.3' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >6</text><line x1='50.0' y1='105.7' x2='470.0' y2='105.7' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='110.7' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >8</text><line x1='50.0' y1='77.1' x2='470.0' y2='77.1' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='82.1' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >10</text><line x1='50.0' y1='48.6' x2='470.0' y2='48.6' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='53.6' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >12</text><line x1='50.0' y1='20.0' x2='470.0' y2='20.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='25.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >14</text><line x1='50.0' y1='20.0' x2='50.0' y2='220.0' stroke-width='1.6' /><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='1.6' /><rect x='75.0' y='162.9' width='46.0' height='57.1' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='98.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Ben</text><rect x='155.0' y='120.0' width='46.0' height='100.0' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='178.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Chen</text><rect x='235.0' y='191.4' width='46.0' height='28.6' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='258.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Gia</text><rect x='315.0' y='62.9' width='46.0' height='157.1' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='338.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Dev</text><rect x='395.0' y='177.1' width='46.0' height='42.9' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='418.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Finn</text><text x='14.0' y='120.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' transform='rotate(-90 14 120.0)'>Books</text></svg>",
-   "options": {
-    "A": "The five students read 29 books altogether.",
-    "B": "Ben read the second-fewest books.",
-    "C": "Chen read twice as many books as Gia.",
-    "D": "Dev read more books than Finn and Gia put together."
-   },
-   "answer": "D",
-   "explanation": "Read each bar: Dev 11, Chen 7, Ben 4, Finn 3, Gia 2. Dev read 11; Finn and Gia read 3 + 2 = 5 together.",
-   "distractors": {
-    "A": "they read 27 altogether",
-    "B": "Ben is in the middle; the second-fewest is Finn",
-    "C": "Chen read 7 and Gia read 2"
-   }
-  },
-  {
-   "n": 5,
-   "topic": "DED",
-   "difficulty": 2,
-   "skill": "What must be true",
-   "stem": "Everyone in the choir is in Year 4. Hana is in the choir.\nWhich statement must be true?",
-   "options": {
-    "A": "Everyone in Year 4 is in the choir.",
-    "B": "Hana is in Year 4.",
-    "C": "Hana likes singing more than dancing.",
-    "D": "The choir has more than 20 members."
-   },
-   "answer": "B",
-   "explanation": "Everyone in the choir is in Year 4, and Hana is in the choir, so Hana must be in Year 4.",
-   "distractors": {
-    "A": "the rule only goes one way",
-    "C": "we aren't told this",
-    "D": "we aren't told the size of the choir"
-   }
-  },
-  {
-   "n": 6,
+   "n": 3,
    "topic": "DATA",
    "difficulty": 2,
    "skill": "Reading a Venn diagram",
@@ -142,49 +80,7 @@
    }
   },
   {
-   "n": 7,
-   "topic": "GRID",
-   "difficulty": 2,
-   "skill": "Who-does-what puzzle",
-   "stem": "Eva, Finn and Gus each have a different pet: a cat, a dog or a rabbit.\n• Eva does not have the dog.\n• Finn does not have the cat or the rabbit.\n• Gus is allergic to cats, so he doesn't have the cat.\nWhich pet does Gus have?",
-   "options": {
-    "A": "rabbit",
-    "B": "cat",
-    "C": "dog",
-    "D": "It is impossible to tell"
-   },
-   "answer": "A",
-   "explanation": "Finn doesn't have the cat or the rabbit, so Finn has the dog. Gus doesn't have the cat, so Gus has the rabbit (and Eva has the cat).",
-   "distractors": {
-    "B": "try it with the clues",
-    "C": "try it with the clues",
-    "D": "try it with the clues"
-   }
-  },
-  {
-   "n": 8,
-   "topic": "SPA",
-   "difficulty": 2,
-   "skill": "Completing a symmetrical pattern",
-   "stem": "The pattern is symmetrical about the dashed line. Which piece fills the gap?",
-   "svg": "<svg viewBox='0 0 420 186' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='46.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='20.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='62.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='88.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='46.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='88.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='20.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='114.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='114.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='140.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='36.0' width='52.0' height='52.0' fill='none' stroke-width='2' stroke-dasharray='4 3'/><text x='124.0' y='70.0' font-size='22' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >?</text><line x1='98.0' y1='4.0' x2='98.0' y2='172.0' stroke-width='1.5' stroke-dasharray='6 4'/><rect x='230.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='230.0' y='46.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='256.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><rect x='320.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='20.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='320.0' y='46.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='346.0' y='46.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><text x='346.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><rect x='230.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='230.0' y='136.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><text x='256.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><rect x='320.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='346.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='320.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='346.0' y='136.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='346.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text></svg>",
-   "inlineOptions": true,
-   "options": {
-    "A": "A",
-    "B": "B",
-    "C": "C",
-    "D": "D"
-   },
-   "answer": "C",
-   "explanation": "Each square must match the square at the same distance on the other side of the dashed line. Read the matching squares on the left half and copy them across in mirror order: C is the piece that fits.",
-   "distractors": {
-    "A": "shaded and white squares swapped",
-    "B": "upside down",
-    "D": "left and right are the wrong way round"
-   }
-  },
-  {
-   "n": 9,
+   "n": 4,
    "topic": "ORD",
    "difficulty": 3,
    "skill": "Ordering from clues",
@@ -204,7 +100,7 @@
    }
   },
   {
-   "n": 10,
+   "n": 5,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Following directions on a grid",
@@ -225,7 +121,7 @@
    }
   },
   {
-   "n": 11,
+   "n": 6,
    "topic": "WHO",
    "difficulty": 3,
    "skill": "Whose reasoning is correct",
@@ -245,7 +141,7 @@
    }
   },
   {
-   "n": 12,
+   "n": 7,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Age puzzle",
@@ -265,7 +161,7 @@
    }
   },
   {
-   "n": 13,
+   "n": 8,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Spot the mistake",
@@ -285,7 +181,7 @@
    }
   },
   {
-   "n": 14,
+   "n": 9,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Weaken an argument",
@@ -305,7 +201,7 @@
    }
   },
   {
-   "n": 15,
+   "n": 10,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Growing patterns",
@@ -326,7 +222,7 @@
    }
   },
   {
-   "n": 16,
+   "n": 11,
    "topic": "DED",
    "difficulty": 3,
    "skill": "What must be true",
@@ -346,7 +242,7 @@
    }
   },
   {
-   "n": 17,
+   "n": 12,
    "topic": "ORD",
    "difficulty": 3,
    "skill": "Who is where in a line",
@@ -366,7 +262,7 @@
    }
   },
   {
-   "n": 18,
+   "n": 13,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Completing a 3 × 3 pattern",
@@ -388,7 +284,7 @@
    }
   },
   {
-   "n": 19,
+   "n": 14,
    "topic": "TIME",
    "difficulty": 3,
    "skill": "Working with time",
@@ -408,7 +304,7 @@
    }
   },
   {
-   "n": 20,
+   "n": 15,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Best explanation",
@@ -428,7 +324,7 @@
    }
   },
   {
-   "n": 21,
+   "n": 16,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Weaken an argument",
@@ -448,7 +344,7 @@
    }
   },
   {
-   "n": 22,
+   "n": 17,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Spot the mistake",
@@ -468,7 +364,7 @@
    }
   },
   {
-   "n": 23,
+   "n": 18,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Counting cubes in a stack",
@@ -489,7 +385,7 @@
    }
   },
   {
-   "n": 24,
+   "n": 19,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Counting shapes in a figure",
@@ -510,7 +406,7 @@
    }
   },
   {
-   "n": 25,
+   "n": 20,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Counting routes",
@@ -531,7 +427,47 @@
    }
   },
   {
-   "n": 26,
+   "n": 21,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "Everyone in the school choir must go to practice on Wednesday. Ella is in the choir.\nAna: 'Ella goes to choir practice on Wednesday.'\nBo: 'Tim goes to choir practice on Wednesday, so he must be in the choir.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Ana only",
+    "B": "Bo only",
+    "C": "Both Ana and Bo",
+    "D": "Neither Ana nor Bo"
+   },
+   "answer": "A",
+   "explanation": "Ana ✓: every choir member goes on Wednesday, and Ella is in the choir. Bo ✗: other children (like helpers or visitors) might go on Wednesday too; the rule only goes one way.",
+   "distractors": {
+    "B": "the rule doesn't say ONLY choir members go",
+    "C": "Bo's conclusion doesn't have to be true",
+    "D": "Ana's reasoning follows the rule"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "If it is raining at lunchtime, the class eats lunch inside.\nCy: 'The class ate lunch inside today, so it must have been raining.'\nDi: 'It wasn't raining today, so the class must have eaten outside.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Cy only",
+    "B": "Di only",
+    "C": "Both Cy and Di",
+    "D": "Neither Cy nor Di"
+   },
+   "answer": "D",
+   "explanation": "The rule only says what happens when it rains. The class might eat inside for another reason (too hot, or a special event). Cy ✗ and Di ✗.",
+   "distractors": {
+    "A": "they might eat inside for another reason",
+    "B": "they might still eat inside when it's dry",
+    "C": "neither conclusion is certain"
+   }
+  },
+  {
+   "n": 23,
    "topic": "NUM",
    "difficulty": 4,
    "skill": "Number puzzle with coins",
@@ -551,7 +487,7 @@
    }
   },
   {
-   "n": 27,
+   "n": 24,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Reading a clock in a mirror",
@@ -572,7 +508,7 @@
    }
   },
   {
-   "n": 28,
+   "n": 25,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Nets: which cube can be made",
@@ -594,7 +530,7 @@
    }
   },
   {
-   "n": 29,
+   "n": 26,
    "topic": "DED",
    "difficulty": 4,
    "skill": "Who is telling the truth",
@@ -614,7 +550,7 @@
    }
   },
   {
-   "n": 30,
+   "n": 27,
    "topic": "WHO",
    "difficulty": 4,
    "skill": "Whose reasoning is correct",
@@ -631,6 +567,66 @@
     "A": "late returns only stop borrowing for a week",
     "C": "Mia could have been late more than a week ago",
     "D": "Isla's reasoning follows the rule"
+   }
+  },
+  {
+   "n": 28,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "There are 9 cupcakes, and all of them are shared out among 4 children (not always equally).\nEve: 'At least one child gets 3 or more cupcakes.'\nFin: 'At least one child gets 2 or fewer cupcakes.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Eve only",
+    "B": "Both Eve and Fin",
+    "C": "Fin only",
+    "D": "Neither Eve nor Fin"
+   },
+   "answer": "B",
+   "explanation": "Eve ✓: if every child got 2 or fewer, that would be at most 8 cupcakes, but there are 9. Fin ✓: if every child got 3 or more, that would need at least 12 cupcakes.",
+   "distractors": {
+    "A": "Fin is right too: 4 × 3 = 12 is more than 9",
+    "C": "Eve is right too: 4 × 2 = 8 is less than 9",
+    "D": "test the biggest and smallest possible shares"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "Only children who have finished their homework are allowed to play video games. Sam played video games today.\nGus: 'So Sam has finished his homework.'\nHana: 'Mia has finished her homework, so she played video games today.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Gus only",
+    "B": "Hana only",
+    "C": "Both Gus and Hana",
+    "D": "Neither Gus nor Hana"
+   },
+   "answer": "A",
+   "explanation": "Gus ✓: only children who finished homework can play, and Sam played. Hana ✗: finishing homework means Mia is ALLOWED to play, not that she did.",
+   "distractors": {
+    "B": "allowed to play doesn't mean she did play",
+    "C": "Hana's conclusion doesn't follow",
+    "D": "Gus's reasoning follows the rule"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "NUM",
+   "difficulty": 4,
+   "skill": "Two groups from totals",
+   "stem": "There are 24 students in a class. Every student has either 1 or 2 pencils, and there are 37 pencils altogether. How many students have 2 pencils?",
+   "options": {
+    "A": "11",
+    "B": "12",
+    "C": "13",
+    "D": "18"
+   },
+   "answer": "C",
+   "explanation": "If every student had 1 pencil, there would be 24 pencils. The extra 37 − 24 = 13 pencils belong to students with 2. So 13 students have 2 pencils (and 11 have 1).",
+   "distractors": {
+    "A": "that is the number with 1 pencil",
+    "B": "halved the class",
+    "D": "took half of 37 and rounded"
    }
   }
  ]

@@ -100,3 +100,11 @@ After she finishes, **Copy for feedback** puts the marking guide, the task and h
 - **Practice > Gapped text:** four short articles, two at OC level and two at Selective level. Each has 5 gaps and one extra sentence that doesn't fit.
 - **Practice > Spatial:** three banks of 32 picture puzzles each (nets and cubes, patterns, mirrors and moves). Each run draws 8 at random.
 - Top-view puzzles now draw a dashed floor grid, and their stacks never hide a column. This applies to all tests that use them.
+
+## v8: difficulty calibration
+
+The tests were compared with the official Practice Test 3 worked answers (Selective and OC) and the OC sample maths test, then made harder:
+- **New tests:** Selective Thinking Test 3 (9 "whose reasoning" questions and multi-step puzzles), Selective Reading Test 3 (two linked texts, paragraph-level gaps), and OC Reading Test 3 (harder vocabulary).
+- **Thinking, Selective and OC:** the easiest one-step questions were swapped for "whose reasoning", claim-testing ("which cases must be checked") and two-group counting questions.
+- **Maths, Selective and OC:** the 1–2 step questions were swapped for 3-step questions on the same topics.
+- The scripts that did the swaps (harden_*.py) keep the original files as *_orig.json.

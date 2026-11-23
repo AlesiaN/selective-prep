@@ -20,106 +20,6 @@
  "questions": [
   {
    "n": 1,
-   "topic": "GRID",
-   "difficulty": 1,
-   "skill": "Who-does-what puzzle",
-   "stem": "Amir, Bella and Cody each play a different instrument (piano, drums or violin) and each has a different favourite colour (red, blue or green).\n• The drummer's favourite colour is green.\n• Bella does not play the piano.\n• Cody's favourite colour is red.\n• Amir plays the violin.\nWhat is Bella's favourite colour?",
-   "options": {
-    "A": "red",
-    "B": "blue",
-    "C": "It is impossible to tell",
-    "D": "green"
-   },
-   "answer": "D",
-   "explanation": "Amir plays violin, and Bella doesn't play piano, so Bella plays drums and Cody plays piano. The drummer likes green, so Bella's favourite colour is green.",
-   "distractors": {
-    "A": "red is Cody's colour",
-    "B": "blue is Amir's colour",
-    "C": "the clues decide every person"
-   }
-  },
-  {
-   "n": 2,
-   "topic": "STR",
-   "difficulty": 1,
-   "skill": "Strengthen: a reason that makes the conclusion more likely",
-   "stem": "Mia says: 'Our school should plant more trees around the playground. The shade will mean students can play outside more on hot days.'\nWhich statement, if true, most strengthens Mia's argument?",
-   "options": {
-    "A": "Many students prefer to play inside at lunchtime.",
-    "B": "On days above 35 °C, students must stay indoors unless there is shade to play in.",
-    "C": "Trees take several years to grow tall enough to give shade.",
-    "D": "The school already has a large covered area next to the canteen."
-   },
-   "answer": "B",
-   "explanation": "Mia's reason is that shade lets students play outside on hot days. If students are kept inside on very hot days unless there is shade, more shade directly means more outdoor play.",
-   "distractors": {
-    "A": "if anything this weakens it: fewer students would use the shade",
-    "C": "this weakens the argument (the benefit is slow)",
-    "D": "this weakens it: there may already be enough shade"
-   }
-  },
-  {
-   "n": 3,
-   "topic": "ORD",
-   "difficulty": 1,
-   "skill": "Ordering from clues",
-   "stem": "Five friends ran a race. There were no ties.\n• Ana finished before Ben but after Cleo.\n• Dev finished last.\n• Eli finished straight after Ben.\nWho came second?",
-   "options": {
-    "A": "Ana",
-    "B": "Ben",
-    "C": "Cleo",
-    "D": "Eli"
-   },
-   "answer": "A",
-   "explanation": "Dev is 5th. Eli is straight after Ben, so Ben can be 3rd at the latest (Eli 4th). Cleo and Ana are both before Ben, so the order is Cleo, Ana, Ben, Eli, Dev. Ana is second.",
-   "distractors": {
-    "B": "Ben is 3rd",
-    "C": "Cleo is 1st",
-    "D": "Eli is 4th"
-   }
-  },
-  {
-   "n": 4,
-   "topic": "CODE",
-   "difficulty": 1,
-   "skill": "Letter-shift code",
-   "stem": "In a code, each letter is replaced by the letter two places later in the alphabet. After Z the alphabet starts again, so Y becomes A and Z becomes B.\nWhat is the code for ZEBRA?",
-   "options": {
-    "A": "XCZPY",
-    "B": "BGDTC",
-    "C": "BGDTB",
-    "D": "AFCSB"
-   },
-   "answer": "B",
-   "explanation": "Z → B, E → G, B → D, R → T, A → C: BGDTC.",
-   "distractors": {
-    "A": "moved two places back instead of forward",
-    "C": "slip on the last letter",
-    "D": "moved one place instead of two"
-   }
-  },
-  {
-   "n": 5,
-   "topic": "TIME",
-   "difficulty": 1,
-   "skill": "Repeating timetable",
-   "stem": "A ferry leaves the wharf every 40 minutes, starting at 6:20 am. Kim arrives at the wharf at 9:05 am. How long does she wait for the next ferry?",
-   "options": {
-    "A": "15 minutes",
-    "B": "25 minutes",
-    "C": "35 minutes",
-    "D": "40 minutes"
-   },
-   "answer": "C",
-   "explanation": "Ferries leave at 6:20, 7:00, 7:40, 8:20, 9:00, 9:40… Kim just misses the 9:00 ferry, so she waits from 9:05 to 9:40: 35 minutes.",
-   "distractors": {
-    "A": "counted from 9:05 to 9:20",
-    "B": "counted 20-minute gaps",
-    "D": "thought she has to wait a full gap"
-   }
-  },
-  {
-   "n": 6,
    "topic": "FLW",
    "difficulty": 2,
    "skill": "Spot the mistake: a result can have more than one cause",
@@ -139,7 +39,7 @@
    }
   },
   {
-   "n": 7,
+   "n": 2,
    "topic": "SPA",
    "difficulty": 2,
    "skill": "Reflection in a mirror line",
@@ -161,27 +61,7 @@
    }
   },
   {
-   "n": 8,
-   "topic": "ORD",
-   "difficulty": 2,
-   "skill": "Ordering heights",
-   "stem": "Lily is taller than Mo but shorter than Nia. Ollie is taller than Nia. Pat is shorter than Mo.\nWho is the third tallest?",
-   "options": {
-    "A": "Mo",
-    "B": "Nia",
-    "C": "Lily",
-    "D": "Ollie"
-   },
-   "answer": "C",
-   "explanation": "Tallest to shortest: Ollie, Nia, Lily, Mo, Pat. The third tallest is Lily.",
-   "distractors": {
-    "A": "Mo is 4th",
-    "B": "Nia is 2nd",
-    "D": "Ollie is the tallest"
-   }
-  },
-  {
-   "n": 9,
+   "n": 3,
    "topic": "WHO",
    "difficulty": 2,
    "skill": "Whose reasoning: \"only if\" rules",
@@ -201,7 +81,7 @@
    }
   },
   {
-   "n": 10,
+   "n": 4,
    "topic": "STR",
    "difficulty": 2,
    "skill": "Strengthen: link the cause to the result",
@@ -221,27 +101,7 @@
    }
   },
   {
-   "n": 11,
-   "topic": "CODE",
-   "difficulty": 2,
-   "skill": "Symbols standing for numbers",
-   "stem": "Each shape stands for a different number.\n★ + ★ = ▲\n▲ + ★ = 12\nWhat is ▲ − ★?",
-   "options": {
-    "A": "2",
-    "B": "4",
-    "C": "6",
-    "D": "8"
-   },
-   "answer": "B",
-   "explanation": "▲ is two stars, so ▲ + ★ is three stars = 12, and ★ = 4. ▲ = 8. 8 − 4 = 4.",
-   "distractors": {
-    "A": "guessed",
-    "C": "used ★ = 6",
-    "D": "gave ▲"
-   }
-  },
-  {
-   "n": 12,
+   "n": 5,
    "topic": "NUM",
    "difficulty": 2,
    "skill": "Best value",
@@ -261,7 +121,7 @@
    }
   },
   {
-   "n": 13,
+   "n": 6,
    "topic": "DATA",
    "difficulty": 2,
    "skill": "Checking statements against a table",
@@ -282,7 +142,7 @@
    }
   },
   {
-   "n": 14,
+   "n": 7,
    "topic": "STR",
    "difficulty": 2,
    "skill": "Weaken: another reason for the result",
@@ -302,7 +162,7 @@
    }
   },
   {
-   "n": 15,
+   "n": 8,
    "topic": "FLW",
    "difficulty": 2,
    "skill": "Spot the mistake: \"all winners did X\" does not mean \"everyone who does X wins\"",
@@ -322,7 +182,7 @@
    }
   },
   {
-   "n": 16,
+   "n": 9,
    "topic": "NUM",
    "difficulty": 2,
    "skill": "Tracking amounts through several swaps",
@@ -342,7 +202,7 @@
    }
   },
   {
-   "n": 17,
+   "n": 10,
    "topic": "NUM",
    "difficulty": 2,
    "skill": "Ages: past and future",
@@ -362,7 +222,7 @@
    }
   },
   {
-   "n": 18,
+   "n": 11,
    "topic": "GRID",
    "difficulty": 2,
    "skill": "Who owns which pet (elimination)",
@@ -382,7 +242,7 @@
    }
   },
   {
-   "n": 19,
+   "n": 12,
    "topic": "TIME",
    "difficulty": 2,
    "skill": "Days of the week after a number of days",
@@ -402,7 +262,7 @@
    }
   },
   {
-   "n": 20,
+   "n": 13,
    "topic": "NUM",
    "difficulty": 2,
    "skill": "Counting games in a round robin",
@@ -422,7 +282,7 @@
    }
   },
   {
-   "n": 21,
+   "n": 14,
    "topic": "DED",
    "difficulty": 2,
    "skill": "What must be true: working backwards from a rule",
@@ -442,7 +302,7 @@
    }
   },
   {
-   "n": 22,
+   "n": 15,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Identify the hidden assumption",
@@ -462,7 +322,7 @@
    }
   },
   {
-   "n": 23,
+   "n": 16,
    "topic": "WHO",
    "difficulty": 3,
    "skill": "Whose reasoning: a rule tells you nothing outside it",
@@ -482,7 +342,7 @@
    }
   },
   {
-   "n": 24,
+   "n": 17,
    "topic": "DATA",
    "difficulty": 3,
    "skill": "Using a table with several conditions",
@@ -503,7 +363,7 @@
    }
   },
   {
-   "n": 25,
+   "n": 18,
    "topic": "WHO",
    "difficulty": 3,
    "skill": "Whose reasoning: chains of rules",
@@ -523,7 +383,7 @@
    }
   },
   {
-   "n": 26,
+   "n": 19,
    "topic": "ORD",
    "difficulty": 3,
    "skill": "Seating: what must be true even when the order is not fixed",
@@ -543,7 +403,7 @@
    }
   },
   {
-   "n": 27,
+   "n": 20,
    "topic": "DED",
    "difficulty": 3,
    "skill": "What must be true: combine three statements",
@@ -563,7 +423,7 @@
    }
   },
   {
-   "n": 28,
+   "n": 21,
    "topic": "GRID",
    "difficulty": 3,
    "skill": "Scheduling with several conditions",
@@ -583,7 +443,7 @@
    }
   },
   {
-   "n": 29,
+   "n": 22,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Weaken: popularity has a different cause",
@@ -603,7 +463,7 @@
    }
   },
   {
-   "n": 30,
+   "n": 23,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Strengthen: evidence that rules out another explanation",
@@ -623,7 +483,7 @@
    }
   },
   {
-   "n": 31,
+   "n": 24,
    "topic": "CODE",
    "difficulty": 3,
    "skill": "Next picture in a sequence (two changes at once)",
@@ -645,7 +505,7 @@
    }
   },
   {
-   "n": 32,
+   "n": 25,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Weaken: something else changed at the same time",
@@ -665,7 +525,7 @@
    }
   },
   {
-   "n": 33,
+   "n": 26,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Folding and punching holes",
@@ -687,7 +547,7 @@
    }
   },
   {
-   "n": 34,
+   "n": 27,
    "topic": "TIME",
    "difficulty": 3,
    "skill": "Working backwards with durations",
@@ -707,7 +567,7 @@
    }
   },
   {
-   "n": 35,
+   "n": 28,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Overlapping groups",
@@ -727,7 +587,7 @@
    }
   },
   {
-   "n": 36,
+   "n": 29,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Points for right and wrong answers",
@@ -747,7 +607,7 @@
    }
   },
   {
-   "n": 37,
+   "n": 30,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Nets: opposite faces of a dice",
@@ -769,7 +629,87 @@
    }
   },
   {
-   "n": 38,
+   "n": 31,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "Every member of the swim squad trains on Tuesday mornings. Nobody who trains on Tuesday mornings has a paper round.\nZara: 'Tilly has a paper round, so she isn't in the swim squad.'\nMax: 'Ned trains on Tuesday mornings, so he is in the swim squad.'\nIf the information above is true, whose reasoning is correct?",
+   "options": {
+    "A": "Max only",
+    "B": "Both Zara and Max",
+    "C": "Neither Zara nor Max",
+    "D": "Zara only"
+   },
+   "answer": "D",
+   "explanation": "Zara ✓: squad members all train on Tuesdays, and Tuesday trainers never have a paper round, so someone with a paper round can't be in the squad. Max ✗: other people might train on Tuesday mornings too.",
+   "distractors": {
+    "A": "training on Tuesdays doesn't make Ned a squad member",
+    "B": "Max reverses the rule",
+    "C": "Zara's chain of rules works"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "If the temperature is above 35 °C, outdoor sport is cancelled. Today, outdoor sport was cancelled.\nAva: 'So the temperature today must be above 35 °C.'\nBen: 'If it had only been 30 °C today, sport would definitely have gone ahead.'\nIf the information above is true, whose reasoning is correct?",
+   "options": {
+    "A": "Ava only",
+    "B": "Neither Ava nor Ben",
+    "C": "Ben only",
+    "D": "Both Ava and Ben"
+   },
+   "answer": "B",
+   "explanation": "The rule gives one reason for cancelling, not the only reason (it could have been cancelled for rain). Ava ✗ and Ben ✗ both assume heat is the only possible reason.",
+   "distractors": {
+    "A": "sport could be cancelled for another reason",
+    "C": "sport could still be cancelled at 30 °C for another reason",
+    "D": "neither conclusion is certain"
+   }
+  },
+  {
+   "n": 33,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "Most students who arrive late to school have missed the 8:05 bus.\nGia: 'Hal missed the 8:05 bus, so he arrived late.'\nIke: 'Jo arrived late, so she probably missed the 8:05 bus.'\nIf the information above is true, whose reasoning is correct?",
+   "options": {
+    "A": "Gia only",
+    "B": "Both Gia and Ike",
+    "C": "Ike only",
+    "D": "Neither Gia nor Ike"
+   },
+   "answer": "C",
+   "explanation": "Ike ✓: 'most' late students missed the bus, so it is probable for Jo (he says 'probably', not 'definitely'). Gia ✗: missing the bus doesn't mean arriving late: Hal might have got a lift.",
+   "distractors": {
+    "A": "missing the bus doesn't mean being late",
+    "B": "Gia's conclusion doesn't follow",
+    "D": "Ike's careful 'probably' is justified"
+   }
+  },
+  {
+   "n": 34,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "A bag holds 20 marbles. They are all red or blue, and there are more red marbles than blue ones.\nCate: 'There are at least 11 red marbles in the bag.'\nDev: 'If you take out any 10 marbles, at least one of them will be red.'\nIf the information above is true, whose reasoning is correct?",
+   "options": {
+    "A": "Both Cate and Dev",
+    "B": "Cate only",
+    "C": "Dev only",
+    "D": "Neither Cate nor Dev"
+   },
+   "answer": "A",
+   "explanation": "Cate ✓: red is more than blue and they add to 20, so red is at least 11. Dev ✓: that means there are at most 9 blue marbles, so 10 marbles can't all be blue.",
+   "distractors": {
+    "B": "Dev is right too: at most 9 are blue",
+    "C": "Cate is right too: 10 + 10 would be equal, so red is at least 11",
+    "D": "try the largest possible number of blue marbles"
+   }
+  },
+  {
+   "n": 35,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Seeing a 3D stack from the front",
@@ -788,6 +728,68 @@
     "A": "the view from the back (left and right swapped)",
     "C": "the view from the right-hand side",
     "D": "counted the right column as 2"
+   }
+  },
+  {
+   "n": 36,
+   "topic": "DED",
+   "difficulty": 4,
+   "skill": "Which cases test a rule",
+   "stem": "A school rule says: 'If a bike is left in the bike shed, it must have a lock.' A teacher checks four bikes but can't see everything:\n• Bike 1: in the shed. Lock? (unknown)\n• Bike 2: not in the shed. Lock? (unknown)\n• Bike 3: in the shed? (unknown). Has a lock.\n• Bike 4: in the shed? (unknown). Has no lock.\nWhich two bikes must the teacher find out more about to check whether the rule is being broken?",
+   "options": {
+    "A": "Bike 1 and Bike 3",
+    "B": "Bike 2 and Bike 3",
+    "C": "Bike 1 and Bike 4",
+    "D": "Bike 2 and Bike 4"
+   },
+   "answer": "C",
+   "explanation": "The rule is only broken by a bike that is in the shed without a lock. Bike 1 is in the shed: does it have a lock? Bike 4 has no lock: is it in the shed? Bikes 2 and 3 can't break the rule whatever the answer.",
+   "distractors": {
+    "A": "Bike 3 has a lock, so it can't break the rule",
+    "B": "neither can break the rule",
+    "D": "Bike 2 isn't in the shed, so the rule doesn't apply to it"
+   }
+  },
+  {
+   "n": 37,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Turning a shape without flipping it",
+   "stem": "The shape can be turned around on the table, but it cannot be picked up and flipped over. Which of these could be the same shape after turning?",
+   "svg": "<svg viewBox='0 0 470 115' xmlns='http://www.w3.org/2000/svg' style='max-width:470px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='42.0' y='20.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='64.0' y='20.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='20.0' y='42.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='42.0' y='42.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='42.0' y='64.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='53.0' y='105.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Shape</text><rect x='120.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='140.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='140.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='140.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='160.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='150.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>A</text><rect x='205.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='205.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='225.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='225.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='245.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='235.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>B</text><rect x='290.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='310.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='310.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='310.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='330.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='320.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>C</text><rect x='375.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='395.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='395.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='415.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='415.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='405.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>D</text></svg>",
+   "inlineOptions": true,
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+   },
+   "answer": "C",
+   "explanation": "C is the shape turned upside down (a half-turn). A, B and D are mirror images: you could only make them by flipping the shape over. Tip: trace the shape, turn your paper, and compare – don't flip it.",
+   "distractors": {
+    "A": "a mirror image (flipped)",
+    "B": "a mirror image turned a quarter-turn",
+    "D": "a mirror image turned three quarter-turns"
+   }
+  },
+  {
+   "n": 38,
+   "topic": "NUM",
+   "difficulty": 4,
+   "skill": "Two groups from totals",
+   "stem": "A school has 186 students. All but 6 of them have at least one pet, and no student has more than two pets. Altogether the students have 263 pets.\nHow many students have exactly one pet?",
+   "options": {
+    "A": "83",
+    "B": "97",
+    "C": "77",
+    "D": "103"
+   },
+   "answer": "B",
+   "explanation": "186 − 6 = 180 students have pets. If each had one, that would be 180 pets; the extra 263 − 180 = 83 pets mean 83 students have two pets. So 180 − 83 = 97 have exactly one.",
+   "distractors": {
+    "A": "that is the number with TWO pets",
+    "C": "forgot the 6 students with no pets",
+    "D": "added the 6 students instead of removing them"
    }
   },
   {
@@ -813,24 +815,22 @@
   },
   {
    "n": 40,
-   "topic": "SPA",
+   "topic": "WHO",
    "difficulty": 4,
-   "skill": "Turning a shape without flipping it",
-   "stem": "The shape can be turned around on the table, but it cannot be picked up and flipped over. Which of these could be the same shape after turning?",
-   "svg": "<svg viewBox='0 0 470 115' xmlns='http://www.w3.org/2000/svg' style='max-width:470px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='42.0' y='20.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='64.0' y='20.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='20.0' y='42.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='42.0' y='42.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='42.0' y='64.0' width='22.0' height='22.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='53.0' y='105.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none'>Shape</text><rect x='120.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='140.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='140.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='140.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='160.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='150.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>A</text><rect x='205.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='205.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='225.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='225.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='245.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='235.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>B</text><rect x='290.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='310.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='310.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='310.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='330.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='320.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>C</text><rect x='375.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='395.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='395.0' y='60.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='415.0' y='20.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><rect x='415.0' y='40.0' width='20.0' height='20.0' fill='currentColor' fill-opacity='0.5' stroke-width='1.6' /><text x='405.0' y='105.0' font-size='15' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none'>D</text></svg>",
-   "inlineOptions": true,
+   "skill": "Whose reasoning is correct",
+   "stem": "Everyone who entered the art competition received a certificate. Only students with a certificate were invited to the awards morning.\nErin: 'Jay was invited to the awards morning, so he must have entered the art competition.'\nFay: 'Kim didn't receive a certificate, so she didn't enter the art competition.'\nIf the information above is true, whose reasoning is correct?",
    "options": {
-    "A": "A",
-    "B": "B",
-    "C": "C",
-    "D": "D"
+    "A": "Erin only",
+    "B": "Fay only",
+    "C": "Both Erin and Fay",
+    "D": "Neither Erin nor Fay"
    },
-   "answer": "C",
-   "explanation": "C is the shape turned upside down (a half-turn). A, B and D are mirror images: you could only make them by flipping the shape over. Tip: trace the shape, turn your paper, and compare – don't flip it.",
+   "answer": "B",
+   "explanation": "Fay ✓: every entrant got a certificate, so someone without one can't have entered. Erin ✗: Jay had a certificate, but certificates might be given for other things too.",
    "distractors": {
-    "A": "a mirror image (flipped)",
-    "B": "a mirror image turned a quarter-turn",
-    "D": "a mirror image turned three quarter-turns"
+    "A": "certificates might be given for other reasons",
+    "C": "Erin's conclusion doesn't have to be true",
+    "D": "Fay's reasoning works backwards correctly"
    }
   }
  ]

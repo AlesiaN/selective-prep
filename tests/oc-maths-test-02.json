@@ -17,55 +17,12 @@
   "PAT": "Patterns and missing numbers",
   "DATA": "Graphs and tables",
   "CHN": "Chance",
-  "LOG": "Reasoning puzzles"
+  "LOG": "Reasoning puzzles",
+  "WHO": "Whose reasoning is correct"
  },
  "questions": [
   {
    "n": 1,
-   "topic": "NUM",
-   "difficulty": 1,
-   "skill": "Ordering numbers",
-   "stem": "Which list is in order from smallest to largest?",
-   "options": {
-    "A": "2809, 2089, 2890, 2980",
-    "B": "2089, 2809, 2890, 2980",
-    "C": "2980, 2890, 2809, 2089",
-    "D": "2089, 2890, 2809, 2980",
-    "E": "2890, 2089, 2809, 2980"
-   },
-   "answer": "B",
-   "explanation": "All start with 2 thousand. Compare hundreds: 0, 8, 8, 9. Then for 2809 and 2890 compare tens: 0 < 9. Order: 2089, 2809, 2890, 2980.",
-   "distractors": {
-    "A": "2089 is smaller than 2809",
-    "C": "that is largest to smallest",
-    "D": "2809 is smaller than 2890",
-    "E": "2890 is not the smallest"
-   }
-  },
-  {
-   "n": 2,
-   "topic": "OPS",
-   "difficulty": 2,
-   "skill": "Arrays and multiplication",
-   "stem": "Chairs are set out in 14 rows with 9 chairs in each row. How many chairs are there?",
-   "options": {
-    "A": "116",
-    "B": "23",
-    "C": "126",
-    "D": "136",
-    "E": "96"
-   },
-   "answer": "C",
-   "explanation": "14 × 9 = 10 × 9 + 4 × 9 = 90 + 36 = 126.",
-   "distractors": {
-    "A": "times-table slip",
-    "B": "added 14 + 9",
-    "D": "times-table slip",
-    "E": "did 12 × 8"
-   }
-  },
-  {
-   "n": 3,
    "topic": "TIME",
    "difficulty": 2,
    "skill": "Reading a clock",
@@ -88,51 +45,7 @@
    }
   },
   {
-   "n": 4,
-   "topic": "FRAC",
-   "difficulty": 2,
-   "skill": "Decimals and money",
-   "stem": "Which amount is the same as 3 dollars and 5 cents?",
-   "options": {
-    "A": "$3.05",
-    "B": "$3.50",
-    "C": "$35.00",
-    "D": "$0.35",
-    "E": "$3.005"
-   },
-   "answer": "A",
-   "explanation": "5 cents is 5 hundredths of a dollar, so it goes in the second place after the point: $3.05.",
-   "distractors": {
-    "B": "that is 3 dollars 50 cents",
-    "C": "wrote the numbers side by side",
-    "D": "that is 35 cents",
-    "E": "too many decimal places"
-   }
-  },
-  {
-   "n": 5,
-   "topic": "PAT",
-   "difficulty": 2,
-   "skill": "Number patterns",
-   "stem": "What is the next number in this pattern? 64, 32, 16, 8, …",
-   "options": {
-    "A": "4",
-    "B": "0",
-    "C": "6",
-    "D": "2",
-    "E": "16"
-   },
-   "answer": "A",
-   "explanation": "Each number is half of the one before. Half of 8 is 4.",
-   "distractors": {
-    "B": "subtracted 8",
-    "C": "subtracted 2",
-    "D": "skipped a step",
-    "E": "went backwards"
-   }
-  },
-  {
-   "n": 6,
+   "n": 2,
    "topic": "MEAS",
    "difficulty": 2,
    "skill": "Capacity",
@@ -154,7 +67,7 @@
    }
   },
   {
-   "n": 7,
+   "n": 3,
    "topic": "OPS",
    "difficulty": 2,
    "skill": "Multi-step word problem",
@@ -176,29 +89,7 @@
    }
   },
   {
-   "n": 8,
-   "topic": "NUM",
-   "difficulty": 2,
-   "skill": "Place value",
-   "stem": "In the number 47 352, what is the value of the digit 7?",
-   "options": {
-    "A": "700",
-    "B": "7000",
-    "C": "70",
-    "D": "70 000",
-    "E": "7"
-   },
-   "answer": "B",
-   "explanation": "The digits are 4 ten-thousands, 7 thousands, 3 hundreds, 5 tens, 2 ones. The 7 is worth 7000.",
-   "distractors": {
-    "A": "one place too far right",
-    "C": "two places too far right",
-    "D": "that is the value of a 7 in the first place",
-    "E": "the digit, not its value"
-   }
-  },
-  {
-   "n": 9,
+   "n": 4,
    "topic": "POS",
    "difficulty": 2,
    "skill": "Grid references",
@@ -221,73 +112,7 @@
    }
   },
   {
-   "n": 10,
-   "topic": "CHN",
-   "difficulty": 2,
-   "skill": "Describing chance",
-   "stem": "A bag has 9 red marbles and 1 blue marble. Lena takes one without looking. Which word best describes the chance that it is red?",
-   "options": {
-    "A": "impossible",
-    "B": "certain",
-    "C": "unlikely",
-    "D": "even chance",
-    "E": "likely"
-   },
-   "answer": "E",
-   "explanation": "9 of the 10 marbles are red, so red is very likely. It is not certain, because there is 1 blue marble.",
-   "distractors": {
-    "A": "there are lots of red marbles",
-    "B": "there is still 1 blue marble",
-    "C": "most marbles are red",
-    "D": "that would need the same number of each"
-   }
-  },
-  {
-   "n": 11,
-   "topic": "SHAPE",
-   "difficulty": 2,
-   "skill": "3D objects",
-   "stem": "A square-based pyramid has how many vertices (corners)?",
-   "options": {
-    "A": "4",
-    "B": "5",
-    "C": "8",
-    "D": "6",
-    "E": "1"
-   },
-   "answer": "B",
-   "explanation": "4 corners around the square base, plus 1 at the top: 5.",
-   "distractors": {
-    "A": "forgot the point at the top",
-    "C": "that is the number of edges",
-    "D": "that is a triangular prism",
-    "E": "only counted the top"
-   }
-  },
-  {
-   "n": 12,
-   "topic": "TIME",
-   "difficulty": 2,
-   "skill": "Calendars",
-   "stem": "Liam's birthday is on 28 March. His sister's birthday is exactly 2 weeks later. When is his sister's birthday? (March has 31 days.)",
-   "options": {
-    "A": "11 April",
-    "B": "14 April",
-    "C": "10 April",
-    "D": "12 April",
-    "E": "42 March"
-   },
-   "answer": "A",
-   "explanation": "2 weeks is 14 days. From 28 March, 3 days takes you to 31 March, and 11 more days takes you to 11 April.",
-   "distractors": {
-    "B": "added 14 to the start of April",
-    "C": "counted one day short",
-    "D": "counted one day too many",
-    "E": "March only has 31 days"
-   }
-  },
-  {
-   "n": 13,
+   "n": 5,
    "topic": "TIME",
    "difficulty": 3,
    "skill": "24-hour time",
@@ -309,7 +134,7 @@
    }
   },
   {
-   "n": 14,
+   "n": 6,
    "topic": "DATA",
    "difficulty": 3,
    "skill": "Reading a column graph",
@@ -332,7 +157,7 @@
    }
   },
   {
-   "n": 15,
+   "n": 7,
    "topic": "SHAPE",
    "difficulty": 3,
    "skill": "Counting cubes",
@@ -355,7 +180,7 @@
    }
   },
   {
-   "n": 16,
+   "n": 8,
    "topic": "FRAC",
    "difficulty": 3,
    "skill": "Equivalent fractions",
@@ -377,7 +202,7 @@
    }
   },
   {
-   "n": 17,
+   "n": 9,
    "topic": "AREA",
    "difficulty": 3,
    "skill": "Area of a rectangle",
@@ -399,7 +224,7 @@
    }
   },
   {
-   "n": 18,
+   "n": 10,
    "topic": "SHAPE",
    "difficulty": 3,
    "skill": "Comparing angles",
@@ -423,7 +248,7 @@
    }
   },
   {
-   "n": 19,
+   "n": 11,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Missing number",
@@ -445,7 +270,7 @@
    }
   },
   {
-   "n": 20,
+   "n": 12,
    "topic": "MON",
    "difficulty": 3,
    "skill": "Using a price list",
@@ -468,7 +293,7 @@
    }
   },
   {
-   "n": 21,
+   "n": 13,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Odd and even",
@@ -490,7 +315,7 @@
    }
   },
   {
-   "n": 22,
+   "n": 14,
    "topic": "PAT",
    "difficulty": 3,
    "skill": "Repeating patterns",
@@ -513,7 +338,7 @@
    }
   },
   {
-   "n": 23,
+   "n": 15,
    "topic": "FRAC",
    "difficulty": 3,
    "skill": "Fractions on a number line",
@@ -536,7 +361,7 @@
    }
   },
   {
-   "n": 24,
+   "n": 16,
    "topic": "DATA",
    "difficulty": 3,
    "skill": "Using a table",
@@ -558,7 +383,7 @@
    }
   },
   {
-   "n": 25,
+   "n": 17,
    "topic": "MEAS",
    "difficulty": 3,
    "skill": "Reading a scale",
@@ -581,7 +406,7 @@
    }
   },
   {
-   "n": 26,
+   "n": 18,
    "topic": "OPS",
    "difficulty": 3,
    "skill": "Inverse operations",
@@ -603,7 +428,7 @@
    }
   },
   {
-   "n": 27,
+   "n": 19,
    "topic": "AREA",
    "difficulty": 3,
    "skill": "Perimeter on a grid",
@@ -626,7 +451,7 @@
    }
   },
   {
-   "n": 28,
+   "n": 20,
    "topic": "OPS",
    "difficulty": 3,
    "skill": "Division with remainder",
@@ -648,7 +473,7 @@
    }
   },
   {
-   "n": 29,
+   "n": 21,
    "topic": "MON",
    "difficulty": 3,
    "skill": "Saving money",
@@ -670,7 +495,7 @@
    }
   },
   {
-   "n": 30,
+   "n": 22,
    "topic": "MEAS",
    "difficulty": 3,
    "skill": "Comparing lengths",
@@ -692,7 +517,7 @@
    }
   },
   {
-   "n": 31,
+   "n": 23,
    "topic": "SHAPE",
    "difficulty": 3,
    "skill": "Reflections",
@@ -716,7 +541,51 @@
    }
   },
   {
-   "n": 32,
+   "n": 24,
+   "topic": "NUM",
+   "difficulty": 3,
+   "skill": "Place value in steps",
+   "stem": "Start with 4010. Take away 25, then add 1000. What number do you get?",
+   "options": {
+    "A": "5035",
+    "B": "3985",
+    "C": "4995",
+    "D": "5985",
+    "E": "4985"
+   },
+   "answer": "E",
+   "explanation": "4010 − 25 = 3985. 3985 + 1000 = 4985.",
+   "distractors": {
+    "A": "added 25 instead of taking it away",
+    "B": "forgot to add 1000",
+    "C": "took away only 15",
+    "D": "added 2000"
+   }
+  },
+  {
+   "n": 25,
+   "topic": "FRAC",
+   "difficulty": 3,
+   "skill": "Fractions of a group",
+   "stem": "There are 30 students in a class. 2/5 of them walk to school and 1/3 ride bikes. The rest come by car. How many come by car?",
+   "options": {
+    "A": "12",
+    "B": "8",
+    "C": "10",
+    "D": "18",
+    "E": "22"
+   },
+   "answer": "B",
+   "explanation": "2/5 of 30 = 12 walk. 1/3 of 30 = 10 ride. 30 − 12 − 10 = 8 come by car.",
+   "distractors": {
+    "A": "that is the walkers",
+    "C": "that is the bike riders",
+    "D": "only took away the walkers",
+    "E": "that is walkers plus bike riders"
+   }
+  },
+  {
+   "n": 26,
    "topic": "LOG",
    "difficulty": 4,
    "skill": "Remainder puzzle",
@@ -738,7 +607,7 @@
    }
   },
   {
-   "n": 33,
+   "n": 27,
    "topic": "CHN",
    "difficulty": 4,
    "skill": "Counting outcomes",
@@ -760,7 +629,7 @@
    }
   },
   {
-   "n": 34,
+   "n": 28,
    "topic": "LOG",
    "difficulty": 4,
    "skill": "Balance puzzles",
@@ -783,7 +652,7 @@
    }
   },
   {
-   "n": 35,
+   "n": 29,
    "topic": "TIME",
    "difficulty": 4,
    "skill": "Timetables and waiting",
@@ -802,6 +671,138 @@
     "C": "that is the gap between buses",
     "D": "counting slip",
     "E": "used a bus at 8:35"
+   }
+  },
+  {
+   "n": 30,
+   "topic": "TIME",
+   "difficulty": 4,
+   "skill": "Calendar across months",
+   "stem": "Ella's party is 45 days after 20 May. May has 31 days and June has 30 days. What is the date of the party?",
+   "options": {
+    "A": "5 July",
+    "B": "4 July",
+    "C": "3 July",
+    "D": "4 June",
+    "E": "15 July"
+   },
+   "answer": "B",
+   "explanation": "From 20 May to 31 May is 11 days. 45 − 11 = 34 days left. June uses 30 more days (to 30 June), leaving 4: 4 July.",
+   "distractors": {
+    "A": "counted one day too many",
+    "C": "counted one day too few",
+    "D": "forgot June has 30 days to get through",
+    "E": "added 45 to 20 and took away 50"
+   }
+  },
+  {
+   "n": 31,
+   "topic": "MEAS",
+   "difficulty": 4,
+   "skill": "Capacity changing over time",
+   "stem": "A tank holds 120 L of water. It leaks 4 L every hour, and a tap adds 10 L every 2 hours. How much water is in the tank after 6 hours?",
+   "options": {
+    "A": "96 L",
+    "B": "150 L",
+    "C": "126 L",
+    "D": "114 L",
+    "E": "186 L"
+   },
+   "answer": "C",
+   "explanation": "In 6 hours the leak loses 6 × 4 = 24 L, and the tap adds 3 × 10 = 30 L. 120 − 24 + 30 = 126 L.",
+   "distractors": {
+    "A": "forgot the tap",
+    "B": "forgot the leak",
+    "D": "subtracted the tap water",
+    "E": "added 10 L every hour"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "MON",
+   "difficulty": 4,
+   "skill": "Coins puzzle",
+   "stem": "Ava has only 10c and 20c coins. She has 12 coins worth $1.80 altogether. How many 20c coins does she have?",
+   "options": {
+    "A": "6",
+    "B": "5",
+    "C": "9",
+    "D": "4",
+    "E": "8"
+   },
+   "answer": "A",
+   "explanation": "If all 12 were 10c coins, they would be worth $1.20. The extra 60c comes from 20c coins, each worth 10c more: 6 coins. So 6 × 20c + 6 × 10c = $1.80 ✓.",
+   "distractors": {
+    "B": "5 × 20c + 7 × 10c = $1.70",
+    "C": "9 × 20c is already $1.80, with no coins left over",
+    "D": "4 × 20c + 8 × 10c = $1.60",
+    "E": "8 × 20c + 4 × 10c = $2.00"
+   }
+  },
+  {
+   "n": 33,
+   "topic": "AREA",
+   "difficulty": 4,
+   "skill": "Rectangles inside a square",
+   "stem": "A square is cut into 4 identical rectangles placed side by side. Each rectangle has a perimeter of 20 cm. How long is each side of the square?",
+   "options": {
+    "A": "8 cm",
+    "B": "5 cm",
+    "C": "10 cm",
+    "D": "2 cm",
+    "E": "16 cm"
+   },
+   "answer": "A",
+   "explanation": "Each rectangle is as long as the square's side and a quarter as wide. Perimeter = 2 × (side + quarter side) = 2½ sides = 20 cm, so the side is 8 cm (rectangles 8 cm × 2 cm).",
+   "distractors": {
+    "B": "divided 20 by 4",
+    "C": "halved the perimeter",
+    "D": "that is the width of a rectangle",
+    "E": "doubled the side"
+   }
+  },
+  {
+   "n": 34,
+   "topic": "MON",
+   "difficulty": 4,
+   "skill": "Best buy",
+   "stem": "Pens come in packs of 6 for $4 or packs of 10 for $6. What is the cheapest way to buy exactly 30 pens?",
+   "options": {
+    "A": "$20",
+    "B": "$18",
+    "C": "$16",
+    "D": "$19",
+    "E": "$24"
+   },
+   "answer": "B",
+   "explanation": "Options for exactly 30 pens: 3 packs of 10 = $18; 5 packs of 6 = $20; (a mix would need 30 = 6a + 10b, e.g. 0 × 6 + 3 × 10 is the only other way). The cheapest is $18.",
+   "distractors": {
+    "A": "5 packs of 6 costs more",
+    "C": "not possible for exactly 30 pens",
+    "D": "not possible for exactly 30 pens",
+    "E": "used 6 packs of 6"
+   }
+  },
+  {
+   "n": 35,
+   "topic": "LOG",
+   "difficulty": 4,
+   "skill": "Working backwards",
+   "stem": "Lena gave half of her stickers to her brother, then gave 6 stickers to a friend. She had 9 stickers left. How many stickers did she start with?",
+   "options": {
+    "A": "30",
+    "B": "15",
+    "C": "24",
+    "D": "21",
+    "E": "36"
+   },
+   "answer": "A",
+   "explanation": "Work backwards: before the friend she had 9 + 6 = 15. That was half of what she started with, so she started with 30.",
+   "distractors": {
+    "B": "stopped halfway",
+    "C": "halved and added in the wrong order",
+    "D": "added 6 and 6",
+    "E": "doubled 9 and added 6 twice"
    }
   }
  ]

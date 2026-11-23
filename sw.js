@@ -1,6 +1,6 @@
 /* Service worker: keeps the app and tests available offline.
    Bump VERSION whenever you change app files so phones pick up the new version. */
-const VERSION = 'v7';
+const VERSION = 'v10';
 const CACHE = `selective-prep-${VERSION}`;
 const APP_SHELL = [
   './',

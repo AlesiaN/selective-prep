@@ -61,6 +61,16 @@
        "questions": 38,
        "answers": true,
        "minutes": 45
+      },
+      {
+       "id": "reading3",
+       "label": "Test 3",
+       "file": "selective-reading-test-03.json",
+       "title": "Selective Reading – Practice Test 3",
+       "note": "Two linked texts; poem by Emily Dickinson; paragraph gaps",
+       "questions": 38,
+       "answers": true,
+       "minutes": 45
       }
      ]
     },
@@ -78,7 +88,7 @@
        "label": "Test 1",
        "file": "selective-thinking-test-01.json",
        "title": "Thinking Skills – Practice Test 1",
-       "note": "Arguments, logic puzzles and 9 picture questions",
+       "note": "harder version: more \"whose reasoning\" and claim-testing",
        "questions": 40,
        "minutes": 40
       },
@@ -87,7 +97,16 @@
        "label": "Test 2",
        "file": "selective-thinking-test-02.json",
        "title": "Selective Thinking Skills – Practice Test 2",
-       "note": "16 picture questions: nets, mirrors, gears, views, routes",
+       "note": "12 picture questions, more \"whose reasoning\"",
+       "questions": 40,
+       "minutes": 40
+      },
+      {
+       "id": "thinking3",
+       "label": "Test 3",
+       "file": "selective-thinking-test-03.json",
+       "title": "Selective Thinking Skills – Practice Test 3",
+       "note": "official level: 9 \"whose reasoning\", multi-step puzzles",
        "questions": 40,
        "minutes": 40
       }
@@ -98,7 +117,7 @@
      "label": "Writing",
      "rules": [
       "One task in 30 minutes, typed, like the real test. Planning time is part of the 30 minutes.",
-      "Read the task twice: write in the form it asks for (story, report, letter, diary…). Writing that misses the task is marked lower.",
+      "Read the task twice: write in the form it asks for (story, report, letter, email…). If it says ‘any style’, choose the form that suits your idea best. Writing that misses the task is marked lower.",
       "Start with a title, use paragraphs, and leave 3–5 minutes to re-read and fix spelling and punctuation.",
       "When you finish, copy your writing to Claude for a mark and feedback."
      ],
@@ -172,6 +191,56 @@
        "form": "Speech (discussion)",
        "note": "Discuss and persuade",
        "minutes": 30
+      },
+      {
+       "id": "w8",
+       "label": "Picture 1",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w8",
+       "title": "The storm light",
+       "form": "Any style",
+       "note": "Respond to a picture",
+       "minutes": 30
+      },
+      {
+       "id": "w9",
+       "label": "Statement",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w9",
+       "title": "Small things",
+       "form": "Any style",
+       "note": "Respond to a statement",
+       "minutes": 30
+      },
+      {
+       "id": "w10",
+       "label": "Argue",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w10",
+       "title": "Pocket money for chores?",
+       "form": "Persuasive essay",
+       "note": "Take a side and persuade",
+       "minutes": 30
+      },
+      {
+       "id": "w11",
+       "label": "Email",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w11",
+       "title": "The broken telescope",
+       "form": "Email",
+       "note": "Respond to a situation",
+       "minutes": 30
+      },
+      {
+       "id": "w12",
+       "label": "Picture 2",
+       "file": "selective-writing-prompts.json",
+       "prompt": "w12",
+       "title": "The door in the tree",
+       "form": "Any style",
+       "note": "Respond to a picture",
+       "minutes": 30
       }
      ]
     }
@@ -195,7 +264,7 @@
        "label": "Test 1",
        "file": "oc-maths-test-01.json",
        "title": "OC Mathematical Reasoning – Practice Test 1",
-       "note": "Year 4 level, 15 picture questions",
+       "note": "Year 4 level, more 3-step questions",
        "questions": 35,
        "minutes": 40
       },
@@ -204,7 +273,7 @@
        "label": "Test 2",
        "file": "oc-maths-test-02.json",
        "title": "OC Mathematical Reasoning – Practice Test 2",
-       "note": "Year 4 level, 12 picture questions",
+       "note": "Year 4 level, more 3-step questions",
        "questions": 35,
        "minutes": 40
       }
@@ -234,6 +303,16 @@
        "file": "oc-reading-test-02.json",
        "title": "OC Reading – Practice Test 2",
        "note": "Poem: The Owl and the Pussy-cat (Edward Lear)",
+       "questions": 33,
+       "answers": true,
+       "minutes": 40
+      },
+      {
+       "id": "oc-reading3",
+       "label": "Test 3",
+       "file": "oc-reading-test-03.json",
+       "title": "OC Reading – Practice Test 3",
+       "note": "Harder vocabulary; poem by R. L. Stevenson",
        "questions": 33,
        "answers": true,
        "minutes": 40

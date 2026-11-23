@@ -256,3 +256,6 @@ a.btn.primary { color: #fff; }
 .feedback.ok { background: var(--good-soft); }
 .feedback.bad { background: var(--bad-soft); }
 .feedback p { margin: 6px 0 0; }
+
+.stimulus{margin:10px 0;border-radius:12px;overflow:hidden;line-height:0}
+.stimulus svg{width:100%;height:auto;display:block}

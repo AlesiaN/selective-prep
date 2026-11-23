@@ -78,6 +78,29 @@
   function closeModal() { modal.hidden = true; modal.innerHTML = ''; }
   modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
 
+
+  // ---------- writing marking guide ----------
+  const GUIDE_KID = [
+    ['Before you write (3–5 min)', ['Read the task twice. What form does it ask for: story, email, essay, diary, report? If it says "any style", pick the form that suits your idea best.', 'Who is the reader? Choose your tone (friendly, formal, persuasive).', 'Jot a quick plan: title, 3–4 main parts, and your ending.', 'For a picture or statement: skip your first idea, since everyone has it. Go for something more surprising.']],
+    ['While you write', ['Title on the first line that sums up the whole piece.', 'Stick to the task the whole way through. The picture or statement should matter, not just get a mention.', 'A new paragraph for each new idea, time or place.', 'Mix short and long sentences. Start sentences in different ways.', 'Choose precise words ("trudged", not "walked slowly") and use the senses.', 'Show feelings through actions and details instead of naming them.']],
+    ['Last 3–5 minutes', ['Make sure the ending wraps it up. No "it was all a dream" or stopping mid-story.', 'Re-read for spelling, capital letters, full stops, commas and speech marks.', 'Quality beats length. 350–500 good words is plenty.']],
+  ];
+  const GUIDE_PARENT = [
+    ['How it is marked', ['Two examiners each mark out of 25, and the marks are added.', 'Set A, up to 15 marks: content, form, organisation and style. Interesting, relevant ideas; the right form for the purpose and audience; paragraphs and linking words; a deliberate style, vocabulary and level of formality.', 'Set B, up to 10 marks: varied sentence lengths, types and structures; correct punctuation; correct spelling.', 'Writing that does not address the topic and form is marked lower, however fluent or creative it is.']],
+    ['What top responses have', ['A title that sums up the piece.', 'Original, interesting ideas suited to the form.', 'Precise vocabulary and imagery that let the reader picture it.', 'A complete structure that reaches a conclusion.']],
+    ['Using the app feedback', ['After she finishes, tap "Copy for feedback" and paste it into a chat with Claude.', 'The mark is one estimate from one marker. Watch the trend over several tasks rather than one score.', 'Pick one improvement to work on before the next task, not all of them.']],
+  ];
+  const guideList = (g) => g.map(([h, items]) => `<h3 style="margin:14px 0 4px">${esc(h)}</h3><ul class="rules">${items.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`).join('');
+  function openGuide(tab) {
+    openModal(`<div class="row between"><h2 style="margin:0">Marking guide</h2><button class="btn" id="m-ok" style="min-height:40px;padding:0 14px">Close</button></div>
+      <div class="seg" role="radiogroup" style="margin-top:12px">
+        <button class="seg-btn" role="radio" data-gtab="kid" aria-checked="${tab !== 'parent'}">Checklist</button>
+        <button class="seg-btn" role="radio" data-gtab="parent" aria-checked="${tab === 'parent'}">For parents</button>
+      </div><div id="g-body">${guideList(tab === 'parent' ? GUIDE_PARENT : GUIDE_KID)}</div>`);
+    document.getElementById('m-ok').onclick = closeModal;
+    modal.querySelectorAll('[data-gtab]').forEach((b) => { b.onclick = () => openGuide(b.dataset.gtab); });
+  }
+
   // ---------- home ----------
   async function renderHome() {
     stopTimer();
@@ -161,7 +184,9 @@
         ${rules.map((r) => `<li>${esc(r)}</li>`).join('')}
         ${sec.id === 'writing' || sec.practice ? '' : `<li>There's no penalty for wrong answers, so answer every question.</li>
         <li>Use <b>Flag</b> to mark questions you want to come back to.</li>
-        <li>At the end you'll see your score, your strong and weak areas, and an explanation for every question.</li>`}</ul>`;
+        <li>At the end you'll see your score, your strong and weak areas, and an explanation for every question.</li>`}</ul>`
+        + (sec.id === 'writing' ? `<button class="btn" id="open-guide" style="margin-top:8px">📋 Marking guide &amp; checklist</button>` : '');
+      const og = document.getElementById('open-guide'); if (og) og.onclick = () => openGuide('kid');
       document.getElementById('test-seg').innerHTML = sec.tests.map((tt, k) =>
         `<button class="seg-btn" role="radio" data-pick="${k}" aria-checked="${k === i}">${esc(tt.label || 'Test ' + (k + 1))}</button>`).join('');
       document.getElementById('pick-info').innerHTML = t ? `<h3 style="margin:14px 0 2px">${esc(t.title)}</h3><p class="muted small" style="margin-top:0">${t.prompt ? esc(t.form || 'Writing') + ' · 1 task' : esc(t.draw || t.questions) + ' ' + (t.answers ? 'answers' : 'questions')} · ${t.practice ? 'no time limit' : esc(t.minutes) + ' minutes'}${t.note ? ' · ' + esc(t.note) : ''}</p>` : '<p class="muted">No tests yet.</p>';
@@ -500,6 +525,7 @@
     return `<span class="form-badge">${esc(p.form)}</span>
       <h2 class="prompt-title">${esc(p.title)}</h2>
       ${p.context ? `<p>${esc(p.context)}</p>` : ''}
+      ${p.image ? `<div class="stimulus">${p.image}</div>` : ''}
       <p><b>${esc(p.task)}</b></p>
       ${p.start ? `<p class="start-line">${esc(p.start)}</p>` : ''}
       ${p.could && p.could.length ? `<p class="muted small" style="margin-bottom:2px">In your writing you could:</p><ul class="could">${p.could.map((c) => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}`;
@@ -512,7 +538,7 @@
         <div class="row between">
           <span class="qnum">Writing</span>
           <span class="timer" id="timer" aria-label="Time left">${fmtClock(state.endAt - Date.now())}</span>
-          <button class="btn" id="w-quit" style="min-height:40px;padding:0 14px">Quit</button>
+          <span class="row" style="gap:6px"><button class="btn" id="w-guide" style="min-height:40px;padding:0 12px" aria-label="Checklist">📋</button><button class="btn" id="w-quit" style="min-height:40px;padding:0 14px">Quit</button></span>
         </div>
       </div>
       <details class="card prompt-card" open><summary class="muted small">Task (tap to hide)</summary>${promptHTML(w.prompt)}</details>
@@ -527,6 +553,7 @@
       <div class="bottombar"><div class="inner">
         <button class="btn primary" id="w-finish">Finish writing</button>
       </div></div>`;
+    document.getElementById('w-guide').onclick = () => openGuide('kid');
     const text = document.getElementById('w-text');
     const plan = document.getElementById('w-plan');
     const count = document.getElementById('w-count');
@@ -570,7 +597,7 @@
       'THE TASK',
       `Form: ${p.form}`,
       `Title: ${p.title}`,
-      p.context, p.task, p.start ? `Start with: "${p.start}"` : '',
+      p.context, p.imageDesc ? `[The picture shows: ${p.imageDesc}]` : '', p.task, p.start ? (p.form === 'Any style' ? `Statement: "${p.start}"` : `Start with: "${p.start}"`) : '',
       p.could && p.could.length ? 'In your writing you could: ' + p.could.join('; ') + '.' : '',
       '',
       '---',

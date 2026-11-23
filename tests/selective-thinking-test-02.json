@@ -61,48 +61,6 @@
   },
   {
    "n": 3,
-   "topic": "DATA",
-   "difficulty": 2,
-   "skill": "Reading a bar chart",
-   "stem": "The graph shows how many books five students read in a term. Which statement is true?",
-   "svg": "<svg viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='225.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >0</text><line x1='50.0' y1='191.4' x2='470.0' y2='191.4' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='196.4' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >2</text><line x1='50.0' y1='162.9' x2='470.0' y2='162.9' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='167.9' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >4</text><line x1='50.0' y1='134.3' x2='470.0' y2='134.3' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='139.3' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >6</text><line x1='50.0' y1='105.7' x2='470.0' y2='105.7' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='110.7' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >8</text><line x1='50.0' y1='77.1' x2='470.0' y2='77.1' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='82.1' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >10</text><line x1='50.0' y1='48.6' x2='470.0' y2='48.6' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='53.6' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >12</text><line x1='50.0' y1='20.0' x2='470.0' y2='20.0' stroke-width='0.6' stroke-dasharray='3 4'/><text x='42.0' y='25.0' font-size='12' text-anchor='end' font-weight='normal' fill='currentColor' stroke='none' >14</text><line x1='50.0' y1='20.0' x2='50.0' y2='220.0' stroke-width='1.6' /><line x1='50.0' y1='220.0' x2='470.0' y2='220.0' stroke-width='1.6' /><rect x='75.0' y='105.7' width='46.0' height='114.3' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='98.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Asha</text><rect x='155.0' y='48.6' width='46.0' height='171.4' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='178.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Chen</text><rect x='235.0' y='134.3' width='46.0' height='85.7' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='258.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Ella</text><rect x='315.0' y='191.4' width='46.0' height='28.6' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='338.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Dev</text><rect x='395.0' y='177.1' width='46.0' height='42.9' fill='currentColor' fill-opacity='0.35' stroke-width='1.4' /><text x='418.0' y='240.0' font-size='13' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Ben</text><text x='14.0' y='120.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' transform='rotate(-90 14 120.0)'>Books</text></svg>",
-   "options": {
-    "A": "The five students read 33 books altogether.",
-    "B": "Ella read the second-fewest books.",
-    "C": "Asha read twice as many books as Dev.",
-    "D": "Chen read more books than Ben and Dev put together."
-   },
-   "answer": "D",
-   "explanation": "Read each bar: Chen 12, Asha 8, Ella 6, Ben 3, Dev 2. Chen read 12; Ben and Dev read 3 + 2 = 5 together.",
-   "distractors": {
-    "A": "they read 31 altogether",
-    "B": "Ella is in the middle; the second-fewest is Ben",
-    "C": "Asha read 8 and Dev read 2"
-   }
-  },
-  {
-   "n": 4,
-   "topic": "DATA",
-   "difficulty": 2,
-   "skill": "Reading a Venn diagram",
-   "stem": "The diagram shows information about the students in a class. How many students are in only one of the two circles (plays sport or plays music, but not both)?",
-   "svg": "<svg viewBox='0 0 440 220' xmlns='http://www.w3.org/2000/svg' style='max-width:440px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='10.0' y='10.0' width='420.0' height='200.0' fill='none' stroke-width='1.8' /><circle cx='165.0' cy='115.0' r='85.0' fill='currentColor' fill-opacity='0.06' stroke-width='2' /><circle cx='275.0' cy='115.0' r='85.0' fill='currentColor' fill-opacity='0.06' stroke-width='2' /><text x='70.0' y='34.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Plays sport</text><text x='370.0' y='34.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >Plays music</text><text x='125.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >6</text><text x='220.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><text x='315.0' y='122.0' font-size='20' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >8</text><text x='400.0' y='196.0' font-size='18' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text></svg>",
-   "options": {
-    "A": "18",
-    "B": "4",
-    "C": "14",
-    "D": "17"
-   },
-   "answer": "C",
-   "explanation": "\"Only one\" means the parts of the circles that do not overlap: 6 + 8 = 14.",
-   "distractors": {
-    "A": "included those who play neither",
-    "B": "that is the number who play both",
-    "D": "adding slip"
-   }
-  },
-  {
-   "n": 5,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Weaken: evidence against the conclusion",
@@ -122,7 +80,7 @@
    }
   },
   {
-   "n": 6,
+   "n": 4,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Strengthen: link the cause to the result",
@@ -142,27 +100,7 @@
    }
   },
   {
-   "n": 7,
-   "topic": "ORD",
-   "difficulty": 3,
-   "skill": "Ordering from comparisons",
-   "stem": "Five boxes are all different weights.\n• The blue box is heavier than the red box.\n• The green box is heavier than the yellow box.\n• The red box is heavier than the green box.\n• The white box is heavier than the blue box.\nWhich box is the third heaviest?",
-   "options": {
-    "A": "red",
-    "B": "blue",
-    "C": "green",
-    "D": "white"
-   },
-   "answer": "A",
-   "explanation": "Chain the clues: white > blue > red > green > yellow. The third heaviest is red.",
-   "distractors": {
-    "B": "line all five up from heaviest to lightest",
-    "C": "line all five up from heaviest to lightest",
-    "D": "line all five up from heaviest to lightest"
-   }
-  },
-  {
-   "n": 8,
+   "n": 5,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Weaken: a fairer comparison",
@@ -182,7 +120,7 @@
    }
   },
   {
-   "n": 9,
+   "n": 6,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Following directions on a grid",
@@ -203,29 +141,7 @@
    }
   },
   {
-   "n": 10,
-   "topic": "SPA",
-   "difficulty": 3,
-   "skill": "Completing a symmetrical pattern",
-   "stem": "The pattern is symmetrical about the dashed line. Which piece fills the gap?",
-   "svg": "<svg viewBox='0 0 420 186' xmlns='http://www.w3.org/2000/svg' style='max-width:420px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><rect x='20.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='10.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='10.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='124.0' y='36.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='36.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='62.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='46.0' y='62.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='62.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='98.0' y='62.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='20.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='88.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='114.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='72.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='114.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='150.0' y='114.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='20.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='46.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='72.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='98.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='150.0' y='140.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='124.0' y='62.0' width='52.0' height='52.0' fill='none' stroke-width='2' stroke-dasharray='4 3'/><text x='150.0' y='96.0' font-size='22' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >?</text><line x1='98.0' y1='4.0' x2='98.0' y2='172.0' stroke-width='1.5' stroke-dasharray='6 4'/><rect x='230.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='20.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='230.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='256.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='256.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><rect x='320.0' y='20.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='346.0' y='20.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='320.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='46.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><text x='346.0' y='92.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><rect x='230.0' y='110.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='110.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='230.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><rect x='256.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><text x='256.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><rect x='320.0' y='110.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='110.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='320.0' y='136.0' width='26.0' height='26.0' fill='none' stroke-width='1.2' /><rect x='346.0' y='136.0' width='26.0' height='26.0' fill='currentColor' fill-opacity='0.7' stroke-width='1.2' /><text x='346.0' y='182.0' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text></svg>",
-   "inlineOptions": true,
-   "options": {
-    "A": "A",
-    "B": "B",
-    "C": "C",
-    "D": "D"
-   },
-   "answer": "A",
-   "explanation": "Each square must match the square at the same distance on the other side of the dashed line. Read the matching squares on the left half and copy them across in mirror order: A is the piece that fits.",
-   "distractors": {
-    "B": "left and right are the wrong way round",
-    "C": "shaded and white squares swapped",
-    "D": "upside down"
-   }
-  },
-  {
-   "n": 11,
+   "n": 7,
    "topic": "DED",
    "difficulty": 3,
    "skill": "What cannot be true",
@@ -245,7 +161,7 @@
    }
   },
   {
-   "n": 12,
+   "n": 8,
    "topic": "CODE",
    "difficulty": 3,
    "skill": "Cracking a letter code",
@@ -265,7 +181,7 @@
    }
   },
   {
-   "n": 13,
+   "n": 9,
    "topic": "TIME",
    "difficulty": 3,
    "skill": "Working with a calendar",
@@ -286,7 +202,7 @@
    }
   },
   {
-   "n": 14,
+   "n": 10,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "View from above",
@@ -308,7 +224,7 @@
    }
   },
   {
-   "n": 15,
+   "n": 11,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Spot the mistake in the reasoning",
@@ -328,28 +244,7 @@
    }
   },
   {
-   "n": 16,
-   "topic": "PAT",
-   "difficulty": 3,
-   "skill": "Growing patterns",
-   "stem": "These patterns are made from matchsticks. How many matchsticks are needed for pattern 10?",
-   "svg": "<svg viewBox='0 0 296 112' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='20.0' y1='20.0' x2='46.0' y2='20.0' stroke-width='4' /><line x1='20.0' y1='46.0' x2='46.0' y2='46.0' stroke-width='4' /><line x1='20.0' y1='72.0' x2='46.0' y2='72.0' stroke-width='4' /><line x1='46.0' y1='20.0' x2='46.0' y2='46.0' stroke-width='4' /><line x1='46.0' y1='46.0' x2='46.0' y2='72.0' stroke-width='4' /><line x1='20.0' y1='20.0' x2='20.0' y2='72.0' stroke-width='4' /><text x='33.0' y='100.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Pattern 1</text><line x1='86.0' y1='20.0' x2='112.0' y2='20.0' stroke-width='4' /><line x1='86.0' y1='46.0' x2='112.0' y2='46.0' stroke-width='4' /><line x1='86.0' y1='72.0' x2='112.0' y2='72.0' stroke-width='4' /><line x1='112.0' y1='20.0' x2='112.0' y2='46.0' stroke-width='4' /><line x1='112.0' y1='46.0' x2='112.0' y2='72.0' stroke-width='4' /><line x1='112.0' y1='20.0' x2='138.0' y2='20.0' stroke-width='4' /><line x1='112.0' y1='46.0' x2='138.0' y2='46.0' stroke-width='4' /><line x1='112.0' y1='72.0' x2='138.0' y2='72.0' stroke-width='4' /><line x1='138.0' y1='20.0' x2='138.0' y2='46.0' stroke-width='4' /><line x1='138.0' y1='46.0' x2='138.0' y2='72.0' stroke-width='4' /><line x1='86.0' y1='20.0' x2='86.0' y2='72.0' stroke-width='4' /><text x='112.0' y='100.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Pattern 2</text><line x1='178.0' y1='20.0' x2='204.0' y2='20.0' stroke-width='4' /><line x1='178.0' y1='46.0' x2='204.0' y2='46.0' stroke-width='4' /><line x1='178.0' y1='72.0' x2='204.0' y2='72.0' stroke-width='4' /><line x1='204.0' y1='20.0' x2='204.0' y2='46.0' stroke-width='4' /><line x1='204.0' y1='46.0' x2='204.0' y2='72.0' stroke-width='4' /><line x1='204.0' y1='20.0' x2='230.0' y2='20.0' stroke-width='4' /><line x1='204.0' y1='46.0' x2='230.0' y2='46.0' stroke-width='4' /><line x1='204.0' y1='72.0' x2='230.0' y2='72.0' stroke-width='4' /><line x1='230.0' y1='20.0' x2='230.0' y2='46.0' stroke-width='4' /><line x1='230.0' y1='46.0' x2='230.0' y2='72.0' stroke-width='4' /><line x1='230.0' y1='20.0' x2='256.0' y2='20.0' stroke-width='4' /><line x1='230.0' y1='46.0' x2='256.0' y2='46.0' stroke-width='4' /><line x1='230.0' y1='72.0' x2='256.0' y2='72.0' stroke-width='4' /><line x1='256.0' y1='20.0' x2='256.0' y2='46.0' stroke-width='4' /><line x1='256.0' y1='46.0' x2='256.0' y2='72.0' stroke-width='4' /><line x1='178.0' y1='20.0' x2='178.0' y2='72.0' stroke-width='4' /><text x='217.0' y='100.0' font-size='12' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >Pattern 3</text></svg>",
-   "options": {
-    "A": "70",
-    "B": "50",
-    "C": "52",
-    "D": "47"
-   },
-   "answer": "C",
-   "explanation": "Count: 7, 12, 17… Each new pattern adds 5 matchsticks. Pattern 10 = 7 + 9 × 5 = 52.",
-   "distractors": {
-    "A": "multiplied pattern 1 by 10: the shared sticks are counted twice",
-    "B": "forgot the extra stick(s) at the start",
-    "D": "that is pattern 9"
-   }
-  },
-  {
-   "n": 17,
+   "n": 12,
    "topic": "SPA",
    "difficulty": 3,
    "skill": "Counting cubes in a stack",
@@ -370,7 +265,7 @@
    }
   },
   {
-   "n": 18,
+   "n": 13,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Spot the mistake: two things happening together",
@@ -390,7 +285,7 @@
    }
   },
   {
-   "n": 19,
+   "n": 14,
    "topic": "DED",
    "difficulty": 3,
    "skill": "What must be true",
@@ -410,7 +305,7 @@
    }
   },
   {
-   "n": 20,
+   "n": 15,
    "topic": "WHO",
    "difficulty": 3,
    "skill": "Whose reasoning is correct",
@@ -430,7 +325,7 @@
    }
   },
   {
-   "n": 21,
+   "n": 16,
    "topic": "FLW",
    "difficulty": 3,
    "skill": "Find the assumption the argument needs",
@@ -450,7 +345,7 @@
    }
   },
   {
-   "n": 22,
+   "n": 17,
    "topic": "STR",
    "difficulty": 3,
    "skill": "Best explanation for a surprising fact",
@@ -470,7 +365,7 @@
    }
   },
   {
-   "n": 23,
+   "n": 18,
    "topic": "NUM",
    "difficulty": 3,
    "skill": "Number clues",
@@ -490,27 +385,27 @@
    }
   },
   {
-   "n": 24,
-   "topic": "GRID",
-   "difficulty": 4,
-   "skill": "Who-does-what puzzle",
-   "stem": "Mila, Omar, Pia and Raf each do a different activity (tennis, swimming, judo or chess) on a different day (Monday to Thursday).\n• Mila doesn't do tennis or swimming.\n• Judo is on Tuesday.\n• Omar's activity is on Thursday, and it isn't chess.\n• Swimming is on Monday or Wednesday.\n• Pia doesn't swim, and her activity isn't on Monday.\n• Chess is on an earlier day than tennis.\nWhat does Raf do?",
+   "n": 19,
+   "topic": "WHO",
+   "difficulty": 3,
+   "skill": "Whose reasoning is correct",
+   "stem": "A pizza shop gives a free drink with every pizza. On Tuesdays it also gives free garlic bread with every pizza.\nLia: 'I got free garlic bread with my pizza, so it must be Tuesday.'\nMo: 'It's Tuesday and I've bought a pizza, so I'll get a free drink and free garlic bread.'\nIf the information above is true, whose reasoning is correct?",
    "options": {
-    "A": "tennis",
-    "B": "judo",
-    "C": "swimming",
-    "D": "chess"
+    "A": "Lia only",
+    "B": "Both Lia and Mo",
+    "C": "Neither Lia nor Mo",
+    "D": "Mo only"
    },
-   "answer": "C",
-   "explanation": "Omar's activity is on Thursday. Judo is on Tuesday and swimming is on Monday or Wednesday, so Omar doesn't do either of those, and the clue says he doesn't do chess. So Omar does tennis. Who swims? Not Mila, not Pia (both ruled out by clues), not Omar (tennis). So Raf swims. (You don't need to sort out the rest of the puzzle to answer this.)",
+   "answer": "D",
+   "explanation": "Mo ✓: both offers apply on Tuesdays. Lia ✗: the shop gives garlic bread on Tuesdays, but nothing says it never does on other days.",
    "distractors": {
-    "A": "try placing it: one of the clues breaks",
-    "B": "try placing it: one of the clues breaks",
-    "D": "try placing it: one of the clues breaks"
+    "A": "the information doesn't say garlic bread is ONLY on Tuesdays",
+    "B": "Lia's conclusion doesn't have to be true",
+    "C": "Mo applies both rules correctly"
    }
   },
   {
-   "n": 25,
+   "n": 20,
    "topic": "NUM",
    "difficulty": 4,
    "skill": "Age puzzle",
@@ -530,7 +425,48 @@
    }
   },
   {
-   "n": 26,
+   "n": 21,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Counting routes",
+   "stem": "Kai walks from S to F along the streets, only ever going right or up. The street marked ✕ is closed. How many different routes can he take?",
+   "svg": "<svg viewBox='0 0 300 260' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='230.0' x2='250.0' y2='230.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='250.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='250.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='230.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='230.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='230.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='250.0' y1='230.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><rect x='133.0' y='8.0' width='24.0' height='24.0' fill='none' stroke-width='0' fill='var(--card, #fff)'/><line x1='136.0' y1='11.0' x2='154.0' y2='29.0' stroke-width='3.5' /><line x1='154.0' y1='11.0' x2='136.0' y2='29.0' stroke-width='3.5' /><circle cx='40.0' cy='230.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='235.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='250.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
+   "options": {
+    "A": "20",
+    "B": "17",
+    "C": "15",
+    "D": "16"
+   },
+   "answer": "D",
+   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it (but nothing comes through the road marked ✕). The number at F is 16. Without the roadworks it would be 20.",
+   "distractors": {
+    "A": "ignored the roadworks",
+    "B": "counted one route twice",
+    "C": "missed a route"
+   }
+  },
+  {
+   "n": 22,
+   "topic": "FLW",
+   "difficulty": 4,
+   "skill": "Spot the mistake: an unfair sample",
+   "stem": "A survey of people at a gym found that 8 out of 10 of them exercise at least four times a week. So 8 out of 10 people in our town exercise at least four times a week.\nWhat is the main problem with this conclusion?",
+   "options": {
+    "A": "The survey did not ask how long people exercised for.",
+    "B": "People at a gym are more likely to exercise often than other people in the town.",
+    "C": "Some people exercise at home instead of at a gym.",
+    "D": "Four times a week is not enough exercise for everyone."
+   },
+   "answer": "B",
+   "explanation": "The survey only asked people already at a gym, so they are not typical of the whole town. The result can't be applied to everyone.",
+   "distractors": {
+    "A": "the conclusion is only about how often",
+    "C": "this is part of the problem, but the main point is that gym-goers aren't typical",
+    "D": "about health advice, not about the reasoning"
+   }
+  },
+  {
+   "n": 23,
    "topic": "PAT",
    "difficulty": 4,
    "skill": "Completing a 3 × 3 pattern",
@@ -552,109 +488,7 @@
    }
   },
   {
-   "n": 27,
-   "topic": "SPA",
-   "difficulty": 4,
-   "skill": "Counting shapes in a figure",
-   "stem": "How many triangles of any size are there in this figure?",
-   "svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg' style='max-width:380px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='200.0,20.0 40.0,240.0 360.0,240.0' fill='none' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='120.0' y2='240.0' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='200.0' y2='240.0' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='280.0' y2='240.0' stroke-width='2.2' /><line x1='120.0' y1='130.0' x2='280.0' y2='130.0' stroke-width='2.2' /></svg>",
-   "options": {
-    "A": "10",
-    "B": "8",
-    "C": "20",
-    "D": "22"
-   },
-   "answer": "C",
-   "explanation": "Every triangle has its top at the top point and its bottom edge on one of the 2 straight lines across. On each line there are 5 points where the slanted lines meet it, and any 2 of them make a triangle: 10 ways. So 2 × 10 = 20 triangles.",
-   "distractors": {
-    "A": "missed the triangles in one layer",
-    "B": "counted only the smallest triangles",
-    "D": "counted some shapes that are not triangles"
-   }
-  },
-  {
-   "n": 28,
-   "topic": "FLW",
-   "difficulty": 4,
-   "skill": "Spot the mistake: an unfair sample",
-   "stem": "A survey of people at a gym found that 8 out of 10 of them exercise at least four times a week. So 8 out of 10 people in our town exercise at least four times a week.\nWhat is the main problem with this conclusion?",
-   "options": {
-    "A": "The survey did not ask how long people exercised for.",
-    "B": "People at a gym are more likely to exercise often than other people in the town.",
-    "C": "Some people exercise at home instead of at a gym.",
-    "D": "Four times a week is not enough exercise for everyone."
-   },
-   "answer": "B",
-   "explanation": "The survey only asked people already at a gym, so they are not typical of the whole town. The result can't be applied to everyone.",
-   "distractors": {
-    "A": "the conclusion is only about how often",
-    "C": "this is part of the problem, but the main point is that gym-goers aren't typical",
-    "D": "about health advice, not about the reasoning"
-   }
-  },
-  {
-   "n": 29,
-   "topic": "SPA",
-   "difficulty": 4,
-   "skill": "Counting routes",
-   "stem": "Kai walks from S to F along the streets, only ever going right or up. The street marked ✕ is closed. How many different routes can he take?",
-   "svg": "<svg viewBox='0 0 300 260' xmlns='http://www.w3.org/2000/svg' style='max-width:360px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><line x1='40.0' y1='230.0' x2='250.0' y2='230.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='160.0' x2='250.0' y2='160.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='90.0' x2='250.0' y2='90.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='20.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='40.0' y1='230.0' x2='40.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='110.0' y1='230.0' x2='110.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='180.0' y1='230.0' x2='180.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><line x1='250.0' y1='230.0' x2='250.0' y2='20.0' stroke-width='4' stroke-linecap='round'/><rect x='133.0' y='8.0' width='24.0' height='24.0' fill='none' stroke-width='0' fill='var(--card, #fff)'/><line x1='136.0' y1='11.0' x2='154.0' y2='29.0' stroke-width='3.5' /><line x1='154.0' y1='11.0' x2='136.0' y2='29.0' stroke-width='3.5' /><circle cx='40.0' cy='230.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='22.0' y='235.0' font-size='16' text-anchor='end' font-weight='bold' fill='currentColor' stroke='none' >S</text><circle cx='250.0' cy='20.0' r='10.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='268.0' y='25.0' font-size='16' text-anchor='start' font-weight='bold' fill='currentColor' stroke='none' >F</text></svg>",
-   "options": {
-    "A": "20",
-    "B": "17",
-    "C": "15",
-    "D": "16"
-   },
-   "answer": "D",
-   "explanation": "Write at each corner how many ways there are to reach it: 1 along the bottom and left edges, then each corner = the corner to its left + the corner below it (but nothing comes through the road marked ✕). The number at F is 16. Without the roadworks it would be 20.",
-   "distractors": {
-    "A": "ignored the roadworks",
-    "B": "counted one route twice",
-    "C": "missed a route"
-   }
-  },
-  {
-   "n": 30,
-   "topic": "WHO",
-   "difficulty": 4,
-   "skill": "Whose reasoning is correct",
-   "stem": "All the Year 6 students who went on camp did the high ropes. Some students who did the high ropes also did canoeing.\nElla: 'Noor is in Year 6 and went on camp, so Noor did the high ropes.'\nFinn: 'Theo didn't do the high ropes. So if Theo is in Year 6, he didn't go on camp.'\nIf the information is true, whose reasoning is correct?",
-   "options": {
-    "A": "Ella only",
-    "B": "Both Ella and Finn",
-    "C": "Finn only",
-    "D": "Neither Ella nor Finn"
-   },
-   "answer": "B",
-   "explanation": "Ella ✓: Noor is a Year 6 student who went on camp, so she did the high ropes. Finn ✓: if Theo were a Year 6 student who went on camp, he would have done the high ropes. He didn't, so he can't be one of them.",
-   "distractors": {
-    "A": "Finn's 'turned around' reasoning also works",
-    "C": "Ella applies the rule directly",
-    "D": "both follow from the first sentence"
-   }
-  },
-  {
-   "n": 31,
-   "topic": "WHO",
-   "difficulty": 4,
-   "skill": "Whose reasoning is correct",
-   "stem": "At the pool, children under 10 must swim with an adult. Only children who have passed the blue test may use the deep end.\nKira: 'Max is 9, so he can't use the deep end.'\nOllie: 'Sasha has passed the blue test, so she must be 10 or older.'\nIf the information is true, whose reasoning is correct?",
-   "options": {
-    "A": "Neither Kira nor Ollie",
-    "B": "Kira only",
-    "C": "Ollie only",
-    "D": "Both Kira and Ollie"
-   },
-   "answer": "A",
-   "explanation": "The two rules are separate. Kira ✗: a 9-year-old could pass the blue test (he'd just need an adult with him). Ollie ✗: nothing says you must be 10 to pass the blue test.",
-   "distractors": {
-    "B": "being under 10 doesn't stop you passing the blue test",
-    "C": "nothing links the blue test to age",
-    "D": "both mix up the two rules"
-   }
-  },
-  {
-   "n": 32,
+   "n": 24,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Reading a clock in a mirror",
@@ -675,7 +509,48 @@
    }
   },
   {
-   "n": 33,
+   "n": 25,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "At the pool, children under 10 must swim with an adult. Only children who have passed the blue test may use the deep end.\nKira: 'Max is 9, so he can't use the deep end.'\nOllie: 'Sasha has passed the blue test, so she must be 10 or older.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Neither Kira nor Ollie",
+    "B": "Kira only",
+    "C": "Ollie only",
+    "D": "Both Kira and Ollie"
+   },
+   "answer": "A",
+   "explanation": "The two rules are separate. Kira ✗: a 9-year-old could pass the blue test (he'd just need an adult with him). Ollie ✗: nothing says you must be 10 to pass the blue test.",
+   "distractors": {
+    "B": "being under 10 doesn't stop you passing the blue test",
+    "C": "nothing links the blue test to age",
+    "D": "both mix up the two rules"
+   }
+  },
+  {
+   "n": 26,
+   "topic": "ORD",
+   "difficulty": 4,
+   "skill": "Seating around a table",
+   "stem": "Six friends sit around a round table with six seats, numbered 1 to 6 clockwise as shown.\n• Ari sits in seat 1, and Eli sits in seat 2.\n• Bea sits next to Ari.\n• Cal sits opposite Bea.\n• Dee does not sit next to Cal.\nWho sits opposite Fay?",
+   "svg": "<svg viewBox='0 0 300 240' xmlns='http://www.w3.org/2000/svg' style='max-width:260px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='150.0' cy='120.0' r='48.0' fill='currentColor' fill-opacity='0.08' stroke-width='2' /><circle cx='150.0' cy='50.0' r='17.0' fill='none' stroke-width='1.8' /><text x='150.0' y='55.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='210.6' cy='85.0' r='17.0' fill='none' stroke-width='1.8' /><text x='210.6' y='90.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><circle cx='210.6' cy='155.0' r='17.0' fill='none' stroke-width='1.8' /><text x='210.6' y='160.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><circle cx='150.0' cy='190.0' r='17.0' fill='none' stroke-width='1.8' /><text x='150.0' y='195.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><circle cx='89.4' cy='155.0' r='17.0' fill='none' stroke-width='1.8' /><text x='89.4' y='160.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><circle cx='89.4' cy='85.0' r='17.0' fill='none' stroke-width='1.8' /><text x='89.4' y='90.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >6</text></svg>",
+   "options": {
+    "A": "Bea",
+    "B": "Ari",
+    "C": "Dee",
+    "D": "Eli"
+   },
+   "answer": "B",
+   "explanation": "Bea is next to Ari but seat 2 is Eli's, so Bea is in seat 6. Cal is opposite Bea: seat 3. Seats 4 and 5 are left for Dee and Fay; seat 4 is next to Cal, so Dee is in seat 5 and Fay in seat 4. Opposite seat 4 is seat 1: Ari.",
+   "distractors": {
+    "A": "check who is in the seat opposite Fay",
+    "C": "check who is in the seat opposite Fay",
+    "D": "check who is in the seat opposite Fay"
+   }
+  },
+  {
+   "n": 27,
    "topic": "SPA",
    "difficulty": 4,
    "skill": "Nets: which cube can be made",
@@ -697,7 +572,47 @@
    }
   },
   {
-   "n": 34,
+   "n": 28,
+   "topic": "GRID",
+   "difficulty": 4,
+   "skill": "Who-does-what puzzle",
+   "stem": "Mila, Omar, Pia and Raf each do a different activity (tennis, swimming, judo or chess) on a different day (Monday to Thursday).\n• Mila doesn't do tennis or swimming.\n• Judo is on Tuesday.\n• Omar's activity is on Thursday, and it isn't chess.\n• Swimming is on Monday or Wednesday.\n• Pia doesn't swim, and her activity isn't on Monday.\n• Chess is on an earlier day than tennis.\nWhat does Raf do?",
+   "options": {
+    "A": "tennis",
+    "B": "judo",
+    "C": "swimming",
+    "D": "chess"
+   },
+   "answer": "C",
+   "explanation": "Omar's activity is on Thursday. Judo is on Tuesday and swimming is on Monday or Wednesday, so Omar doesn't do either of those, and the clue says he doesn't do chess. So Omar does tennis. Who swims? Not Mila, not Pia (both ruled out by clues), not Omar (tennis). So Raf swims. (You don't need to sort out the rest of the puzzle to answer this.)",
+   "distractors": {
+    "A": "try placing it: one of the clues breaks",
+    "B": "try placing it: one of the clues breaks",
+    "D": "try placing it: one of the clues breaks"
+   }
+  },
+  {
+   "n": 29,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "In a class of 30 students, every student has at least one brother or sister, and 18 of the students have at least one brother.\nNia: 'So 12 students in the class have only sisters.'\nOli: 'So 18 students in the class have no sisters.'\nIf the information above is true, whose reasoning is correct?",
+   "options": {
+    "A": "Oli only",
+    "B": "Both Nia and Oli",
+    "C": "Nia only",
+    "D": "Neither Nia nor Oli"
+   },
+   "answer": "C",
+   "explanation": "Nia ✓: 30 − 18 = 12 students have no brother, and every student has at least one sibling, so those 12 have only sisters. Oli ✗: the 18 with a brother might also have sisters.",
+   "distractors": {
+    "A": "students with a brother may also have sisters",
+    "B": "Oli's conclusion doesn't follow",
+    "D": "Nia's subtraction works"
+   }
+  },
+  {
+   "n": 30,
    "topic": "ORD",
    "difficulty": 4,
    "skill": "Race positions",
@@ -717,24 +632,105 @@
    }
   },
   {
-   "n": 35,
-   "topic": "ORD",
+   "n": 31,
+   "topic": "NUM",
    "difficulty": 4,
-   "skill": "Seating around a table",
-   "stem": "Six friends sit around a round table with six seats, numbered 1 to 6 clockwise as shown.\n• Ari sits in seat 1, and Eli sits in seat 2.\n• Bea sits next to Ari.\n• Cal sits opposite Bea.\n• Dee does not sit next to Cal.\nWho sits opposite Fay?",
-   "svg": "<svg viewBox='0 0 300 240' xmlns='http://www.w3.org/2000/svg' style='max-width:260px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><circle cx='150.0' cy='120.0' r='48.0' fill='currentColor' fill-opacity='0.08' stroke-width='2' /><circle cx='150.0' cy='50.0' r='17.0' fill='none' stroke-width='1.8' /><text x='150.0' y='55.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >1</text><circle cx='210.6' cy='85.0' r='17.0' fill='none' stroke-width='1.8' /><text x='210.6' y='90.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >2</text><circle cx='210.6' cy='155.0' r='17.0' fill='none' stroke-width='1.8' /><text x='210.6' y='160.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >3</text><circle cx='150.0' cy='190.0' r='17.0' fill='none' stroke-width='1.8' /><text x='150.0' y='195.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >4</text><circle cx='89.4' cy='155.0' r='17.0' fill='none' stroke-width='1.8' /><text x='89.4' y='160.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >5</text><circle cx='89.4' cy='85.0' r='17.0' fill='none' stroke-width='1.8' /><text x='89.4' y='90.0' font-size='14' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >6</text></svg>",
+   "skill": "Two groups from totals",
+   "stem": "A cinema sold 150 tickets for one show. Adult tickets cost $15 and child tickets cost $9. The tickets sold for $1830 altogether.\nHow many adult tickets were sold?",
    "options": {
-    "A": "Bea",
-    "B": "Ari",
-    "C": "Dee",
-    "D": "Eli"
+    "A": "70",
+    "B": "90",
+    "C": "80",
+    "D": "122"
+   },
+   "answer": "C",
+   "explanation": "If all 150 were child tickets, they would make 150 × $9 = $1350. The extra $1830 − $1350 = $480 comes from adults, who each pay $6 more: $480 ÷ $6 = 80 adult tickets (and 70 child tickets).",
+   "distractors": {
+    "A": "that is the number of child tickets",
+    "B": "arithmetic slip",
+    "D": "divided $1830 by $15"
+   }
+  },
+  {
+   "n": 32,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Counting shapes in a figure",
+   "stem": "How many triangles of any size are there in this figure?",
+   "svg": "<svg viewBox='0 0 400 260' xmlns='http://www.w3.org/2000/svg' style='max-width:380px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='200.0,20.0 40.0,240.0 360.0,240.0' fill='none' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='120.0' y2='240.0' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='200.0' y2='240.0' stroke-width='2.2' /><line x1='200.0' y1='20.0' x2='280.0' y2='240.0' stroke-width='2.2' /><line x1='120.0' y1='130.0' x2='280.0' y2='130.0' stroke-width='2.2' /></svg>",
+   "options": {
+    "A": "10",
+    "B": "8",
+    "C": "20",
+    "D": "22"
+   },
+   "answer": "C",
+   "explanation": "Every triangle has its top at the top point and its bottom edge on one of the 2 straight lines across. On each line there are 5 points where the slanted lines meet it, and any 2 of them make a triangle: 10 ways. So 2 × 10 = 20 triangles.",
+   "distractors": {
+    "A": "missed the triangles in one layer",
+    "B": "counted only the smallest triangles",
+    "D": "counted some shapes that are not triangles"
+   }
+  },
+  {
+   "n": 33,
+   "topic": "SPA",
+   "difficulty": 4,
+   "skill": "Gears: direction and number of turns",
+   "stem": "Gear A turns once clockwise. Which way does gear D turn, and how many times?",
+   "svg": "<svg viewBox='0 0 332.25589739939846 160.8' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='153.8,84.4 153.8,88.4 148.5,92.7 148.0,96.4 152.0,101.9 151.0,105.8 144.7,108.6 143.3,112.0 145.7,118.4 143.8,121.8 137.0,122.9 134.8,125.8 135.4,132.6 132.6,135.4 125.8,134.8 122.9,137.0 121.8,143.8 118.4,145.7 112.0,143.3 108.6,144.7 105.8,151.0 101.9,152.0 96.4,148.0 92.7,148.5 88.4,153.8 84.4,153.8 80.1,148.5 76.4,148.0 70.9,152.0 67.0,151.0 64.2,144.7 60.8,143.3 54.4,145.7 51.0,143.8 49.9,137.0 47.0,134.8 40.2,135.4 37.4,132.6 38.0,125.8 35.8,122.9 29.0,121.8 27.1,118.4 29.5,112.0 28.1,108.6 21.8,105.8 20.8,101.9 24.8,96.4 24.3,92.7 19.0,88.4 19.0,84.4 24.3,80.1 24.8,76.4 20.8,70.9 21.8,67.0 28.1,64.2 29.5,60.8 27.1,54.4 29.0,51.0 35.8,49.9 38.0,47.0 37.4,40.2 40.2,37.4 47.0,38.0 49.9,35.8 51.0,29.0 54.4,27.1 60.8,29.5 64.2,28.1 67.0,21.8 70.9,20.8 76.4,24.8 80.1,24.3 84.4,19.0 88.4,19.0 92.7,24.3 96.4,24.8 101.9,20.8 105.8,21.8 108.6,28.1 112.0,29.5 118.4,27.1 121.8,29.0 122.9,35.8 125.8,38.0 132.6,37.4 135.4,40.2 134.8,47.0 137.0,49.9 143.8,51.0 145.7,54.4 143.3,60.8 144.7,64.2 151.0,67.0 152.0,70.9 148.0,76.4 148.5,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='86.4' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='86.4' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='86.4' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><polygon points='219.1,84.3 219.1,88.5 213.6,92.7 212.6,96.2 215.4,102.6 213.2,106.3 206.3,107.1 203.7,109.7 202.9,116.6 199.2,118.8 192.8,116.0 189.3,117.0 185.1,122.5 180.9,122.5 176.7,117.0 173.2,116.0 166.8,118.8 163.1,116.6 162.3,109.7 159.7,107.1 152.8,106.3 150.6,102.6 153.4,96.2 152.4,92.7 146.9,88.5 146.9,84.3 152.4,80.1 153.4,76.6 150.6,70.2 152.8,66.5 159.7,65.7 162.3,63.1 163.1,56.2 166.8,54.0 173.2,56.8 176.7,55.8 180.9,50.3 185.1,50.3 189.3,55.8 192.8,56.8 199.2,54.0 202.9,56.2 203.7,63.1 206.3,65.7 213.2,66.5 215.4,70.2 212.6,76.6 213.6,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='183.0' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='183.0' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='183.0' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >12 teeth</text><polygon points='280.6,106.6 280.6,110.9 275.0,115.1 274.1,118.6 276.8,125.0 274.7,128.7 267.8,129.5 265.2,132.1 264.4,139.0 260.7,141.1 254.3,138.4 250.7,139.3 246.6,144.9 242.3,144.9 238.2,139.3 234.6,138.4 228.2,141.1 224.5,139.0 223.7,132.1 221.1,129.5 214.2,128.7 212.1,125.0 214.8,118.6 213.9,115.1 208.3,110.9 208.3,106.6 213.9,102.5 214.8,98.9 212.1,92.5 214.2,88.9 221.1,88.0 223.7,85.4 224.5,78.5 228.2,76.4 234.6,79.2 238.2,78.2 242.3,72.6 246.6,72.6 250.7,78.2 254.3,79.2 260.7,76.4 264.4,78.5 265.2,85.4 267.8,88.0 274.7,88.9 276.8,92.5 274.1,98.9 275.0,102.5' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='244.5' cy='108.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='244.5' y='102.8' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='244.5' y='124.8' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >12 teeth</text><polygon points='325.2,106.5 325.2,111.0 319.3,115.0 317.9,118.4 319.2,125.3 316.0,128.6 309.1,127.2 305.7,128.6 301.7,134.5 297.2,134.5 293.2,128.6 289.8,127.2 282.9,128.6 279.7,125.3 281.0,118.4 279.6,115.0 273.8,111.0 273.8,106.5 279.6,102.5 281.0,99.1 279.7,92.2 282.9,89.0 289.8,90.3 293.2,88.9 297.2,83.1 301.7,83.1 305.7,88.9 309.1,90.3 316.0,89.0 319.2,92.2 317.9,99.1 319.3,102.5' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='299.5' cy='108.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='299.5' y='102.8' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='299.5' y='122.5' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M14.6,60.3 A76.4,76.4 0 0 1 60.3,14.6' stroke-width='2.5'/><polygon points='60.3,14.6 54.0,21.1 51.3,13.7' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "options": {
+    "A": "clockwise, 3 turns",
+    "B": "anticlockwise, 1 turn",
+    "C": "clockwise, 1/3 turn",
+    "D": "anticlockwise, 3 turns"
+   },
+   "answer": "D",
+   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise. The teeth pass one at a time, so one turn of A (24 teeth) moves 24 teeth of every gear. Gear D has 8 teeth, so it turns 24 ÷ 8 = 3 times. (The gears in between don't change this.)",
+   "distractors": {
+    "A": "each gear turns the opposite way to the one it touches: count the steps",
+    "B": "a smaller gear turns more times",
+    "C": "turns the wrong way and divided the wrong way round"
+   }
+  },
+  {
+   "n": 34,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "All the Year 6 students who went on camp did the high ropes. Some students who did the high ropes also did canoeing.\nElla: 'Noor is in Year 6 and went on camp, so Noor did the high ropes.'\nFinn: 'Theo didn't do the high ropes. So if Theo is in Year 6, he didn't go on camp.'\nIf the information is true, whose reasoning is correct?",
+   "options": {
+    "A": "Ella only",
+    "B": "Both Ella and Finn",
+    "C": "Finn only",
+    "D": "Neither Ella nor Finn"
    },
    "answer": "B",
-   "explanation": "Bea is next to Ari but seat 2 is Eli's, so Bea is in seat 6. Cal is opposite Bea: seat 3. Seats 4 and 5 are left for Dee and Fay; seat 4 is next to Cal, so Dee is in seat 5 and Fay in seat 4. Opposite seat 4 is seat 1: Ari.",
+   "explanation": "Ella ✓: Noor is a Year 6 student who went on camp, so she did the high ropes. Finn ✓: if Theo were a Year 6 student who went on camp, he would have done the high ropes. He didn't, so he can't be one of them.",
    "distractors": {
-    "A": "check who is in the seat opposite Fay",
-    "C": "check who is in the seat opposite Fay",
-    "D": "check who is in the seat opposite Fay"
+    "A": "Finn's 'turned around' reasoning also works",
+    "C": "Ella applies the rule directly",
+    "D": "both follow from the first sentence"
+   }
+  },
+  {
+   "n": 35,
+   "topic": "WHO",
+   "difficulty": 4,
+   "skill": "Whose reasoning is correct",
+   "stem": "All the cakes in a bakery are on either the top shelf or the bottom shelf. All the cakes on the top shelf contain nuts. Some of the cakes on the bottom shelf contain nuts.\nQuin: 'If a cake contains nuts, it came from the top shelf.'\nPat: 'If a cake has no nuts, it came from the bottom shelf.'\nIf the information above is true, whose reasoning is correct?",
+   "options": {
+    "A": "Pat only",
+    "B": "Quin only",
+    "C": "Both Quin and Pat",
+    "D": "Neither Quin nor Pat"
+   },
+   "answer": "A",
+   "explanation": "Pat ✓: every top-shelf cake has nuts, so a cake without nuts must be from the bottom shelf. Quin ✗: some bottom-shelf cakes contain nuts too.",
+   "distractors": {
+    "B": "some bottom-shelf cakes have nuts too",
+    "C": "Quin's conclusion doesn't follow",
+    "D": "Pat's reasoning works"
    }
   },
   {
@@ -759,23 +755,22 @@
   },
   {
    "n": 37,
-   "topic": "SPA",
-   "difficulty": 4,
-   "skill": "Gears: direction and number of turns",
-   "stem": "Gear A turns once clockwise. Which way does gear D turn, and how many times?",
-   "svg": "<svg viewBox='0 0 332.25589739939846 160.8' xmlns='http://www.w3.org/2000/svg' style='max-width:460px' font-family='sans-serif' font-size='14' fill='none' stroke='currentColor' stroke-width='2'><polygon points='153.8,84.4 153.8,88.4 148.5,92.7 148.0,96.4 152.0,101.9 151.0,105.8 144.7,108.6 143.3,112.0 145.7,118.4 143.8,121.8 137.0,122.9 134.8,125.8 135.4,132.6 132.6,135.4 125.8,134.8 122.9,137.0 121.8,143.8 118.4,145.7 112.0,143.3 108.6,144.7 105.8,151.0 101.9,152.0 96.4,148.0 92.7,148.5 88.4,153.8 84.4,153.8 80.1,148.5 76.4,148.0 70.9,152.0 67.0,151.0 64.2,144.7 60.8,143.3 54.4,145.7 51.0,143.8 49.9,137.0 47.0,134.8 40.2,135.4 37.4,132.6 38.0,125.8 35.8,122.9 29.0,121.8 27.1,118.4 29.5,112.0 28.1,108.6 21.8,105.8 20.8,101.9 24.8,96.4 24.3,92.7 19.0,88.4 19.0,84.4 24.3,80.1 24.8,76.4 20.8,70.9 21.8,67.0 28.1,64.2 29.5,60.8 27.1,54.4 29.0,51.0 35.8,49.9 38.0,47.0 37.4,40.2 40.2,37.4 47.0,38.0 49.9,35.8 51.0,29.0 54.4,27.1 60.8,29.5 64.2,28.1 67.0,21.8 70.9,20.8 76.4,24.8 80.1,24.3 84.4,19.0 88.4,19.0 92.7,24.3 96.4,24.8 101.9,20.8 105.8,21.8 108.6,28.1 112.0,29.5 118.4,27.1 121.8,29.0 122.9,35.8 125.8,38.0 132.6,37.4 135.4,40.2 134.8,47.0 137.0,49.9 143.8,51.0 145.7,54.4 143.3,60.8 144.7,64.2 151.0,67.0 152.0,70.9 148.0,76.4 148.5,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='86.4' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='86.4' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >A</text><text x='86.4' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >24 teeth</text><polygon points='219.1,84.3 219.1,88.5 213.6,92.7 212.6,96.2 215.4,102.6 213.2,106.3 206.3,107.1 203.7,109.7 202.9,116.6 199.2,118.8 192.8,116.0 189.3,117.0 185.1,122.5 180.9,122.5 176.7,117.0 173.2,116.0 166.8,118.8 163.1,116.6 162.3,109.7 159.7,107.1 152.8,106.3 150.6,102.6 153.4,96.2 152.4,92.7 146.9,88.5 146.9,84.3 152.4,80.1 153.4,76.6 150.6,70.2 152.8,66.5 159.7,65.7 162.3,63.1 163.1,56.2 166.8,54.0 173.2,56.8 176.7,55.8 180.9,50.3 185.1,50.3 189.3,55.8 192.8,56.8 199.2,54.0 202.9,56.2 203.7,63.1 206.3,65.7 213.2,66.5 215.4,70.2 212.6,76.6 213.6,80.1' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='183.0' cy='86.4' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='183.0' y='80.4' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >B</text><text x='183.0' y='102.4' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >12 teeth</text><polygon points='280.6,106.6 280.6,110.9 275.0,115.1 274.1,118.6 276.8,125.0 274.7,128.7 267.8,129.5 265.2,132.1 264.4,139.0 260.7,141.1 254.3,138.4 250.7,139.3 246.6,144.9 242.3,144.9 238.2,139.3 234.6,138.4 228.2,141.1 224.5,139.0 223.7,132.1 221.1,129.5 214.2,128.7 212.1,125.0 214.8,118.6 213.9,115.1 208.3,110.9 208.3,106.6 213.9,102.5 214.8,98.9 212.1,92.5 214.2,88.9 221.1,88.0 223.7,85.4 224.5,78.5 228.2,76.4 234.6,79.2 238.2,78.2 242.3,72.6 246.6,72.6 250.7,78.2 254.3,79.2 260.7,76.4 264.4,78.5 265.2,85.4 267.8,88.0 274.7,88.9 276.8,92.5 274.1,98.9 275.0,102.5' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='244.5' cy='108.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='244.5' y='102.8' font-size='16' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >C</text><text x='244.5' y='124.8' font-size='11' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >12 teeth</text><polygon points='325.2,106.5 325.2,111.0 319.3,115.0 317.9,118.4 319.2,125.3 316.0,128.6 309.1,127.2 305.7,128.6 301.7,134.5 297.2,134.5 293.2,128.6 289.8,127.2 282.9,128.6 279.7,125.3 281.0,118.4 279.6,115.0 273.8,111.0 273.8,106.5 279.6,102.5 281.0,99.1 279.7,92.2 282.9,89.0 289.8,90.3 293.2,88.9 297.2,83.1 301.7,83.1 305.7,88.9 309.1,90.3 316.0,89.0 319.2,92.2 317.9,99.1 319.3,102.5' fill='currentColor' fill-opacity='0.08' stroke-width='1.6' /><circle cx='299.5' cy='108.8' r='3.0' fill='currentColor' fill-opacity='1' stroke-width='2' /><text x='299.5' y='102.8' font-size='14.559999999999999' text-anchor='middle' font-weight='bold' fill='currentColor' stroke='none' >D</text><text x='299.5' y='122.5' font-size='8.736' text-anchor='middle' font-weight='normal' fill='currentColor' stroke='none' >8 teeth</text><path d='M14.6,60.3 A76.4,76.4 0 0 1 60.3,14.6' stroke-width='2.5'/><polygon points='60.3,14.6 54.0,21.1 51.3,13.7' fill='currentColor' fill-opacity='1' stroke-width='1' /></svg>",
+   "topic": "DED",
+   "difficulty": 5,
+   "skill": "What must be true (checking every possibility)",
+   "stem": "Seven friends each ate 1, 2 or 3 pancakes. They ate 14 pancakes altogether, and at least one friend ate each amount.\nWhich statement must be true?",
    "options": {
-    "A": "clockwise, 3 turns",
-    "B": "anticlockwise, 1 turn",
-    "C": "clockwise, 1/3 turn",
-    "D": "anticlockwise, 3 turns"
+    "A": "The same number of friends ate 1 pancake as ate 3 pancakes.",
+    "B": "Exactly three friends ate 1 pancake.",
+    "C": "More friends ate 2 pancakes than ate 3 pancakes.",
+    "D": "At least two friends ate exactly 2 pancakes."
    },
-   "answer": "D",
-   "explanation": "Touching gears turn in opposite directions: A clockwise, B anticlockwise, C clockwise, D anticlockwise. The teeth pass one at a time, so one turn of A (24 teeth) moves 24 teeth of every gear. Gear D has 8 teeth, so it turns 24 ÷ 8 = 3 times. (The gears in between don't change this.)",
+   "answer": "A",
+   "explanation": "List every possibility (ones, twos, threes): 1 ate 1, 5 ate 2, 1 ate 3; 2 ate 1, 3 ate 2, 2 ate 3; 3 ate 1, 1 ate 2, 3 ate 3. In every one, the number who ate 1 equals the number who ate 3. Each other statement is false in at least one possibility.",
    "distractors": {
-    "A": "each gear turns the opposite way to the one it touches: count the steps",
-    "B": "a smaller gear turns more times",
-    "C": "turns the wrong way and divided the wrong way round"
+    "B": "only true in one possibility",
+    "C": "false when 1 ate 2 and 3 ate 3",
+    "D": "false when only 1 friend ate 2"
    }
   },
   {
@@ -803,26 +798,6 @@
    "n": 39,
    "topic": "DED",
    "difficulty": 5,
-   "skill": "What must be true (checking every possibility)",
-   "stem": "Seven friends each ate 1, 2 or 3 pancakes. They ate 14 pancakes altogether, and at least one friend ate each amount.\nWhich statement must be true?",
-   "options": {
-    "A": "The same number of friends ate 1 pancake as ate 3 pancakes.",
-    "B": "Exactly three friends ate 1 pancake.",
-    "C": "More friends ate 2 pancakes than ate 3 pancakes.",
-    "D": "At least two friends ate exactly 2 pancakes."
-   },
-   "answer": "A",
-   "explanation": "List every possibility (ones, twos, threes): 1 ate 1, 5 ate 2, 1 ate 3; 2 ate 1, 3 ate 2, 2 ate 3; 3 ate 1, 1 ate 2, 3 ate 3. In every one, the number who ate 1 equals the number who ate 3. Each other statement is false in at least one possibility.",
-   "distractors": {
-    "B": "only true in one possibility",
-    "C": "false when 1 ate 2 and 3 ate 3",
-    "D": "false when only 1 friend ate 2"
-   }
-  },
-  {
-   "n": 40,
-   "topic": "DED",
-   "difficulty": 5,
    "skill": "Truth-tellers and liars",
    "stem": "Each of these three students either always tells the truth or always lies.\nAsha says: 'Bo is lying.'\nBo says: 'Cy is telling the truth.'\nCy says: 'Asha and Bo are both lying.'\nWho is telling the truth?",
    "options": {
@@ -837,6 +812,26 @@
     "B": "test it: one of the statements contradicts itself",
     "C": "test it: one of the statements contradicts itself",
     "D": "test it: one of the statements contradicts itself"
+   }
+  },
+  {
+   "n": 40,
+   "topic": "DED",
+   "difficulty": 5,
+   "skill": "Which cases test a claim",
+   "stem": "A coach claims: 'Every player who came to all the extra training sessions improved their running time.' Four players' records are missing some information:\n• Ana: came to all sessions. Improved? (unknown)\n• Bo: came to all sessions? (unknown). Did not improve.\n• Cai: came to all sessions? (unknown). Improved.\n• Dev: did not come to all sessions. Improved? (unknown)\nWhose missing information must be found to test the coach's claim?",
+   "options": {
+    "A": "Ana and Bo",
+    "B": "Ana and Cai",
+    "C": "Cai and Dev",
+    "D": "Bo and Dev"
+   },
+   "answer": "A",
+   "explanation": "Only a player who came to every session and did NOT improve could prove the claim false. Check Ana (came to all: did she improve?) and Bo (didn't improve: did he come to all?). Cai improved and Dev missed sessions, so neither can break the claim.",
+   "distractors": {
+    "B": "Cai improved, so he can't break the claim",
+    "C": "neither can break the claim",
+    "D": "Dev missed sessions, so the claim says nothing about him"
    }
   }
  ]
